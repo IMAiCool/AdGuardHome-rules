@@ -1,0 +1,23 @@
+name: 每12小时执行脚本
+
+on:
+  schedule:
+    - cron: '0 */12 * * *'  # 每12小时运行一次（UTC时间）
+  workflow_dispatch:  # 可选：支持手动运行
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 拉取仓库代码
+        uses: actions/checkout@v3
+
+      - name: 设置 Python 环境
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: 执行 Python 脚本
+        run: python main/script.py  
+
