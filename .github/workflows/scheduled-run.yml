@@ -21,6 +21,9 @@ jobs:
         run: |
           pwd
           ls -R
+   
+      - name: 安装 Python 依赖
+        run: pip install requests
 
       - name: 执行 Python 脚本
         run: python script.py  
