@@ -1,30 +1,38 @@
-name: 每12小时执行脚本
+name: 每12小时执行并提交更新
 
 on:
   schedule:
-    - cron: '0 */12 * * *'  # 每12小时运行一次（UTC时间）
-  workflow_dispatch:  # 可选：支持手动运行
+    - cron: '0 */12 * * *'  # 每12小时运行
+  workflow_dispatch:         # 支持手动触发
 
 jobs:
-  run-script:
+  update-repo:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 拉取仓库代码
+      - name: 拉取代码
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: 设置 Python 环境
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: 调试 - 查看当前目录和文件
+
+      - name: 安装依赖
+        run: pip install requests  # 或 pip install -r requirements.txt
+
+      - name: 执行脚本
+        run: python script.py  # 替换为你的脚本路径
+
+      - name: 配置 Git 用户信息
         run: |
-          pwd
-          ls -R
-   
-      - name: 安装 Python 依赖
-        run: pip install requests
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: 执行 Python 脚本
-        run: python script.py  
-
+      - name: 提交更改
+        run: |
+          git add .
+          git commit -m "自动更新：`date '+%Y-%m-%d %H:%M:%S'`" || echo "无更改，无需提交"
+          git push
