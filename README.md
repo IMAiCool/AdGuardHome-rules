@@ -120,7 +120,7 @@ main/
 ├─ temp/              # 中间处理文件目录
 ├─ output/               # 最终输出目录
 │   ├─ BlackList.txt    # 格式化黑名单最终文件
-│   └─ eWhiteList.txt    # 格式化白名单最终文件
+│   └─ WhiteList.txt    # 格式化白名单最终文件
 │
 └─ *.py             # 脚本文件，包含所有功能模块及主函数
 ```
