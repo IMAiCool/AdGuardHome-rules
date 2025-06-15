@@ -1,3 +1,32 @@
+!B站支付页面
+!哔哩哔哩广告
+!头条系部分app网页端下载
+!夸克浏览器登录
+!小米DoT提示弹窗无法访问私人DNS的问题
+!小米主题放行
+!小米应用商店图片
+!小米应用商店相关
+!小米开发者选项：USB安装
+!小米手机管家
+!小米手机管家广告
+!小米推送相关
+!小米浏览器下载
+!小米浏览器内百度搜索结果不能点击问题
+!小米相册云同步
+!小米社区放行
+!小米视频
+!小米音乐会员相关
+!小米音乐支付调用
+!影响多看阅读书城
+!快应用广告拦截
+!抖音搜索-汉语
+!搜狗输入法皮肤图片
+!番茄小说
+!腾讯视频会员视频播放
+!腾讯视频微信小程序会员视频播放
+!酷安点赞评论,有时会变动
+!阿里云手机app登录
+!高德地图
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vidoza.net
 $csp=script-src 'self' '*' 'unsafe-inline',domain=pirateproxy.live|thehiddenbay.com|downloadpirate.com|thepiratebay10.org|ukpass.co|linksmore.site
@@ -25478,7 +25507,6 @@ zzzyk.com###Tinfo
 ||10k8ovyv.art^$popup
 ||10xlaunch.ai^$third-party
 ||11.mydrivers.com/drivers/
-||111.13.141.211:443^$import
 ||11152646.xyz^$document,popup
 ||111cn.net/gg_ad/
 ||111cn.net/js/downc*.js
