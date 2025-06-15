@@ -57,13 +57,13 @@ def main():
     white_header = f"""! 规则更新时间 {now}
 ! 本规则数量 {len(white_valid)}条
 ! 更新频率 12小时
-! 规则名称 白名单规则
+! 白名单规则
 """
 
     black_header = f"""! 规则更新时间 {now}
 ! 本规则数量 {len(black_valid)}条
 ! 更新频率 12小时
-! 规则名称 黑名单规则
+! 黑名单规则
 """
 
     white_std = standardize(white_valid, is_white=True)
