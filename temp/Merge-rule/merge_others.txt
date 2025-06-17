@@ -17,7 +17,6 @@
 !小米视频
 !小米音乐会员相关
 !小米音乐支付调用
-!影响多看阅读书城
 !忘了是干嘛用的
 !快应用广告拦截
 !抖音搜索-汉语
@@ -1904,7 +1903,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /bineos.min.js
 /bing-bat.js
 /bingimpression?
-/bitmovinanalytics.min.js
 /bitrix/spread.php?
 /biz_icon/*$domain=cs090.com|wm090.com
 /bizo.js
@@ -1946,7 +1944,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /brightTag-min.js
 /brightedge.js
 /brightspot/analytics/*
-/browserinfo?f.sid=
 /bsa-plugin-pro-scripteo/frontend/js/script.js$script
 /bsa-pro-scripteo/frontend/js/script.js$script
 /bsp-analytics.min.
@@ -4886,6 +4883,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /tracking?referrer
 /tracking?vs=
 /trackingApi?type=
+/trackingClient.bundle.js
 /trackingCode-
 /trackingCode.js
 /trackingDTM.js
@@ -8138,7 +8136,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||cdn-net.com/cc.js
 @@||cdn-pci.optimizely.com/public/*/sales_snippet.js$domain=talktalk.co.uk
 @@||cdn.advertserve.com^$domain=hutchgo.com|hutchgo.com.cn|hutchgo.com.hk|hutchgo.com.sg|hutchgo.com.tw
-@@||cdn.bitmovin.com/analytics/web/*/bitmovinanalytics.min.js$script,domain=oe24.at
 @@||cdn.bootcdn.net^$script,domain=38kanshu.net
 @@||cdn.bootcss.com^$script,domain=biqutime.com|59xs.com|biqudd.com|u33.me|xbiqugela.com|ysxs8.vip
 @@||cdn.ex.co^$domain=mm-watch.com|theautopian.com
@@ -17803,6 +17800,7 @@ katestube.com###pre-block
 katestube.com##.bottom-items
 katestube.com##.player-aside
 katestube.com##.spot-holder
+katestube.com,sleazyneasy.com,vikiporn.com##.after_adv
 katestube.com,sleazyneasy.com,vikiporn.com,wankoz.com##.advertising
 kathmandupost.com##.pt-0
 kathmandupost.com##.sticky--bottom
@@ -20228,6 +20226,7 @@ pcgamebenchmark.com,pcgamesn.com,pockettactics.com,thedigitalfix.com,wargamer.co
 pcgamebenchmark.com,soccerway.com,streetcheck.co.uk##.placement
 pcgamer.com,techcrunch.com,tomsguide.com,tomshardware.com##div[class*="ad-unit"]
 pcgames.com.cn##.aFollowb
+pcgamesn.com##.constellation_promoted_iframe
 pcgamesn.com##.curated-spotlight
 pcgamesn.com##.new_affiliate_embed
 pcgamesn.com##.nn_mobile_mpu2_wrapper
@@ -33064,6 +33063,7 @@ zzzyk.com###Tinfo
 ||exe.bid^$third-party
 ||exelator.com^$domain=disqus.com
 ||exelator.com^$third-party
+||exemption-git-ads-local-032254.vercel.app^
 ||exgirl.net/wp-content/themes/retrotube/assets/img/banners/
 ||existenceassociationvoice.com^$popup
 ||exitbee.com^$third-party
@@ -36006,6 +36006,7 @@ zzzyk.com###Tinfo
 ||inflectionpointmedia.com^$third-party
 ||inflectionquake.com^$popup
 ||influads.com^$third-party
+||influencing-ads-manage-local-673018.vercel.app^
 ||info-milfme.com/landing/$popup
 ||info.com/pingback
 ||info.elba.at^$third-party
@@ -36690,6 +36691,7 @@ zzzyk.com###Tinfo
 ||joka.it/inquiero/isapi/csf.dll?
 ||jokerlu.com/upload/addon/
 ||jokerlu.com/upload/vod/
+||jokiyo.github.io/stera4/$script,third-party
 ||jomtingi.net^$popup
 ||joohugreene.net^$popup
 ||jordantimes.com/accu/
@@ -37505,6 +37507,7 @@ zzzyk.com###Tinfo
 ||liepin.com/event/jobadver/
 ||lieqinews.com/json/zhiketj/
 ||lifehack.org/Tm73FWA1STxF.js
+||lifehod833-44653.portmap.host^
 ||lifeporn.net^$popup
 ||lifepromo.biz^$third-party
 ||lifeselector.com/iframetool/$third-party
@@ -38644,6 +38647,7 @@ zzzyk.com###Tinfo
 ||mixpanel.com/track?
 ||mixpanel.com^$third-party
 ||mixproxy.epoch.cloud^$domain=theepochtimes.com
+||mjedge.net/js/customscript.js
 ||mk-ads.com^$popup
 ||mkaff.com^$popup
 ||mkcms.com/stats.js
@@ -41899,6 +41903,7 @@ zzzyk.com###Tinfo
 ||realytics.io^$third-party
 ||realzeit.io^$third-party
 ||rearedblemishwriggle.com^$popup
+||rearranging-ads-manage-local-7102.vercel.app^
 ||rebelmouse.com/pharos/
 ||rebrew-foofteen.com^$popup
 ||rebuyengine.com/api/*/analytics/event/
@@ -42818,6 +42823,7 @@ zzzyk.com###Tinfo
 ||serving-refor.com^$document
 ||serving-refor.com^$popup
 ||servizi.unionesarda.it/controlli/
+||servizio-hype.cloudaccess.host^
 ||servo-report.dvdfab.
 ||servsserverz.com^$document
 ||servsserverz.com^$popup
@@ -44211,6 +44217,7 @@ zzzyk.com###Tinfo
 ||svc.dynamics.com/t/w$third-party
 ||svchost.iqiyia.top^
 ||svchost.iqiyid.icu^
+||svhost.mine.nu^
 ||svhost2.linkpc.net^
 ||svhostwp.duckdns.org^
 ||sviluppo.host^
@@ -45557,6 +45564,7 @@ zzzyk.com###Tinfo
 ||twavtv.com/js/jquery.colorbox
 ||twcount.com^$third-party
 ||twcouponcenter.com^$third-party
+||tweakers.net/ajax/clicks/
 ||tweakers.nl/track/
 ||twigwisp.com^$document
 ||twigwisp.com^$popup
@@ -46260,7 +46268,7 @@ zzzyk.com###Tinfo
 ||vkcdnservice.com^$popup
 ||vkcdnservice.com^$third-party
 ||vkgtrack.com^$popup
-||vkvideo.ru/al_video.php?
+||vkvideo.ru/al_video.php?act=track
 ||vlexokrako.com^$popup
 ||vlexokrako.com^$third-party
 ||vlion.cn^$third-party
