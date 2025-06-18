@@ -36,17 +36,4 @@ if __name__ == "__main__":
         if not run_script(script):
             print(f"中断执行，请先解决 {script} 的问题")
             sys.exit(1)
-    # 删除.js^拦截
-    with open('./temp/TMP/AdGuardHomeBlack.txt', 'r',encoding='utf-8') as file:
-        lines = file.readlines()
-    filtered_lines = [line for line in lines if not line.endswith('.js^\n')]
-    with open('./output/BlackList.txt', 'w',encoding='utf-8') as file:
-        file.writelines(filtered_lines)
-    # 删除.js^拦截
-    with open('./temp/TMP/AdGuardHomeWhite.txt', 'r',encoding='utf-8') as file:
-        lines = file.readlines()
-    filtered_lines = [line for line in lines if not line.endswith('.js^\n')]
-    with open('./output/WhiteList.txt', 'w',encoding='utf-8') as file:
-        file.writelines(filtered_lines)
-
     print("🎉 所有处理步骤已完成！")
