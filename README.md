@@ -130,7 +130,7 @@ main/
 
 1. 将远程规则URL列表放入 `./input/urls.conf` ，格式为 `规则名: URL`
 2. 本地规则放入 `./input/local-rules.txt`
-3. 运行 `python script.py`或者`python3 script.py`
+3. 运行 `python script.py`或者`python3 script.py`（取决于你的使用环境）
 4. 脚本执行完成后，中间文件及日志输出 `./temp/`，最终黑白名单分别输出 `./output/`
 5. 查看日志文件确认冲突及层级冲突详情
 
@@ -147,7 +147,3 @@ main/
 
 
 ---
-## 六、注意事项
-
-- 确保执行脚本的目录存在上述目录结构或提前创建
-- 保证网络畅通以正确下载远程规则
