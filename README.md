@@ -135,8 +135,19 @@ main/
 5. 查看日志文件确认冲突及层级冲突详情
 
 ---
+## 五、直达链接
+**白名单**
 
-## 五、注意事项
+    https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@refs/heads/main/output/WhiteList.txt
+
+**黑名单**
+
+    https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@refs/heads/main/output/BlackList.txt
+
+
+
+---
+## 六、注意事项
 
 - 确保执行脚本的目录存在上述目录结构或提前创建
 - 保证网络畅通以正确下载远程规则
