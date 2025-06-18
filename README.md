@@ -79,7 +79,7 @@
   
   * `hosts-domain.txt` + `adguard-bdomain.txt` → `BlackList_tmp.txt`
 
-* **白名单初步处理**：
+* **白名单初步处理**
 
 * * *
 
