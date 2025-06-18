@@ -22,7 +22,10 @@ jobs:
 
       - name: 安装依赖
         run: pip install requests  # 或 pip install -r requirements.txt
-
+      
+      - name: 清除旧文件
+        run: sudo rm -rf ./temp/
+      
       - name: 执行脚本
         run: python script.py  # 替换为你的脚本路径
 
