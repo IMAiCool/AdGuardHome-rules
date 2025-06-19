@@ -9433,6 +9433,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||stats.fomo.com^
 ||stats.gifs.com^
 ||stats.heyoya.com^
+||stats.indianpornempire.com^
 ||stats.inergizedigitalmedia.com^
 ||stats.itweb.co.za^
 ||stats.kaltura.com^
@@ -51897,6 +51898,8 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||metrics.el-mundo.net/b/ss/$image,domain=expansion.com
 @@||mi.tigo.com.co/plugins/cordova-plugin-fingerprint-aio/$script,~third-party
 @@||spxl.socy.es^$script,xmlhttprequest,domain=3djuegosguias.com|3djuegospc.com|applesfera.com|compradiccion.com|directoalpaladar.com|espinof.com|genbeta.com|poprosa.com|trendencias.com|trendenciashombre.com|vidaextra.com|vitonica.com|xatakamovil.com
+@@||static-cdn.hotjar.com^$script,domain=mercadopublico.cl
+@@||static.hotjar.com/c/hotjar-$script,domain=mercadopublico.cl
 @@||lwadm.com/lw/pbjs?pid=$script,domain=sydostran.se
 @@||picsearch.com/js/comscore.js$domain=dn.se
 @@||cdn.segmentify.com^$script,domain=gratis.com
