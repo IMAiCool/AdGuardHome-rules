@@ -7283,7 +7283,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 ://adn.*/zone/$popup
 ://adn.*/zone/$subdocument
 ://ads.$popup,domain=~smartnews.com
-://ads.$~image,~xmlhttprequest,domain=~ads.8designers.com|~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.axon.ai|~ads.band|~ads.bestprints.biz|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.business.bell.ca|~ads.cafebazaar.ir|~ads.chewy.com|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.doordash.com|~ads.dosocial.ge|~ads.dosocial.me|~ads.elevateplatform.co.uk|~ads.finance|~ads.fund|~ads.google.cn|~ads.google.com|~ads.gree.net|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kifli.hu|~ads.knuspr.de|~ads.listonic.com|~ads.luarmor.net|~ads.magalu.com|~ads.mercadolivre.com.br|~ads.mgid.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.mojagazetka.com|~ads.msstate.edu|~ads.mst.dk|~ads.mt|~ads.nc|~ads.nipr.ac.jp|~ads.olx.pl|~ads.pinterest.com|~ads.realizeperformance.com|~ads.remix.es|~ads.rohlik.cz|~ads.rohlik.group|~ads.route.cc|~ads.safi-gmbh.ch|~ads.scotiabank.com|~ads.selfip.com|~ads.shopee.cn|~ads.shopee.co.th|~ads.shopee.com.br|~ads.shopee.com.mx|~ads.shopee.com.my|~ads.shopee.kr|~ads.shopee.ph|~ads.shopee.pl|~ads.shopee.sg|~ads.shopee.tw|~ads.shopee.vn|~ads.siriusxmmedia.com|~ads.smartnews.com|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.tuver.ru|~ads.twitter.com|~ads.typepad.jp|~ads.us.tiktok.com|~ads.viksaffiliates.com|~ads.vk.com|~ads.vk.ru|~ads.watson.ch|~ads.x.com|~ads.yandex|~reempresa.org
+://ads.$~image,~xmlhttprequest,domain=~ads.8designers.com|~ads.ac.uk|~ads.adstream.com.ro|~ads.allegro.pl|~ads.am|~ads.amazon|~ads.apple.com|~ads.atmosphere.copernicus.eu|~ads.axon.ai|~ads.band|~ads.bestprints.biz|~ads.bikepump.com|~ads.brave.com|~ads.buscaempresas.co|~ads.business.bell.ca|~ads.cafebazaar.ir|~ads.chewy.com|~ads.colombiaonline.com|~ads.comeon.com|~ads.cvut.cz|~ads.doordash.com|~ads.dosocial.ge|~ads.dosocial.me|~ads.elevateplatform.co.uk|~ads.finance|~ads.fund|~ads.google.cn|~ads.google.com|~ads.gree.net|~ads.gurkerl.at|~ads.harvard.edu|~ads.instacart.com|~ads.jiosaavn.com|~ads.kaipoke.biz|~ads.kifli.hu|~ads.knuspr.de|~ads.listonic.com|~ads.luarmor.net|~ads.magalu.com|~ads.mercadolivre.com.br|~ads.mgid.com|~ads.microsoft.com|~ads.midwayusa.com|~ads.mobilebet.com|~ads.mojagazetka.com|~ads.msstate.edu|~ads.mst.dk|~ads.mt|~ads.nc|~ads.nipr.ac.jp|~ads.olx.pl|~ads.pinterest.com|~ads.realizeperformance.com|~ads.remix.es|~ads.rohlik.cz|~ads.rohlik.group|~ads.route.cc|~ads.safi-gmbh.ch|~ads.scotiabank.com|~ads.selfip.com|~ads.shopee.cn|~ads.shopee.co.th|~ads.shopee.com.br|~ads.shopee.com.mx|~ads.shopee.com.my|~ads.shopee.kr|~ads.shopee.ph|~ads.shopee.pl|~ads.shopee.sg|~ads.shopee.tw|~ads.shopee.vn|~ads.siriusxmmedia.com|~ads.smartnews.com|~ads.snapchat.com|~ads.socialtheater.com|~ads.spotify.com|~ads.studyplus.co.jp|~ads.taboola.com|~ads.tiktok.com|~ads.tuver.ru|~ads.twitter.com|~ads.typepad.jp|~ads.us.tiktok.com|~ads.viksaffiliates.com|~ads.vk.com|~ads.vk.ru|~ads.watson.ch|~ads.wildberries.ru|~ads.x.com|~ads.yandex|~reempresa.org
 ://ads2.
 ://adsbb.
 ://adserving.
@@ -7379,6 +7379,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 ://tracking.*/event
 ://tru.am^
 ://uads.$third-party,xmlhttprequest
+://www.*.com/script/*.com.js|$script,third-party
 ://www.*.js|$script,third-party,domain=159i.com|r3sub.com|thisav.com
 ://www.*.xyz/content/*/-1/$script,subdocument,third-party,xmlhttprequest
 ://www.*.xyz/content/*/a/$subdocument,third-party
@@ -10474,9 +10475,7 @@ alphaporno.com,tubewolf.com##.block-banner
 alphr.com##.fs-pushdown-sticky
 alt-codes.net###copyModal .modal-body
 altchar.com##div[style^="height:280px;"]
-alternativeto.net##.bannerLink
-alternativeto.net##div[class^="GamAds_"]
-alternativeto.net##div[data-testid="adsense-wrapper"]
+alternativeto.net##.min-w-ad-300
 alternet.org###leaderboard-placeholder
 alternet.org##.sidebar_sticky_container
 altfi.com##.alert
@@ -18282,6 +18281,7 @@ libtorrent.org,mailgen.biz,speedcheck.org,torrentfreak.com,tubeoffline.com,utorr
 libvio.cc,libvio.me##.t-img-box
 libvio.me##.hidden-log
 lic.me##.miniplayer
+lidl.*##div[data-type="sponsored"]
 liepin.com##DIV[id^="nodetpl_g_"]
 life.tw###fbFixedAd
 lifeandstylemag.com###taboola-right-rail-thumbnails
@@ -26442,6 +26442,7 @@ zzzyk.com###Tinfo
 ||72716408.xyz^$document,popup
 ||72888710.xyz^$document,popup
 ||73503921.xyz^$document,popup
+||735pwa.com^$popup
 ||74142961.xyz^$document,popup
 ||75.125.41.29:8080/
 ||75690049.xyz^$document,popup
@@ -29713,6 +29714,7 @@ zzzyk.com###Tinfo
 ||bouncepilot.com^$third-party
 ||bouncex.com^$third-party
 ||boustahe.com^$popup
+||bownow.jp^$third-party
 ||box.com/data/ptm.gif/
 ||box.com/index.php?rm=box_gen204_batch_record
 ||boxing-social.com^*/takeover/
@@ -35010,6 +35012,7 @@ zzzyk.com###Tinfo
 ||hemnes.win^$third-party
 ||henan.sina.com.cn/iframe/7/
 ||henan100.com/d/file/indexad/
+||henghost.com^
 ||henghost.com^$third-party
 ||hentai2w.com/ark2023/
 ||hentaibaka.one^$script,third-party
@@ -37160,6 +37163,7 @@ zzzyk.com###Tinfo
 ||kokos.click^$third-party
 ||kolkwi4tzicraamabilis.com^$popup
 ||koluraishimtouw.net^$popup
+||komiic.com/ads/
 ||kommersant.ru/a.asp?p=
 ||kommersant.uk/banner_stats
 ||komoona.com^$third-party
@@ -42644,6 +42648,7 @@ zzzyk.com###Tinfo
 ||script-api.kinja.com/script?
 ||script.idgentertainment.de/gt.js
 ||scriptil.com^$third-party
+||scripts.stay22.com/letmeallez.js
 ||scripts.swifteq.com/hc_events.js
 ||scripts21.com^$third-party
 ||scriptsgratuits.com/sg/stats/
@@ -43839,6 +43844,8 @@ zzzyk.com###Tinfo
 ||stapadblockuser.info/stat/
 ||stapadblockuser.xyz/stat/
 ||stape.fun/stat/
+||stape.io^$third-party
+||stapecdn.com^$third-party
 ||stapewithadblock.beauty/stat/
 ||stapewithadblock.monster/stat/
 ||stapewithadblock.xyz/stat/
@@ -47559,6 +47566,7 @@ zzzyk.com###Tinfo
 ||youku.com/log/
 ||youle55.com^$third-party
 ||youlead.pl/st?browserid
+||youlocal.com^
 ||youmaker.com/g/test
 ||youmelive.com/timg/
 ||youporn.com/_xa/ads
