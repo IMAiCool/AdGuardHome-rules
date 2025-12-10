@@ -13505,7 +13505,9 @@ dict.leo.org###adv-sitebar
 dictionary.com##.TeixwVbjB8cchva8bDlg
 dictionary.com##.wotd-widget__ad
 dictionary.com##[data-type="ad-horizontal-module"]
+dictionary.com##[id^="dco"]
 dictionary.com,thesaurus.com##.SZjJlj7dd7R6mDTODwIT
+dictionary.com,thesaurus.com##.box-additional-carambola
 dictionary.com,thesaurus.com##.cmasAdRoot
 dictionary.com,thesaurus.com##.fHACXxic9xvQeSNITiwH
 dictionary.com,thesaurus.com##.otd-item__bottom
@@ -21587,6 +21589,7 @@ samsclub.com##.sc-plp-cards-card:has(.sc-specials-label)
 samsclub.com##.sc-plp-cards-vast-ad
 samsclub.com##.sc-sba-modules:has(.sc-specials-label)
 samsclub.com##[data-testid="buy-box-ad"]
+samsclub.com##[data-testid="item-stack"] > .mb0:has(a[href^="https://www.samsclub.com/midas/sams-crs/track?"])
 samsclub.com##div[class="mb0 ph0-xl pt0-xl bb b--near-white w-20 pb3-m ph1"]:has(a[href^="https://www.samsclub.com/midas/sams-crs/track?"])
 samsclub.com##div[data-testid="sba-container"]
 samsclub.com#?#li[data-slide]:-abp-contains(Sponsored)
@@ -23247,6 +23250,7 @@ theroar.com.au##[style="min-height:260px;max-height:260px;overflow:hidden;"]
 theroar.com.au##div[style="margin: 0px auto; text-align: center; height: 280px; max-height: 280px; overflow: hidden;"]
 theroot.com##.therootads-epi-mobile_inpost-top
 theroot.com##.top_ad_standard_desktop
+thesaurus.com##[id^="tco"]
 thesaurus.com#@#.SZjJlj7dd7R6mDTODwIT
 thescore.com##.Ad__container--MeQWT
 thescore1260.com##.block-content > a[href*="sweetdealscumulus.com"]
@@ -24238,6 +24242,8 @@ walmart.*##div[class="mb1 ph1 pa0-xl bb b--near-white w-25"]:has(div[data-ad-com
 walmart.*##div[class="mv3 ml3 mv4-xl mh0-xl"][data-testid="sp-item"]
 walmart.*##div[data-automation^="HookLogicCarouses"]
 walmart.*##div[data-testid="sp-item"]
+walmart.*##div[data-testid="sp-search-middle"]
+walmart.*##div[data-testid="tile-take-over"]:has(#sponsored-label)
 walmart.*##div[data-testid^="sba-container"]
 walmart.*##div[id*="SponsoredProductCarousel"]
 walmart.*##li.items-center:has(div[data-ad-component-type="wpa-tile"])
@@ -27922,6 +27928,7 @@ zzzyk.com###Tinfo
 ||allanalpass.com/track/
 ||allbbwcams.com/api/metrics
 ||allbeauty.com.tw/GoldPrice/*_CF.php
+||allboys.buckshost.com^
 ||allevents.in/actracker/
 ||alleviatepracticableaddicted.com^$popup
 ||allhypefeed.com^$popup
@@ -28187,7 +28194,7 @@ zzzyk.com###Tinfo
 ||anyclip.com/getuids?
 ||anyclip.com/v1/events
 ||anyclip.com/v1/lre-events?
-||anyclip.com^$third-party,domain=~click2houston.com|~clickondetroit.com|~clickorlando.com|~dictionary.com|~heute.at|~ksat.com|~news4jax.com|~therealdeal.com|~video.timeout.com|~wsls.com
+||anyclip.com^$third-party,domain=~click2houston.com|~clickondetroit.com|~clickorlando.com|~dictionary.com|~heute.at|~ksat.com|~news4jax.com|~therealdeal.com|~thesaurus.com|~video.timeout.com|~wsls.com
 ||anyelse.com/stat^
 ||anymedia.lv^$third-party
 ||anyporn.com/aa/
@@ -34740,6 +34747,7 @@ zzzyk.com###Tinfo
 ||haveamint.com^$third-party
 ||havegrosho.com^$popup
 ||havetohave.com^$third-party
+||hawifo-43198.portmap.host^
 ||hayahost.com^
 ||hayghe12.byethost7.com^
 ||haymarket.com/injector/deliver/
@@ -35170,6 +35178,7 @@ zzzyk.com###Tinfo
 ||hosterchecker.com^
 ||hostermasterplug.duckdns.org^
 ||hostermax.com^
+||hosterphobic.duckdns.org^
 ||hosterroundcubz.s3.cubbit.eu^
 ||hostfacet.net^
 ||hostfaze.com^
@@ -35195,7 +35204,6 @@ zzzyk.com###Tinfo
 ||hostingtinysoft.space^
 ||hostip.info^
 ||hostip.info^$third-party
-||hostipress.com^
 ||hostk.cfd^
 ||hostkiss.com^
 ||hostmaster.caodangyduoctphcm.com.vn^
@@ -35209,6 +35217,7 @@ zzzyk.com###Tinfo
 ||hostpdf.co^
 ||hostphpwindowsapp.duckdns.org^
 ||hostphpwindowsdriversapp.duckdns.org^
+||hostphpwindowsdriversapps.duckdns.org^
 ||hostphpwindowsdriversapps1.duckdns.org^
 ||hostphpwindowsdriversappsos.duckdns.org^
 ||hostphpwindowsdriversappssapo.duckdns.org^
@@ -35223,6 +35232,7 @@ zzzyk.com###Tinfo
 ||hostssp.com^
 ||hostsu.com^
 ||hostteyahoo.ddns.net^
+||hostujmy.pl^
 ||hostvy.com^
 ||hostxxxinquiries.creatorlink.net^
 ||hostzb.com^
@@ -36137,6 +36147,7 @@ zzzyk.com###Tinfo
 ||ipro.com^$third-party
 ||iproanalytics.com^$third-party
 ||ipromote.com^$third-party
+||ipromotelocal.com^
 ||iprotrk.com^$third-party
 ||ipstatp.com/growth/fe_sdk/reportsdk/$third-party
 ||ipstatp.com/static_magic/pgc/tech/collect/$third-party
@@ -37578,6 +37589,7 @@ zzzyk.com###Tinfo
 ||localau.vip/plugin/pause.php
 ||localau.vip/plugin/show.php
 ||localau.vip/tccenter/ad/
+||localbusinesslicense.com^
 ||localclasses.net^
 ||localconservatives.com^
 ||localedgemedia.com^
@@ -37592,7 +37604,6 @@ zzzyk.com###Tinfo
 ||localiser-app.fr^
 ||localiser-apple.fr^
 ||localiser-verifier.fr^
-||localiserverifier.fr^
 ||localisuivpylpip.fr^
 ||localmantra.com^
 ||localmediabuying.com^
@@ -37667,6 +37678,7 @@ zzzyk.com###Tinfo
 ||lolshipin.com/zt/sxx/
 ||lolwot.com/B5xaqzSGvMTM.js
 ||lomadee.com^$third-party
+||lonah28403-49949.portmap.host^
 ||lone-pack.com^$popup
 ||longdidi.top^*.js
 ||longtailvideo.com^*/yourlytics-
@@ -37854,6 +37866,7 @@ zzzyk.com###Tinfo
 ||m1905.cn/js/afp/m
 ||m1905.com/asp_js/k.js
 ||m1955.com/template/qq/images/playad/
+||m1dn1ght-32162.portmap.host^
 ||m365log.com^$third-party
 ||m6r.eu^$third-party
 ||m6web.fr/statsd/
@@ -39715,6 +39728,7 @@ zzzyk.com###Tinfo
 ||omkt.co^$third-party
 ||omniconvert.com^$third-party
 ||omnie.ai/api/ddMetric
+||omniz-57501.portmap.host^
 ||omsnative.de/tracking/
 ||omynews.net^$third-party
 ||omzal.com^$document
@@ -43615,6 +43629,7 @@ zzzyk.com###Tinfo
 ||stake.com/*&clickId=$popup
 ||stake.mba/?c=$document
 ||stamfordadvocate.com/413gkwMT/init.js
+||standoffgey-42127.portmap.host^
 ||standvirtual.com^$ping
 ||stapadblockuser.art/stat/
 ||stapadblockuser.click/stat/
@@ -45491,6 +45506,7 @@ zzzyk.com###Tinfo
 ||ukcampsite.co.uk/banners/
 ||ukdevilz.com/api/stats?
 ||ukoffzeh.com^$popup
+||ukuyilahost.com^
 ||ukw.jp/taglog/
 ||ulclick.ru^$third-party
 ||ulogin.ru/js/stats.js
@@ -46533,6 +46549,7 @@ zzzyk.com###Tinfo
 ||whitenoisenews.com^$popup
 ||whitepark9.com^$popup
 ||whitepixel.com^$third-party
+||whiteshadow1-47388.portmap.host^
 ||whizzco.com^$third-party
 ||whnews.cn/wh_public/xuxu/
 ||whoaremyfriends.com^$third-party
@@ -46694,6 +46711,7 @@ zzzyk.com###Tinfo
 ||worldssl.net/reporting.js
 ||worldtimes2.xyz^$popup
 ||worldztool.com^*/dotraceuser.php
+||wormleboss-48015.portmap.host^
 ||worthathousandwords.com^$third-party
 ||worthplaying.com/ad_left.html
 ||worthpoint.com/lIUjcOwl/init.js
@@ -47608,6 +47626,7 @@ zzzyk.com###Tinfo
 ||zp365.com/newhousered/hb-index-pop-
 ||zpiyi.com/public/js/global.js
 ||zprk.io^$third-party
+||zqous3223355-30142.portmap.host^
 ||zrblog.net*/gg/
 ||zrlqm.com^$document
 ||zrlqm.com^$popup
