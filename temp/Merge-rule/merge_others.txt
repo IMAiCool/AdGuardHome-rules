@@ -10607,7 +10607,7 @@ athlonsports.com,bringmethenews.com,si.com##.is-exco-player
 atlantablackstar.com,finurah.com,theshadowleague.com##.raptive-ddm-header
 atlantatribune.com,footballleagueworld.co.uk,ioncinema.com,marijuanamoment.net,srilankamirror.com,tribune.net.ph###mvp-leader-wrap
 atlanticsuperstore.ca,fortinos.ca,loblaws.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#?#.product-tile-group__list__item:-abp-contains(Sponsored)
-atlanticsuperstore.ca,fortinos.ca,loblaws.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,yourindependentgrocer.ca,valumart.ca,zehrs.ca#?#[data-testid="section"]:has(.indiana-scroll-container:-abp-contains(/Sponsorisé|Sponsored/))
+atlanticsuperstore.ca,fortinos.ca,loblaws.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,yourindependentgrocer.ca,valumart.ca,zehrs.ca#?#.indiana-scroll-container > ul > li:has(.chakra-badge:-abp-contains(/Sponsorisé|Sponsored/))
 atlanticsuperstore.ca,fortinos.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca##.block-wrapper:has(.element-header__sponsoredLabel)
 atlanticsuperstore.ca,fortinos.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#?#[data-testid="card"]:-abp-contains(sponsored)
 atlasobscura.com##.ProgrammaticMembershipCallout--taboola-member-article-container
@@ -13507,12 +13507,8 @@ dict.leo.org###adv-drectangle2
 dict.leo.org###adv-sitebar
 dictionary.com##.TeixwVbjB8cchva8bDlg
 dictionary.com##.wotd-widget__ad
-dictionary.com##[data-type="ad-horizontal-module"]
 dictionary.com##[id^="dco"]
-dictionary.com,thesaurus.com##.SZjJlj7dd7R6mDTODwIT
 dictionary.com,thesaurus.com##.box-additional-carambola
-dictionary.com,thesaurus.com##.cmasAdRoot
-dictionary.com,thesaurus.com##.fHACXxic9xvQeSNITiwH
 dictionary.com,thesaurus.com##.otd-item__bottom
 dictionary.com,thesaurus.com##main div[class]:has(> [data-type="ad-vertical"])
 dictionary.com,thesaurus.com#?#[class] > p:-abp-contains(Advertisement)
@@ -18351,6 +18347,7 @@ loveshang.com##div[class^="float-ad-"]
 lowcarbtips.org##.wp-block-image.size-full
 lowendbox.com##img[width="300"][height="250"]
 lowendbox.com##img[width="300"][height="70"]
+lowendtalk.com###Panel a[href^="https:"][target="_blank"][title][alt][rel="noopener"]
 lowendtalk.com##img[width="258"][height="250"]
 lowendtalk.com##img[width="258"][height="70"]
 lowes.com###lws_hp_recommendations_belowimage_1
@@ -38608,6 +38605,7 @@ zzzyk.com###Tinfo
 ||mofa.go.jp^*/count.cgi?
 ||moflix-stream.click/ad?
 ||moilizoi.com^$popup
+||mojeek.com/search?*fmt=jsad
 ||moksoxos.com^$popup
 ||mokuz.ru^$third-party
 ||moleconcern.com^$popup
