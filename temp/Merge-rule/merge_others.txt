@@ -2550,7 +2550,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /fgh1ijKl.js$script
 /figanalytics-short-ttl.js
 /fingerprint-3.4.1.js
-/fingerprint.js$domain=~github.com
+/fingerprint.js^$domain=~github.com
 /fingerprint.min.js
 /fingerprint/iife.min.js
 /fingerprint2.js
@@ -7837,6 +7837,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||bokecc.com/flash/playlog?
 @@||book.com.tw/image/getImage?$domain=books.com.tw
 @@||bookmate.com^*/impressions?$~third-party,xmlhttprequest
+@@||bookoffonline.co.jp/files/tracking/ac/clicktag.js$~third-party
 @@||bootcss.com^$script,domain=kan-tv.com
 @@||bordeaux.futurecdn.net/bordeaux.js$script,domain=gamesradar.com|tomsguide.com
 @@||borneobulletin.com.bn/wp-content/banners/bblogo.jpg$~third-party
@@ -8059,6 +8060,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||ctrip.com/Customer-Market-Proxy/AdCallProxyV2.$~third-party
 @@||cults3d.com/packs/js/quantcast-$~third-party
 @@||curiositystream.com^$generichide
+@@||curos.ca/res/*/resources/scripts/lib/fingerprint.js$~third-party
 @@||cvs.com/shop-assets/js/VisitorAPI.js$~third-party
 @@||cvs.com/webcontent/images/weeklyad/adcontent/$~third-party
 @@||cwtv.com^$generichide
@@ -12656,6 +12658,7 @@ cockdude.com##.native-boxes-ver2
 cockdude.com##.related-boxes-footer-ver2
 cockdude.com##.textovka
 cockdude.com,coomer.st,kemono.cr##a[href*="/tsyndicate.com/"]
+coconutgrovespotlight.com##.cocon-widget
 codapedia.com##a[href^="/ad-click.cfm"]
 codeceo.com##div[style="width:970px;margin:0 auto"]
 codeceo.com,fuli8.net##.widget_text:first-child
@@ -15045,6 +15048,8 @@ friv.com###lba
 friv.com###lbaTop
 fruitnet.com##.dk-ad-250
 fruitnet.com##.midpageAdvert
+frzyc.github.io##.go-ad-wrapper
+frzyc.github.io##[alt*="Banner"]
 fsclzs.com###qvod
 fsdpp.cn##.sidebox > a > img
 fsjoy.com#@#.main_adv
@@ -25276,6 +25281,7 @@ youku.com###bt-banner
 youku.com###ykBottomBanner
 youku.com##.pop-prompt-box
 youku.com##.src_adwrap
+youku.com##div[class*="adDrawer"]
 youloveit.com##.btop
 youmelive.com###b2-widget-html-2
 youngamateursporn.com###inplayer_block
@@ -29643,6 +29649,7 @@ zzzyk.com###Tinfo
 ||booking.com^$domain=honglingjin.co.uk|sunnylife.tw
 ||bookingdragon.com^$subdocument,third-party
 ||bookmakers.click^$popup
+||bookoff.co.jp/assets/js/ac/tag-analyze.js
 ||bookoffonline.co.jp/files/inc_js/ac/
 ||bookoffonline.co.jp/files/tracking/
 ||bookofsex.com^$third-party
@@ -33307,6 +33314,7 @@ zzzyk.com###Tinfo
 ||fiksu.com^$third-party
 ||file-file-host4.com^
 ||file-upload.net/include/mitte-orig.php
+||file142host355.cyou^
 ||file1host22.cyou^
 ||file222host.cfd^
 ||file2host41.cfd^
@@ -36636,6 +36644,7 @@ zzzyk.com###Tinfo
 ||js.ea3w.com/pv.js
 ||js.go2sdk.com/v2/tune.js
 ||js.letvcdn.com/js/*/stats/
+||js.monitor.azure.com/scripts/c/ms.analytics-web-4.min.js$domain=microsoft.com
 ||js.monitor.azure.com/scripts/c/ms.shared.analytics.$domain=microsoft.com
 ||js.mumayi.net/9495.gif
 ||js.mumayi.net/jiujiang
@@ -42314,6 +42323,7 @@ zzzyk.com###Tinfo
 ||s.weibo.com/widget.html
 ||s.yimg.com/ja/ap/$script,subdocument,domain=hk.news.yahoo.com|hk.yahoo.com|tw.news.yahoo.com|tw.stock.yahoo.com|tw.yahoo.com
 ||s.yimg.com/ja/ap/tw/js/
+||s.yimg.com/ss/analytics-$script,domain=yahoo.com
 ||s.yimg.com/uv/dm/scripts/syndication.js
 ||s.yimg.com/zh/mrr/$image,domain=mail.yahoo.com
 ||s.yimg.com^*/flash_general_$domain=~tw.yahoo.com
