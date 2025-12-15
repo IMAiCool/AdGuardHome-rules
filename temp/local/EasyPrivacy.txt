@@ -7198,6 +7198,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||smartnews-ads.com^$third-party
 ||speee-ad.jp^$third-party
 ||sygrip.info^$third-party
+||tag.contentanalytics.jp^$third-party
 ||talpa-analytics.com^$third-party
 ||taxel.jp^$third-party
 ||team-rec.jp^$third-party
@@ -10215,6 +10216,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||unifyintent.com/analytics/
 ||units.knotch.it^
 ||unpkg.com/web-vitals?
+||upsell-app.logbase.io/metrics
 ||uptime.com/static/rum/$third-party
 ||uptime.fastrr.com^
 ||uptime2.fastrr.com^
@@ -10241,6 +10243,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||validate.onecount.net^$image
 ||vanilladev.com/analytics.
 ||vast.com/vimpressions.js$third-party
+||vault.gostatera.com^
 ||vcita.com/tr_
 ||vdo.ai/core/logger.php?
 ||vdo.ai/core/scantrad-net/
@@ -10312,6 +10315,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||weather.ca/counter.gif?
 ||web-beacon.starii-rover.com^
 ||web-tracker.smsbump.com^
+||web.aips-sol.com/v1/events?
 ||web.valiuz.com^*/tag.js
 ||web1.51.la^
 ||webcare.byside.com/agent/usert_agent.php
@@ -10404,6 +10408,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||zapcdn.space/zapret.js
 ||zendesk.com/frontendevents/$xmlhttprequest
 ||zengenti.com/tags/
+||zeropartyforms.com^*/digibox.gif?
 ||zi-scripts.com/zi-tag.js
 ||ziffdavisb2b.com^*/tracker.js
 ||zineone.com^*/event
@@ -17011,7 +17016,6 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||aadata.april-international.com^
 ||aainfo.anz.co.nz^
 ||aametrics.aktia.fi^
-||aamt.msnbc.com^
 ||aamt.nbcnews.com^
 ||aamt.newsapp.telemundo.com^
 ||aamt.today.com^
@@ -51323,6 +51327,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||track.prod.smash.pet^
 ||tracker.curama.jp^
 ||tracking.ai.rakuten.co.jp^
+||tracking.cds.dmm.co.jp^
 ||tracking.game8.jp^
 ||tracking.gnavi.co.jp^
 ||travel.co.jp/js/analysis.js
