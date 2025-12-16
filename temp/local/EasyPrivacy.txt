@@ -3158,6 +3158,7 @@ _WebVitalsReporter_
 /c.vialoops.com/*$image
 /ck.m.honto.jp/c/*$image
 /click.*/q/*$image
+/click.comicomi-studio.com/mail/u/*$image
 /click.em.nike.com/*$image
 /click.email.$image
 /click.instahyre.com/*$image
@@ -51599,6 +51600,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||mirtesen.ru/js/ms.js
 ||ms.dzen.ru^
 ||ms.vk.com^
+||ms.vk.ru^
 ||mstat.mos.ru^
 ||mts.ru/fe-api/logger
 ||mtsbank.ru/hustonwehaveaproblem/
@@ -51654,6 +51656,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||umschool.net/_jts/api/s/track
 ||vedomosti.ru/boom?
 ||vesti.ru/counter/
+||vk.ru/rtrg
 ||vkvideo.ru/al_video.php?act=track
 ||vstat.rtr-vesti.ru^
 ||webbff.ru.4game.ru/api/exporter/events
