@@ -3064,6 +3064,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /jquery.iframetracker-
 /jquery.lazyload-ad-$script
 /jquery.lazyload-ad.js
+/jquery.meerkat.
 /jquery.modal.$domain=1909.me|8se.me
 /jquery.openxtag.js
 /jquery.overlayad.js
@@ -9983,7 +9984,7 @@ ads.google.com,youtube.com#@#.video-ads
 ads.nipr.ac.jp#@##ads-header
 ads.nipr.ac.jp#@##ads-menu
 ads.nipr.ac.jp,burzahrane.hr#@#.ads-header
-adsoftheworld.com#.tracking-widest
+adsoftheworld.com##.tracking-widest
 adspecials.us,ajanlatok.hu,akcniletak.cz,catalogosofertas.cl,catalogosofertas.com.ar,catalogosofertas.com.br,catalogosofertas.com.co,catalogosofertas.com.ec,catalogosofertas.com.mx,catalogosofertas.com.pe,catalogueoffers.co.uk,catalogueoffers.com.au,flugblattangebote.at,flyerdeals.ca,folderz.nl,folhetospromocionais.com,folletosofertas.es,gazetki.pl,kundeavisogtilbud.no,ofertelecatalog.ro,offertevolantini.it,promocatalogues.fr,promotiez.be,promotions.ae,prospektangebote.de,reklambladerbjudanden.se,tilbudsaviseronline.dk##.anchor-wrapper
 adswikia.com,arcadepunks.com,freemalaysiatoday.com,landandfarm.com,pointblanknews.com,radiotoday.com.au,rsbnetwork.com,runt-of-the-web.com,rxresource.org,techworldgeek.com##.header-banner
 adtunes.com#@##ad_thread_first_post_content
@@ -15529,6 +15530,7 @@ gifgit.com##.ad_unit_header-container
 gifmagic.com,lalovings.com#@##adcontainer
 gifsauce.com##.widget_live
 gifsfor.com###mob_banner
+giftornado.com###unique-banner
 gigazine.net#@#.adtag
 ginx.tv###ginx-floatingvod-containerspacer
 ginx.tv##[data-ref]
@@ -21827,6 +21829,7 @@ sentres.com##.oax_ad_leaderboard
 senzuri.*,shemalez.*,vjav.*##.jw-hardlink-inner
 senzuri.tube##.content > div > .hv-block-transparent
 senzuri.tube##.jw-reset.jw-atitle
+senzuri.tube##.underplayer-review
 senzuri.tube##.video-page__watchfull-special
 senzuri.tube##.video-tube-friends
 seowebstat.com###adhead-block
@@ -25114,6 +25117,7 @@ yahoo.com##.GeminiPortalStreamAd_handleViewport
 yahoo.com##.ad-tl2b
 yahoo.com##.ads
 yahoo.com##.caas-da
+yahoo.com##.col-fullbleed.md\:invisible.md\:overflow-hidden
 yahoo.com##.crazyad
 yahoo.com##.da-container
 yahoo.com##.darla
@@ -30065,6 +30069,7 @@ zzzyk.com###Tinfo
 ||cammodels.com/api/metrics
 ||camonster.com/landing/$popup,third-party
 ||camonster.com^$third-party
+||camonster.io^$third-party
 ||campaigncog.com^$third-party
 ||campaignlook.com^$third-party
 ||campaignmonitor.com^$third-party
@@ -30523,6 +30528,7 @@ zzzyk.com###Tinfo
 ||cidianwang.com/js/right
 ||cidianwang.com/js/zdtop.js
 ||cidrap.umn.edu/core/modules/statistics
+||ciencia.ao^$document
 ||cifnews.com/ajax/adrequest/
 ||cifnews.com/common/js/d/d/tea.js
 ||cifnews.com/yuguo3.0/live_dynamic/js/live_dynamic.js
@@ -34220,6 +34226,9 @@ zzzyk.com###Tinfo
 ||gias.jd.com/js/td.js
 ||giddyuptrk.com^$third-party
 ||giftandgamecentral.com^$popup
+||giftornado.com/counter.php
+||giftornado.com/d2.js
+||giftornado.com/js/cam.js
 ||giga-abs.de^$third-party
 ||giga.de/vw/$image,third-party
 ||gigafile.nu/add_count_fab_jx.php
@@ -34341,6 +34350,7 @@ zzzyk.com###Tinfo
 ||go.camterest.com^$popup
 ||go.com/capmon/GetDE/?
 ||go.fap18.net/ftt2/js.php
+||go.nsfwlivechat.com^$popup
 ||go.onelink.me^$image,script
 ||go.roobet.com^$popup
 ||go.techtarget.com^$image,xmlhttprequest
@@ -35204,7 +35214,6 @@ zzzyk.com###Tinfo
 ||host.gsslcloud.com^
 ||host.k12insight.org^
 ||host.laurita.net^
-||host.officinegullo.com^
 ||host.pornolenta.cc^
 ||host.roxiapp.com^
 ||host.sogoforms.com^
@@ -37279,6 +37288,7 @@ zzzyk.com###Tinfo
 ||leady.com^$third-party
 ||leafmedia.io^$third-party
 ||leaked.cx/promo/
+||leakvideos.live^$document
 ||leanplum.com^$third-party
 ||leapretrieval.com^$popup
 ||learn-cpp.org/static/img/banners/cfk/$image
@@ -39716,7 +39726,6 @@ zzzyk.com###Tinfo
 ||odysee.com/api/v1/metric/
 ||odysee.com/log/
 ||odysee.com/reports/
-||odyzli.localiza.com.br^
 ||oe-static.de^*/wws.js
 ||oevery.com^$third-party
 ||oewabox.at^$third-party
@@ -41264,7 +41273,6 @@ zzzyk.com###Tinfo
 ||pstatp.com^*/raven.js
 ||pstatp.com^*/ttstatistics.
 ||pstats.com^$third-party
-||pstats.hostels.com^
 ||psumpupsauket.com^$popup
 ||pswec.com/px/$third-party
 ||psyzg.com/Public/Home/images/tuhe_240_236.gif
@@ -42281,6 +42289,7 @@ zzzyk.com###Tinfo
 ||rounddescribe.com^$popup
 ||roundflow.net^$document
 ||roundflow.net^$popup
+||roupitpompier.cfd^$document
 ||route.com/collect
 ||routeapp.io/route-analytics/
 ||routes.name^$document
@@ -42910,7 +42919,6 @@ zzzyk.com###Tinfo
 ||sgk.xyz/static/js/pc.js
 ||sgtm.fairmont.
 ||sgtm.fashionunited.
-||sgtm.ghostcatbikes.com^
 ||sgtm.wimdu.
 ||sgtreport.com/wp-content/uploads/*Banner
 ||sh.sina.com.cn/iframe/522/
@@ -43904,7 +43912,6 @@ zzzyk.com###Tinfo
 ||statistika.lv^$third-party
 ||statowl.com^$third-party
 ||statpipe.ru^$third-party
-||stats.bookhostels.com^
 ||stats.chinaz.com/tool/
 ||stats.chinaz.com/tool_img/
 ||stats.de^$third-party
@@ -44097,6 +44104,7 @@ zzzyk.com###Tinfo
 ||strtgic.com^$popup
 ||strtpe.link/ppmain.js
 ||strtpe.link/stat/
+||stsbih.com.ba^$document
 ||ststandard.com/adsf
 ||ststandard.com/ping
 ||stt6.cfd^$popup
@@ -46159,6 +46167,7 @@ zzzyk.com###Tinfo
 ||viralnewsbd.xyz^$popup
 ||viralninjas.com^$third-party
 ||viralnugget.com^$third-party
+||viralvideoclip.info^$document
 ||virelon.com^$document
 ||virelon.com^$popup
 ||virgilio.it/clientinfo.gif?
