@@ -3650,6 +3650,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /oo/*/l.js
 /oo/*/lsync.
 /oo/cl*.js?rd=
+/oo/cl-$~third-party
 /oo/cl.js|$~third-party
 /op/analytics.js?domain=
 /opbb/float.js
@@ -8501,6 +8502,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||hopto.org^$generichide
 @@||hotstar.com/vs/getad.php$domain=hotstar.com
 @@||hotstarext.com/web-messages/core/error/v52.json$xmlhttprequest,domain=hotstar.com
+@@||howsmyssl.com^$script,domain=trenitalia.fr
 @@||howtonote.jp/google-analytics/$image,~third-party
 @@||hoy.tv/wp-content/themes/vodi-child/videojs-event-tracking.js
 @@||hp.com/in/*/ads/$script,stylesheet,~third-party
@@ -21307,6 +21309,8 @@ rd.com,tasteofhome.com##.cnx-inline-player-wrapper
 read.amazon.*###readerChromeOverlayBottom.readerChromeOverlayBottom-banner-desktop {bottom:0
 read.amazon.*##.kw-ads-ftue-container
 read.qidian.com##.operation-wrap
+readanybook.com##.timimg-ad-iframe
+readanybook.com##.timing-ads-timer
 readcomiconline.li##.divCloseBut
 readcomicsonline.ru##.ads-large
 readmoo.com#@#.navbar-social
@@ -24179,6 +24183,7 @@ vidplay.lol##body > div > div[class][style]:has(> div > div > a[target="_blank"]
 view.inews.qq.com#?#div[class^="_"]:-abp-has(>div[data-action-id]>div>.react-swipeable-view-container)
 vigilantcitizen.com##.vigil-leaderboard-article
 vigilantcitizen.com##.vigil-leaderboard-home
+vikacg.com,vikacg.icu,vikacg.xyz##div[class^="my-"] > a[href^="http"]:not([href*="vikacg."])
 vikingfile.com##[href^="/fast-download/"]
 vikiporn.com##.top-list > .content-aside
 vinepair.com##.pre-footer-ad-container
