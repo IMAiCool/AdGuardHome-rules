@@ -30,7 +30,7 @@
 !禁用小米系统更新
 !腾讯视频会员视频播放
 !腾讯视频微信小程序会员视频播放
-!酷安点赞评论,会变动
+!酷安点赞评论相关
 !阿里云云dns官网
 !阿里云手机app登录
 !高德地图
@@ -7714,6 +7714,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||api.lab.amplitude.com/v1/vardata?$domain=gaiagps.com
 @@||api.lab.amplitude.com^$domain=watch.outsideonline.com
 @@||api.perfops.net^$script,xmlhttprequest,domain=cdnperf.com|dnsperf.com
+@@||api.sprig.com/sdk/1/environments/$xmlhttprequest,domain=developer.salesforce.com
 @@||api.touchnote.io^$xmlhttprequest,domain=app.touchnote.com
 @@||api.useinsider.com/api/web/$xmlhttprequest
 @@||api.vk.com/method/statEvents.$~third-party
@@ -30334,6 +30335,7 @@ zzzyk.com###Tinfo
 ||celebstoner.com/assets/components/bdlistings/uploads/
 ||celebstoner.com/assets/images/img/sidebar/$image
 ||celeritascdn.com^$popup
+||celulahost.online^
 ||centent.stemplay.cc^$popup
 ||center.io^$third-party
 ||centerblog.net/a/in
@@ -30360,6 +30362,7 @@ zzzyk.com###Tinfo
 ||cgtn.com/api/collect/
 ||ch3ngl0rd.com/hit/
 ||chachefa.com/asdfasdfqwer/
+||chackfr.host^
 ||chahua.org/aimg/
 ||chaintopdom.nl^$popup
 ||chakd.com/images/xitie160x60.gif
@@ -32726,7 +32729,6 @@ zzzyk.com###Tinfo
 ||elecfans.com/webapi/advertisement/
 ||elements.video/tr/
 ||elephant-ads.com^$popup
-||elevatelocalreferrals.icu^
 ||elevenlabs.io/hog/e/
 ||elil.cc/pdev/
 ||elil.cc/reqe.js
@@ -33899,6 +33901,7 @@ zzzyk.com###Tinfo
 ||g2afse.com^$popup
 ||g33ktr4ck.com^$popup
 ||g3f3.com/love/
+||g3host.com^
 ||g42p2t-thewigdoctorshopcom-6261.site.tb-hosting.com^
 ||g42p2t-wigwhowigmecom.site.tb-hosting.com^
 ||g7cnfrcns.localto.net^
@@ -34229,6 +34232,7 @@ zzzyk.com###Tinfo
 ||ghostbin.lain.la^
 ||ghostdotx.github.io^
 ||ghostgenie.com^
+||ghostkitchenhub.com^
 ||ghostnewz.com^
 ||ghostnewz.com^$popup
 ||ghostoo.com^
@@ -34241,6 +34245,7 @@ zzzyk.com###Tinfo
 ||ghostssquadpoints.dlcodes.com^
 ||ghostteamone.com^
 ||ghostwoodalbum.com^
+||ghostwritingsinc.com^
 ||gianteagle.com/webevents/
 ||giaoji.com/Runtime/Js/
 ||gias.jd.com/js/td.js
@@ -34625,6 +34630,7 @@ zzzyk.com###Tinfo
 ||gsdpw.com/file/script/A
 ||gsecondscreen.com^$third-party
 ||gsecurecontent.com^$popup
+||gsehost.com^
 ||gsght.com/twizards.js
 ||gsght.com^$third-party
 ||gsimedia.net^$third-party
@@ -34929,6 +34935,7 @@ zzzyk.com###Tinfo
 ||hellocenter.xyz^*.mp4$rewrite=abp-resource:blank-mp4,domain=localmv1.com
 ||helloextend.com/tracking
 ||hellogithub.com/v1/advert/
+||hellohost.org^
 ||hellopeter.com/api/consumer-tracking/
 ||helloretail.com/serve/collect/
 ||helloretail.com/serve/trackingUser
@@ -35296,6 +35303,7 @@ zzzyk.com###Tinfo
 ||hostinger.com/api-proxy/api/sentry/
 ||hostingfile.live^
 ||hostingjo.com^
+||hostingoutlook.com^
 ||hostingpark.com^
 ||hostingservicefl.com^
 ||hostingtinysoft.space^
@@ -36393,7 +36401,6 @@ zzzyk.com###Tinfo
 ||itxueyuan.com^*.mp4
 ||iubenda.com/write?
 ||iupian.com/mstyle/js/topinfo.js
-||iusefatalbtw-48418.portmap.host^
 ||iuyggvhq.icu^$popup
 ||ivcbrasil.org.br^$third-party
 ||iviewui.com/v1/*?name=
@@ -36653,7 +36660,6 @@ zzzyk.com###Tinfo
 ||journeymv.com^$third-party
 ||journity.com^$third-party
 ||jowingtykhana.click^$popup
-||joyasen522-45848.portmap.host^
 ||joyourself.com^$third-party
 ||jp1357.com/addon/
 ||jp2468.com/addon/
@@ -37695,7 +37701,6 @@ zzzyk.com###Tinfo
 ||localau.vip/plugin/show.php
 ||localau.vip/tccenter/ad/
 ||localbusinesslicense.com^
-||localclasses.net^
 ||localconservatives.com^
 ||localdating.cyou^
 ||localedgemedia.com^
@@ -37707,6 +37712,7 @@ zzzyk.com###Tinfo
 ||localgoodcar.com^
 ||localgrapevines.mobimark.net^
 ||localhookupclub1.com^
+||localhost-esignid.falling.com.de^
 ||localiser-app.fr^
 ||localiser-apple.fr^
 ||localiser-verifiez.fr^
@@ -37718,11 +37724,13 @@ zzzyk.com###Tinfo
 ||localo.fr^
 ||localpoint.ch^
 ||localprivatenetwork.com^
+||localreche.pro^
 ||localreporting.pro^
 ||locals.dating^
 ||localsearch24.co.uk^
 ||localsearch24.co.uk^$third-party
 ||localsearchusa.com^
+||localsecurity.help^
 ||localsgowild.com^
 ||localsnapsext.com^
 ||localsnaughty.com^
@@ -41198,7 +41206,6 @@ zzzyk.com###Tinfo
 ||promos.investing.com/*/digibox.gif?
 ||promos.meetlocals.com^
 ||promote.pair.com/88x31.pl
-||promoteonelocal.com^
 ||promotionengine.com^$third-party
 ||promotools.biz^$third-party
 ||promowebstar.com^$third-party
@@ -42049,6 +42056,7 @@ zzzyk.com###Tinfo
 ||rentalcars.com/?affiliateCode=$popup,domain=seatguru.com
 ||rentalcars.com/partners/
 ||rentalrebuild.com^$popup
+||rentingalocalfriend.com^
 ||rentingimmoderatereflecting.com^$popup
 ||rentiyishu.org/*.js
 ||rentracks.jp^$third-party
@@ -43691,6 +43699,7 @@ zzzyk.com###Tinfo
 ||sponsorcounter.de^$third-party
 ||sponsored.com^$third-party
 ||sport.ua/pixel/
+||sporthostel.org^
 ||sportlemon24.com/img/301.jpg
 ||sportnews.bz/pcookie?
 ||sportrecs.com/redirect/embed/
@@ -46245,6 +46254,7 @@ zzzyk.com###Tinfo
 ||vivistats.com^$third-party
 ||vivocha.com^$third-party
 ||vivociti.com/images/$third-party
+||viwomaloq.easyfreehosting.com^
 ||vixenlive.com/api/metrics
 ||vizcloud.co/ping/
 ||vizisense.net^$third-party
@@ -46373,6 +46383,7 @@ zzzyk.com###Tinfo
 ||vwdealerdigital.com/cdn/sd.js
 ||vweb05.nitrado.hosting^
 ||vxnjhdhs-35196.portmap.host^
+||vxnsishjha-62957.portmap.host^
 ||vxotu.com/i/*.gif
 ||vzmz.com/template/paody/aaaa/*0
 ||vzmz.com/template/paody/aaaa/357.js
@@ -47688,11 +47699,11 @@ zzzyk.com###Tinfo
 ||zeepartners.com^$popup
 ||zeerat.com^$third-party
 ||zemanta.com^$third-party
-||zen1thblkhat-64927.portmap.host^
 ||zenaps.com^$popup
 ||zendesk.com/frontendevents/$xmlhttprequest
 ||zendplace.pro^$popup
 ||zengenti.com/tags/
+||zengohost.com^
 ||zenimpact.io/dist/zen_init.min.js
 ||zeotap.com^$third-party
 ||zergnet.com/zerg.js
