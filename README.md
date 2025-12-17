@@ -1,4 +1,4 @@
-# AdGuardHome规则合并去重
+# AdGuardHome规则合并去重-自用
 
 ---
 
