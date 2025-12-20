@@ -8458,6 +8458,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ensighten.com/error/e.php?
 ||envato.market/i/
 ||epimg.net/js/gdt/
+||episerver.net/ia.js
 ||epl.paypal-communication.com^$script
 ||epromote.co.za/track/
 ||eq.userneeds.com^
@@ -9957,6 +9958,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||telemetry.reembed.com^
 ||telemetry.smartframe.io^
 ||telemetry.soundcloud.com^
+||telemetry.svc.transifex.net^
 ||telemetry.tableausoftware.com^
 ||telemetry.transcend.io^
 ||telemetry.vtex.com^
@@ -12271,6 +12273,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||convert.guru/pageview^
 ||cookpad.com/*/activity_logs
 ||copilot-telemetry.githubusercontent.com^
+||core-features.cambridge.org/proxy/client/metrics
 ||count.all.biz^
 ||count.darkreader.app^
 ||count.rin.ru^
@@ -12965,7 +12968,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||navan.com/api/analytics
 ||nbarizona.com/metrics/
 ||nbc.com/webevents/
-||nbcnews.com/_next/static/chunks/ads.$script,domain=nbcnews.com
 ||neatorama.com/story/view/
 ||neeva.com/logql/log
 ||neighbourly.co.nz/event-tracking
@@ -52339,6 +52341,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||showheroes.com/pubtag.js$domain=rollingstone.de
 @@||siteintercept.qualtrics.com/$domain=idealo.de
 @@||sophi.io/assets/demeter/$script,domain=faz.net
+@@||spezialklinik-neukirchen.de/matomo/$~third-party
 @@||spiegel.de/layout/js/http/netmind-$script
 @@||taboola.com/libtrc/$script,domain=bild.de|computerbild.de|fitbook.de|jetzt.de|metal-hammer.de|musikexpress.de|noizz.de|rollingstone.de|stylebook.de|sueddeutsche.de|techbook.de|travelbook.de|welt.de|wieistmeineip.at|wieistmeineip.ch|wieistmeineip.de
 @@||technical-service.net^$xmlhttprequest,domain=n-tv.de|rtl.de|vip.de
