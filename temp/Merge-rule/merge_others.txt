@@ -1435,7 +1435,16 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /adv-scroll.$script
 /adv_out.js$third-party
 /adv_vert.js$script
-/advanced-ads-$script,stylesheet,domain=~transinfo.pl|~wordpress.org
+/advanced-ads-layer/public/assets/js/layer.js
+/advanced-ads-pro.js$script
+/advanced-ads-pro.min.js$script
+/advanced-ads-pro/assets/dist/front.js$script
+/advanced-ads-pro/assets/js/postscribe.js$script
+/advanced-ads-pro/modules/*$script
+/advanced-ads-sticky-ads/assets/dist/sticky.js$script
+/advanced-ads-tracking/assets/dist/delayed.js$script
+/advanced-ads-tracking/assets/dist/tracking.js$script
+/advanced-ads/public/assets/js/advanced.min.js$script
 /advbanner.frontend.js$script
 /advert.$~script,~xmlhttprequest,domain=~advert.ae|~advert.club|~advert.com.tr|~advert.ee|~advert.ge|~advert.io|~advert.media|~advert.org.pl|~motortrader.com.my
 /advert/youxi.js
@@ -6622,7 +6631,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 4runnerforum.com,acuraforums.com,blazerforum.com,buickforum.com,cadillacforum.com,camaroforums.com,cbrforum.com,chryslerforum.com,civicforums.com,corvetteforums.com,fordforum.com,germanautoforums.com,hondaaccordforum.com,hondacivicforum.com,hondaforum.com,hummerforums.com,isuzuforums.com,kawasakiforums.com,landroverforums.com,lexusforum.com,mazdaforum.com,mercuryforum.com,minicooperforums.com,mitsubishiforum.com,montecarloforum.com,mustangboards.com,nissanforum.com,oldsmobileforum.com,pontiactalk.com,saabforums.com,saturnforum.com,truckforums.com,volkswagenforum.com,volvoforums.com##aside > center
 4shared.com##.remove-rekl
 4spaces.org,fuliba.net,fuliba2023.net,fuliba2025.net,uliba.net,ypojie.com##.widget_ui_orbui
-4sysops.com,9to5linux.com,activistpost.com,aftvnews.com,arcadepunks.com,corrosionhour.com,corvetteblogger.com,dcrainmaker.com,discover.is,elhayat-life.com,gamingonphone.com,girgitnews.com,gizmochina.com,guides.wp-bullet.com,macsources.com,manhuatop.org,mediachomp.com,metalsucks.net,mmoculture.com,monstersandcritics.com,motoringfile.com,nasaspaceflight.com,newsbtc.com,openloading.com,patriotfetch.com,planetofreviews.com,precinctreporter.com,prepperwebsite.com,rugbylad.ie,sashares.co.za,scienceabc.com,scienceandliteracy.org,sixteen-nine.net,snipercentral.com,spokesman-recorder.com,survivopedia.com,techdows.com,techiecorner.com,techjuice.pk,theblueoceansgroup.com,thecinemaholic.com,tooxclusive.com,torrentfreak.com,torrentmac.net,trackalerts.com,trendingpoliticsnews.com,wabetainfo.com##.widget_custom_html
+4sysops.com,activistpost.com,aftvnews.com,arcadepunks.com,corrosionhour.com,corvetteblogger.com,dcrainmaker.com,discover.is,elhayat-life.com,gamingonphone.com,girgitnews.com,gizmochina.com,guides.wp-bullet.com,macsources.com,manhuatop.org,mediachomp.com,metalsucks.net,mmoculture.com,monstersandcritics.com,motoringfile.com,nasaspaceflight.com,newsbtc.com,openloading.com,patriotfetch.com,planetofreviews.com,precinctreporter.com,prepperwebsite.com,rugbylad.ie,sashares.co.za,scienceabc.com,scienceandliteracy.org,sixteen-nine.net,snipercentral.com,spokesman-recorder.com,survivopedia.com,techdows.com,techiecorner.com,techjuice.pk,theblueoceansgroup.com,thecinemaholic.com,tooxclusive.com,torrentfreak.com,torrentmac.net,trackalerts.com,trendingpoliticsnews.com,wabetainfo.com##.widget_custom_html
 4teachers.org###banner-wrapper
 4tube.com###main-jessy-grid
 4tube.com##.cpp
@@ -7014,9 +7023,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 9ku.com##.youFix
 9l.pl#@#.boxAds
 9miao.com###deanrlc22
-9to5linux.com##.widget:has([href$=".php"])
-9to5linux.com,anoopcnair.com,apkmirror.com,askpython.com,beckernews.com,bizpacreview.com,boxingnews24.com,browserhow.com,constructionreviewonline.com,crankers.com,hard-drive.net,journeybytes.com,maxblizz.com,net-load.com,roadaheadonline.co.za,windowslatest.com,yugatech.com##.ai_widget
-9to5linux.com,appleworld.today,athleticsillustrated.com,businessaccountingbasics.co.uk,circuitbasics.com,closerweekly.com,coincodecap.com,cozyberries.com,dbknews.com,deshdoaba.com,developer-tech.com,electricbikereport.com,foreverconscious.com,friendsjournal.org,glitched.online,globalgovernancenews.com,granitegrok.com,intouchweekly.com,jharkhandmirror.net,kashmirreader.com,kkfm.com,levittownnow.com,lifeandstylemag.com,manhuatop.org,marqueesportsnetwork.com,mensjournal.com,nikonrumors.com,ognsc.com,palipost.com,patriotfetch.com,pctechmag.com,prajwaldesai.com,pstribune.com,raspians.com,robinhoodnews.com,rok.guide,rsbnetwork.com,salesforcegeek.in,showbiz411.com,spokesman-recorder.com,sportsspectrum.com,stacyknows.com,supertotobet90.com,teksyndicate.com,thecatholictravelguide.com,thedefensepost.com,theoverclocker.com,thethaiger.com,theyucatantimes.com,tronweekly.com,ubuntu101.co.za,wakingtimes.com,washingtonmonthly.com,webscrypto.com,wgow.com,wgowam.com,wlevradio.com##.widget_media_image
+9to5linux.com###text-21
 9to5linux.com,maxblizz.com,twistedvoxel.com##.block-widget
 9to5mac.com##.single-custom-post-ad
 9tour.cn##a[href^="http://union.zhuna.cn/"]
@@ -10069,6 +10076,7 @@ aeroexpo.online,agriexpo.online,directindustry.com,droidgamers.com,fonearena.com
 aerotime.aero##.article-leaderboard
 aerotime.aero##.l-side-banner
 aerotime.aero##.s-banner
+aether.mom##[href^="https://a.acebet.com/api/click?a="]
 afar.com##.Page-header-hat
 afflift.com,audi-sport.net,beermoneyforum.com,birdforum.net,clubsearay.com,forums.sailinganarchy.com,rawdogsports.com,skitalk.com,sportfishingbc.com,studentdoctor.net##.samBannerUnit
 affyun.com##.text
@@ -10479,6 +10487,7 @@ annodz.com##.p-banner-wrapper.first
 annodz.com##.p-sidebar-wrapper
 anobii.com,ewahlen.eu#@#.advertisment
 anoneko.com,dmhy.org,ye1213.com##div[id$="_ad"] > a:first-child > img
+anoopcnair.com,apkmirror.com,askpython.com,beckernews.com,bizpacreview.com,boxingnews24.com,browserhow.com,constructionreviewonline.com,crankers.com,hard-drive.net,journeybytes.com,maxblizz.com,net-load.com,roadaheadonline.co.za,windowslatest.com,yugatech.com##.ai_widget
 anquan.org##.aside_profile_activity > div:first-child
 anquan.org##.gj_download
 anquan.org##.pub_side_ad
@@ -10572,6 +10581,7 @@ appleinsider.com##div[style^="text-align:center;border-radius:0;"]
 appleinsider.com#?#div.main-art:has-text(Sponsored Content)
 appleinsider.com,dappradar.com,euroweeklynews.com,metro.co.uk,sitepoint.com,tld-list.com,twitch-tools.rootonline.de,wccftech.com##[rel*="sponsored"]
 appleworld.today###block-26
+appleworld.today,athleticsillustrated.com,businessaccountingbasics.co.uk,circuitbasics.com,closerweekly.com,coincodecap.com,cozyberries.com,dbknews.com,deshdoaba.com,developer-tech.com,electricbikereport.com,foreverconscious.com,friendsjournal.org,glitched.online,globalgovernancenews.com,granitegrok.com,intouchweekly.com,jharkhandmirror.net,kashmirreader.com,kkfm.com,levittownnow.com,lifeandstylemag.com,manhuatop.org,marqueesportsnetwork.com,mensjournal.com,nikonrumors.com,ognsc.com,palipost.com,patriotfetch.com,pctechmag.com,prajwaldesai.com,pstribune.com,raspians.com,robinhoodnews.com,rok.guide,rsbnetwork.com,salesforcegeek.in,showbiz411.com,spokesman-recorder.com,sportsspectrum.com,stacyknows.com,supertotobet90.com,teksyndicate.com,thecatholictravelguide.com,thedefensepost.com,theoverclocker.com,thethaiger.com,theyucatantimes.com,tronweekly.com,ubuntu101.co.za,wakingtimes.com,washingtonmonthly.com,webscrypto.com,wgow.com,wgowam.com,wlevradio.com##.widget_media_image
 apponic.com##.ad-container-atf
 apponic.com##.ad-container-compact
 apprcn.com##a[href*=".lizhi."]
@@ -10644,6 +10654,9 @@ asianjournal.com##.ad_before_title
 asianjournal.com##.asian-widget
 asianmirror.lk,catholicregister.org,crown.co.za,marengo-uniontimes.com,nikktech.com##.banneritem
 asianpornjav.com##[href="https://asianpornwebsites.com/"]
+asiaone.com##.ao-ads
+asiaone.com##.ao-article-video-wrapper
+asiaone.com##.dfp-tag-wrapper
 asiaxbit.com,celebritymovieblog.com,interracial-girls.com###custom_html-2
 ask.com##.PartialKelkooResults
 askapache.com##.GAD
@@ -11588,7 +11601,9 @@ bleepingcomputer.com##.bc_guide
 bleepingcomputer.com##.cz-toa-wrapp
 bleepingcomputer.com##.ia_ad
 bleepingcomputer.com##[href*="https://www.bleepingcomputer.com/mgo/"]
+bleepingcomputer.com##[href^="https://www.adaptivesecurity.com/"]
 bleepingcomputer.com##[href^="https://www.bleepingcomputer.com/go/"]
+bleepingcomputer.com##[href^="https://www.threatlocker.com/"]
 bleepingcomputer.com##[src*="https://www.bleepstatic.com/c/t/threatlocker/"]
 bleepingcomputer.com#?#.post_wrap:-abp-contains(AdBot)
 bleepingcomputer.com#?#ul#bc-home-news-main-wrap > li:has-text(Sponsored)
@@ -12873,6 +12888,7 @@ computing.co.uk##.sidebar-block
 computips.org,techlife.com,technipages.com,tennews.in###text-5
 conandaily.com,gamersocialclub.ca,hawaiireporter.com,michaelsavage.com##.wpa
 conjugacao-de-verbos.com,conjugacion.es,die-konjugation.de,the-conjugation.com###header_pub
+consequence.net##.ad-min-height-600
 consequence.net##.leaderboard-sticky
 consequence.net##.video_container
 conservativebrief.com##.stream-item-mag
@@ -17747,7 +17763,9 @@ justthenews.com##.video--vdo-ai
 justthenews.com##.view--breaking-news-sponsored
 justthenews.com##img[width="798"][height="450"]
 justwatch.com##.buybox-promotion-row
+justwatch.com##.buybox_international_offers_row__header__icons:has([rel="nofollow sponsored noopener"])
 justwatch.com##.free-trial__container
+justwatch.com##.offer-container:has(.offer__footnote)
 justwatch.com##.offer-container:has(.promotion-row_container)
 justwatch.com##.promoted-buybox
 juxia.com###fmt
@@ -20626,6 +20644,7 @@ playpilot.com##.search-preview .side:has(> .provider)
 playporn.xxx,videosdemadurasx.com##.wrap-spot
 plays01.com##.adbox-bg
 playstationtrophies.org,xboxachievements.com###vnt-lb-a
+playtorrio.pages.dev###iptv-promotional-link
 playvids.com##.add_href_jsclick
 playvids.com##.col-lg-6.col-xl-4
 playzuan.com###ShouYe_ShangBu
@@ -22868,6 +22887,8 @@ tallermaintenancar.com##.player-right
 tallermaintenancar.com##.thumbs
 tampabayparenting.com##.header-html-inner
 tampafp.com##._ning_outer
+tampafp.com##.sticky-inside-pad
+tampafp.com##.tampa-widget
 tandfonline.com###pbgrd-skyscraper
 tangdoucdn.com#@#.video-ad
 taobao.com###J_ActivityOut
@@ -23078,6 +23099,7 @@ tetris.com##[style*="min-width: 728px;"]
 texasmonthly.com##.promo-in-body
 texasmonthly.com##.promo-topper
 texasmonthly.com##.promo__vertical
+texasmonthly.com##.sticky-video-player__wrapper
 text-compare.com##.publiftDiv
 textcompare.org##.ez-sidebar-wall
 textcompare.org##.mui-19wbou7
@@ -27459,6 +27481,7 @@ zzzyk.com###Tinfo
 ||adshot.de^$third-party
 ||adsiduous.com^$third-party
 ||adsight.nl^$third-party
+||adsinteractive.com^$third-party
 ||adsixmedia.fr^$third-party
 ||adskeeper.co.uk^$document
 ||adskeeper.co.uk^$popup
@@ -43287,7 +43310,6 @@ zzzyk.com###Tinfo
 ||sinajs.cn/t6/home/js/pl/guide/adforfqy/
 ||sinajs.cn/t6/home/js/pl/guide/bigday/
 ||sing-tracker.com^$popup
-||singelstodate.com^$popup
 ||singledatetime.com^$document
 ||singledatetime.com^$popup
 ||singlefeed.com^$third-party
@@ -44272,6 +44294,7 @@ zzzyk.com###Tinfo
 ||sunporno.com/sunstatic/frms/
 ||sunset.com/tia/
 ||suntcontent.se^$third-party
+||supabase.co/rest/v1/prmos_$domain=eloshapes.com
 ||supabase.co/rest/v1/promos_available
 ||super-traf.ru^$third-party
 ||superadexchange.com^$popup
