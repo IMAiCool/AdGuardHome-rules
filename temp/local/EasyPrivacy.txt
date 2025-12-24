@@ -2468,7 +2468,6 @@
 /tracking/user_sync_widget?
 /tracking/views/*
 /tracking202/static/landing.php
-/Tracking?id=
 /tracking?referrer
 /Tracking?t=
 /tracking?vs=
@@ -52207,6 +52206,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||trackjs.com/agent/$script,domain=delta.com
 @@||trackonomics.net/client/$script,domain=popsugar.com
 @@||travel-assets.com/platform-analytics-prime/$domain=chase.com
+@@||try.abtasty.com^$script,domain=tickpick.com
 @@||tunein.com/api/v1/comscore$~third-party
 @@||unpkg.com/@adobe/magento-storefront-event-collector@$domain=osprey.com
 @@||userapi.com^*.gif?extra=$image,domain=vk.com
