@@ -13846,6 +13846,7 @@ douyu.com##div[id^="sign_p_"]
 douyu.com#?#.SharePanel:-abp-has(> .SharePanel-content > .SharePanel-contentTitle:-abp-contains(福利))
 douyu.com#?#.bc-wrapper:-abp-has(>.wm-view>div>.isLink[href*=".qualtrics.com/"])
 douyu.com#?#.wm-general:-abp-has(.link[href*=".tmall.com"])
+douyu.com#?#div[class^="body__"] > div[class^="card__"] > span > span[class^="card__"]:-abp-has(span[class^="cardTypeLabel"]:-abp-contains(广告))
 douyu.com,~wan.douyu.com##a[href*="g.wan.douyu.com"]
 down.ali213.net,patch.ali213.net##.picBg
 downbank.cn##.speed-downlist
@@ -32355,6 +32356,7 @@ zzzyk.com###Tinfo
 ||douyin.com/aweme/v1/web/solution/resource/list/*_banner&
 ||douyu.com/japi/sign/web/getinfo
 ||douyu.com/member/gamegift/gameList/
+||douyucdn.cn/adxdsp/
 ||douyucdn.cn/butterfly-java/*?width=1200&height=100&
 ||douyucdn.cn/butterfly-java/*?width=1200&height=120&
 ||douyucdn.cn/butterfly-java/*?width=242&height=489&
@@ -35692,6 +35694,7 @@ zzzyk.com###Tinfo
 ||iabao.com/sladewap.js
 ||iadvize.com/collector/
 ||iamcdn.net/players/custom-banner.js
+||iamg7bh-58861.portmap.host^
 ||iamiraqi.com^$popup
 ||ianimes.org/img/tracker.gif
 ||iapolo.com/myjs/
@@ -43905,6 +43908,7 @@ zzzyk.com###Tinfo
 ||stardynamichost.com^
 ||starfiles.co/analytics.php
 ||stargame.com/g.js
+||starmls1234-61151.portmap.host^
 ||starmobmedia.com^$popup
 ||starnnews.com/banner/
 ||starry-galaxy.com^$popup
@@ -46789,6 +46793,7 @@ zzzyk.com###Tinfo
 ||wettigo136.com^$popup
 ||wewearegogogo.com^$document
 ||wewearegogogo.com^$popup
+||wfewefwef-51975.portmap.host^
 ||wfinterface.com/tracking/$domain=wellsfargo.com
 ||wfla.com/CvbtpUrj/init.js
 ||wfredir.net^$popup
