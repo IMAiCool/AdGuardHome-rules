@@ -1986,6 +1986,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /cdn-cgi/pe/bag2?r[]=*eth-pocket.de
 /cdn-cgi/ping?$image
 /cdn-cgi/rum?
+/cdn-cgi/rum|
 /cdn-cgi/zaraz/*
 /cdn_cookie_service.html
 /ce_l.aspx?showid=$third-party
@@ -3750,6 +3751,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /pageviews.gif?
 /pageviews.php?type=
 /pageviews?token=
+/parceldns.com/t/*$image
 /parsely.js
 /parsonsmaize/abilene.js$script
 /parsonsmaize/chanute.js$script
@@ -5019,6 +5021,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /u/_sponsor/*
 /uc123_no/*/index/js/activity.
 /ucount.php?
+/udp-analytics.js
 /uds/stats?
 /uecomscore_cmp_event_mundo.js
 /uedata?
@@ -15845,6 +15848,7 @@ gsprating.com##.banner2
 gsxt.gov.cn#@#.ads-right
 gtaforums.com###ipsLayout_mainArea div:has(>
 gtaforums.com##div[style^="text-align: center; margin: 0px 0px 10px;"]
+gtagarage.com##.ads-playwire-container-250h
 gter.net##.bottom
 gtloli.live,gtloli.one##.sd_recpic
 gtloli.one###topbanner
@@ -18422,6 +18426,12 @@ livescores.biz##.make-a-bet_wrap
 livescores.biz##.odds-market
 livescores.biz##.predict_bet
 livescores.biz##.top-bk
+livesoccertv.com###container-hp-ic
+livesoccertv.com###container-hp-rs1
+livesoccertv.com###container-hp-top
+livesoccertv.com###container-md-ic
+livesoccertv.com###container-md-rs1
+livesoccertv.com###container-md-top
 livesoccertv.com##.desktop-ad-container
 livestreamfails.com###oranum_livefeed_container_0
 livetv.sx##tr[height] ~ tr > td[colspan][height][bgcolor="#000000"]
@@ -20175,6 +20185,8 @@ opticsky.cn##.p83_gridC > .cc
 optimyz.com,ringsidenews.com##.elementor-shortcode
 orangenews.hk##img[advid]
 ordertracker.com##.partnerbanner
+originality.ai###bannerFrame
+originality.ai##.banner-element
 ormanager.com##.orm-black-label-inner
 orschlurch.net##.amazon-wrapper
 orsoon.com###new-actentry
@@ -24217,6 +24229,8 @@ vaughn.live##.vs_v9_LTabvsLower_beta
 vax-before-travel.com##.footerboard
 vccircle.com##.ads_ads__qsWIu
 vdianying.cc##div[style^="display:block
+vecteezy.com##.ez-sponsored-results
+vecteezy.com##.partner-sponsored-results
 vedantbhoomi.com##.elementor-widget-smartmag-codes
 vedantu.com##.banner-text
 veev.to##a[href^="https://t.ly/"]
@@ -28176,6 +28190,7 @@ zzzyk.com###Tinfo
 ||amazon.com/1/aiv-web-player/1/OE^
 ||amazon.com/1/events/$domain=~aws.amazon.com
 ||amazon.com/aan/$subdocument
+||amazon.com/cs/uedata
 ||amazon.com/e/xsp/imp?
 ||amazon.com/empty.gif?$image
 ||amazonaws.com.cn/static-documents/marketing/uda_banner_
@@ -28453,6 +28468,7 @@ zzzyk.com###Tinfo
 ||api.rtl.nl/monitoring/
 ||api.samsungfind.com/log-collector
 ||api.sardine.ai/assets/loader.min.js$third-party
+||api.sovendus.com/js/landing.js
 ||api.streamelements.com/science/
 ||api.tacotax.fr/v2/amplitude_trackers
 ||api.takealot.com^$ping
@@ -28507,6 +28523,7 @@ zzzyk.com###Tinfo
 ||app.revenuehero.io/logs/ingest
 ||app.tag-plus.com/ja/api/v1/unison_planet/heat_map
 ||app.trytada.com/addImpression
+||app.varify.io/varify.js
 ||app.yesware.com/t/$third-party
 ||app1ev.easypanel.host^
 ||appboycdn.com^$third-party
@@ -34337,7 +34354,6 @@ zzzyk.com###Tinfo
 ||ghost4senator.duckdns.org^
 ||ghost580.com/js/nei4.js
 ||ghost8.cn^
-||ghostbin.lain.la^
 ||ghostgenie.com^
 ||ghostkitchenhub.com^
 ||ghostnewz.com^
@@ -36799,6 +36815,7 @@ zzzyk.com###Tinfo
 ||js-check.com^$document
 ||js-check.com^$popup
 ||js-delivr.com^$third-party
+||js.cdn.applicationinsights.io/scripts/b/ai.3.gbl.min.js
 ||js.dsp.bance.jp/bncdmp.js
 ||js.ea3w.com/pv.js
 ||js.go2sdk.com/v2/tune.js
@@ -37691,6 +37708,7 @@ zzzyk.com###Tinfo
 ||listentoyt.com/vidbutton/$popup
 ||listrak.com/api/Activity/click
 ||listrak.com/api/Activity/impression
+||listrakbi.com/ModalImpression.ashx?
 ||listrakbi.com/activity/
 ||listrakbi.com/api/ActivityEvents/
 ||litix.io^$third-party
@@ -41713,6 +41731,8 @@ zzzyk.com###Tinfo
 ||quantummetric.com^$third-party
 ||quantumws.net^$third-party
 ||quartic.pl^$third-party
+||qub.ca/api/log
+||qub.ca/collector-service/event
 ||qubitproducts.com^$third-party
 ||qudao.com/common/minisite.js
 ||quellavelinge.com/referer.php?
@@ -43094,6 +43114,7 @@ zzzyk.com###Tinfo
 ||shoplytics.com^$third-party
 ||shopmyshelf.us^$third-party
 ||shopnetic.com^$third-party
+||shopper.shop.pe/input.js
 ||shopper.shop.pe/pixel.png
 ||shopping.udn.com/mall/cus/cat/OutWebAd.do?
 ||shoppinglifestyle.biz^$document
@@ -45746,6 +45767,7 @@ zzzyk.com###Tinfo
 ||uedas.$domain=qdmm.com|qdwenxue.com|qidian.com
 ||uefa.com/imgml/uefacom/sponsors/
 ||uel-uel-fie.com^$popup
+||ufe.helixo.co/scripts/sdk.min.js
 ||ufile.cc/crod.js
 ||ufile.cc/pps.js
 ||ufpcdn.com^$popup
@@ -45925,6 +45947,7 @@ zzzyk.com###Tinfo
 ||usepanda.com^$third-party
 ||useproof.com^$third-party
 ||user-api.com^$third-party
+||user-back.ggcorp.me/statistics
 ||user-clicks.com^$third-party
 ||user-red.com^$third-party
 ||user2332.royal-hosting.ru^
