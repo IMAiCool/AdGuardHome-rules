@@ -635,6 +635,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .top/cuid/?$third-party
 .top/g3/myString3AsyncG?$third-party
 .top/gd/*?md=$third-party
+.top/herebyad
 .top/upload/ad.js
 .top^*-960x80-*.gif
 .tor*/js/jquery.bpopup.
@@ -7079,6 +7080,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 ://cmpworker.
 ://collect.*/pageview
 ://collector.*/event
+://creative.*/widgets/Player?
 ://data.*/v1/interact?
 ://datacollector.*/event
 ://dmhy.gate.*/*.*?$image
@@ -15413,6 +15415,7 @@ gaoqingw.com###sidebar a[href^="http"]:not([href*="gaoqingw"])
 gaoqingw.com##.search + .widget
 garagejournal.com##.size-full.attachment-full
 garagejournal.com##.size-medium
+gardinerbryant.com##.he-partners
 garticphone.com##.jsx-2397783008
 garticphone.com##.jsx-3256658636
 gas.goodlife.tw###widgets
@@ -19341,6 +19344,7 @@ muchong.com##p[onclick="view_ok();"]
 muchong.com#?#.forum_Post_index:-abp-has(nobr:-abp-contains(18))
 mui.com##.Ad-root
 mui.com##.css-19m7kbw
+muinz.top##.module
 multi.xxx##[href^="https://prtord.com/"]
 multporn.net##.block-block:has(> .content > ins[data-zoneid])
 mumayi.com##.clientBox
@@ -20311,6 +20315,7 @@ pastpapers.co##.sticky-bottom
 pasty.info##img[aria-label="Aliexpress partner network affiliate Link"]
 pasty.info##img[aria-label="Ebay partner network affiliate Link"]
 patents.justia.com##.jcard[style="min-height:280px; margin-bottom: 10px;"]
+patient.nimblerx.com###flt-pv-1 > div
 patio.so##[href="https://www.flexpowertools.com/"]
 patriotnewsfeed.com##.code-block-4
 patriotnewsfeed.com##.custom-html-widget [href] > [src]
@@ -26662,6 +26667,7 @@ zzzyk.com###Tinfo
 ||70.86.24.120:8060/
 ||70822.com/agfile/
 ||70zv5n4wj.localto.net^
+||711dm.com/color.
 ||7160.com/js/tiaozhuanquanju.js
 ||720-trail.co.uk^$third-party
 ||72075223.xyz^$document,popup
@@ -30106,6 +30112,8 @@ zzzyk.com###Tinfo
 ||byvngx98ssphwzkrrtsjhnbyz5zss81dxygxvlqd05.com^$popup
 ||byvue.com^$popup
 ||byxxxporn.com/300x250.html
+||bz*.com/js/cdn.
+||bz*.com/js/html$~third-party,script
 ||bz-berlin.de/_stats/
 ||bzdiao.com/wp-content/uploads/bhOCwJfYleFC/
 ||bzhanyy.com^*.gif
@@ -31510,6 +31518,7 @@ zzzyk.com###Tinfo
 ||creative.myasian.live/widgets/
 ||creativecdn.com^$popup
 ||creatives.inmotionhosting.com^
+||creator-spring.com/ngjj/
 ||credible.com/api/logs-fe
 ||credistory.ru/api/v1/LiveMetrics/
 ||creepy-frame.com^$popup
