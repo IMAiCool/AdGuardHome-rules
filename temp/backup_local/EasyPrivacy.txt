@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: CvA/o1riZDZdiV3mIko+Ig
-! Version: 202601021601
+! Checksum: eqadtHGANujoaxlSZuGkKw
+! Version: 202601030801
 ! Title: EasyPrivacy
-! Last modified: 02 Jan 2026 16:01 UTC
+! Last modified: 03 Jan 2026 08:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -6517,6 +6517,7 @@ omni.soundestlink.com$image
 ||webminerpool.com^$third-party
 ||webmining.co^$third-party
 ||webxmr.com^$third-party
+||ws_storage.funnyjunk.com^
 ||wtm.monitoringservice.co^$third-party
 ||wtmtrack.com^$third-party
 ||xmrpool.net^$third-party
@@ -13133,6 +13134,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||metrics.hackerrank.com^
 ||metrics.hyperliquid.xyz^
 ||metrics.imdb.com^
+||metrics.morethings.digital^
 ||metrics.onewegg.com^
 ||metrics.roblox.com^
 ||metrics.spkt.io^
@@ -13697,6 +13699,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||t.goodchop.com^
 ||t.indeed.com^
 ||t.ionos.com^
+||t.jasper.ai^
 ||t.jossandmain.com^
 ||t.kck.st^
 ||t.lataco.com/collect
@@ -13944,6 +13947,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||upwork.com/shasta/suit
 ||upwork.com/upi/jslogger
 ||urs.metacritic.com^
+||use.hetzner.com^
 ||useblackbox.io/telemetry
 ||user-back.ggcorp.me/statistics
 ||user-metrics.onthemarket.com^
@@ -51891,6 +51895,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||recv-entry.tbs.co.jp^
 ||recv-jnn.tbs.co.jp^
 ||recv.tbs.co.jp^
+||reebok.jp/resources/js/analysis/tracker.js
 ||retty.me/gen204.php
 ||retty.me/javascripts/common/logging.js
 ||revico.jp/providejs/revico_tracking.js
