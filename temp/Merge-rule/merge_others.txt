@@ -5488,7 +5488,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0.0.0.0 ddbca.localmeets.link
 0.0.0.0 de.hosting.adjug.com
 0.0.0.0 dhosting-gateway-areaclienti.majrmikswagmi.com
-0.0.0.0 djsaduaweb.host
 0.0.0.0 e-hosting.hut1.ru
 0.0.0.0 e.freewebhostingarea.com
 0.0.0.0 elevatelocalreferrals.icu
@@ -5570,7 +5569,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0.0.0.0 murbil.hostei.com
 0.0.0.0 neft-slot.host
 0.0.0.0 newyork.cbslocal.us.intellitxt.com
-0.0.0.0 nexushosting.lol
 0.0.0.0 nlocalhost.wordtheminer.com
 0.0.0.0 oascentral.abclocal.go.com
 0.0.0.0 omnituretrack.local.com
@@ -5600,6 +5598,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0.0.0.0 slhk23.0101host.com
 0.0.0.0 snowplow.ownlocal.com
 0.0.0.0 spooky7ghost.info
+0.0.0.0 ssl-host.com
 0.0.0.0 startherehosting.net
 0.0.0.0 static.locallogic.co
 0.0.0.0 static.omnilocal.ai
@@ -5643,7 +5642,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0.0.0.0 www.coinlocallyapp.com
 0.0.0.0 www.coolfreehost.com
 0.0.0.0 www.dhosting-gateway-areaclienti.majrmikswagmi.com
-0.0.0.0 www.djsaduaweb.host
 0.0.0.0 www.elevatelocalreferrals.icu
 0.0.0.0 www.essaouirahostel.com
 0.0.0.0 www.fcklocal.online
@@ -5673,7 +5671,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0.0.0.0 www.localytics.com
 0.0.0.0 www.meetlocalsingles.us
 0.0.0.0 www.neft-slot.host
-0.0.0.0 www.nexushosting.lol
 0.0.0.0 www.pafiilate.byethost32.com
 0.0.0.0 www.placelocal.com
 0.0.0.0 www.prglocal.com
@@ -8751,6 +8748,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||lnk2.cc^$generichide
 @@||loader-cdn.azureedge.net/prod/smi/loader.min.js$domain=pressdemocrat.com
 @@||lobi.co/1/track/event/
+@@||log.go.com/log$xmlhttprequest,domain=disneyvacationclub.disney.go.com
 @@||log000.goo.ne.jp/gcgw.js$domain=nttxstore.jp
 @@||logcg.content-delivery.top/wp-content/plugins/bwp-minify/min/?f=
 @@||logging.apache.org^$~third-party
@@ -10266,7 +10264,7 @@ alluc.org#@#.adsbottombox
 almanac.com##.sticky-right-sidebar
 alohatube.com##.advbox
 alohatube.com##.advboxemb
-alotav.com,javbraze.com,javdoe.fun,javdoe.sh,javhat.tv,javhd.*,javhdz.today,javseen.tv,javseenz.tv,javtape.site,xjav.online###previewBox
+alotav.com,javbraze.com,javdoe.fun,javdoe.sh,javfindx.com,javhat.tv,javhd.*,javhdz.today,javseen.tv,javseenz.tv,javtape.site,xjav.online###previewBox
 alotporn.com##.player + center
 alotporn.com,amateurporn.me##[id^="list_videos_"] > [class="item"]
 alphacoders.com##.css-grid-content:has(> .in-thumb-ad-css-grid)
@@ -22921,8 +22919,7 @@ takken-k.co.jp,zanmai.co.jp#@#.ad_box:not(.text-ad)
 talkbass.com###primary-products
 talkfx.co###frameff1Hu9_left
 talkfx.co##.slidebox
-talkingpointsmemo.com##.--span\:12.AdSlot
-talkingpointsmemo.com##.js_preheader-ad-container
+talkingpointsmemo.com##.AdSlot
 talksport.com##.stack-recirc--ad-slot
 talksport.com##.stack-recirc--item--ad-slot
 tallermaintenancar.com##.girl
@@ -24256,7 +24253,6 @@ vedantu.com##.banner-text
 veev.to##a[href^="https://t.ly/"]
 venea.net##.ag_banner
 venea.net##.ag_line
-venturebeat.com##.tude-cw-wrap
 venturebeat.com##.vb-ad-slot
 verizonwireless.com#@#.contentAds
 versus.com###bill_bottom
@@ -28567,6 +28563,7 @@ zzzyk.com###Tinfo
 ||appspot.com/stats?
 ||appspot.com/take?
 ||appspot.com/track-analytics-event
+||appswallet.ghost.io^
 ||appthe.click^$document
 ||apptjmp.com^$popup
 ||apptracer.ru^$third-party
@@ -32383,6 +32380,7 @@ zzzyk.com###Tinfo
 ||downloadoffice2010.org^$popup
 ||downloadoperagx.com/ef/$popup
 ||downloads-windows-pc.com^$popup
+||downloadsapp.ghost.io^
 ||downlon.com^$popup
 ||downmn.com^$popup,third-party
 ||downmz.com^$popup,third-party
@@ -38132,7 +38130,6 @@ zzzyk.com###Tinfo
 ||mail.ru/dstat?
 ||mail.ru/grstat?
 ||mail.ru/k?
-||mail.testhometest.s-host.net^
 ||mail.vrb.dsc.mybluehost.me^
 ||mail.yahoo.com/f/track/
 ||maillist-manage.eu/wa/actionlogger?
@@ -39094,8 +39091,6 @@ zzzyk.com###Tinfo
 ||myhack58.com/Articleacb0
 ||myhack58.com^*0$script
 ||myhaitang.cc/assets/public/*.js
-||myhost.misecure.com^
-||myhost.servepics.com^
 ||myhost228228.ddns.net^
 ||myhostisstillgood.hopto.org^
 ||myhugewords.com^$popup
@@ -39860,6 +39855,7 @@ zzzyk.com###Tinfo
 ||officetablntry.org^$popup
 ||officialpage.ghost.io^
 ||officialplatforms.ghost.io^
+||officialstart.ghost.io^
 ||offidocs.com/media/system/*afi$script,~third-party
 ||offshuppetchan.com^$popup
 ||ofphanpytor.com^$popup
@@ -40000,6 +39996,7 @@ zzzyk.com###Tinfo
 ||onlinepuonline.com^$popup
 ||onlineshopping.co.za/expop/
 ||onlinesucces.nl^$third-party
+||onlineuserportal.ghost.io^
 ||onlinewebstat.com^$third-party
 ||onlyalad.net^$third-party
 ||onlyfree.de^*/counterservice/
@@ -42955,6 +42952,7 @@ zzzyk.com###Tinfo
 ||sh.sina.com.cn/iframe/522/
 ||sh.sina.com.cn/js/441/ZwyArticle_commo_23.js
 ||shababhost.com^
+||shabi9988-64207.portmap.host^
 ||shakingtacklingunpeeled.com^$document
 ||shakingtacklingunpeeled.com^$popup
 ||shandian.biz/wp-content/themes/inove/js/comment.js
@@ -43807,6 +43805,7 @@ zzzyk.com###Tinfo
 ||ssgdfs.com/kr/common/getPageIcfCd
 ||ssh.*.com^*!$script,third-party
 ||ssjv1.com/dm/
+||ssl-host.com^
 ||ssl-images-amazon.com/images/*/DAsf-
 ||ssl-images-amazon.com/images/*/MAsf-
 ||ssl-images-amazon.com/images/I/31YXrY93hfL.js$domain=imdb.com
@@ -43871,9 +43870,11 @@ zzzyk.com###Tinfo
 ||start.ru/logger/
 ||startd0wnload22x.com^$popup
 ||startedapp.ghost.io^
+||startedpages.ghost.io^
 ||startherehosting.net^
 ||startherehosting.org^
 ||starti.pl^$third-party
+||startinstall.ghost.io^
 ||startledegrapp.ghost.io^
 ||startmenuexperiencehost.ydns.eu^
 ||startmenuexperiencehosting.ydns.eu^
