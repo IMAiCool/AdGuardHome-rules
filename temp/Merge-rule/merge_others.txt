@@ -178,6 +178,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 -tracking-pixel.
 -universal-analytics/
 -wrapper-analytics-prod.cloudfunctions.net/
+.*.*.com/papi/$third-party
 .012*sop.xyz/$script,xmlhttprequest,third-party
 .1.1.1.l80.js^$third-party
 .1080.x.90.
@@ -21677,6 +21678,7 @@ rule34.paheal.net##section[id$="main"] > .blockbody:has(> div[align="center"] > 
 rule34.us##:has(> [target="_blank"][rel="nofollow"])
 rule34.us##center:has(> div[style*="overflow"] > [data-cl-spot])
 rule34.us##div[id^="__clb-spot_"]
+rule34.us##div[style*='height: 490px']:has(center > div[style*="overflow"] > [data-cl-spot])
 rule34.xxx##.desktop
 rule34.xxx##.nutaku-mobile
 rule34.xxx##[style="min-height: 135px; box-sizing: border-box;"]
@@ -26666,7 +26668,6 @@ zzzyk.com###Tinfo
 ||74142961.xyz^$document,popup
 ||75.125.41.29:8080/
 ||75690049.xyz^$document,popup
-||75733.prohoster.biz^
 ||76fengyun.com/70070.gif
 ||76fengyun.com/jsa/
 ||76fengyun.com/vip.php$popup
@@ -28485,7 +28486,6 @@ zzzyk.com###Tinfo
 ||apm-engine.meteor.com^$third-party,xmlhttprequest
 ||apmebf.com^$third-party
 ||apo5er.easypanel.host^
-||apollo.hosterion.net^
 ||apollofind.com^$third-party
 ||apolloprogram.io^$third-party
 ||app-avisosegurossl1.hotmart.host^
@@ -30251,7 +30251,6 @@ zzzyk.com###Tinfo
 ||capturemedia.network^$third-party
 ||capturly.com^$third-party
 ||car.pchome.com.tw/iframe/news_iframe.
-||caracghost.pro^
 ||carambo.la/analytics/
 ||carambo.la/logging/
 ||carambo.la^$third-party
@@ -30729,6 +30728,7 @@ zzzyk.com###Tinfo
 ||classistatic.com^*/js/lib/prebid-7.5.0.min.js$script,domain=kijiji.ca
 ||claude.ai/sentry^
 ||clawless-42349.portmap.host^
+||clawless-42512.portmap.host^
 ||clb.biz/Public/static/js/common-v2.js
 ||clbanners16.com^$popup
 ||clbjmp.com^$popup
@@ -38642,6 +38642,7 @@ zzzyk.com###Tinfo
 ||milksquadronsad.com^$popup
 ||millionsview.com^$third-party
 ||millustry.top^$popup
+||milolo-44643.portmap.host^
 ||mima.club/tuijian/speedtest/
 ||mimosaavior.top^$popup
 ||mindlytix.com^$third-party
@@ -41087,7 +41088,6 @@ zzzyk.com###Tinfo
 ||preflect.com^$third-party
 ||pregchan.com/.static/pages/dlsite.html
 ||prelanding3.cuntempire.com/?utm_$popup
-||premierwallet.ghost.io^
 ||premium-members.com^$popup
 ||premium36.web-hosting.com^
 ||premium4kflix.website^$popup
@@ -41355,7 +41355,6 @@ zzzyk.com###Tinfo
 ||publicidees.com^$third-party
 ||publicityclerks.com^$third-party
 ||publiclive.ghost.io^
-||publicportal.ghost.io^
 ||publicwww.com/mtm/mtm.js
 ||publift.com^$third-party
 ||publir.com^$third-party
@@ -43772,7 +43771,6 @@ zzzyk.com###Tinfo
 ||srmdata.com^$third-party
 ||srpx.net^$third-party
 ||srtrak.com^$popup
-||srv244607.hoster-test.ru^
 ||srv244722.hoster-test.ru^
 ||srv244917.hoster-test.ru^
 ||srv245101.hoster-test.ru^
@@ -44275,7 +44273,6 @@ zzzyk.com###Tinfo
 ||svc.dynamics.com/t/w$third-party
 ||svchost1.linkpc.net^
 ||svhost56.duckdns.org^
-||svhostwp.duckdns.org^
 ||sviluppo.host^
 ||svtrd.com^$third-party
 ||sw76r85eda3k.com/need/h5.
