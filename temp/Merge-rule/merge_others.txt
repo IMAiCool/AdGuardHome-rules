@@ -398,10 +398,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .com/zz/*2.txt$xmlhttprequest
 .com/zz/tcc2.js
 .com/zz/yd2.js
-.com:1*/static/lbsite/*/*.js?v=$script,third-party
 .com:12289/$script,third-party
-.com:2*/static/lbsite/*/*.js?v=$script,third-party
-.com:3*/static/lbsite/*/*.js?v=$script,third-party
 .com:91/Runtime/js/psCreat.js
 .com:9120/discor_list.js
 .crsend.com/stats/$image
@@ -550,8 +547,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .oculus.com/collect/
 .oeya.com/$domain=realtw.com
 .okp*ai.com/$script,xmlhttprequest,third-party
-.okpp0*.xyz/$script,xmlhttprequest,third-party
-.okpp1*.xyz/$script,third-party
 .online.costco.com/t?$image
 .org/ad/$domain=~ylilauta.org
 .org/ads/$~xmlhttprequest
@@ -1092,7 +1087,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /\.[a-z]dinma[a-z].top\//$script,third-party
 /\.[a-z]dinmi[a-z].top\//$script,third-party
 /\.[a-z]domsi[a-z].top\//$script,third-party
-/\.[a-z]dyurli[a-z].top\//$script,third-party
 /\/[0-9a-f]{32}\/invoke\.js/$script,third-party
 /\/[a-z0-9]+$/$script,third-party,domain=gimy1.com|gimy.com.tw
 /\/\w{17}\//$script,~third-party,domain=xiguashuwu.com|shruxiang.com|lancaizhu.com|haitangwenxue999.com|hbhmzt.com
@@ -34437,7 +34431,6 @@ zzzyk.com###Tinfo
 ||gmoadopts.mysidiahost.com^
 ||gmodmp.jp^$third-party
 ||gmossp-sp.jp^$third-party
-||gmso1*oka.top/$script,third-party
 ||gmx.net/monitoring/
 ||gmxvmvptfm.com^$popup
 ||gnavi.co.jp/analysis/
@@ -41039,7 +41032,6 @@ zzzyk.com###Tinfo
 ||ppcwebspy.com^$third-party
 ||ppdb.pl^$third-party
 ||pphwrevr.com^$third-party
-||ppio1*ios.top/$script,third-party
 ||ppluoli.xyz^*.gif
 ||ppro.de^$third-party
 ||ppshk.com^*banner/
