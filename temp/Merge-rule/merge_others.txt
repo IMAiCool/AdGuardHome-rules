@@ -178,7 +178,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 -tracking-pixel.
 -universal-analytics/
 -wrapper-analytics-prod.cloudfunctions.net/
-.*.*.com/papi/$third-party
 .012*sop.xyz/$script,xmlhttprequest,third-party
 .1.1.1.l80.js^$third-party
 .1080.x.90.
@@ -349,11 +348,8 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .com/myjs/alljs.js
 .com/myjs/mys_alljs.js
 .com/on.js$third-party
-.com/papi/*/327/
-.com/papi/*/456/
 .com/pc/ad/
 .com/piaozi/*.js
-.com/players/*/-1/70/$script,third-party
 .com/qxads/
 .com/rmb/bofang*.js
 .com/rmb/daohang*.js
@@ -7190,6 +7186,9 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 :8888/zhu/wap_
 :8891/v*/$script,third-party
 :8898/ads_
+:900*/d/*n=$script,third-party
+:900*/d/*t=$script,third-party
+:900*/sc/*n=$script,third-party
 :9001/code/
 :9875/vh2/
 :9875/vj2/
@@ -35398,7 +35397,6 @@ zzzyk.com###Tinfo
 ||hostpowermedium.112.2o7.net^
 ||hostqfix.rospasalon.com^
 ||hostrubs.com^
-||hosts32.no-ip.biz^
 ||hostsag.com^
 ||hostsearch.com/creative/
 ||hostslick.com^$domain=fileditch.com
@@ -47789,6 +47787,7 @@ zzzyk.com###Tinfo
 ||zn46.com/images/*0x
 ||znctrack.net^$third-party
 ||znqip.net^$popup
+||zobyyog3nyah123-35769.portmap.host^
 ||zog.link^$popup
 ||zoilusdoping.top^$popup
 ||zol-img.com.cn/ad/
