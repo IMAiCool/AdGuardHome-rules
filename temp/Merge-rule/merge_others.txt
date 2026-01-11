@@ -211,6 +211,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .adriver.$~object,domain=~adriver.co
 .advert.$domain=~advert.ae|~advert.ge|~advert.io|~advert.ly|~advert.media|~advert.org.pl
 .alcmpn.com/
+.animatebookstore.com/c/$image
 .aozorabank.co.jp/r/*/open/$image
 .apk0*oo.xyz/$script,xmlhttprequest,third-party
 .app.returnpath.net/
@@ -586,6 +587,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .qpqp0*oki.com/$script,xmlhttprequest,third-party
 .qqo*llo.com/$script,xmlhttprequest,third-party
 .qsko0*mas.com/$script,xmlhttprequest,third-party
+.qualtrics.com/subscription/watermark.gif?
 .quora.com/qemail/mark_read?
 .recolution.de/tools/emails/open/$image
 .redsift.com/e/o/$image
@@ -26690,6 +26692,7 @@ zzzyk.com###Tinfo
 ||7eer.net^$third-party
 ||7flies12.de^$document
 ||7gra.us/path-tracker-js/
+||7host.com^
 ||7junshi.com/con/ad
 ||7junshi.com/static/red-envelopes.js
 ||7k7k.com/api/position/
@@ -28314,6 +28317,7 @@ zzzyk.com###Tinfo
 ||annual-gamers-choice.com^$popup
 ||annulmentequitycereals.com^$popup
 ||anoneko.com^*.*?$image
+||anonm.io^$third-party
 ||anonymised.io^$third-party
 ||anormal-tracker.de^$third-party
 ||anqu.com/b.js
@@ -29844,7 +29848,6 @@ zzzyk.com###Tinfo
 ||bqg5678.com/static/jquery.
 ||bqge9.com/static/ad01.js
 ||bqiapp.com/api/config/ad?
-||bracontabil-com-br.webap02.redehost.net^
 ||braidsmbalolo.top^$popup
 ||brainberries.co^$document
 ||brainberries.co^$popup
@@ -32951,7 +32954,6 @@ zzzyk.com###Tinfo
 ||era67hfo92w.com^$popup
 ||eralway.com^$popup
 ||erate.co.il^$third-party
-||ercc-36107.portmap.host^
 ||erdecisesgeorg.info^$popup
 ||erectile.byethost33.com^
 ||ereportz.com^$third-party
@@ -33234,7 +33236,6 @@ zzzyk.com###Tinfo
 ||faceb0ok-accont-restore.myiphost.com^
 ||facebook-singiin.myiphost.com^
 ||facebook-singin.myiphost.com^
-||facebook-supostt.myiphost.com^
 ||facebook.com*/impression.php
 ||facebook.com*/impression.php$domain=autobild.de
 ||facebook.com/a/bz?
@@ -36028,7 +36029,7 @@ zzzyk.com###Tinfo
 ||indicia.com^$third-party
 ||indieclick.com^$third-party
 ||indiegogo.com/speclayer/stdfp.js
-||indigitall.com^$third-party
+||indigitall.com/v1/browser?
 ||indiscreetarcadia.com^$popup
 ||individuad.net^$third-party
 ||indlyment-stuador.com^$document
@@ -38372,6 +38373,7 @@ zzzyk.com###Tinfo
 ||media.max.com/*/main.mpd^$domain=cnn.com
 ||media.mykodial.com^$third-party
 ||media.net^$object,script,third-party,xmlhttprequest
+||media.net^$third-party
 ||media.notthebee.com/ads/
 ||media.tickertape.in/websdk/*/ad.js
 ||media01.eu^$third-party
@@ -38558,6 +38560,7 @@ zzzyk.com###Tinfo
 ||mfasa.chase.com/auth/js/jpmc_bb_check.js
 ||mfav88.com/yinzi/
 ||mg21.com/wp-content/uploads/ad/
+||mgaru.dev^$third-party
 ||mghkpg.com^$popup
 ||mgid.com^$document
 ||mgid.com^$popup
@@ -42903,6 +42906,7 @@ zzzyk.com###Tinfo
 ||sexy.fling.com^$third-party
 ||sexybabepics.net/re/?ping
 ||sexycams.com/exports/$third-party
+||sexyfreehost.com^
 ||sexyno1.com/mk-banner/
 ||sexystat.com^$third-party
 ||seznam.cz^$ping
@@ -45535,7 +45539,6 @@ zzzyk.com###Tinfo
 ||turnstileunavailablesite.com^$popup
 ||turnto.com/event
 ||turtlemobile.com.tw^$third-party
-||tutr54756754u6-64430.portmap.host^
 ||tutti.ch/api/v10/clientmetrics/report-metric
 ||tuttocagliari.net/pixel
 ||tuttogratis.it/gopix.php?
@@ -46424,6 +46427,7 @@ zzzyk.com###Tinfo
 ||wan.sogoucdn.com/cdn/flash/$domain=~sogou.com
 ||wandhi.com/img/
 ||wandouys.com/Runtime/Js/
+||wandzcdn.com^$third-party
 ||wanfumei.net^$third-party
 ||wangbase.com/blogimg/asset/201806/bg2018060604.jpg
 ||wangjing.cn*/upload/com/
