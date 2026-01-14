@@ -11333,6 +11333,7 @@ bestbuy.com##.shop-dedicated-sponsored-carousel
 bestbuy.com##.shop-pushdown-ad
 bestbuy.com##.slContainer:has(> .sponsored)
 bestbuy.com##.spotlight-ad
+bestbuy.com##[data-testid="story-wrapper-row"] div:has(> [data-story-name="sponsored_grid"])
 bestbuy.com##li.embedded-sponsored-listing
 bestbuy.com#?#.plp-ninja-carousel:-abp-contains(Sponsored)
 bestcclm.com##.wp.cl > a
@@ -13649,7 +13650,7 @@ discuss.com.hk###gamepage_banner
 discuss.com.hk###gid_group_restricted > .gid_group_title
 discuss.com.hk##div[id^="div-gpt-ad"] + div[id]
 discuss.com.hk,uwants.com###right_column
-discussingfilm.net,goonhammer.com,joemygod.com,ryxy.online,shtfplan.com,thestrongtraveller.com,topcartoons.tv,usmagazine.com,wiki-topia.com##.widget_block
+discussingfilm.net,goonhammer.com,joemygod.com,missionlocal.org,ryxy.online,shtfplan.com,thestrongtraveller.com,topcartoons.tv,usmagazine.com,wiki-topia.com##.widget_block
 disk.yandex.by,disk.yandex.com,disk.yandex.kz,disk.yandex.ru,disk.yandex.uz,freevoipdeal.com,voipstunt.com,yadi.sk#@#.content_ads
 diskingdom.com##div[id="diski-"]
 dismall.com##.d_money
@@ -14709,6 +14710,7 @@ fiercebiotech.com##.t1-ad-slot
 fifetoday.co.uk##.iehxDO
 fijisun.com.fj##.widget-3
 fijivillage.com##[href="https://psh.com.fj/cardiac/"]
+filecrypt.cc##.butt1ns button[onclick*="loc.href='/Link/"]
 filecrypt.cc##.fiIItheadblockqueue4
 filecrypt.cc##.filItheadbIockgueue3
 filecrypt.cc,filecrypt.co##.filItheadbIockqueue3
@@ -22947,11 +22949,13 @@ target.com##[data-test="recommended_products_placement_adaptpdp_sponsored_items"
 target.com##[data-test="sponsored-text"]
 target.com##div[class^="styles__PubAd"]
 target.com#?#.ProductRecsLink-sc-4mw94v-0:-abp-has(p:-abp-contains(sponsored))
+target.com#?#.styles_ndsCarouselItem__dnUkr:-abp-has(p.h-text-sm:-abp-contains(Sponsored))
 target.com#?#[data-test="ProductCardVariantRecommendation"]:-abp-contains(Sponsored)
 target.com#?#[data-test="productCardVariantRecommendation"]:-abp-contains(Sponsored)
 target.com#?#div[class^="styles_productCardVariantMiniWrapper_"]:-abp-has(div.h-text-sm:-abp-contains(Sponsored))
 target.com#?#div[data-test="@web/ProductCard/ProductCardVariantAisle"]:-abp-contains(Sponsored)
 target.com#?#div[data-test="@web/site-top-of-funnel/ProductCardWrapper"]:-abp-contains(sponsored)
+target.com#?#div[data-test="addToCartSuccessModalRecommendationsTile"]:-abp-has(p.h-text-xs:-abp-contains(Sponsored))
 tarladalal.com###ftr_adspace
 tasfia-tarbia.org##.media-links
 tasfia-tarbia.org##.text
@@ -38045,6 +38049,7 @@ zzzyk.com###Tinfo
 ||lywww.com/data/js.php?id=
 ||lywww.com/header_pic.php
 ||lzbao.net/mtvbox.
+||lzbao.net/syster.
 ||lzep.cn/ep/sda/
 ||lzk.hl.cn/lctp/
 ||lzyysw.com/upload/
