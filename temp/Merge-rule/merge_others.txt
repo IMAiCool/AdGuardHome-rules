@@ -4636,6 +4636,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /statscounter/*
 /statscript.js
 /statsd_proxy
+/statsig-proxy/*
 /statstracker.
 /statstracker/*
 /statstracker?
@@ -5431,7 +5432,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0.0.0.0 0.0.0.0
 0.0.0.0 403.hqhost.net
 0.0.0.0 404.hqhost.net
-0.0.0.0 4a537f8276704fe3b6b61761570858560.2141976.meusitehostgator.com.br
 0.0.0.0 53.localytics.com
 0.0.0.0 aboutharrypotter.fasthost.tv
 0.0.0.0 ad.bannerhost.ru
@@ -5489,7 +5489,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0.0.0.0 err.000webhost.com
 0.0.0.0 ext.host-tracker.com
 0.0.0.0 fcklocal.online
-0.0.0.0 file142host355.cyou
 0.0.0.0 findyourlocalbusiness.com
 0.0.0.0 flirtylocal.website
 0.0.0.0 free-money.host.sk
@@ -5527,6 +5526,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0.0.0.0 hostingbudur.net
 0.0.0.0 hostingfreelife.com
 0.0.0.0 hostingprod.com
+0.0.0.0 hostingsbaratos.com
 0.0.0.0 hostpilot.online
 0.0.0.0 hostpowermedium.112.2o7.net
 0.0.0.0 hostujmy.pl
@@ -5549,6 +5549,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0.0.0.0 localmatch.cfd
 0.0.0.0 localmilfs.co
 0.0.0.0 localo.fr
+0.0.0.0 localrestaurant365.com
 0.0.0.0 localsecurity.help
 0.0.0.0 localwomen.lol
 0.0.0.0 localytics.com
@@ -5557,11 +5558,11 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0.0.0.0 meetlocalsingles.us
 0.0.0.0 merciless.localstars.com
 0.0.0.0 murbil.hostei.com
-0.0.0.0 neft-slot.host
 0.0.0.0 newyork.cbslocal.us.intellitxt.com
 0.0.0.0 nlocalhost.wordtheminer.com
 0.0.0.0 oascentral.abclocal.go.com
 0.0.0.0 omnituretrack.local.com
+0.0.0.0 oracle.cloudkanahost.biz.id
 0.0.0.0 origami.secure.ownlocal.com
 0.0.0.0 pafiilate.byethost32.com
 0.0.0.0 page-host.net
@@ -5587,7 +5588,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0.0.0.0 sleeper-sofa.dreamhoster.com
 0.0.0.0 slhk23.0101host.com
 0.0.0.0 snowplow.ownlocal.com
-0.0.0.0 ssl-host.com
 0.0.0.0 static.locallogic.co
 0.0.0.0 static.omnilocal.ai
 0.0.0.0 swfhostltd.com
@@ -5619,7 +5619,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0.0.0.0 wepromotelocal.com
 0.0.0.0 whatnothost.com
 0.0.0.0 widget.secure.ownlocal.com
-0.0.0.0 www.4a537f8276704fe3b6b61761570858560.2141976.meusitehostgator.com.br
 0.0.0.0 www.adpeepshosted.com
 0.0.0.0 www.bcloudhost.com
 0.0.0.0 www.bfy.uih.mybluehost.me
@@ -5631,7 +5630,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0.0.0.0 www.coolfreehost.com
 0.0.0.0 www.dhosting-gateway-areaclienti.majrmikswagmi.com
 0.0.0.0 www.fcklocal.online
-0.0.0.0 www.file142host355.cyou
 0.0.0.0 www.findyourlocalbusiness.com
 0.0.0.0 www.flirtylocal.website
 0.0.0.0 www.freehostservers.com
@@ -5642,6 +5640,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0.0.0.0 www.hostingbudur.net
 0.0.0.0 www.hostingcloud.science
 0.0.0.0 www.hostingfreelife.com
+0.0.0.0 www.hostingsbaratos.com
 0.0.0.0 www.hostpilot.online
 0.0.0.0 www.hostujmy.pl
 0.0.0.0 www.livelocalband.com
@@ -5650,11 +5649,11 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0.0.0.0 www.localh0st.info
 0.0.0.0 www.localmatch.cfd
 0.0.0.0 www.localmilfs.co
+0.0.0.0 www.localrestaurant365.com
 0.0.0.0 www.localsecurity.help
 0.0.0.0 www.localwomen.lol
 0.0.0.0 www.localytics.com
 0.0.0.0 www.meetlocalsingles.us
-0.0.0.0 www.neft-slot.host
 0.0.0.0 www.pafiilate.byethost32.com
 0.0.0.0 www.placelocal.com
 0.0.0.0 www.qkj.huh.mybluehost.me
@@ -31206,6 +31205,7 @@ zzzyk.com###Tinfo
 ||con-article.hjapi.com/v1/txs/
 ||concealmentmimic.com^$popup
 ||concedederaserskyline.com^$popup
+||conceptualhq.com/api/v1/track?
 ||concert.io/lookup/
 ||concord.systems^$popup
 ||conde.io/beacon
@@ -31631,6 +31631,7 @@ zzzyk.com###Tinfo
 ||cupid.iqiyi.com/show2?
 ||curalate.com^$third-party
 ||currentlyobsessed.me^$third-party
+||cursor.com/analytics/
 ||curvyalpaca.cc^$popup
 ||custom.search.yahoo.co.jp/images/window/*.gif
 ||customer.heartinternet.co.uk^$third-party
