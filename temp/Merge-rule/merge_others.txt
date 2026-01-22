@@ -7960,6 +7960,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||clerk.io/clerk.js$script,domain=trony.it
 @@||cleverpush.com/channel/$script,domain=bsdex.de|heise.de
 @@||cleverpush.com/sdk/$script,domain=heise.de
+@@||client.aps.amazon-adsystem.com/publisher.js$script,domain=thestreet.com
 @@||client.aps.amazon-adsystem.com^$script,domain=newsweek.com
 @@||clients.plex.tv/api/v2/ads/$~third-party
 @@||clj.valuecommerce.com/*/vcushion.min.js
@@ -8303,10 +8304,10 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||g.doubleclick.net/gpt/pubads_impl_$domain=accuweather.com|blastingnews.com|bloomberg.com|chelseafc.com|chromatographyonline.com|cornwalllive.com|digitaltrends.com|downdetector.com|edy.rakuten.co.jp|epaper.timesgroup.com|formularywatch.com|game.anymanager.io|games.coolgames.com|managedhealthcareexecutive.com|medicaleconomics.com|nationalreview.com|nationalworld.com|nbcsports.com|nycgo.com|physicianspractice.com|scotsman.com|telsu.fi|voici.fr|weather.com
 @@||g.doubleclick.net/pagead/ads$subdocument,domain=sudokugame.org
 @@||g.doubleclick.net/pagead/ads?*&description_url=https%3A%2F%2Fgames.wkb.jp$xmlhttprequest,domain=imasdk.googleapis.com
-@@||g.doubleclick.net/pagead/managed/js/gpt/$script,domain=adamtheautomator.com|allestoringen.be|allestoringen.nl|aussieoutages.com|canadianoutages.com|downdetector.ae|downdetector.ca|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com|downdetector.com.ar|downdetector.com.br|downdetector.dk|downdetector.es|downdetector.fi|downdetector.fr|downdetector.hk|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.no|downdetector.pl|downdetector.pt|downdetector.ru|downdetector.se|downdetector.sg|downdetector.tw|downdetector.web.tr|euronews.com|filmweb.pl|hoyme.jp|ictnews.org|journaldequebec.com|kino.de|samsclub.com|spiegel.de|thestar.co.uk|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de|yorkshirepost.co.uk
+@@||g.doubleclick.net/pagead/managed/js/gpt/$script,domain=adamtheautomator.com|allestoringen.be|allestoringen.nl|aussieoutages.com|canadianoutages.com|downdetector.ae|downdetector.ca|downdetector.co.nz|downdetector.co.uk|downdetector.co.za|downdetector.com|downdetector.com.ar|downdetector.com.br|downdetector.dk|downdetector.es|downdetector.fi|downdetector.fr|downdetector.hk|downdetector.ie|downdetector.in|downdetector.it|downdetector.jp|downdetector.mx|downdetector.no|downdetector.pl|downdetector.pt|downdetector.ru|downdetector.se|downdetector.sg|downdetector.tw|downdetector.web.tr|euronews.com|filmweb.pl|hoyme.jp|ictnews.org|journaldequebec.com|kino.de|samsclub.com|spiegel.de|thestar.co.uk|thestreet.com|xn--allestrungen-9ib.at|xn--allestrungen-9ib.ch|xn--allestrungen-9ib.de|yorkshirepost.co.uk
 @@||g.doubleclick.net/pagead/managed/js/gpt/*/pubads_impl.js$domain=blog.nicovideo.jp|laurelberninteriors.com|metropcs.mobi
 @@||g.doubleclick.net/pagead/ppub_config$domain=bloomberg.com|independent.co.uk|repretel.com|telsu.fi|weather.com
-@@||g.doubleclick.net/tag/js/gpt.js$script,xmlhttprequest,domain=accuweather.com|adamtheautomator.com|bestiefy.com|blastingnews.com|blog.nicovideo.jp|bloomberg.com|chromatographyonline.com|cornwalllive.com|devclass.com|digitaltrends.com|edy.rakuten.co.jp|epaper.timesgroup.com|euronews.com|filmweb.pl|formularywatch.com|games.coolgames.com|gearpatrol.com|hoyme.jp|journaldequebec.com|kino.de|laurelberninteriors.com|managedhealthcareexecutive.com|medicaleconomics.com|metropcs.mobi|newsweek.com|nycgo.com|olx.pl|physicianspractice.com|repretel.com|samsclub.com|spiegel.de|standard.co.uk|telsu.fi|theta.tv|weather.com|wralsportsfan.com
+@@||g.doubleclick.net/tag/js/gpt.js$script,xmlhttprequest,domain=accuweather.com|adamtheautomator.com|bestiefy.com|blastingnews.com|blog.nicovideo.jp|bloomberg.com|chromatographyonline.com|cornwalllive.com|devclass.com|digitaltrends.com|edy.rakuten.co.jp|epaper.timesgroup.com|euronews.com|filmweb.pl|formularywatch.com|games.coolgames.com|gearpatrol.com|hoyme.jp|journaldequebec.com|kino.de|laurelberninteriors.com|managedhealthcareexecutive.com|medicaleconomics.com|metropcs.mobi|newsweek.com|nycgo.com|olx.pl|physicianspractice.com|repretel.com|samsclub.com|spiegel.de|standard.co.uk|telsu.fi|thestreet.com|theta.tv|weather.com|wralsportsfan.com
 @@||g2crowd.com/uploads/product/image/$image,domain=g2.com
 @@||gakushuin.ac.jp/ad/common/$~third-party
 @@||game735.com^$generichide
@@ -11325,9 +11326,9 @@ bestcrazygames.com##.ads160600
 bestfriendsclub.ca###theme-bottom-section > .section-content
 bestfriendsclub.ca###theme-top-section > .section-content
 bestjavporn.com,javdock.com,javhdporn.net##.related-native-banner
+bestlifeonline.com,bodynetwork.com,hellogiggles.com##.widget_gm_karmaadunit_widget
 bestlifeonline.com,eatthis.com##.inline
 bestlifeonline.com,eatthis.com,hellogiggles.com##.vi-video-wrapper
-bestlifeonline.com,hellogiggles.com##.widget_gm_karmaadunit_widget
 bestlifeonline.com,zeenews.india.com##.first-ad
 bestoftelegram.com##a[href^="/ads/banner_ads?"]
 bestopview.com###pubtextnone
@@ -11706,13 +11707,13 @@ boldsky.com,mykhel.com##.removeStyleAd
 bole90.com###xy_toast_ad
 bollywoodhungama.com##.widget-advert
 bollywoodlife.com##.combinedslots
-bollywoodshaadis.com###feed-ad-1
-bollywoodshaadis.com###feed-ad-2
-bollywoodshaadis.com###feed-ad-3
 bollywoodshaadis.com##.adv_text2
 bollywoodshaadis.com##.art_ad_2
 bollywoodshaadis.com##.r_t_ad
 bollywoodshaadis.com##.wgt-continue-title
+bollywoodshaadis.com,mumsnet.com###feed-ad-1
+bollywoodshaadis.com,mumsnet.com###feed-ad-2
+bollywoodshaadis.com,mumsnet.com###feed-ad-3
 bolnews.com##.adsheading
 bolnews.com##.adspadding
 bolnews.com#?#[style*="center"]:-abp-contains(Ad)
@@ -13133,6 +13134,10 @@ cssmoban.com##.page-banner
 csst.at##.max-h-48
 csstats.gg###faceit-banner
 ctanet.cn##a[href*="/GoTo.asp?ID="] > img
+ctbids.com##.home-bottom-ad-container
+ctbids.com##.home-header-ad
+ctbids.com##.home-incontent-ad
+ctbids.com##.home-incontent-ad-2
 ctfile.com##.speedydown-info-box
 ctfile.com##a[href*=".henghost.com"]
 ctinsider.com##.md\:block.y100
@@ -19283,6 +19288,7 @@ mumayi.com##.h80
 mumbrella.com.au##.bannerSide
 mumbrella.com.au##.featureBanner
 mumsnet.com##.lg\:w-billboard
+mumsnet.com##.min-h-\[360px\]
 mumu.163.com##.pic-con
 muscleandfitness.com##.ami-video-placeholder
 musescore.com###ad_cs_12219747_300_250
@@ -24522,6 +24528,7 @@ weebly.com##a[href^="https://www.ebay.com"]
 weekender.com.sg###text-17
 weescorts.com##.bulletinwp-bulletins
 wegotads.co.za#@#.ad-source
+wegotthiscovered.com##.wp-block-gamurs-ad
 weibo.com###pl_common_ali
 weibo.com##.UG_bn_a
 weibo.com##.tag_showTopicL[href^="https://shop.sc.weibo.com/"]
@@ -34748,6 +34755,7 @@ zzzyk.com###Tinfo
 ||gucheng.com/2016/ggimg/
 ||gucheng.com/gcwad/
 ||gucucmaikaups.com^$popup
+||gueshostwelcome.com^
 ||guesswhatnews.com^$popup
 ||guhai.com.cn/AD/
 ||guidance.ghost.io^
@@ -35341,6 +35349,7 @@ zzzyk.com###Tinfo
 ||hosteriamarysol.com^
 ||hosterphobic.duckdns.org^
 ||hostfaze.com^
+||hostfitter.com^
 ||hostgrater.com^
 ||hostify.fr^
 ||hostikslu.is^
