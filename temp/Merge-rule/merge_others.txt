@@ -9554,6 +9554,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||upxin.net^$generichide
 @@||urlgalleries.net^$generichide
 @@||useinsider.com/ins.js$domain=pizzahut.jp
+@@||user.edenredplus.com/assets/packages/mixpanel_flutter/assets/mixpanel.js$script,~third-party
 @@||user.userguiding.com/sdk/identify$xmlhttprequest,domain=xaris.ai
 @@||userapi.com^*.gif?extra=$image,domain=vk.com
 @@||userload.co/adpopup.js$script
@@ -13252,6 +13253,7 @@ daijiworld.com##.ipRightAdvt
 daijiworld.com##[href="http://www.expertclasses.org/"]
 daijiworld.com##[href="https://sjec.ac.in/"]
 dailiantong.com##.appDwn
+dailijichang.com,qv2ray.org##.elementor-sticky--active[data-settings*="bottom"]
 daily-choices.com##[id^="sticky_"]
 dailyboulder.com###mvp-post-bot-ad
 dailycaller.com###dailycaller_incontent_1
@@ -19962,6 +19964,7 @@ nytimes.com##.css-wmyc1
 nytimes.com##.e1xxpj0j1.css-4vtjtj
 nytimes.com##.g-paid
 nytimes.com##[class]:has(> [id="ad-top"])
+nytimes.com##[data-ad-element="outer_ad_container"]
 nytimes.com##[data-testid="StandardAd"]
 nzbindex.com##.inner
 nzbstars.com##a[href^="https://signup.usenetbucket.com/"]
@@ -23989,7 +23992,6 @@ uncrate.com##[href="https://un.cr/advertise"]
 underhentai.net##.hp-float-skb
 underhentai.net##div[class*="afi-"]
 unikoshardware.com##.elementor-image > a[href^="https://bit.ly/"]
-unikoshardware.com##.elementor-popup-modal
 unilad.com##.jw-player_container__wuaGn
 uniladtech.com##[class^="advert-placeholder_advertPlaceholder"]
 union.58.com#@##advertise
@@ -27409,7 +27411,6 @@ zzzyk.com###Tinfo
 ||adshost.com^
 ||adshost1.com^
 ||adshost2.com^
-||adshostnet.com^
 ||adshostnet.com^$popup
 ||adshot.de^$third-party
 ||adsiduous.com^$third-party
@@ -27684,6 +27685,8 @@ zzzyk.com###Tinfo
 ||affstreck.com^$document
 ||affstreck.com^$popup
 ||afftrack.pro^$third-party
+||affxc.com/topbanner-
+||affxc.com^*-792-180.
 ||affyun.com/wp-content/uploads/*-ad.
 ||affyun.com/wp-content/uploads/*/ad-
 ||affyun.com/wp-content/uploads/*/affffff.png
@@ -28038,7 +28041,6 @@ zzzyk.com###Tinfo
 ||almstda.tv^$popup
 ||aloatchuraimti.net^$popup
 ||alocdn.com^$third-party
-||alopmigano.cloudaccess.host^
 ||alowbowsohef.com^$popup
 ||alpenridge.top^$popup
 ||alpha-affiliates.com^$third-party
@@ -32769,6 +32771,7 @@ zzzyk.com###Tinfo
 ||ekmpinpoint.co.uk^$third-party
 ||ekmpinpoint.com^$third-party
 ||eksiup.com^$third-party
+||ekx.pxv.mybluehost.me^
 ||ela-3-tnk.com^$third-party
 ||eland-tech.com^$third-party
 ||elastx.net^$third-party
@@ -32810,6 +32813,7 @@ zzzyk.com###Tinfo
 ||embed.sendtonews.com^$third-party,domain=~shmoop.com
 ||embeddedanalytics.com^$third-party
 ||embedme.top/embed/extra
+||embedsports.top/ad.html
 ||embratonhost.com.br.slojas.com.br^
 ||embratonhost.com.br^
 ||emediatrack.com^$third-party
@@ -34836,7 +34840,6 @@ zzzyk.com###Tinfo
 ||haes.tech/js/script_
 ||hagech.com^$document
 ||hahamx.cn/images/banner/
-||hahhahahdauh-46698.portmap.host^
 ||haishuxs.com/js/
 ||haiwainet.cn*/k.js
 ||haiwaiyy.com/B970X90.gif
@@ -34902,7 +34905,6 @@ zzzyk.com###Tinfo
 ||hardcoreluv.com/hmt.gif
 ||hariken.co^$third-party
 ||harmo-woe.com^$document
-||harpygt-37577.portmap.host^
 ||harrowliquid.com^$popup
 ||harryrosen.com/analytics/
 ||hartgeld.com/cgi-sys/Count.cgi?
@@ -35369,7 +35371,6 @@ zzzyk.com###Tinfo
 ||hostify.fr^
 ||hostikslu.is^
 ||hostileconductive.com^
-||hosting-concepts.gl.at.ply.gg^
 ||hosting.sproutbuilder.com^
 ||hosting.tempors.com^
 ||hosting24.com/images/banners/$third-party
@@ -35402,7 +35403,6 @@ zzzyk.com###Tinfo
 ||hostphpwindowsapps.ydns.eu^
 ||hostphpwindowsdriversappsos.duckdns.org^
 ||hostphpwindowsdriversappssi.duckdns.org.duckdns.org^
-||hostphpwindowsdriversappssi.duckdns.org^
 ||hostpowermedium.112.2o7.net^
 ||hostrubs.com^
 ||hostsag.com^
@@ -38961,7 +38961,6 @@ zzzyk.com###Tinfo
 ||msgsndr.com/funnel/event
 ||msgtag.com^$third-party
 ||mshcdn.com/assets/metrics-
-||mslog5-57647.portmap.host^
 ||msn.com/OneCollector/
 ||msn.com/collect/
 ||msn.ynet.com/c/tj_comm.js
@@ -39459,6 +39458,7 @@ zzzyk.com###Tinfo
 ||newser.com/utility.aspx?
 ||newsforyourmood.com^$popup
 ||newsfrompluto.com^$popup
+||newshinyd.com/tracking/click.gif
 ||newsignites.com^$popup
 ||newsiqra.com^$subdocument,third-party
 ||newsletters.nationalgeographic.com^$image,third-party
@@ -40768,7 +40768,6 @@ zzzyk.com###Tinfo
 ||pixlee.com/assets/pixlee_events.js
 ||pixlr.com/dad/
 ||pixlr.com/fad/
-||piyeno-52807.portmap.host^
 ||pjatr.com^$image,script
 ||pjatr.com^$third-party
 ||pjcn.org^$third-party
@@ -41147,7 +41146,6 @@ zzzyk.com###Tinfo
 ||prf.hn^$third-party
 ||prfwhite.com^$document
 ||prfwhite.com^$popup
-||prglocal.com^
 ||price.com.hk/dfp_price.php?
 ||price.com.hk/ec-discuss-widget.php
 ||price.com.hk/scripts/ysm.js
@@ -41994,7 +41992,6 @@ zzzyk.com###Tinfo
 ||redditstatic.com/accountmanager/sentry.
 ||redditstatic.com/ads/pixel.js
 ||redditstatic.com/shreddit/sentry-
-||redelephanthosting.com^
 ||redfast.com/ping/
 ||redfastlabs.com^$third-party
 ||redfin.com/rift?
@@ -44060,7 +44057,6 @@ zzzyk.com###Tinfo
 ||statuncore.com^$third-party
 ||stawhoph.com^$popup
 ||stay22.com/api/sponsors/
-||stayaslocal.com^
 ||stayforlong.com/api/kafka/tracking
 ||staysafeonlinetoday.com^$document
 ||stayz.com.au/cl/data/omgpixel.json
@@ -44349,7 +44345,6 @@ zzzyk.com###Tinfo
 ||svc.dynamics.com/t/v/$third-party
 ||svc.dynamics.com/t/w$third-party
 ||svchost1.linkpc.net^
-||svhost56.duckdns.org^
 ||svhosted.duckdns.org^
 ||svhostwp.duckdns.org^
 ||sviluppo.host^
