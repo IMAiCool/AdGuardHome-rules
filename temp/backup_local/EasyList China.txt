@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: p901w3EEqxnUiwDJn2Z1lg
-! Version: 202601260802
+! Checksum: TV16lM1ImSxnZ0kDYt4cFg
+! Version: 202601270022
 ! Title: EasyList China
-! Last modified: 26 Jan 2026 08:02 UTC
+! Last modified: 27 Jan 2026 00:22 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1746,7 +1746,6 @@ newduba.cn###jq_youxi
 ##.home-qf > div[class*="img-ad"]
 ##.module-player > .dds_w
 ##.content > .dds_w
-##.elementor-popup-modal
 ###interstitial_fade[style^="display: block"]
 ##body > div.container[style="margin-bottom: 10px;"] > script:first-child ~ div[style="height:60px;width:100%;"]
 ##a[href="https://t.me/bokaiyunwujiankaiyun"]
@@ -1775,6 +1774,12 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||lp780937a.com^
+||gsk801270hh.com^
+||i5qquywfz.com^
+||wm0qv5zg3.com^
+||wtreqnine.com^
+||seaquake54.com^
 ||nb4ds7c13d.com^
 ||rzjdsm7tgz.com^
 ||twa735xojg.com^
@@ -1787,6 +1792,11 @@ newduba.cn###jq_youxi
 ||imjll5rwuq.com^
 ||o0rnzwzst5.com^
 ||gsk801261hh.com^
+||3dle4u60y7.com^
+||sqmn4wncty.com^
+||ulny.cn^
+||tluutoido.com^
+||pugzutzi.com^
 ||7ryx7ph5y.com^
 ||acqephvfx.com^
 ||m5uiy5gd1.com^
@@ -10782,6 +10792,7 @@ meijutt.*/js/pcjs/
 ||affxc.com/topbanner-
 !------------------------Specific element hiding rules------------------------!
 zhihu.com##.Pc-word-new
+dailijichang.com,qv2ray.org##.elementor-popup-modal
 dailijichang.com,qv2ray.org##.elementor-sticky--active[data-settings*="bottom"]
 supercloudsms.com##.container > img
 muinz.top##.module
