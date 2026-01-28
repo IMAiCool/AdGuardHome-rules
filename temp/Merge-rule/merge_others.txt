@@ -1785,6 +1785,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /awstats_misc_tracker
 /azion-pulse.js
 /aztracker.js
+/azzas-tracker-web@
 /b.banners.impress.
 /b.gif?
 /b.k3r.jp/?a=$image
@@ -2773,6 +2774,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /ggtp/*
 /ggvip/*.js
 /gh/91porny/*
+/ghost-stats.min.js
 /gigyaGAIntegration.js
 /gingeranalytics.min.js
 /github.com/notifications/beacon=$image
@@ -3297,6 +3299,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /load_analytics.php
 /loader-wp/static/loader.min.js?
 /loader/counter.js
+/loaders/analyticsScript.ts?
 /localga.js
 /locotrack.js
 /log-adblock.php?
@@ -3445,6 +3448,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /matomo_video_tracking.js
 /matongwu/img/gg_
 /maven/am.js$script
+/mc4wp-premium/ecommerce3/assets/js/tracker.js
 /mcookie.aspx
 /mcount.cgi?
 /measure/pixel/*
@@ -3897,13 +3901,17 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /pjk/static/tp.php
 /pjk/xjk/*.php
 /planetstat.php
+/plausible.file-downloads.js
 /plausible.js$domain=~plausible.io
 /plausible.manual.js
 /plausible.outbound-links.js$domain=~plausible.io
+/plausible.tagged-events.js
 /player-test-impression?
 /player/ads/*$~xmlhttprequest
 /player/stats.php?
+/player/video.js/videojs-vast-vpaid/*
 /plg_adbutlerads/*$script,stylesheet
+/plg_convertformstools_gatracker/js/script.js
 /plog?id
 /plow.lite.js
 /plugin.php?id=popad_7ree&
@@ -3975,6 +3983,8 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /popupads.js$script
 /porpoiseant/*$script
 /portalwlanad/pages/*$popup
+/post-views-counter-pro/js/crawler-detect.js
+/post-views-counter-pro/js/frontend.js
 /post.pinterest.com/q/*$image
 /postcounter.php?
 /postlog?
@@ -4273,9 +4283,8 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /scr/wtixyd.js
 /screencount?vcid=
 /scribd_events?
-/script.hash.outbound-links.pageview-props.tagged-events.js
+/script.outbound-links.js
 /script.tagged-events.js
-/script.tagged-events.outbound-links.js
 /script/aclib.js$third-party
 /script/antd.js$third-party
 /script/app_settings.js$third-party
@@ -5204,6 +5213,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /web-pixel-shopify-app-pixel@
 /web-pixel-shopify-custom-pixel@
 /web-vitals-analytics.js
+/web-vitals.iife.js
 /web/ad/*$domain=gamer.com.tw
 /web/ads/*$image
 /web/push?
@@ -17042,7 +17052,6 @@ insauga.com##.proper-content-dynamic
 insidebitcoins.com##.banner-cta-wrapper
 insideevs.com##.m1-apb
 insideevs.com##.minutely_video_wrap
-insideevs.com#@#.m1-header-ad
 insideevs.com,motor1.com##.apb
 insideevs.com,motor1.com##.outstream_partner
 insidehighered.com###block-dfptagarticle-sidebar-bottom
@@ -30318,6 +30327,7 @@ zzzyk.com###Tinfo
 ||cdn.optmd.com^$popup
 ||cdn.shdsp.net/ad
 ||cdn.shopify.com^*/assets/spreadrwidget.js$domain=jolinne.com
+||cdn.sinparty.com/site/banner.html
 ||cdn.skypack.dev/uuid
 ||cdn.sourcesync.io/open-pixel/source-pixel.js
 ||cdn.sphlabs.com/suid/
@@ -33888,6 +33898,7 @@ zzzyk.com###Tinfo
 ||fuckyoucash.com^$third-party
 ||fudge.ai/metrics?
 ||fudukrujoa.com^$popup
+||fuel-design.com/js/script.js
 ||fuelbuck.com^$third-party
 ||fueldeck.com^$third-party
 ||fuelx.com^$third-party
@@ -35035,6 +35046,7 @@ zzzyk.com###Tinfo
 ||hellporno.com/_a_xb/
 ||hellporno.com^$subdocument,~third-party
 ||helmethomicidal.com^$popup
+||helpmonks.com/cftag/
 ||helpnetsecurity.com/wp-admin/admin-ajax.php
 ||helpshift.com/events/
 ||hemnes.win^$third-party
@@ -36792,6 +36804,7 @@ zzzyk.com###Tinfo
 ||js-check.com^$popup
 ||js-delivr.com^$third-party
 ||js.cdn.applicationinsights.io/scripts/b/ai.3.gbl.min.js
+||js.clickrank.ai^$third-party
 ||js.dsp.bance.jp/bncdmp.js
 ||js.ea3w.com/pv.js
 ||js.go2sdk.com/v2/tune.js
@@ -37195,6 +37208,7 @@ zzzyk.com###Tinfo
 ||koyso.com/static/js/abcd.
 ||kppt.cc/zb_system/script/common.js
 ||kppt.cc/zhifu.jpg
+||krast-30188.portmap.host^
 ||krjxhvyyzp.com^$popup
 ||kroger.com/clickstream/
 ||kstrk.com^$document
@@ -40036,6 +40050,7 @@ zzzyk.com###Tinfo
 ||online-metrix.net^$third-party
 ||online-umwandeln.de/analytics.js
 ||online.*/promoredirect?key=
+||online.marketing/a.js
 ||onlinecashmethod.com^$popup
 ||onlinedeltazone.online^$popup
 ||onlinefinanceworld.com^$popup
@@ -40526,6 +40541,7 @@ zzzyk.com###Tinfo
 ||pcvideoyf.titan.mgtv.com/pb/*.mp4
 ||pdbu.net^$third-party
 ||pdfbook.cn/wp-content/uploads/2017/11/049.jpg
+||pdfcrowd.com/static/3rd/js/fpr.js
 ||pdffiller.com/api_v3/experiment/
 ||pdffiller.com/api_v3/uploader/stats
 ||pdffiller.com/click-stream/
@@ -40563,6 +40579,7 @@ zzzyk.com###Tinfo
 ||pengtu.cc^*.png
 ||pengwei168.com/addons/321.gif
 ||pengwei168.com/template/stui_tpl/html/vod/f.js
+||penidi8413-47021.portmap.host^
 ||pennynetwork.com^$third-party
 ||penton.com/analytics/
 ||penuma.com^$third-party
@@ -41208,7 +41225,6 @@ zzzyk.com###Tinfo
 ||private.com/banner/
 ||private4.com^$third-party
 ||privatedqualizebrui.info^$popup
-||privateinternetaccess.com^$script,third-party,xmlhttprequest
 ||privatejetfinder.com/skins/partners/$third-party
 ||privateseiten.net^$third-party
 ||privatewebseiten.com^$third-party
@@ -42585,6 +42601,7 @@ zzzyk.com###Tinfo
 ||salidzini.lv^*/logo_button.gif?$third-party
 ||saltpairwoo.live^$popup
 ||salvador24.com^$third-party
+||salvalaselva.org/plsbl/js
 ||samage-bility.icu^$popup
 ||samba.org/banners/$image
 ||sambaads.com^$third-party
@@ -43394,6 +43411,7 @@ zzzyk.com###Tinfo
 ||slashdot.org/images/js.gif
 ||slashstar.net^$popup
 ||slatecharm.co^$popup
+||slayieure-62635.portmap.host^
 ||slcuse.com^$document
 ||slcuse.com^$popup
 ||sleazyneasy.com/contents/images-banners/
@@ -46479,6 +46497,7 @@ zzzyk.com###Tinfo
 ||vps-41077.vps-default-host.net^
 ||vps122880.inmotionhosting.com^
 ||vps234.com/resources/images/hosting-promotion/
+||vpsbenchmarks.com/plausible.vpsb.js
 ||vq4b0q.fun^$popup
 ||vrbo.com/edap/elo/v1/event/beacon
 ||vrbo.com/serp/api/metrics
