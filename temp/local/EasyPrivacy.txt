@@ -3852,6 +3852,7 @@ omni.soundestlink.com$image
 ||24counter.com^$third-party
 ||24log.com^$third-party
 ||2o7.net^$third-party
+||2trk.info^$third-party
 ||360i.com^$third-party
 ||360tag.com^$third-party
 ||360tag.net^$third-party
@@ -5499,6 +5500,7 @@ omni.soundestlink.com$image
 ||prchecker.info^$third-party
 ||prebidmanager.com^$third-party
 ||precisioncounter.com^$third-party
+||preciso.net^$third-party
 ||predicta.net^$third-party
 ||predictiveresponse.net^$third-party
 ||preflect.com^$third-party
@@ -7627,6 +7629,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ab.dns-finder.com^
 ||accesswire.com/img.ashx
 ||accounts.google.com/gsi/log
+||acds-events.adobe.io^
 ||activengage.com/overwatch/
 ||activity-flow.vtex.com^
 ||activity.wisepops.com^
@@ -8175,7 +8178,6 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||cdn.super.com/remote-event-registry.json
 ||cdn.tds.bid/bid.js
 ||cdn.tolt.io/tolt.js
-||cdn.transifex.com/live.js
 ||cdn.usefathom.com^
 ||cdn.zg-api.com^*/analytics.js
 ||cdnjs.work/metrics.js
@@ -14227,7 +14229,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 /yozons-lib/*
 $csp=child-src 'none'; frame-src 'self' *; worker-src 'none',domain=fileone.tv|theappguruz.com
 $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vidoza.net
-||gyrovague.com^$domain=archive.fo|archive.is|archive.li|archive.md|archive.ph|archive.today|archive.vn
+||gyrovague.com^$domain=archive.fo|archive.is|archive.li|archive.md|archive.ph|archive.today|archive.vn|btdig.com
 ||alaskaair.com/AlXMT4Ma/init.js
 ||anthropologie.com/XgWM9nuH/init.js
 ||apartmenttherapy.com/jAYekY18/init.js
