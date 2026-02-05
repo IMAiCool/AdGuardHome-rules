@@ -10809,6 +10809,7 @@ autotrader.co.uk##li[class]:has(span[data-testid="FEATURED_LISTING"])
 autotrader.co.uk##li[class]:has(span[data-testid="PROMOTED_LISTING"])
 autotrader.co.uk#?#[data-testid="desktop-search"] li:has(span:has-text(Ad))
 autotrader.com##.col-xs-12.col-sm-4:has([data-cmp="inventorySpotlightListing"])
+autotrader.com##.hero-ad-bar
 autotrader.com##[data-cmp="alphaShowcase"]
 autotrader.com#?#.inventory-listing:-abp-contains(Sponsored)
 autotrader.com#?#[data-cmp="PremiumSpotlightContainer"]:-abp-contains(Sponsored)
@@ -12087,6 +12088,7 @@ cargurus.com##._desktopBottomAdWrapper_1w6f5_29
 cargurus.com##._desktopLeaderboardAdWrapper_1w6f5_27
 cargurus.com##._srpInlineAd_9nssm_5
 cargurus.com##._tileFrame_1bakq_8:has(p[data-testid="sponsored-text"])
+cargurus.com##[class*="tileFrame"]:has([data-testid="sponsored-text"])
 cari.com.my##a[href="http://banner.cari.com.my/daybanner/?page=promotion"]
 caribpress.com###top_banner_container
 carmag.co.za###sidebar-primary
@@ -22585,6 +22587,7 @@ standardmedia.co.ke##.my-2
 staples.com##.SearchRootUX2__bannerAndSkuContainer
 staples.com##div[class^="sku-configurator__banner"]:has([aria-label="Sponsored Products"])
 staples.com#?#.side-by-side-carousel__carousel_container:-abp-contains(Sponsored Products)
+staples.com#?#.sku-configurator__skuOffsetCarouselNew:-abp-has(span:-abp-contains(Sponsored products:))
 star-history.com##.fixed.right-0
 staradvertiser.com##.csMon
 starbaby.cn###top_ad_show
@@ -23514,8 +23517,8 @@ timesofindia.indiatimes.com##.relatedVideoWrapper
 timesofindia.indiatimes.com##.topBand_adwrapper
 timesofindia.indiatimes.com##[class]:has(> .wdt-taboola)
 timesofindia.indiatimes.com##[data-sp-click="stpPgtn(event)"]
-timesofindia.indiatimes.com##[data-type="in_view"]:has-text(Tired of too many ads?)
 timesofindia.indiatimes.com##[onclick="stpPgtn(event)"]
+timesofindia.indiatimes.com##div[data-type="in_view"]:has(> div > span:has-text(Tired of too many ads?))
 timesofisrael.com##.banner-placeholder
 timesofisrael.com##.idfwo-widget-wrapper
 timesofisrael.com##.sellwild-label
@@ -27397,7 +27400,6 @@ zzzyk.com###Tinfo
 ||adsfast.com^$third-party
 ||adsforallmedia.com^$third-party
 ||adshnk.com^$third-party
-||adshost.com^
 ||adshost1.com^
 ||adshost2.com^
 ||adshostnet.com^
@@ -29217,7 +29219,6 @@ zzzyk.com###Tinfo
 ||beforeitsnews.com/img/banner_
 ||begin-started.ghost.io^
 ||beginapps.ghost.io^
-||beginsite.ghost.io^
 ||begun.ru^$third-party
 ||behance.net/log
 ||behance.net/v2/logs
@@ -31157,6 +31158,7 @@ zzzyk.com###Tinfo
 ||connatix.com/tr/
 ||connatix.com/us/google/
 ||connatix.com^$third-party,domain=~accuweather.com|~businessinsider.de|~bz-berlin.de|~cheddar.tv|~deadline.com|~elnuevoherald.com|~finanzen.net|~fitbook.de|~heraldsun.com|~hollywoodreporter.com|~huffpost.com|~lmaoden.tv|~loot.tv|~miamiherald.com|~myhomebook.de|~olhardigital.com.br|~petbook.de|~sacbee.com|~stylebook.de|~techbook.de|~travelbook.de|~welt.de
+||connect-gethome.ghost.io^
 ||connect-started.ghost.io^
 ||connect.airfrance.com/ach/api/event^
 ||connect.bolt.com/v1/log
@@ -31164,6 +31166,7 @@ zzzyk.com###Tinfo
 ||connect.facebook.net^*/fbds.js$third-party
 ||connect.facebook.net^*/pcm.js$third-party
 ||connecteam.com/bi/api/ReportHit/
+||connecthome.ghost.io^
 ||connectif.cloud^$third-party
 ||connectweb-en.ghost.io^
 ||connexity.net^$popup
@@ -32828,6 +32831,7 @@ zzzyk.com###Tinfo
 ||emotomalf.com^$popup
 ||empflix.com/mew.php
 ||empowerlocal.co^
+||empresasjuridica.kinghost.net^
 ||emumuendaku.info^$popup
 ||en-learnpage.ghost.io^
 ||en-publicstarts.ghost.io^
@@ -33252,6 +33256,7 @@ zzzyk.com###Tinfo
 ||faceporn.com^$third-party
 ||facetz.net^$third-party
 ||facil-iti.com^$third-party
+||facilidadesparaempresas.kinghost.net^
 ||fackeyess.com^$popup
 ||factors.ai/sdk/event/
 ||fadssystems.com^$popup
@@ -33830,6 +33835,8 @@ zzzyk.com###Tinfo
 ||frontendjs.com/api/ad
 ||fronthlpr.com^$popup
 ||frontlineshop.com/ev/co/frontline?*&uid=
+||frontsconexaonet.kinghost.net^
+||frontsnetconexao.kinghost.net^
 ||froomle.com^$third-party
 ||frprn.com/even/ok.js
 ||frs2c.com^$popup
@@ -35262,8 +35269,10 @@ zzzyk.com###Tinfo
 ||holyfamilyradio.org/banners/
 ||home-begin.ghost.io^
 ||home-connect.ghost.io^
+||home-connected.ghost.io^
 ||home-learn.ghost.io^
 ||home-official.ghost.io^
+||home-profile.ghost.io^
 ||home-started.ghost.io^
 ||home-xxx-videos.com/snowy-
 ||homedepot-static.com/data-collection/
@@ -35362,6 +35371,7 @@ zzzyk.com###Tinfo
 ||host647309.stronawcal.pl^
 ||host72x.cfd^
 ||hostadsmarkets.com^
+||hostalamengual.cl^
 ||hostave.net^
 ||hostave2.net^
 ||hostave2.net^$third-party
@@ -35382,6 +35392,7 @@ zzzyk.com###Tinfo
 ||hosted.stats.com.edgesuite.net^
 ||hostedads.realitykings.com^
 ||hostedfiles.net^
+||hostedhq.net^
 ||hostedmovieupdates.aebn.net^$domain=datingpornstar.com
 ||hostedpictureservices.com^
 ||hosteds-mx.com^
@@ -36560,7 +36571,6 @@ zzzyk.com###Tinfo
 ||izhevskinfo.ru/count/
 ||izimuves.com^$document
 ||izinal.com/log
-||izm.utb.mybluehost.me^
 ||izooto.com^$third-party
 ||iztwp.com/images/
 ||j8jp.com/fhfjfj.js
@@ -37066,6 +37076,7 @@ zzzyk.com###Tinfo
 ||kerumal.com^$popup
 ||ketheappyrin.com^$popup
 ||kettakihome.com^$popup
+||kevfox8.dreamhosters.com^
 ||kewaishu.org/m-
 ||key8.com/cache/www/banner_
 ||keyade.com^$third-party
@@ -37497,11 +37508,13 @@ zzzyk.com###Tinfo
 ||lesmeilleurs-jeux.net/images/ban/
 ||lespagesjaunesafrique.com/bandeaux/
 ||lessemf.com/images/banner-
+||let-getstarted.ghost.io^
 ||letitnews.com^$popup
 ||letitredir.com^$popup
 ||letour.fr/img/dyn/partners/
 ||letreach.com^$third-party
 ||letro.jp^$third-party
+||lets-getstarted.ghost.io^
 ||letsbegin.online^$popup
 ||letsdoeit.com/tracking/
 ||letshareus.com^$popup
@@ -40474,6 +40487,7 @@ zzzyk.com###Tinfo
 ||passeura.com^$popup
 ||passfixx.com^$popup
 ||passtechusa.com^$popup
+||pastasnetempresarial.kinghost.net^
 ||pastemagazine.com/common/js/ads-
 ||pastemytxt.com/download_ad.jpg
 ||pasxfixs.com^$popup
@@ -41110,6 +41124,7 @@ zzzyk.com###Tinfo
 ||portfolio-started.ghost.io^
 ||ports.co.za/banners/
 ||porzo.com/js/analytics
+||posalecloudhost.com^
 ||poshalim.
 ||poshmark.com/trck/
 ||positivehealth.com/img/original/BannerAvatar/
@@ -41230,6 +41245,7 @@ zzzyk.com###Tinfo
 ||prime-vpnet.com^$popup
 ||prime.rambler.ru^$~script
 ||primedia.co.za/analytics/
+||primeiroacessor.kinghost.net^
 ||primer.typekit.net^$xmlhttprequest
 ||primis-amp.tech^$third-party
 ||princesinistervirus.com^$popup
@@ -43889,7 +43905,6 @@ zzzyk.com###Tinfo
 ||srpx.net^$third-party
 ||srtrak.com^$popup
 ||srv246059.hoster-test.ru^
-||srv246302.hoster-test.ru^
 ||srv246308.hoster-test.ru^
 ||srv246384.hoster-test.ru^
 ||srv246436.hoster-test.ru^
@@ -45421,6 +45436,7 @@ zzzyk.com###Tinfo
 ||trackword.biz^$third-party
 ||trackyourstats.com^$third-party
 ||tracot.com^$popup
+||traction.technologyadvice.com^$third-party
 ||tradablebits.com/pixels/
 ||tradeadexchange.com^$popup
 ||tradedoubler.com^$third-party
@@ -46047,7 +46063,6 @@ zzzyk.com###Tinfo
 ||urstats.de^$third-party
 ||urtyert.com^$popup
 ||us-webstarted.ghost.io^
-||us2.bot-hosting.net^
 ||usa.cc^$third-party
 ||usabilitytools.com^$third-party
 ||usabilla.com^$third-party
@@ -46074,7 +46089,6 @@ zzzyk.com###Tinfo
 ||userconnect.ghost.io^
 ||usercycle.com^$third-party
 ||userdive.com^$third-party
-||userhelp.ghost.io^
 ||userhome.ghost.io^
 ||userlook.com^$third-party
 ||usermaven.com^$third-party
@@ -46823,7 +46837,6 @@ zzzyk.com###Tinfo
 ||webpushs.com^$third-party
 ||webreseau.com/impression.asp?
 ||websanalytic.com^$third-party
-||websection.ghost.io^
 ||websecurity.norton.com^$third-party
 ||webseed.com/WP/
 ||webserviceaward.com^$third-party
@@ -46859,7 +46872,6 @@ zzzyk.com###Tinfo
 ||webtalking.ru^$third-party
 ||webtemsilcisi.com^$third-party
 ||webtrack.biz^$third-party
-||webtrack.ghost.io^
 ||webtrack.savoysystems.co.uk^$third-party
 ||webtrackerplus.com^$popup
 ||webtrackingservices.com^$third-party
@@ -47857,7 +47869,6 @@ zzzyk.com###Tinfo
 ||zalando-lounge.*/api/tracking/
 ||zalando-prive.*/api/tracking/
 ||zalo.me/v3/w/_zaf.gif
-||zamanaudifoukssyass.cloudaccess.host^
 ||zampda.net^$third-party
 ||zanghaihua.org/js/
 ||zanox-affiliate.de/ppv/$third-party
