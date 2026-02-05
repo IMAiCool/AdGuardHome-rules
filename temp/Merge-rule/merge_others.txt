@@ -11334,6 +11334,7 @@ bestbuy.com##.spotlight-ad
 bestbuy.com##[data-testid="story-wrapper-row"] div:has(> [data-story-name="sponsored_grid"])
 bestbuy.com##li.embedded-sponsored-listing
 bestbuy.com#?#.plp-ninja-carousel:-abp-contains(Sponsored)
+bestbuy.com#?#div[data-testid="Row_testID"]:-abp-has(span:-abp-contains(Sponsored))
 bestcclm.com##.wp.cl > a
 bestcrazygames.com##.ads160600
 bestfriendsclub.ca###theme-bottom-section > .section-content
@@ -17944,6 +17945,7 @@ kogan.com#?#.rs-infinite-scroll > div:-abp-contains(Sponsored)
 kogan.com#?#.slider-slide:-abp-contains(Sponsored)
 kohls.com###PDP_monetization_HL
 kohls.com###PMP_monetization_HL
+kohls.com###kmn-featured-carousel
 kohls.com###kmncarousel-add_buy_carousel-anchor:has(.KMNProductSlider__sponsored)
 kohls.com###kmnsponsoredbrand-sponsored_top-anchor
 kohls.com###open-drawer
@@ -23945,6 +23947,7 @@ ukrinform.de,ukrinform.es,ukrinform.fr,ukrinform.jp,ukrinform.net,ukrinform.pl,u
 ukutabs.com###howtoreadbutton
 ukutabs.com##.wpb_raw_html
 ulta.com##.CriteoProductRail
+ulta.com##li.ProductListingResults__productCard:has(.pal-c-ProductCardFooter__sponsored)
 ulta.com#?#li.ProductListingResults__productCard:has(.ProductCard__badge:-abp-contains(Sponsored))
 ultimate-guitar.com##.SiteWideBanner
 ultimate-guitar.com##.js-ab-regular
@@ -28699,6 +28702,7 @@ zzzyk.com###Tinfo
 ||austeemsa.com^$popup
 ||auth.services.adobe.com/signin/v1/audit
 ||authedwebmine.cz^$third-party,domain=~webmine.cz
+||authhardware.ghost.io^
 ||authognu.com^$popup
 ||authorinsights.com^$third-party
 ||authstarted.ghost.io^
@@ -29029,7 +29033,6 @@ zzzyk.com###Tinfo
 ||banma.com/get_ad/
 ||banma.com/js/adi.js
 ||banma.com/statics/scripts/common/dialogAdJs.js
-||banner-zionsprod.d3hosted.com.cdn.cloudflare.net^
 ||banner.hosteurope.de^
 ||bannerbank.ru^$third-party
 ||bannerboo.com^$third-party
@@ -29201,6 +29204,7 @@ zzzyk.com###Tinfo
 ||beforeitsnews.com/core/ajax/counter/count.php^
 ||beforeitsnews.com/img/banner_
 ||begin-started.ghost.io^
+||beginapps.ghost.io^
 ||beginsite.ghost.io^
 ||begun.ru^$third-party
 ||behance.net/log
@@ -34189,9 +34193,11 @@ zzzyk.com###Tinfo
 ||get-gx.net^$document
 ||get-gx.net^$popup
 ||get-homepage.ghost.io^
+||get-homepages.ghost.io^
 ||get-link.xyz^$popup
 ||get-me-wow.
 ||get-me-wow.in^$popup
+||get-newstart.ghost.io^
 ||get-partner.life^$popup
 ||get-started.ghost.io^
 ||get-strated.ghost.io^
@@ -34509,6 +34515,7 @@ zzzyk.com###Tinfo
 ||gongshe99.com/d/js/gongshe/gsw
 ||goo.ne.jp^*/vltracedmd.js
 ||goobakocaup.com^$popup
+||good-wordpress-hosting.com^
 ||good8866.com/js/*.js
 ||goodadvert.
 ||goodcar.com/js/parts/fp.js
@@ -35241,6 +35248,7 @@ zzzyk.com###Tinfo
 ||holidaycheck.*/svc/ubt/v1/events
 ||hollysocialspuse.com^$popup
 ||holyfamilyradio.org/banners/
+||home-begin.ghost.io^
 ||home-connect.ghost.io^
 ||home-learn.ghost.io^
 ||home-official.ghost.io^
@@ -35336,6 +35344,7 @@ zzzyk.com###Tinfo
 ||host238.hostmonster.com^
 ||host2y.cfd^
 ||host356980.stronawcal.pl^
+||host3849982server.com^
 ||host40x.cfd^
 ||host5536.zapto.org^
 ||host647309.stronawcal.pl^
@@ -35392,6 +35401,7 @@ zzzyk.com###Tinfo
 ||hostingfile.live^
 ||hostingjo.com^
 ||hostingpark.com^
+||hostingrey.com^
 ||hostingservicefl.com^
 ||hostingtinysoft.space^
 ||hostip.info^
@@ -37406,6 +37416,7 @@ zzzyk.com###Tinfo
 ||leanplum.com^$third-party
 ||leapretrieval.com^$popup
 ||learn-cpp.org/static/img/banners/cfk/$image
+||learn-homepage.ghost.io^
 ||learn-hub.ghost.io^
 ||learned-home.ghost.io^
 ||learnguide.ghost.io^
@@ -37418,6 +37429,7 @@ zzzyk.com###Tinfo
 ||lederer.nl/incl/stats.js.php?
 ||ledevoir.com/js/pianoAnalyticsTags.js
 ||ledge-live.ghost.io^
+||ledgr-live-desktop.ghost.io^
 ||leeleo.top^$third-party
 ||leesaushoah.net^$popup
 ||legacy.com/globalscripts/tracking/
@@ -37792,6 +37804,7 @@ zzzyk.com###Tinfo
 ||local-analytics.uberinternal.com^
 ||local-bang.com^
 ||local-prime.fr^
+||local-reschedule-delivery-update.com^
 ||local-shares.ri.la^
 ||local-update.com^
 ||local.intergratedcareservices.com^
@@ -37804,6 +37817,7 @@ zzzyk.com###Tinfo
 ||localau.vip/tccenter/ad/
 ||localconservatives.com^
 ||localcybersolutions.com^
+||localdelivery.site^
 ||localedgemedia.com^
 ||localelover.com^$popup
 ||localenter.com^
@@ -38232,6 +38246,7 @@ zzzyk.com###Tinfo
 ||marfeel.com^$third-party
 ||marineterms.com/images/banners/
 ||marinsm.com^$third-party
+||mariolowtanne1768702084726.1241985.meusitehostgator.com.br^
 ||marisappear.pro^$third-party
 ||marker.io/widget/ping
 ||market.samm.com/0/sendeventv2
@@ -39897,6 +39912,8 @@ zzzyk.com###Tinfo
 ||offertops.info^$popup
 ||officalstart.ghost.io^
 ||officetablntry.org^$popup
+||official-homepages.ghost.io^
+||official-key.ghost.io^
 ||official-live.ghost.io^
 ||official-site.ghost.io^
 ||official-used.ghost.io^
@@ -40085,6 +40102,8 @@ zzzyk.com###Tinfo
 ||ooyala.com^*/report?log
 ||opbandit.com^$third-party
 ||opecloud.com/ope-pdmp.js
+||open-homepage.ghost.io^
+||open-legrlive.ghost.io^
 ||open.oneplus.net^$third-party
 ||open.ua/stat/
 ||openadserving.com^$popup
@@ -41076,6 +41095,7 @@ zzzyk.com###Tinfo
 ||pornyhd.com/hillpop.php
 ||portal.kotodaman.jp/api/otel/v1/logs
 ||portfold.com^$third-party
+||portfolio-started.ghost.io^
 ||ports.co.za/banners/
 ||porzo.com/js/analytics
 ||poshalim.
@@ -41232,15 +41252,6 @@ zzzyk.com###Tinfo
 ||probid.ai^$third-party
 ||processsky.com^$popup
 ||proclivitysystems.com^$third-party
-||prod-afcutn.chaperone.lumindigitalhosting.com^
-||prod-baxter.chaperone.lumindigitalhosting.com^
-||prod-comfin.chaperone.lumindigitalhosting.com^
-||prod-consumers.chaperone.lumindigitalhosting.com^
-||prod-fsfcutn.chaperone.lumindigitalhosting.com^
-||prod-interracu.chaperone.lumindigitalhosting.com^
-||prod-oneaz.chaperone.lumindigitalhosting.com^
-||prod-redwood.chaperone.lumindigitalhosting.com^
-||prod-sfcutx.chaperone.lumindigitalhosting.com^
 ||prod.benchmarkemail.com/tracker.bundle.js
 ||prodtraff.com^$popup
 ||productsup.com^$third-party
@@ -42023,6 +42034,7 @@ zzzyk.com###Tinfo
 ||recoset.com^$third-party
 ||recruitics.com^$third-party
 ||recs.richrelevance.com/rrserver/api/engage/trackExperienceEvent?
+||recuperealocalizacao.shop^
 ||recurly.com/js/v1/events
 ||recyclinganewupdated.com^$popup
 ||recyclingbees.com^$popup
@@ -42970,6 +42982,7 @@ zzzyk.com###Tinfo
 ||setn.com/js/idleAD.
 ||setoinc.com^$popup
 ||setravieso.com^$popup
+||setup-homepage.ghost.io^
 ||setup-started.ghost.io^
 ||setupofficial.ghost.io^
 ||sevenbuzz.com^$popup
@@ -43867,7 +43880,13 @@ zzzyk.com###Tinfo
 ||srv246302.hoster-test.ru^
 ||srv246308.hoster-test.ru^
 ||srv246384.hoster-test.ru^
+||srv246436.hoster-test.ru^
+||srv246451.hoster-test.ru^
 ||srv246500.hoster-test.ru^
+||srv246505.hoster-test.ru^
+||srv246514.hoster-test.ru^
+||srv246528.hoster-test.ru^
+||srv246544.hoster-test.ru^
 ||srv2trking.com^$popup
 ||srvhost.servehttp.com^
 ||srvmath.com^*/analytics.js
@@ -44005,6 +44024,7 @@ zzzyk.com###Tinfo
 ||startintro.ghost.io^
 ||startio-eng.ghost.io^
 ||startk.ghost.io^
+||startle.ghost.io^
 ||startmenuexperiencehost.ydns.eu^
 ||startmenuexperiencehosting.ydns.eu^
 ||startmyhost.com^
@@ -46579,6 +46599,7 @@ zzzyk.com###Tinfo
 ||wacowla.com/wp-content/plugins/popover/js/
 ||wahoha.com^$popup
 ||wai69.com/js/baidu/
+||waimaohost.com^
 ||waipian*.com/statics/recommend/
 ||waisheph.com^$document
 ||waisheph.com^$popup
@@ -46688,6 +46709,7 @@ zzzyk.com###Tinfo
 ||web-counter.net^$third-party
 ||web-guardian.xyz^$popup
 ||web-hosting-report.com^
+||web-hosting-wordpress.com^
 ||web-hosting.net.my/banner/
 ||web-rabbit.meitustat.com/report?
 ||web-stat.com^$third-party
@@ -46820,6 +46842,7 @@ zzzyk.com###Tinfo
 ||webstats.com^$third-party
 ||webstats4u.com^$third-party
 ||webstick.blog/images/images-ads/
+||webstorage.ghost.io^
 ||websuccess-data.com/tracker.js
 ||webtalking.ru^$third-party
 ||webtemsilcisi.com^$third-party
