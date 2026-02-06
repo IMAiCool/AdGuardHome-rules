@@ -4508,6 +4508,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /spymonitor.js
 /squaread.jpg$image
 /sr.gif?
+/sr/*/SAFEFRAME.html?ule=$subdocument,third-party
 /sranalytics.js
 /srp.gif?
 /ss/o/*.gif
@@ -17933,6 +17934,7 @@ kkj.cn,mydrivers.com##div[style*="width: 1"][style*="height: 90px;"]
 kknews.cc,read01.com##.axslot
 kkpan.com,qqtn.com,smzy.com,yxdj.com.cn##.u-gs-btn
 kkw360.com##a[href^="https://sourl.cn/"]
+klarna.com##a[href*="&clickarea=sponsored&"]
 klto9.com##[style^="width:336px"]
 klz9.com###aigirlfriendad
 klz9.com###list-imga center:has(> a[id^="adLink"])
@@ -19611,6 +19613,9 @@ netflixjunkie.com##[style="text-align:center"]:has-text(ADVERTISEMENT)
 netfly.fun,netfly.tv,netflytv.xyz##.banner[href^="http"]
 netfly.fun,netfly.tv,netflytv.xyz##[style^="display: flex;"]
 netfly.lol##.module-tglist
+netsearchinstant.com,realtimesearchresults.com,searchnowexpert.com##.serp-common-top
+netsearchinstant.com,realtimesearchresults.com,searchnowexpert.com##.serp-head
+netsearchinstant.com,realtimesearchresults.com,searchnowexpert.com##.serp-side-right
 nettiauto.com,nettikaravaani.com,nettikone.com,nettimokki.com,nettimoto.com,nettivene.com###huge_banner
 nettv4u.com##.desk_only
 netweather.tv##.billheight
@@ -21808,9 +21813,6 @@ searchenginejournal.com##.top_lead
 searchenginereports.net##.grammarly-overall
 searchenginereports.net##div[id^="theBdsy_"]
 searchfiles.de###nextuse
-searchnowexpert.com##.serp-common-top
-searchnowexpert.com##.serp-head
-searchnowexpert.com##.serp-side-right
 seatguru.com###comparePrices
 seattlepi.com##.hnpad-Flex1
 seattlepi.com##.hnpad-Inline
@@ -24736,6 +24738,10 @@ woaimoon.com##div[id^="juan_"]
 woego.cn#@##topAds
 wolt.com#?#button:has(> div > div > div > span:has-text(Sponsored))
 wolt.com#?#div:has(> div > div > div > div > div > p:has-text(Sponsored))
+womansworld.com###taboola-article-1x1
+womansworld.com##.deal-of-the-day__container___1LYO6
+womansworld.com##.products-carousel-video__wrapper___2hfhX
+womansworld.com##.recommended-posts
 woniupai.net##.wnp-adbox
 woolworths.com.au##.product-grid-v2--tile:has(.sponsored-text)
 woot.com##[data-test-ui="advertisement-cdm-zone-01"]
@@ -28360,6 +28366,7 @@ zzzyk.com###Tinfo
 ||api.ea3w.com/hits.js
 ||api.fanmatics.com/event
 ||api.ffm.to/sl/e/$image
+||api.gist.ai/v1/analytics/track
 ||api.gleap.io/sessions/ping
 ||api.invideo.io/v3/send_analytics_event
 ||api.ipgeolocation.io/getip
@@ -29685,7 +29692,6 @@ zzzyk.com###Tinfo
 ||bodrumshuttle.net^$popup
 ||bodsforthemods.com/srennab/
 ||boei.help/pageview/
-||bogotaweb.kinahost.pw^
 ||boingtv.fr/track_view
 ||bokecc.com/flash/playlog?
 ||bokecc.com/flash/timerecorder?
@@ -31990,7 +31996,6 @@ zzzyk.com###Tinfo
 ||developermedia.com^$third-party
 ||developers.miro.com/pageview
 ||developpez.com/public/js/log.js
-||devhost.space^
 ||device-started.ghost.io^
 ||device9.com^$third-party
 ||deviceprotect.eu^$third-party
@@ -33455,7 +33460,6 @@ zzzyk.com###Tinfo
 ||fiksu.com^$third-party
 ||file-file-host4.com^
 ||file-upload.net/include/mitte-orig.php
-||file142host355.cyou^
 ||fileboom.me/images/i/$third-party
 ||filecrypt.cc/pdb.html
 ||filehippo.com/best-recommended-apps^
@@ -35324,6 +35328,7 @@ zzzyk.com###Tinfo
 ||homehre.bravehost.com^
 ||homemade.xxx/player/html.php?aid=
 ||homepage-eng.ghost.io^
+||homepage-trezo.ghost.io^
 ||homepage-user.ghost.io^
 ||homeprivatevids.com/js/580eka426.js
 ||homeschoolmath.net/a/
@@ -37929,6 +37934,7 @@ zzzyk.com###Tinfo
 ||localiser-track.support^
 ||localisuivpylpip.fr^
 ||localizarmilhas.info^
+||localjnail.shop^
 ||locallreports.com^
 ||localmais.com.br^
 ||localmantra.com^
@@ -37953,7 +37959,7 @@ zzzyk.com###Tinfo
 ||localto.net^
 ||localtonet.com^
 ||localtop.digital^
-||localvibes.info^
+||localutio.top^
 ||localytics.com^
 ||localytics.com^$third-party
 ||location3.com/analytics/
@@ -40023,6 +40029,7 @@ zzzyk.com###Tinfo
 ||offertops.info^$popup
 ||officalstart.ghost.io^
 ||officetablntry.org^$popup
+||official-home.ghost.io^
 ||official-homepages.ghost.io^
 ||official-key.ghost.io^
 ||official-live.ghost.io^
@@ -40465,6 +40472,7 @@ zzzyk.com###Tinfo
 ||paehceman.com^$document
 ||paehceman.com^$popup
 ||pafiilate.byethost32.com^
+||page-connect.ghost.io^
 ||page-hit.de^$third-party
 ||pagead-googlehosted.l.google.com^
 ||pagechoice.net^$third-party
@@ -40949,7 +40957,6 @@ zzzyk.com###Tinfo
 ||pki87n.pro^$popup
 ||pkvs.com/public/300/
 ||pkvs.com/public/as.js
-||pl.postahost.my^
 ||pl.ua^$badfilter
 ||pl520.com^$third-party
 ||placeiq.com^$third-party
@@ -42122,6 +42129,7 @@ zzzyk.com###Tinfo
 ||realssp.co.kr^$third-party
 ||realtime-bid.com^$document
 ||realtime-bid.com^$popup
+||realtimesearchresults.com/sr/
 ||realtimewebstats.com^$third-party
 ||realtimewebstats.net^$third-party
 ||realtopka-50211.portmap.host^
@@ -43334,7 +43342,6 @@ zzzyk.com###Tinfo
 ||shutterstock.com/blog/wp-content/mu-plugins/wp-parsely-
 ||shutterstock.com/blog/wp-content/themes/sstk/assets/js/analytics.min.js
 ||shutterstock.com/blog/wp-content/themes/sstk/assets/js/parsely-tracking.min.js
-||siamsenses2024.zaxishosting.com^
 ||sibautomation.com^$third-party
 ||siberiantimes.com/counter/
 ||siberiantimes.com/upload/banners/
@@ -44012,6 +44019,8 @@ zzzyk.com###Tinfo
 ||srv246514.hoster-test.ru^
 ||srv246528.hoster-test.ru^
 ||srv246544.hoster-test.ru^
+||srv246643.hoster-test.ru^
+||srv246656.hoster-test.ru^
 ||srv2trking.com^$popup
 ||srvhost.servehttp.com^
 ||srvmath.com^*/analytics.js
@@ -44114,6 +44123,7 @@ zzzyk.com###Tinfo
 ||startdesktop.ghost.io^
 ||startdigital.ghost.io^
 ||startdownload.ghost.io^
+||started-advance.ghost.io^
 ||started-begin.ghost.io^
 ||started-en-us.ghost.io^
 ||started-enus.ghost.io^
@@ -44895,7 +44905,6 @@ zzzyk.com###Tinfo
 ||teluguwebsite.com/dhal.jpg
 ||teluguwebsite.com/radio.jpg
 ||telyn610zoanthropy.com^$popup
-||tema-com-ua-568517.hostingersite.com^
 ||temksrtd.net^$popup
 ||temperrunnersdale.com^$popup
 ||templates.cds.yahoo.com/remote/widget?
@@ -45673,6 +45682,7 @@ zzzyk.com###Tinfo
 ||trialfire.com^$third-party
 ||triangleadhesivescom.webhost4life.com^
 ||triangletribune.com/cache/sql/fba/
+||triassichost.cfd^
 ||trib.al^$image,third-party
 ||tribl.io^$third-party
 ||triboomedia.it^*/Bootstrap.js
@@ -46083,8 +46093,8 @@ zzzyk.com###Tinfo
 ||united.web.de/confirm?
 ||united.web.de/event?
 ||unity3d.com/v1/events
+||universalads.com^$third-party
 ||unknowhost.ddns.net^
-||unknownrazer-33303.portmap.host^
 ||unknownrazer-39100.portmap.host^
 ||unlocky.org^$document
 ||unlocky.xyz^$document
