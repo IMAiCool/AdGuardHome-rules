@@ -1527,6 +1527,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /amp_pingback/*
 /analyse.js
 /analysis-logger/*
+/analysis?en=page_view&
 /analysisTag.js
 /analytic/pageview
 /analytics-amplitude-
@@ -8120,6 +8121,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||dcdirtylaundry.com/cdn-cgi/challenge-platform/$~third-party
 @@||dd.auspost.com.au/tags.js$script,~third-party
 @@||dd.blackhawknetwork.com.first-party-js.datadome.co^$domain=redeem.rewardlink.com
+@@||dd.qa.moneygram.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=moneygram.com
 @@||dd.wizzair.com.first-party-js.datadome.co^$domain=wizzair.com
 @@||deezer.com^$generichide
 @@||delivery-cdn-cf.adswizz.com/adswizz/js/SynchroClient*.js$script,domain=tunein.com
@@ -25785,7 +25787,6 @@ zzzyk.com###Tinfo
 ||152.hosting.ru^
 ||15272973.xyz^$document,popup
 ||152media.com^$third-party
-||1554.portmap.host^
 ||156zw.com/css/js/tools.
 ||157.90.183.248^$popup
 ||158.247.208.
@@ -28042,7 +28043,6 @@ zzzyk.com###Tinfo
 ||almstda.tv^$popup
 ||aloatchuraimti.net^$popup
 ||alocdn.com^$third-party
-||alopmigano.cloudaccess.host^
 ||alowbowsohef.com^$popup
 ||alpenridge.top^$popup
 ||alpha-affiliates.com^$third-party
@@ -28252,7 +28252,6 @@ zzzyk.com###Tinfo
 ||annulmentequitycereals.com^$popup
 ||anoneko.com^*.*?$image
 ||anonm.io^$third-party
-||anonykous-54240.portmap.host^
 ||anonymised.io^$third-party
 ||anormal-tracker.de^$third-party
 ||anqu.com/b.js
@@ -29435,7 +29434,6 @@ zzzyk.com###Tinfo
 ||bigpulpit.com^$third-party
 ||bigreal.org^$third-party
 ||bigrock.in/affiliate/
-||bigrock.tempwebhost.net^
 ||bigsquidrc.com/wp-content/themes/bsrc2/js/adzones.js
 ||bigtitsgallery.net/qbztdpxulhkoicd.php
 ||bigtitslust.com/lap70/s/s/suo.php
@@ -29576,7 +29574,6 @@ zzzyk.com###Tinfo
 ||blcdog.com^$document
 ||blcdog.com^$popup
 ||bleandworldw.org^$popup
-||bleededer-41468.portmap.host^
 ||blehcourt.com^$document
 ||blehcourt.com^$popup
 ||blend.com/event/
@@ -31718,7 +31715,6 @@ zzzyk.com###Tinfo
 ||dalysb.com^$popup
 ||dalysv.com^$popup
 ||damai.cn/phpstat/
-||damonke43453-59818.portmap.host^
 ||danbo.org^$third-party
 ||dangbei.net/2022/dbhezi.
 ||dangbei.net/img/db/downdangbei.gif
@@ -34463,7 +34459,6 @@ zzzyk.com###Tinfo
 ||gml-grp.com^*&affid=$subdocument,third-party
 ||gmmads.com^$document
 ||gmo-cybersecurity.com/siteseal/$third-party
-||gmoadopts.mysidiahost.com^
 ||gmodmp.jp^$third-party
 ||gmossp-sp.jp^$third-party
 ||gmx.net/monitoring/
@@ -34539,7 +34534,6 @@ zzzyk.com###Tinfo
 ||gog.cn/sys/online_calc.js
 ||gogoanime.me/zenny/
 ||gogorenti.wang/js/m_cp
-||gohapel398-62132.portmap.host^
 ||goinglocalllc.com^
 ||goingup.com^$third-party
 ||gojsmanager.com^$third-party
@@ -35755,7 +35749,6 @@ zzzyk.com###Tinfo
 ||iask.cn^*model.
 ||iask.sina.com.cn/s-b/mxbg
 ||iaudienc.com^$third-party
-||iausyh-50115.portmap.host^
 ||ib-ibi.com^$third-party
 ||ibannerexchange.com^$third-party
 ||ibaotu.com/revision/js/ad/
@@ -36700,7 +36693,6 @@ zzzyk.com###Tinfo
 ||jeekomih.com^$popup
 ||jeeng.com^$third-party
 ||jeepyy.com^$third-party
-||jefafe2169-35904.portmap.host^
 ||jegiopad.top^$document
 ||jegiopad.top^$popup
 ||jennifersoft.com^$third-party
@@ -37885,7 +37877,6 @@ zzzyk.com###Tinfo
 ||local-analytics.uberinternal.com^
 ||local-bang.com^
 ||local-classified-ads.com^
-||local-food-packing-companies-2255.click^
 ||local-prime.fr^
 ||local-service-jp-xy.click^
 ||local-shares.ri.la^
@@ -37929,7 +37920,6 @@ zzzyk.com###Tinfo
 ||localmilfs.co^
 ||localnfp.org^
 ||localo.fr^
-||localofficecleaningco.com^
 ||localpoint.ch^
 ||localredefined.com^
 ||localreporting.pro^
@@ -40697,7 +40687,6 @@ zzzyk.com###Tinfo
 ||pengtu.cc^*.png
 ||pengwei168.com/addons/321.gif
 ||pengwei168.com/template/stui_tpl/html/vod/f.js
-||penidi8413-47021.portmap.host^
 ||pennynetwork.com^$third-party
 ||penton.com/analytics/
 ||penuma.com^$third-party
@@ -41977,7 +41966,6 @@ zzzyk.com###Tinfo
 ||raenonx.cc/g/usage/
 ||raenonx.cc/scripts
 ||ragazzeinvendita.com^$third-party
-||ragydagy-32447.portmap.host^
 ||rail.bankofamerica.com^$script,~third-party,xmlhttprequest
 ||rainbownine.net^$third-party
 ||raindrop.io/pb/api/event
@@ -42355,6 +42343,7 @@ zzzyk.com###Tinfo
 ||reverbnation.com/widgets/trk/
 ||revertsskimmia.shop^$document
 ||revhunter.tech^$third-party
+||revico.jp/js/put_revico_cookie/put_revico_cookie.js
 ||revico.jp/providejs/revico_tracking.js
 ||reviewdollars.com^$popup
 ||reviews.io/stats/
@@ -43566,7 +43555,6 @@ zzzyk.com###Tinfo
 ||sloto.live^$document
 ||sloto.live^$popup
 ||slowww.xyz^$popup
-||slrbi356-58189.portmap.host^
 ||slysoft.com/img/banner/
 ||smac-ad.com^$third-party
 ||smaero.jp/js/access.js
@@ -46067,7 +46055,6 @@ zzzyk.com###Tinfo
 ||unity3d.com/v1/events
 ||universalads.com^$third-party
 ||unknowhost.ddns.net^
-||unknownrazer-39100.portmap.host^
 ||unlocky.org^$document
 ||unlocky.xyz^$document
 ||unmistdistune.guru^$popup
@@ -46321,7 +46308,6 @@ zzzyk.com###Tinfo
 ||verifiable-warning.com^$popup
 ||verify.authorize.net^$third-party
 ||verify.safesigned.com^$third-party
-||verlyx12345-41388.portmap.host^
 ||verooperofthewo.com^$popup
 ||vertical-leap.co.uk^$third-party
 ||vertical-leap.net^$third-party
@@ -47425,7 +47411,6 @@ zzzyk.com###Tinfo
 ||xdnice.com/themes/xdnice/public/assets/images/xdnice.png
 ||xdtraffic.com^$popup
 ||xero.com/api/events/
-||xexezagandon-30432.portmap.host^
 ||xfinity.com/event/
 ||xfree.com/api/banner/
 ||xfvod.pro/images/ad/
@@ -47801,7 +47786,6 @@ zzzyk.com###Tinfo
 ||yoast-schema-graph.com^$third-party
 ||yodalytics.com^$third-party
 ||yodayo.com/scripts/pixel.js
-||yoenacevedo7-30889.portmap.host^
 ||yonbearticor.com^$popup
 ||yonsandileer.com^$popup
 ||yoochoose.net^$third-party
@@ -48032,7 +48016,6 @@ zzzyk.com###Tinfo
 ||zeropartyforms.com^*/digibox.gif?
 ||zeroredirect1.com^$popup
 ||zerostats.com^$third-party
-||zertsqaure-39469.portmap.host^
 ||zesep.com^$third-party
 ||zesir-44796.portmap.host^
 ||zetaframes.com^$popup
