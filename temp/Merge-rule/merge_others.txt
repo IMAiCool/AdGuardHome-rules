@@ -6182,7 +6182,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 1905.com##.mobile_ad_promote
 1905.com##.zx-pic
 1905.com##.zx-small-pic
-1909.me,8se.me,crxs.me,xchina.site,xchina.biz,xchina.co##.media
+1909.me,8se.me,xchina.site,xchina.biz,xchina.co##div[id^="z-extra-"]
 192-168-1-1-ip.co,receivesms.co###adresp
 194.233.68.230###adsimgxatass
 194.233.68.230##.indositusxxi-floatbanner
@@ -18957,6 +18957,9 @@ mg.co.za##article:has(.sponsored-single)
 mg21.com##a[href="https://www.mg21.com/zunjiazq"]
 mgbbs.cn##td[width="960"][height="60"]
 mgeko.cc##.nsad
+mgsfhw.com,mgsgirls.com##.affs
+mgsfhw.com,mgsgirls.com##.widget_media_image
+mgsfhw.com,mgsgirls.com##blockquote > blockquote
 mgtv.com##.ad-fixed-bar
 mgtv.com##.c-95060-top
 mh160.com###jusha1
@@ -26754,6 +26757,7 @@ zzzyk.com###Tinfo
 ||8muses.com/banner/
 ||8s5s.com^$popup
 ||8s8s.com/data/banner/
+||8se.me/service/assets/core-state.
 ||8xbook.org/scripts/ad/
 ||8ziyuan.com/images/infolinksad.jpg
 ||900.la/imgs/1bb725da-974f-43da-9eb9-dfdebc224949/2015-12-18/zg3wwaug.gif
@@ -31566,9 +31570,6 @@ zzzyk.com###Tinfo
 ||crunchyroll.com/awidget/
 ||crunchyroll.com/tracker?
 ||crxcr1.com^$third-party
-||crxs.me/plugins/jquery.modal/
-||crxs.me/scripts/my_
-||crxs.me/upload/ad/
 ||cryingforanyth.com^$popup
 ||cryorganichash.com^$popup
 ||crypto-coins.com^$third-party
@@ -47374,6 +47375,7 @@ zzzyk.com###Tinfo
 ||xchina.*/plugins/jquery.modal/
 ||xchina.*/plugins/sweetAlert2/
 ||xchina.*/scripts/modal/modal.js
+||xchina.*/service/assets/core-state.
 ||xcity.org/tc2ca02c24c5.js
 ||xclaimwords.net^$third-party
 ||xcmfu.com/cp.
