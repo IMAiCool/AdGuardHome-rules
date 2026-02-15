@@ -6176,8 +6176,8 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 18comic.org,18comic.vip,18comic.ink#?#div[data-group]:-abp-has(>.group-notice)
 18moe.org##.alignnone[alt="恰饭广告"]
 18moe.vip##a[href^="http"]:not([href*="18moe.vip"]) > img[src*="tc.18moe.net"]
-18porn.sex,18teensex.tv,429men.com,4kporn.xxx,4wank.com,alotporn.com,amateur8.com,amateurporn.co,amateurporn.me,bigtitslust.com,camwhores.tv,danude.com,daporn.com,epicgfs.com,fapnow.xxx,fpo.xxx,freeporn8.com,fuqer.com,gayck.com,hentai-moon.com,hentai0day.com,heroero.com,hoes.tube,intporn.com,japaneseporn.xxx,javwind.com,jizzberry.com,multi.xxx,onlyhentaistuff.com,porndr.com,sexjav.tv,sextubespot.com,sortporn.com,tabootube.xxx,trueamateurporn.org,vilevideos.com,watchmygf.xxx,xcavy.com,xgroovy.com,xmateur.com,xxxshake.com##.table
-18porn.sex,amateur8.com,anyporn.com,area51.porn,bigtitslust.com,eachporn.com,fapster.xxx,fpo.xxx,freeporn8.com,hentai-moon.com,hentai0day.com,its.porn,izlesimdiporno.com,pervertslut.com,porngem.com,pornmeka.com,porntop.com,sexvid.xxx,sortporn.com,tktube.com,uiporn.com,xhamster.com##.sponsor
+18porn.sex,18teensex.tv,429men.com,4kporn.xxx,4wank.com,alotporn.com,amateur8.com,amateurporn.co,amateurporn.me,bigtitslust.com,camwhores.tv,danude.com,daporn.com,epicgfs.com,fapnow.xxx,fpo.xxx,freeporn8.com,fuqer.com,gayck.com,hentai-moon.com,hentai0day.com,heroero.com,hoes.tube,intporn.com,japaneseporn.xxx,javwind.com,jizzberry.com,mmshub.online,multi.xxx,onlyhentaistuff.com,porndr.com,sexjav.tv,sextubespot.com,sortporn.com,tabootube.xxx,trueamateurporn.org,vilevideos.com,watchmygf.xxx,xcavy.com,xgroovy.com,xmateur.com,xxxshake.com##.table
+18porn.sex,amateur8.com,anyporn.com,area51.porn,bigtitslust.com,eachporn.com,fapster.xxx,fpo.xxx,freeporn8.com,hentai-moon.com,hentai0day.com,its.porn,izlesimdiporno.com,mmshub.online,pervertslut.com,porngem.com,pornmeka.com,porntop.com,sexvid.xxx,sortporn.com,tktube.com,uiporn.com,xhamster.com##.sponsor
 18teensex.tv,3movs.xxx,adultdeepfakes.com,babesmachine.com,chaturbate.com,fboomporn.com,freepornpicss.com,gramateurs.com,happysex.ch,hdtube.porn,its.porn,kawaiihentai.com,milffox.com,oldies.name,paradisehill.cc,playporngames.com,playsexgames.xxx,playvids.com,porngames.com,private.com,submittedgf.com,teenextrem.com,video.laxd.com,vikiporn.com,vjav.com,watchhentaivideo.com,waybig.com,xbabe.com,xcum.com,xnudepics.com,xpornpix.com,youcanfaptothis.com,yourdailygirls.com,youx.xxx##.banner
 1905.com##.mobile_ad_promote
 1905.com##.zx-pic
@@ -10380,6 +10380,7 @@ amazon.*##div[data-cel-widget^="multi-card-creative-desktop_loom-desktop-top-slo
 amazon.*##div[data-csa-c-painter="sp-cart-mobile-carousel-cards"]
 amazon.*##div[data-csa-c-slot-id^="loom-mobile-brand-footer-slot_hsa-id-"]
 amazon.*##div[data-csa-c-slot-id^="loom-mobile-top-slot_hsa-id-"]
+amazon.*##div[data-csa-c-type="widget"]:has([data-ad-feedback-label-id])
 amazon.*##div[id^="sims-simsContainer_feature_div_"]:has(.sp_info_link)
 amazon.*##div[id^="sp_detail"]
 amazon.*##span[cel_widget_id^="MAIN-FEATURED_ASINS_LIST-"]
@@ -19558,6 +19559,7 @@ nanfengyl.com##.top-ad-txt
 nangaspace.com###header
 nanoreview.net###the-app > .mb
 nanoreview.net##.gtx_lol_o_desktop
+nanoreview.net##.rtx_3_desktop
 nanrenwo.net##div[id^="content"]
 naozhong.net.cn###pnl-ne0n
 narkive.com##a[href^="https://rfnm.io/?"]
@@ -23677,6 +23679,7 @@ tokyvideo.com###overlay-video
 tokyvideo.com##.fan--related-videos.fan
 tom.com###body_right_banner
 tom.com###popupDivgame
+tomestone.gg###ad-sidebar-skyscraper-container
 tomsguide.com##.bordeaux-anchored-container
 tomsguide.com##.bordeaux-slot
 tomsguide.com##.hawk-main-editorialised
@@ -28253,8 +28256,7 @@ zzzyk.com###Tinfo
 ||anacampaign.com^$popup
 ||anacams.com/cdn/top.
 ||anadistil.com^$popup
-||analdin.com/player/html.php?aid=
-||analdin.xxx/player/html.php?aid=
+||analdin.*/html.php?aid=
 ||analights.com^$third-party
 ||analitycs.net^$third-party
 ||analoganalytics.com^$third-party
@@ -28562,7 +28564,7 @@ zzzyk.com###Tinfo
 ||appspot.com/take?
 ||appspot.com/track-analytics-event
 ||appsstarted.ghost.io^
-||appswallet.ghost.io^
+||appstart-us.ghost.io^
 ||appthe.click^$document
 ||apptjmp.com^$popup
 ||apptracer.ru^$third-party
@@ -29297,6 +29299,7 @@ zzzyk.com###Tinfo
 ||beforeitsnews.com/core/ajax/counter/count.php^
 ||beforeitsnews.com/img/banner_
 ||begin-homepage.ghost.io^
+||begin-project.ghost.io^
 ||begin-started.ghost.io^
 ||begin-starts.ghost.io^
 ||beginapps.ghost.io^
@@ -30840,6 +30843,7 @@ zzzyk.com###Tinfo
 ||clicks4tc.com^$popup
 ||clicksagent.com^$third-party
 ||clicksen.se^$third-party
+||clicksentry.nl^$third-party
 ||clicksgear.com^$popup
 ||clickshift.com^$third-party
 ||clicksor.com^$popup
@@ -31235,7 +31239,6 @@ zzzyk.com###Tinfo
 ||connect-homepages.ghost.io^
 ||connect-page.ghost.io^
 ||connect-starte.ghost.io^
-||connect-started.ghost.io^
 ||connect-starts.ghost.io^
 ||connect.airfrance.com/ach/api/event^
 ||connect.bolt.com/v1/log
@@ -32957,6 +32960,7 @@ zzzyk.com###Tinfo
 ||ensighten.com/error/e.php?
 ||ensighten.com^$third-party
 ||enstart-io.ghost.io^
+||enstarted-io.ghost.io^
 ||enstartt.ghost.io^
 ||entainpartners.com/renderbanner.do?
 ||entainpartners.com^$popup,third-party
@@ -35291,7 +35295,6 @@ zzzyk.com###Tinfo
 ||hkmte.com/seo.js
 ||hktvmall.com/api/event
 ||hktvmall.com/api/preroll/getList?
-||hlocalweatheralerts.co^
 ||hlstatus.com^$third-party
 ||hltoon.com/hanman/static/dist/ppm/js/foot
 ||hltv.org/partnerimage/$image
@@ -35337,6 +35340,7 @@ zzzyk.com###Tinfo
 ||home-learn.ghost.io^
 ||home-learnpage.ghost.io^
 ||home-official.ghost.io^
+||home-open.ghost.io^
 ||home-profile.ghost.io^
 ||home-started.ghost.io^
 ||home-view.ghost.io^
@@ -35839,6 +35843,7 @@ zzzyk.com###Tinfo
 ||iculture.report^$third-party
 ||id-vietconbank1.uuhuqtp.nethost-4011.000nethost.com^
 ||id-visitors.com^$third-party
+||id.aruba-managehosting.info^
 ||id.google.*/verify/
 ||id.verticalhealth.net/script.js?partnerid=
 ||ideng.com^$third-party
@@ -37508,11 +37513,13 @@ zzzyk.com###Tinfo
 ||leakvideos.live^$document
 ||leanplum.com^$third-party
 ||leapretrieval.com^$popup
+||learn-appstart.ghost.io^
 ||learn-connected.ghost.io^
 ||learn-cpp.org/static/img/banners/cfk/$image
 ||learn-homepage.ghost.io^
 ||learn-hub.ghost.io^
 ||learned-home.ghost.io^
+||learnedstart.ghost.io^
 ||learnguide.ghost.io^
 ||leboncoin.fr/rav-monitoring/
 ||lecai.com/page/zhuanti/baidu/
@@ -39258,6 +39265,7 @@ zzzyk.com###Tinfo
 ||mylust.com/assets/script.js
 ||mymarketing.co.il/Include/tracker.js
 ||mymetal.ru/counter/
+||mymicrosoftghost837382.framer.website^
 ||mynewcounter.com^$third-party
 ||mynsystems.com^$third-party
 ||myntelligence.com^$third-party
@@ -39981,6 +39989,7 @@ zzzyk.com###Tinfo
 ||ofcuboneom.com^$popup
 ||offaces-butional.com^$popup
 ||offaces-butional.com^$third-party
+||offcial-connect.ghost.io^
 ||offcn.com/index.php?m=dbsource&c=call&a=get&id=75
 ||offcn.com/index.php?m=dbsource&c=call&a=get&id=77
 ||offcn.com/offcnewm/
@@ -40011,10 +40020,10 @@ zzzyk.com###Tinfo
 ||official-key.ghost.io^
 ||official-site.ghost.io^
 ||official-used.ghost.io^
-||official-user.ghost.io^
 ||officialus.ghost.io^
 ||officialuse.ghost.io^
 ||officialuser.ghost.io^
+||officialview.ghost.io^
 ||offidocs.com/media/system/*afi$script,~third-party
 ||offshuppetchan.com^$popup
 ||ofphanpytor.com^$popup
@@ -41377,6 +41386,7 @@ zzzyk.com###Tinfo
 ||programmatictrader.com^$third-party
 ||programmer-club.com.tw/images/uuu/
 ||progressive.com/Log/
+||project-begin.ghost.io^
 ||project-home.ghost.io^
 ||projectjav.com/scripts/projectjav_newpu.js
 ||projectsunblock.com^$third-party
@@ -44072,9 +44082,9 @@ zzzyk.com###Tinfo
 ||start.ru/logger/
 ||startabove.ghost.io^
 ||startalso.ghost.io^
+||startapp-us.ghost.io^
 ||startat.ghost.io^
 ||startauthguide.ghost.io^
-||startcere.ghost.io^
 ||startd0wnload22x.com^$popup
 ||startden.ghost.io^
 ||startdesktop.ghost.io^
@@ -44106,9 +44116,11 @@ zzzyk.com###Tinfo
 ||started-portfolio.ghost.io^
 ||started-setup.ghost.io^
 ||started-site.ghost.io^
+||started-user.ghost.io^
 ||started-view.ghost.io^
 ||startedai.ghost.io^
 ||startedappen.ghost.io^
+||startedcdn.ghost.io^
 ||startedcrypto.ghost.io^
 ||startedhub.ghost.io^
 ||startedhubs.ghost.io^
@@ -46811,7 +46823,6 @@ zzzyk.com###Tinfo
 ||web-counter.net^$third-party
 ||web-guardian.xyz^$popup
 ||web-hosting-report.com^
-||web-hosting-wordpress.com^
 ||web-hosting.net.my/banner/
 ||web-rabbit.meitustat.com/report?
 ||web-stat.com^$third-party
@@ -46925,6 +46936,7 @@ zzzyk.com###Tinfo
 ||websolutions.it/statistiche/
 ||webspectator.com^$third-party
 ||websphonedevprivacy.autos^$popup
+||webstart-m.ghost.io^
 ||webstart-us.ghost.io^
 ||webstartapp.ghost.io^
 ||webstartpublic.ghost.io^
@@ -47342,7 +47354,6 @@ zzzyk.com###Tinfo
 ||wzbaohe.com/imgadnew/midad.js
 ||wzrk.co^$third-party
 ||wzrkt.com^$third-party
-||x-ghost1.github.io^
 ||x-hd.video/vcrtlrvw/
 ||x-resource05.com/media_orange/server-img/*_1200_120.
 ||x-stat.de^$third-party
