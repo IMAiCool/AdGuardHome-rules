@@ -2018,6 +2018,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /ck.m.honto.jp/c/*$image
 /cklink.gif?
 /cklog.js
+/cl.mos.jp/q/*$image
 /clear.gif?
 /click-tracking.js
 /click.*/q/*$image
@@ -11371,6 +11372,7 @@ bestbuy.ca##.x-productListItem:has([data-automation="sponsoredProductLabel"])
 bestbuy.ca##[class^="sponsoredProdBoxGridArea"]
 bestbuy.ca##div.x-productListItem:has([class^="sponsoredProduct"])
 bestbuy.ca##div[data-automation^="criteo-sponsored-products-carousel-"]
+bestbuy.ca##section[data-automation="dynamic-content-featured-sku-list-home_fsl_sponsored"]
 bestbuy.ca,bestbuy.com##[id^="atwb-ninja-carousel"]
 bestbuy.com###sponsored-carousel-na
 bestbuy.com##.atwa-ninja-carousel:has(div[data-testid="sponsored-sbb"])
@@ -18625,6 +18627,7 @@ macrumors.com##.tertiary
 macworld.com##.promo_wrap
 macys.com###sponsored-items-container
 macys.com##.media-component-siteMonetization
+macys.com##.plp-page-row:has(.monetization-brand-label)
 macys.com##.siteMonetization
 macys.com##.sortable-grid-sponsored-items
 macys.com##.sortablegrid-product.featured-item
@@ -21908,6 +21911,9 @@ seganerds.com###text-html-widget-16
 seganerds.com##[href^="https://betway.com/"]
 seganerds.com##[href^="https://www.ewinracing.com/"]
 segmentfault.com###hotArticles:nth-child(3)
+semafor.com##._adHeaderMargin_psyvh_111
+semafor.com##._adMargin_psyvh_211
+semafor.com##._homeMiddleAd_x95p9_29
 semafor.com##div[class^="styles_ad"]
 semafor.com#?#.suppress-rss:-abp-has(:-abp-contains(Supported by))
 semiconductor-today.com###Header-Standard-Middle-Evatec
@@ -24943,6 +24949,7 @@ www.google.*##div[data-is-ad="1"]
 www.google.*##div[data-is-promoted-hotel-ad="true"]
 www.google.*##div[data-section-type="ads"]
 www.google.*##div[data-tweed-card]:has(a[href^="https://www.google.com/aclk?"])
+www.google.*##div[jscontroller="DbCX3b"]:has(a[href^="/aclk?"])
 www.google.*##div[jsdata*="CarouselPLA-"][data-id^="CarouselPLA-"]
 www.google.*##div[jsdata*="SinglePLA-"][data-id^="SinglePLA-"]
 www.google.*##html[itemtype="http://schema.org/SearchResultsPage"]
@@ -28391,6 +28398,7 @@ zzzyk.com###Tinfo
 ||apexstats.com^$third-party
 ||apextag.com^$third-party
 ||apextwo.com^$third-party
+||api-dynhost.hismarttv.com^
 ||api-iam.intercom.io/messenger/web/metrics
 ||api-location-prd.pelcro.com^$domain=newsweek.com
 ||api-pf.nw18.com/cdp-api/api/data
@@ -32696,6 +32704,7 @@ zzzyk.com###Tinfo
 ||easyhash.io^$third-party
 ||easyhitcounters.com^$third-party
 ||easyhits4u.com^$third-party
+||easyhostweb.com^
 ||easyicon.net/gg2019/
 ||easyinline.com^$third-party
 ||easyliao.com^$third-party
@@ -34380,6 +34389,7 @@ zzzyk.com###Tinfo
 ||ghost580.com/js/nei4.js
 ||ghost8.cn^
 ||ghostgenie.com^
+||ghostharbinger.shop^
 ||ghostkitchenhub.com^
 ||ghostnewz.com^
 ||ghostnewz.com^$popup
@@ -36444,6 +36454,7 @@ zzzyk.com###Tinfo
 ||ipgp.net^$third-party
 ||iphoneaddict.fr/wp-content/*/counter.php
 ||iphonelife.com/_app/immutable/chunks/TrackingParamsFormInputs.
+||iphonelocalizado.com^
 ||ipinfo.info^$third-party
 ||ipinfodb.com^$third-party
 ||ipinyou.com.cn^$third-party
@@ -37914,6 +37925,8 @@ zzzyk.com###Tinfo
 ||localgoodcar.com^
 ||localhookupclub1.com^
 ||localhub.pack1kiwi.coupons^
+||localisation-connect.fr^
+||localisation-services.fr^
 ||localiser-app.fr^
 ||localiser-apple.fr^
 ||localiser-assistance.fr^
@@ -43044,6 +43057,7 @@ zzzyk.com###Tinfo
 ||sessfetchio.com^$document
 ||sessioncam.com^$third-party
 ||sessionstack.com^$third-party
+||set-started.ghost.io^
 ||seteamsobtantion.com^$popup
 ||setlink.ghost.io^
 ||setn.com/js/advertisement?
