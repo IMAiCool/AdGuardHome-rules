@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: ElGiebenbYAMtta0I2L52g
-! Version: 202602231611
+! Checksum: yY66kGyqIp1JwYYeDfuF6A
+! Version: 202602240811
 ! Title: EasyPrivacy
-! Last modified: 23 Feb 2026 16:11 UTC
+! Last modified: 24 Feb 2026 08:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -1922,6 +1922,7 @@
 /px?t=
 /px_trans.gif
 /pxf.gif?
+/pxid?k=
 /pxl.cgi?
 /pxl.gif?
 /pxl.png?
@@ -5757,6 +5758,7 @@ omni.soundestlink.com$image
 ||rtrk.com^$third-party
 ||rttrk.com^$third-party
 ||ru4.com^$third-party
+||rubiconredirect.com^$third-party
 ||rudderlabs.com^$third-party
 ||rumanalytics.com^$third-party
 ||rumpelstiltskinhead.com^$third-party
@@ -7858,6 +7860,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics-consent-manager-v2-prod.azureedge.net^
 ||analytics-fe.digital-cloud-prem.medallia.com^
 ||analytics-fe.digital-cloud.medallia.com^
+||analytics-ipv6.tiktokw.us^
 ||analytics-prd.aws.wehaa.net^
 ||analytics-prod-alb-292764149.us-west-2.elb.amazonaws.com^
 ||analytics-production.hapyak.com^
@@ -8087,6 +8090,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||appspot.com/stats?
 ||appspot.com/take?
 ||appspot.com/track-analytics-event
+||appvtexio.weni.ai/pixel.js
 ||aramuz.net/frontapi/*/analyticsEvent?
 ||arc.pub/clavis/training/events
 ||arclk.net/trax?
