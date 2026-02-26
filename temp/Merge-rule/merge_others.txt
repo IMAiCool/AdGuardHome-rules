@@ -4480,6 +4480,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /smmch-mine.js
 /smmch-own.js
 /snowman.gif?p=
+/snowplow-collector-prod.$xmlhttprequest
 /snowplow-tracker.tatest.js
 /snowplow.js
 /snowplow/*$script
@@ -9463,7 +9464,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||taboolanews.com/summary-page/*_samsung-carnival-$generichide
 @@||tag.aticdn.net/piano-analytics.js$script,domain=boerzoektvrouw.kro-ncrv.nl
 @@||tag.aticdn.net/piano-analytics.js$script,domain=toureiffel.paris
-@@||tag.aticdn.net^$script,domain=gouv.fr|rte.ie|tv5monde.com|uktvplay.co.uk|visaconcierge.eu|yourstory.com
+@@||tag.aticdn.net^$script,domain=gouv.fr|openservices.enedis.fr|rte.ie|tv5monde.com|uktvplay.co.uk|visaconcierge.eu|yourstory.com
 @@||tagcommander.com^*/tc_$script
 @@||tags.news.com.au/prod/heartbeat/$script
 @@||tags.t.tailtarget.com/t3m.js?$domain=superesportes.com.br
@@ -10244,6 +10245,7 @@ ali213.net##.zadmainholder
 ali213.net##div[class^="GG"]
 ali213.net##div[id^="ali-ad-js-"]
 ali213.net#@#.subscribe-container
+alibaba.com##.gallery-card:has(.searchx-card-e-ad)
 alibaba.com##.is-creative
 alibaba.com##.searchx-offer-item[data-aplus-auto-offer*="ad_adgroup_toprank"]
 alibaba.com##a[campaignid][target="_blank"]
@@ -13693,6 +13695,7 @@ disqus.com###siderail-sticky-ads-module
 disqus.com##.ad__adh-wrapper
 disqus.com##.col-promoted
 disqus.com##[data-role="ad-content"]
+disruptionbanking.com##.swp_floating_horizontal_wrapper
 dissentmagazine.org##.bc_random_banner
 distractify.com##.hNIPOc
 distractify.com,greenmatters.com,inquisitr.com,okmagazine.com,radaronline.com##div[style="font-size:x-small;text-align:center;padding-top:10px"]
@@ -24747,6 +24750,7 @@ whosdatedwho.com##.block-global-adDFP_HomeFooter
 whosdatedwho.com##.ff-adblock
 wichspornos.com##.tf-sp
 wien.info##.promotion-footer
+wierdjapan.com##.under-player-banner
 wifinetnews.com##table[height="260"]
 wiki.fextralife.com#@#.ad-sidebar
 wiki.gg###wikigg-sl-footer
@@ -28561,6 +28565,8 @@ zzzyk.com###Tinfo
 ||apic.in/mmd.gif
 ||apicit.net^$third-party
 ||apiecelee.com^$popup
+||apigw.scmp.com/metrics/monitoring
+||apigw.scmp.com/pwa-v2-unleash-proxy/proxy/client/metrics
 ||apiimg.com/haishui/
 ||apiimg.com/huaer/xiahe.
 ||apk-01.oss-cn-beijing.aliyuncs.com/dp/
@@ -31456,6 +31462,7 @@ zzzyk.com###Tinfo
 ||cookpad.com/FqtAw5et/init.js
 ||cooladata.com^$third-party
 ||coolaler.com/index_ads/
+||coolblue.de/js/mimir/
 ||coolblue.nl/monitoring/
 ||coolerads.com^$third-party
 ||coolfreehost.com^
@@ -33130,6 +33137,7 @@ zzzyk.com###Tinfo
 ||epitrack.com^$third-party
 ||epl.paypal-communication.com^$script
 ||epochtimes.de/mp/track/
+||epoq.de/inbound-servletapi/event?
 ||eporner.com/dot/
 ||eporner.com/event.php
 ||eporner.com/xhr/vast/
@@ -34200,6 +34208,7 @@ zzzyk.com###Tinfo
 ||galacg.me/wp-content/uploads/*750x
 ||galada.it/omnitag/
 ||galaxiemedia.fr^$third-party
+||galaxus.com/_next/static/chunks/rum.$script
 ||galaxyearningsfly.com^$popup
 ||galaxymedia.xyz/app/images/banner.gif
 ||galaxypush.com^$document
@@ -41216,6 +41225,7 @@ zzzyk.com###Tinfo
 ||playoncenter.com^$third-party
 ||playonlinegames.space^$document
 ||playonlinegames.space^$popup
+||playox.de/analytics/
 ||playrainbet.com^$popup
 ||playstretch.host^
 ||playstretch.host^$document
@@ -41898,6 +41908,7 @@ zzzyk.com###Tinfo
 ||pwinsider.com/advertisement/
 ||px-cdn.net/b/
 ||px-cdn.net^*/collector
+||px-cloud.net/b/c/beacon
 ||px-cloud.net/b/s
 ||pxaction.com^$third-party
 ||pxchk.net/b/s
@@ -42362,6 +42373,7 @@ zzzyk.com###Tinfo
 ||recobell.io/rest/logs?
 ||recogerconsentimiento.com/consent/
 ||recognified.net^$third-party
+||recommend.9gag.com/interact/event/
 ||recommended-twice.com^$popup
 ||recommendhost.com^
 ||recompensecombinedlooks.com^$popup
@@ -43037,6 +43049,7 @@ zzzyk.com###Tinfo
 ||schnaeppchenfuchs.com/js/default-
 ||scholar.google.com^$ping
 ||schoolasiagirls.net/ban/
+||schottenland.de/na/ajax.php?ax=HiT&
 ||scibook.cn/tuiguang.
 ||sciencechannel.com/events/
 ||sciencefocus.com/pricecomparison/$subdocument
