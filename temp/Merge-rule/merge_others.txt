@@ -2504,6 +2504,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /exoclick.$~script,~xmlhttprequest,domain=~exoclick.bamboohr.co.uk|~exoclick.kayako.com
 /exonb/*$script
 /exonob/*$script
+/exowb/froload.js$script
 /expcount/additional.php
 /exponea.min.js
 /exports/tour/*$third-party
@@ -10640,7 +10641,7 @@ ar15.com##.adcol
 ar15.com##.minis
 ar15.com##.stickers
 ar15.com##[href^="/forums/transfers.html"]
-ar15.com,armageddonexpo.com,audiforums.com,f1gamesetup.com,ferrarichat.com,hotrodhotline.com,jaguarforums.com,pypi.org,smashingmagazine.com,thebugle.co.za,wbal.com,webtorrent.io##.sponsors
+ar15.com,armageddonexpo.com,audiforums.com,f1gamesetup.com,ferrarichat.com,ford-trucks.com,hotrodhotline.com,jaguarforums.com,pypi.org,smashingmagazine.com,thebugle.co.za,wbal.com,webtorrent.io##.sponsors
 arabiaweather.com##.mpu-card
 arabtimesonline.com,independent.co.ug,udaipurkiran.com##.e3lan
 arbiscan.io##.d-none.text-center.pl-lg-4.pl-xll-5
@@ -14153,6 +14154,7 @@ eatthis.com##[id^="gm_karmaadunit_widget"]
 eatwell101.com###desk1
 eatwell101.com##.adsenseright
 eawaz.com##.metaslider
+ebab.com###lcg-banner
 ebar.com###skin-left
 ebar.com###skin-right
 ebaumsworld.com###subheader_atf_wrapper
@@ -15063,6 +15065,8 @@ forbes.com,nasdaq.com##.video-placeholder
 forbes.com,sdxcentral.com,windowscentral.com##.ad-unit
 forbes.com.au##.bz-viewability-container
 forced-tube.net,hqasianporn.org##.coverup
+ford-trucks.com##.navbar_notice
+ford-trucks.com##.text-center:has([style])
 forebet.com##.rbannerDiv
 forecast7.com##.ad[align="center"]
 forestriverforums.com##.recommended-stories
@@ -27646,7 +27650,6 @@ zzzyk.com###Tinfo
 ||adtraxx.de^$third-party
 ||adtriba.com^$third-party
 ||adtrix.com^$third-party
-||adult-host.org^
 ||adult-sex-games.com/images/adult-games/
 ||adult-sex-games.com/images/promo/
 ||adult-trade.nl/lo/track.php
@@ -29393,7 +29396,6 @@ zzzyk.com###Tinfo
 ||behance.net/v2/logs
 ||behave.com^$third-party
 ||behavioralengine.com^$third-party
-||behim.click^$document
 ||behim.click^$popup
 ||beijing-air.com/images/a/j
 ||beijingbang.top/scholar/xljsci
@@ -29473,7 +29475,6 @@ zzzyk.com###Tinfo
 ||bestgames-2022.com^$popup
 ||besthitsnow.com^$third-party
 ||bestlittlesites.com/plugins/advertising/getad/
-||bestlocaldominators.com^
 ||bestmoviesflix.xyz^$popup
 ||bestodds.com^$third-party
 ||bestofferdirect.com^$third-party
@@ -29799,6 +29800,7 @@ zzzyk.com###Tinfo
 ||blueparrot.media^$popup
 ||bluepromocode.com/images/widgets/
 ||bluetoad.com^$third-party
+||blufm.de/pr/$third-party
 ||bluhostedbanners.blucigs.com^
 ||bluodpa-a.online^$document
 ||blurbreimbursetrombone.com^$document
@@ -33403,7 +33405,6 @@ zzzyk.com###Tinfo
 ||faceb00k-free00.hostingerapp.com^
 ||faceb00k-marketplace-news.hostingerapp.com^
 ||faceb00k.in.cp-ht-6.webhostbox.net^
-||faceb00k.viralhosts.com^
 ||faceb00k.x10host.com^
 ||faceb00k1-com.snipe7944.getlark.hosting^
 ||faceb00kpho.x10host.com^
@@ -34289,6 +34290,7 @@ zzzyk.com###Tinfo
 ||gayadnetwork.com^$third-party
 ||gayforfans.com^*.php|$script
 ||gaygo.tv/gtv/frms/
+||gayguide.travel/scripts/images.js
 ||gayporntube.com/spots.php?
 ||gays-cruising.com/nb/
 ||gaystream.pw/juicy.js
@@ -34852,7 +34854,6 @@ zzzyk.com###Tinfo
 ||gpt.mail.yahoo.net/sandbox$subdocument,domain=mail.yahoo.com
 ||gpxz.com/js2/
 ||grabclix.com^$popup
-||grabearlyhosting.com^
 ||grabify.link/api/js
 ||grabnetworks.com/beacons/
 ||grabnetworks.com/ping?
@@ -34861,7 +34862,6 @@ zzzyk.com###Tinfo
 ||graciamediaweb.com^$third-party
 ||grafana.net/collect/
 ||grafpedia.com^$third-party
-||graitsie.com^$document
 ||graitsie.com^$popup
 ||granify.com^$third-party
 ||grapeshot.co.uk^$third-party
@@ -35600,7 +35600,6 @@ zzzyk.com###Tinfo
 ||host-vc-fone-dx-wiem-qa.weebly.com^
 ||host-winds.com^
 ||host-with-on-us.online^
-||host-with-on-us.space^
 ||host.flamingsavings.com^
 ||host.gefmedica.it^
 ||host.gsslcloud.com^
@@ -36138,6 +36137,7 @@ zzzyk.com###Tinfo
 ||ihhmh.com/mg/show
 ||ihookup.com/configcreatives/
 ||ihost.com.vn^
+||ihuntghoststv.com^
 ||iiauu.cn/777/
 ||iid-network.jp^$third-party
 ||iid97.com/bdgo/
@@ -38145,7 +38145,6 @@ zzzyk.com###Tinfo
 ||localgoodsdeliveryco.com^
 ||localhookupclub1.com^
 ||localisation-app.info^
-||localisation-appareil.co^
 ||localisation-appareil.com^
 ||localisation-connect.fr^
 ||localisation-service.info^
@@ -39395,7 +39394,6 @@ zzzyk.com###Tinfo
 ||muheodeidsoan.info^$popup
 ||muletatyphic.com^$popup
 ||multicounter.de^$third-party
-||multihost1331.com^
 ||multilocal-leboncoin.com^
 ||multimovies.cloud/player/jw8/vast.js
 ||multiup.us/cdn-cgi/trace
@@ -40291,7 +40289,6 @@ zzzyk.com###Tinfo
 ||ofweek.com/pop/ad/
 ||oghqvffmnt.com^$popup
 ||oghub.io^$third-party
-||oglalavoodoo.world^$document
 ||oglalavoodoo.world^$popup
 ||ogrepsougie.net^$popup
 ||ogt.jp^$third-party
@@ -41240,6 +41237,7 @@ zzzyk.com###Tinfo
 ||player.javboys.cam/cdn-cgi/trace
 ||player.ooyala.com/errors/report?
 ||player.sendtonews.com^$third-party
+||player.target-video.com/player/build/plugins/googleanalytics/
 ||players.brightcove.net^$script,domain=pedestrian.tv
 ||players.radioonlinehd.net^$domain=flamecomics.xyz
 ||playerswhisper.com^$popup
@@ -41282,7 +41280,6 @@ zzzyk.com###Tinfo
 ||pllsadrp.net^$popup
 ||plorexdry.com^$document
 ||plorexdry.com^$popup
-||plrwithhosting.com^
 ||plug.it/tracks/
 ||plug.it^*/iol_evnt.
 ||plug.it^*/iol_evnt_
@@ -43606,7 +43603,6 @@ zzzyk.com###Tinfo
 ||siccash.com^$third-party
 ||sicilianelmondo.com/banner/
 ||sicrednet.byethost7.com^
-||siddharthp11.sg-host.com^
 ||sided.co/analytics/
 ||siemens.com/c2_analytics.js
 ||sifomedia.se^$third-party
@@ -44281,7 +44277,6 @@ zzzyk.com###Tinfo
 ||srvqck15.com^$popup
 ||srvqck3.com^$document
 ||srvqck3.com^$popup
-||srvqck5.com^$document
 ||srvqck5.com^$popup
 ||srvtrck.com^$document
 ||srvtrck.com^$popup
@@ -44487,8 +44482,6 @@ zzzyk.com###Tinfo
 ||static.qiyi.com/js/pingback/
 ||static.sunmedia.tv/integrations/
 ||static.tradetracker.net^$third-party
-||static.twincdn.com/special/license.packed
-||static.twincdn.com/special/script.packed
 ||static.youku.com/*/index/js/iresearch.js
 ||static.youku.com/*/js/cps.js
 ||static.zongheng.com^*/adClickStat.js
@@ -46172,6 +46165,9 @@ zzzyk.com###Tinfo
 ||tweakers.nl/track/
 ||twigwisp.com^$document
 ||twigwisp.com^$popup
+||twincdn.com/channels/
+||twincdn.com/special/
+||twincdn.com/video/
 ||twinfill.com^$popup
 ||twinkle-fun.net^$popup
 ||twinrdengine.com^$popup
@@ -46356,7 +46352,6 @@ zzzyk.com###Tinfo
 ||unity3d.com/v1/events
 ||universalads.com^$third-party
 ||unknowhost.ddns.net^
-||unlimhost.cloud^
 ||unlocky.org^$document
 ||unlocky.xyz^$document
 ||unmistdistune.guru^$popup
@@ -46444,6 +46439,7 @@ zzzyk.com###Tinfo
 ||usabilla.com^$third-party
 ||usage.seibert-media.io^$third-party
 ||usatoday.com/gcdn/ads/
+||usbesthosting.com^
 ||useblackbox.io/telemetry
 ||usedownloads.com^$document
 ||useinsider.com^$third-party
@@ -46803,7 +46799,6 @@ zzzyk.com###Tinfo
 ||visit-website.com^$popup
 ||visit-x.net/promo/$third-party
 ||visit.webhosting.yahoo.com^
-||visitarkqr.click^$document
 ||visitarkqr.click^$popup
 ||visithunter.io^$third-party
 ||visitor-analytics.io^$third-party
@@ -47005,7 +47000,6 @@ zzzyk.com###Tinfo
 ||wahoha.com^$popup
 ||wai69.com/js/baidu/
 ||waipian*.com/statics/recommend/
-||waisheph.com^$document
 ||waisheph.com^$popup
 ||waitrose.com/gDaVC7/
 ||wake-up-neo.com/bnet/
@@ -47338,7 +47332,6 @@ zzzyk.com###Tinfo
 ||wetpussygames.com/t78d42b806a3.js
 ||wetrackgames.com^$document
 ||wetrackgames.com^$popup
-||wettigo136.com^$document
 ||wettigo136.com^$popup
 ||wewearegogogo.com^$document
 ||wewearegogogo.com^$popup
@@ -47481,6 +47474,7 @@ zzzyk.com###Tinfo
 ||wmediahosting.com^
 ||wmmediacorp.com^$third-party
 ||wmptengate.com^$popup
+||wms.pms.mybluehost.me^
 ||wmtools.it/wmtcounter.php?
 ||wmtten.com^$popup
 ||wn.com/count.js
