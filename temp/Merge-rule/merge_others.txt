@@ -19831,6 +19831,8 @@ news24.com##.featured-category
 news24online.com##.desktop_new_ads
 news24online.com##.n24_ads_div_title
 news365.co.za##.stream-item-widget-content
+news9.com,newson6.com##.Page-footer-Ad-overlay
+news9.com,newson6.com##.Page-header-Ad-Slot
 news9live.com###left_before_story
 newsbreak.com##div[style*="position:relative;width:100%;height:0;padding-bottom:"]
 newscientist.com##.Outbrain
@@ -19865,8 +19867,6 @@ newsner.com##div[id^="ad-"]
 newsnext.live##.size-large
 newsnow.co.uk##.grid-column__container
 newsnow.co.uk##.hero-wrapper
-newson6.com##.Page-footer-Ad-overlay
-newson6.com##.Page-header-Ad-Slot
 newspointapp.com##.Ad_wrapper
 newspointapp.com##.fbgooogle-wrapper
 newspointapp.com##[ctn-style]
@@ -28468,6 +28468,7 @@ zzzyk.com###Tinfo
 ||aolcdn.com/js/mg2.js
 ||aolcdn.com/omniunih_int.js
 ||aolusb.com/forever/
+||aoneroom.com/wefeed-h5-bff/ad/$xmlhttprequest
 ||aorms.com^$third-party
 ||aorpum.com^$third-party
 ||aoshi.com/rbc.jpg
@@ -28893,7 +28894,6 @@ zzzyk.com###Tinfo
 ||austeemsa.com^$popup
 ||auth.services.adobe.com/signin/v1/audit
 ||authedwebmine.cz^$third-party,domain=~webmine.cz
-||authhardware.ghost.io^
 ||authognu.com^$popup
 ||authorinsights.com^$third-party
 ||autnethicationservicesdomainhostinghosstingservices4.pages.dev^
@@ -30565,6 +30565,7 @@ zzzyk.com###Tinfo
 ||center.io^$third-party
 ||centerblog.net/a/in
 ||centerblog.net/stats.js
+||centerstart.ghost.io^
 ||centurys.net/promo_
 ||cenyou.net/wp-content/uploads/1200-200.
 ||ceramicturtleremnant.com^$document
@@ -32532,7 +32533,6 @@ zzzyk.com###Tinfo
 ||downloadoffice2010.org^$popup
 ||downloadoperagx.com/ef/$popup
 ||downloads-windows-pc.com^$popup
-||downloadsapp.ghost.io^
 ||downlon.com^$popup
 ||downmn.com^$popup,third-party
 ||downmz.com^$popup,third-party
@@ -33027,6 +33027,7 @@ zzzyk.com###Tinfo
 ||empresameusnet.kinghost.net^
 ||empresasjuridica.kinghost.net^
 ||emumuendaku.info^$popup
+||en-global-homepages.ghost.io^
 ||en-globlesite.ghost.io^
 ||en-homepages.ghost.io^
 ||en-learn-homepage.ghost.io^
@@ -34476,7 +34477,6 @@ zzzyk.com###Tinfo
 ||getsmartcontent.com^$third-party
 ||getsmartlook.com^$third-party
 ||getsmartyapp.com^$popup
-||getstart-eng.ghost.io^
 ||getstartapps.ghost.io^
 ||getstarted-en.ghost.io^
 ||getstat.net^$third-party
@@ -34632,6 +34632,7 @@ zzzyk.com###Tinfo
 ||global-home.ghost.io^
 ||global-homepage.ghost.io^
 ||global-intro.ghost.io^
+||global-learn.ghost.io^
 ||global-live.ghost.io^
 ||global-media.de^*/track/ai.img
 ||global-new.ghost.io^
@@ -34644,7 +34645,9 @@ zzzyk.com###Tinfo
 ||global-setup.ghost.io^
 ||global-site.ghost.io^
 ||global-started.ghost.io^
+||global-startintro.ghost.io^
 ||global-trk.com^$popup
+||global-website.ghost.io^
 ||global.canon/00cmn/js/*/analytics-
 ||global.localizecdn.com/api/lib/*.gif?
 ||global.ssl.fastly.net/native/
@@ -34697,6 +34700,7 @@ zzzyk.com###Tinfo
 ||gnezdo.ru^$third-party
 ||gnpge.com^$third-party
 ||go-cpa.click^$popup
+||go-pagehome.ghost.io^
 ||go-srv.com^$document
 ||go-srv.com^$popup
 ||go-to-website.com^$popup
@@ -34765,7 +34769,6 @@ zzzyk.com###Tinfo
 ||gogorenti.wang/js/m_cp
 ||goingup.com^$third-party
 ||gojsmanager.com^$third-party
-||gold-salamander-743912.hostingersite.com^
 ||gold2762.com^$popup
 ||gold678.com/news/js/layer/layer.js
 ||golderotica.com^$third-party
@@ -35536,6 +35539,7 @@ zzzyk.com###Tinfo
 ||home-pages.ghost.io^
 ||home-platforms.ghost.io^
 ||home-profile.ghost.io^
+||home-projects.ghost.io^
 ||home-started.ghost.io^
 ||home-starts.ghost.io^
 ||home-view.ghost.io^
@@ -35554,6 +35558,7 @@ zzzyk.com###Tinfo
 ||homepage-appstart.ghost.io^
 ||homepage-begin.ghost.io^
 ||homepage-bing.ghost.io^
+||homepage-browser.ghost.io^
 ||homepage-cloud.ghost.io^
 ||homepage-com.ghost.io^
 ||homepage-digital.ghost.io^
@@ -35563,6 +35568,7 @@ zzzyk.com###Tinfo
 ||homepage-getup.ghost.io^
 ||homepage-global.ghost.io^
 ||homepage-guidance.ghost.io^
+||homepage-intro-en.ghost.io^
 ||homepage-iostart.ghost.io^
 ||homepage-learn.ghost.io^
 ||homepage-ledgre.ghost.io^
@@ -35574,10 +35580,10 @@ zzzyk.com###Tinfo
 ||homepage-setup.ghost.io^
 ||homepage-site.ghost.io^
 ||homepage-starten.ghost.io^
+||homepage-startview.ghost.io^
 ||homepage-teach.ghost.io^
 ||homepage-trezo.ghost.io^
 ||homepage-user.ghost.io^
-||homepage-users.ghost.io^
 ||homepagehub.ghost.io^
 ||homepages-intro.ghost.io^
 ||homeprivatevids.com/js/580eka426.js
@@ -36660,12 +36666,14 @@ zzzyk.com###Tinfo
 ||intro-homelearn.ghost.io^
 ||intro-homepage.ghost.io^
 ||intro-learn-page.ghost.io^
+||intro-learned.ghost.io^
 ||intro-learnpage.ghost.io^
 ||intro-live.ghost.io^
 ||intro-platform.ghost.io^
 ||intro-section.ghost.io^
 ||intro-startd.ghost.io^
 ||intro-started.ghost.io^
+||intro-starting.ghost.io^
 ||intuit.com/static/scripts/cookie-sync/cookiesync-pixel.js
 ||intuitwebsites.com/tracking/
 ||inumbreonr.com^$popup
@@ -37815,6 +37823,7 @@ zzzyk.com###Tinfo
 ||learn-connected.ghost.io^
 ||learn-cpp.org/static/img/banners/cfk/$image
 ||learn-explore.ghost.io^
+||learn-homepage-en.ghost.io^
 ||learn-homepage.ghost.io^
 ||learn-hub.ghost.io^
 ||learn-page.ghost.io^
@@ -37823,6 +37832,7 @@ zzzyk.com###Tinfo
 ||learnedstart.ghost.io^
 ||learnguide.ghost.io^
 ||learnpage-intro.ghost.io^
+||learnpages-global.ghost.io^
 ||leboncoin.fr/rav-monitoring/
 ||lecai.com/page/zhuanti/baidu/
 ||leche69.com^$third-party
@@ -40523,7 +40533,6 @@ zzzyk.com###Tinfo
 ||onlex.de/_counter.php
 ||onlidex.com^$document
 ||online-deal.click^$popup
-||online-homepage.ghost.io^
 ||online-metrix.net^$third-party
 ||online-umwandeln.de/analytics.js
 ||online.*/promoredirect?key=
@@ -41598,6 +41607,7 @@ zzzyk.com###Tinfo
 ||positivehealth.com/img/original/BannerAvatar/
 ||positivehealth.com/img/original/TopicbannerAvatar/
 ||posst.co^$third-party
+||post-host.screenconnect.com^
 ||postaffiliatepro.com^$popup,third-party
 ||postaffiliatepro.com^$third-party
 ||postageapp.com/receipt/$third-party
@@ -41779,7 +41789,6 @@ zzzyk.com###Tinfo
 ||programmer-club.com.tw/images/uuu/
 ||progressive.com/Log/
 ||project-begin.ghost.io^
-||project-homepage.ghost.io^
 ||projectjav.com/scripts/projectjav_newpu.js
 ||projectsunblock.com^$third-party
 ||promenaded.autos^$document
@@ -42699,6 +42708,7 @@ zzzyk.com###Tinfo
 ||researchnow.co.uk^$third-party,domain=~dynata.com
 ||researchnow.com^$third-party
 ||resellerratings.com/popup/include/popup.js
+||resentlocallycamomile.com^
 ||resentreaccotia.com^$document
 ||resentreaccotia.com^$popup
 ||reservationday.com/metrics/
@@ -43499,6 +43509,7 @@ zzzyk.com###Tinfo
 ||setravieso.com^$popup
 ||setup-begin.ghost.io^
 ||setup-connect.ghost.io^
+||setup-digital.ghost.io^
 ||setup-global.ghost.io^
 ||setup-home.ghost.io^
 ||setup-homepage.ghost.io^
@@ -43577,6 +43588,7 @@ zzzyk.com###Tinfo
 ||shababhost.com^
 ||shakingtacklingunpeeled.com^$document
 ||shakingtacklingunpeeled.com^$popup
+||shallspark.com/athena/tracking/
 ||shandian.biz/wp-content/themes/inove/js/comment.js
 ||shang.hlgnet.com/code/
 ||shangqun.com/webforms/embed/
@@ -44504,7 +44516,6 @@ zzzyk.com###Tinfo
 ||startden.ghost.io^
 ||startdesktop.ghost.io^
 ||startdhub.ghost.io^
-||startdownload.ghost.io^
 ||startds.ghost.io^
 ||starte-apps.ghost.io^
 ||starte-begin.ghost.io^
@@ -44523,7 +44534,6 @@ zzzyk.com###Tinfo
 ||started-netural.ghost.io^
 ||started-new.ghost.io^
 ||started-news.ghost.io^
-||started-official.ghost.io^
 ||started-page.ghost.io^
 ||started-platform.ghost.io^
 ||started-platforms.ghost.io^
@@ -46605,7 +46615,6 @@ zzzyk.com###Tinfo
 ||user2332.royal-hosting.ru^
 ||userbegin.ghost.io^
 ||usercentrics.eu/session/$image
-||userconnect.ghost.io^
 ||usercycle.com^$third-party
 ||userdive.com^$third-party
 ||userhome.ghost.io^
