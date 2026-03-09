@@ -3368,7 +3368,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /logger.ashx?
 /logger.dll/*
 /logger/?referer=
-/logging/ClientEvent
 /logging/React-UHP?
 /logging/log.do
 /logging/logjs
@@ -8121,11 +8120,11 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||cvs.com/shop-assets/js/VisitorAPI.js$~third-party
 @@||cvs.com/webcontent/images/weeklyad/adcontent/$~third-party
 @@||cwtv.com^$generichide
-@@||cxense.com/cx.cce.js$domain=bizjournals.com|businessinsider.de|cxpublic.com|handelsblatt.com|inquirer.com|mainichi.jp|marketwatch.com|shueisha.co.jp|tarzanweb.jp|tn.com.ar|tvnet.lv|wsj.com
-@@||cxense.com/cx.js$domain=13.cl|bizjournals.com|businessinsider.de|businessinsider.jp|computerbild.de|cyclestyle.net|handelsblatt.com|inquirer.com|journaldequebec.com|ksml.fi|mainichi.jp|marketwatch.com|nikkansports.com|nippon.com|savonsanomat.fi|shueisha.co.jp|str.toyokeizai.net|tarzanweb.jp|tn.com.ar|tv-tokyo.co.jp|tvnet.lv|wsj.com
+@@||cxense.com/cx.cce.js$domain=bizjournals.com|businessinsider.de|cxpublic.com|diamond.jp|handelsblatt.com|inquirer.com|mainichi.jp|marketwatch.com|shueisha.co.jp|tarzanweb.jp|tn.com.ar|tvnet.lv|wsj.com
+@@||cxense.com/cx.js$domain=13.cl|bizjournals.com|businessinsider.de|businessinsider.jp|computerbild.de|cyclestyle.net|diamond.jp|handelsblatt.com|inquirer.com|journaldequebec.com|ksml.fi|mainichi.jp|marketwatch.com|nikkansports.com|nippon.com|savonsanomat.fi|shueisha.co.jp|str.toyokeizai.net|tarzanweb.jp|tn.com.ar|tv-tokyo.co.jp|tvnet.lv|wsj.com
 @@||cxense.com/document/search?
 @@||cxense.com/persisted/execute$domain=nippon.com
-@@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|businessinsider.jp|computerbild.de|cxpublic.com|cyclestyle.net|friday.gold|friday.kodansha.co.jp|handelsblatt.com|inquirer.com|journaldequebec.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|rikejo.jp|savonsanomat.fi|shueisha.co.jp|tn.com.ar|tvnet.lv|wsj.com
+@@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|businessinsider.jp|computerbild.de|cxpublic.com|cyclestyle.net|diamond.jp|friday.gold|friday.kodansha.co.jp|handelsblatt.com|inquirer.com|journaldequebec.com|ksml.fi|mainichi.jp|marketwatch.com|nippon.com|rikejo.jp|savonsanomat.fi|shueisha.co.jp|tn.com.ar|tvnet.lv|wsj.com
 @@||cy.com/hz/*/ad
 @@||cy.com^$generichide
 @@||cybozu.com/*/event.gif?$~third-party
@@ -9530,7 +9529,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||tms.oracle.com/main/prod/utag.sync.js$~third-party
 @@||tntdrama.com/modules/custom/ten_video/js/analytics_v2.js$~third-party
 @@||toggo.de/static/js/sourcepoint.js$domain=toggo.de
-@@||tokbox.com/prod/logging/ClientEvent$domain=examroom.ai
 @@||toolfk.com/tools/js/share/js/jquery.share.min.js
 @@||toolfk.com^$generichide
 @@||tools.pinpoll.com^$script,subdocument,domain=iframely.net
@@ -18993,6 +18991,7 @@ metro.co.uk##.metro-discounts
 metro.co.uk##.metro-ow-modules
 metropcs.mobi##div[title="Advertisement"]
 metservice.com##.Header
+meyka.com##.etoro-ad-scroll
 mg.co.za###partner-content
 mg.co.za##article:has(.sponsored-single)
 mg21.com##a[href="https://www.mg21.com/zunjiazq"]
@@ -20127,6 +20126,7 @@ oilchem.net##.LzAdv
 oilcity.news##.above-footer-widgets
 oilcity.news##.sticky-sponsors-large
 oilprice.com##.banner--inPage
+oilprice.com##.dianomi_context
 oisd.nl###adgb
 ok.porn,ok.xxx,pornhat.com##.bns-bl
 ok.porn,pornhat.com##.bn
@@ -30560,6 +30560,7 @@ zzzyk.com###Tinfo
 ||cenyou.net/wp-content/uploads/1200-200.
 ||ceramicturtleremnant.com^$document
 ||ceros.com/a?data
+||cert.tryggehandel.net/ping
 ||certifica.com^$third-party
 ||cesar-it.de/collect/
 ||cesu.urssaf.fr/clm10
@@ -30775,6 +30776,7 @@ zzzyk.com###Tinfo
 ||cig.com.cn^$third-party
 ||cijoorsairgusa.com^$popup
 ||cilimao.*/amaod/
+||cilipa.com^*0.js
 ||cimeterbren.top^$popup
 ||cimri.com/api/pixel
 ||cinarra.com^$third-party
@@ -32082,6 +32084,7 @@ zzzyk.com###Tinfo
 ||definebabe.com/sponsor_
 ||degg.site^$document
 ||deghooda.net^$popup
+||degreedistance.cfd^$document
 ||dein-plan.de/t.gif
 ||deine-tierwelt.de/ajax/responsive/stats.php?
 ||dejavu.mlapps.com^$third-party
