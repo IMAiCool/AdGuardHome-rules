@@ -5089,7 +5089,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /v1/log/web-vitals$xmlhttprequest
 /v1/pixel.js
 /v1/pixel?
-/v1/rgstr^
 /v1/stats/track
 /v1/tracker.js
 /v1/viewport_events
@@ -23913,6 +23912,7 @@ tsumino.com##.erogames_container
 tsx.is##.VPDocAside > .mb-8
 tsx.is##.VPDocAsideCarbonAds
 tt1069.com#@##ad-slot
+ttks.tw##.txtcenter
 ttmeiju.me##DIV[style="float:left;margin-bottom:27px;margin-top:27px;"]
 ttsp.tv##.play_list_adbox
 tuasaude.com##.ar82zL-ad-container
@@ -23921,6 +23921,8 @@ tube8.com##[data-spot-id]
 tube8.com##[data-spot]
 tube8.com,tube8.es,tube8.fr##.adsbytrafficjunky
 tube8.com,tube8.es,tube8.fr##.col-3-lg.col-4-md.col-4
+tube8.com,tube8.es,tube8.fr##.e8-column
+tube8.com,tube8.es,tube8.fr##.paidTab
 tube8.es,tube8.fr##video[autoplay]
 tubedupe.com##[src^="https://tubedupe.com/player/html.php?aid="]
 tubepornclassic.com##.___it0h1l3u2se2lo
@@ -28510,6 +28512,7 @@ zzzyk.com###Tinfo
 ||api.ffm.to/sl/e/$image
 ||api.gist.ai/v1/analytics/track
 ||api.gleap.io/sessions/ping
+||api.hostfuru.com^
 ||api.invideo.io/v3/send_analytics_event
 ||api.ipgeolocation.io/getip
 ||api.iris.tv/update
@@ -31351,7 +31354,6 @@ zzzyk.com###Tinfo
 ||connect.facebook.net^*/fbds.js$third-party
 ||connect.facebook.net^*/pcm.js$third-party
 ||connecteam.com/bi/api/ReportHit/
-||connected-home.ghost.io^
 ||connected-homes.ghost.io^
 ||connected-learn.ghost.io^
 ||connectedhome.ghost.io^
@@ -31543,6 +31545,7 @@ zzzyk.com###Tinfo
 ||courrierinternational.com/*.pa.js
 ||coursehero.com/v1/data-tracking
 ||coursera.org/eventing
+||courses.monoprix.fr/events
 ||coveo.com/coveo.analytics.js/
 ||cover.ydgal.com/axfile/
 ||covertarget.com^*_*.php
@@ -33026,7 +33029,6 @@ zzzyk.com###Tinfo
 ||en-pagestart.ghost.io^
 ||en-publicstarts.ghost.io^
 ||en-startlearn.ghost.io^
-||en-us-homepage.ghost.io^
 ||en-us-learn.ghost.io^
 ||en8848.com.cn/js/ad
 ||en8848.com.cn/js/content.
@@ -33045,7 +33047,6 @@ zzzyk.com###Tinfo
 ||enframement.pics^$popup
 ||eng-browsing.ghost.io^
 ||eng-connect.ghost.io^
-||eng-home.ghost.io^
 ||eng-homepage.ghost.io^
 ||eng-homes.ghost.io^
 ||eng-intro.ghost.io^
@@ -34376,6 +34377,7 @@ zzzyk.com###Tinfo
 ||gentent.stre4mplay.one^$popup
 ||gentwoleads.top^$document
 ||gentwoleads.top^$popup
+||genxwhosting.com^
 ||geo-targetly.com^$third-party
 ||geo.dailymotion.com^$script,domain=wol.gg
 ||geo.query.yahoo.com^$~xmlhttprequest,domain=~mail.yahoo.com
@@ -34409,12 +34411,10 @@ zzzyk.com###Tinfo
 ||get-gx.net^$document
 ||get-gx.net^$popup
 ||get-homepage.ghost.io^
-||get-homepages.ghost.io^
 ||get-intro.ghost.io^
 ||get-link.xyz^$popup
 ||get-me-wow.
 ||get-me-wow.in^$popup
-||get-newstart.ghost.io^
 ||get-partner.life^$popup
 ||get-starting.ghost.io^
 ||get-starts.ghost.io^
@@ -34429,7 +34429,6 @@ zzzyk.com###Tinfo
 ||getblue.io^$third-party
 ||getblueshift.com^$third-party
 ||getclicky.com^$third-party
-||getconnect.ghost.io^
 ||getconnected.southwestwifi.com/ads_video.xml
 ||getconversion.net^$third-party
 ||getdownloadfree.cfd^$popup
@@ -34513,7 +34512,6 @@ zzzyk.com###Tinfo
 ||ghjie.com/images/2012/images/bg
 ||ghost-5by.pages.dev^
 ||ghost-marketing.com^
-||ghost.nestdns.com^
 ||ghost.trailblazer.com.de^
 ||ghost580.com/js/nei4.js
 ||ghost8.cn^
@@ -35543,7 +35541,6 @@ zzzyk.com###Tinfo
 ||homepage-begin.ghost.io^
 ||homepage-bing.ghost.io^
 ||homepage-browser.ghost.io^
-||homepage-cloud.ghost.io^
 ||homepage-com.ghost.io^
 ||homepage-en-us.ghost.io^
 ||homepage-eng.ghost.io^
@@ -35571,10 +35568,8 @@ zzzyk.com###Tinfo
 ||homepages-intro.ghost.io^
 ||homeprivatevids.com/js/580eka426.js
 ||homeschoolmath.net/a/
-||homestared.ghost.io^
 ||homestartd.ghost.io^
 ||homestarted-page.ghost.io^
-||homestarted.ghost.io^
 ||homestore.com/srv/
 ||homoactive.tv/banner/
 ||honestlyvicinityscene.com^$popup
@@ -35643,7 +35638,6 @@ zzzyk.com###Tinfo
 ||host-vc-fone-dx-wiem-qa.weebly.com^
 ||host.flamingsavings.com^
 ||host.forestcl0ud.ru^
-||host.gefmedica.it^
 ||host.gsslcloud.com^
 ||host.hotel-approve176219.com^
 ||host.k12insight.org^
@@ -35759,7 +35753,9 @@ zzzyk.com###Tinfo
 ||hostingsitesreviews.com^
 ||hostingtinysoft.space^
 ||hostingue.com^
+||hostingwebsitereview.com^
 ||hostingwhereever.com^
+||hostingyear.com^
 ||hostingzealoft.com^
 ||hostingzealoft.today^
 ||hostip.info^
@@ -38537,7 +38533,6 @@ zzzyk.com###Tinfo
 ||macd.cn/macd-topads.html
 ||macfans.org/vip/
 ||machieved.com^$third-party
-||machinery-local-manage-0839142732.vercel.app^
 ||machineseeker.com/data/ofni/
 ||macromill.com/imp/
 ||macromill.com^$third-party
@@ -39800,6 +39795,7 @@ zzzyk.com###Tinfo
 ||neon.today^$third-party
 ||neowin.net/ws/$websocket
 ||neptuntrack.com^$popup
+||nerdnesthosting.com^
 ||nereu-gdr.com^$popup
 ||nero.live^$third-party
 ||nerohut.com^$third-party
@@ -44390,6 +44386,7 @@ zzzyk.com###Tinfo
 ||srvtrck.com^$popup
 ||srware.net/iron/assets/img/av/
 ||srx.com.sg/srx/media/
+||ss-iconbeauty-no-prelive.wexohosting.com^
 ||ss.lv/counter/
 ||ss4w.de/counter.php?
 ||ss9874.com/img/91_
@@ -44532,7 +44529,6 @@ zzzyk.com###Tinfo
 ||starting-homepagee.ghost.io^
 ||starting-install.ghost.io^
 ||starting-intro.ghost.io^
-||starting-page.ghost.io^
 ||starting.ghost.io^
 ||startjourney.ghost.io^
 ||startk.ghost.io^
@@ -44549,7 +44545,6 @@ zzzyk.com###Tinfo
 ||startsstarted.ghost.io^
 ||startu.ghost.io^
 ||startup-eng.ghost.io^
-||startwallet.ghost.io^
 ||startweb-log.ghost.io^
 ||startwebpromo.com^$third-party
 ||startxy.ghost.io^
@@ -45226,7 +45221,6 @@ zzzyk.com###Tinfo
 ||tds.io^$third-party
 ||tdspa.top^$popup
 ||tdstats.com^$third-party
-||teach-homepage.ghost.io^
 ||teachstarted.ghost.io^
 ||tealiumiq.com^$domain=autobild.de
 ||tealiumiq.com^$third-party
@@ -46194,6 +46188,7 @@ zzzyk.com###Tinfo
 ||tt1069.com/script.min.js
 ||tt1069.com/t0602.js
 ||ttavav6.com/zz/
+||ttks.tw/js/otherad.
 ||ttoc8ok.com^$popup
 ||ttrace.ru^$third-party
 ||tubator.com/lookout/ex_rendr3.js
@@ -46812,6 +46807,7 @@ zzzyk.com###Tinfo
 ||viensvoircesite.com^$third-party
 ||vietconbank-digital.otjwvhdd.nethost-4211.000nethost.com^
 ||vietpub.com/banner/
+||view.email.hostplus.com.au^
 ||viewar.org^$third-party
 ||viewdeos.com^$script,third-party
 ||viewlnk.com^$popup
@@ -47202,7 +47198,6 @@ zzzyk.com###Tinfo
 ||wcfbc.net^$third-party
 ||wct.click^$third-party
 ||wct.link^$popup
-||wctsub.hostingcheck24.de^
 ||wdff.buzz/hengf.
 ||wdsvc.net^$third-party
 ||we-stats.com^$third-party
