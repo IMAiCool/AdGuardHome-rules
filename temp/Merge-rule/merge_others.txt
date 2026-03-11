@@ -20615,9 +20615,10 @@ pinchofyum.com##.adthrive_header_ad
 pincong.rocks##.a-a
 pincong.rocks##.aw-mod > a[target="_blank"]
 ping.chinaz.com##.sth > .col-red
+ping0.cc###adxright
 ping0.cc###websites-wrap:has([rel$="sponsored"])
 ping0.cc##.aditems
-ping0.cc##.myeles
+ping0.cc##.xxeles
 pinggu.org##.banner2015
 pinggu.org##.hdbanner
 pinggu.org##.index-somelinks
@@ -21502,6 +21503,7 @@ recruit.com.hk##div[id^="banner"]
 redboing.com##.fw-ad
 reddit.com##[data-faceplate-tracking-context*="\"promoted\":true"]
 reddit.com##div[data-before-content="advertisement"]
+reddit.com##shreddit-ad-post
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##.promotedlink:not([style^="height: 1px;"])
 reddit.com,reddittorjg6rue252oqsxryoxengawnmo46qy4kyii5wtqnwfj4ooad.onion##shreddit-comments-page-ad
 reddxxx.com##.items-center.justify-center.rounded-lg.backdrop-blur-md:has(iframe[src^="https://ctads.rtbsuperhub.com/"])
@@ -24398,6 +24400,7 @@ vpsdx.com##.gsfha3-form
 vpsdx.com##.gthfdsa
 vpser.net##.ab_cpb
 vpser.net##.ab_cpr
+vpstop.cn##a[href*="/ClickAd"]
 vr-compare.com##div[style="min-height: 250px; background-color: rgba(0, 0, 0, 0.133); display: flex; justify-content: center; align-items: center;"]
 vrbo.com##[data-stid="meso-ad"]
 vsbattles.com##.vsb_ad
@@ -25763,6 +25766,7 @@ zzzyk.com###Tinfo
 |piwik.
 ||*.$image,rewrite=abp-resource:1x1-transparent-gif,third-party,domain=rmdown.com
 ||*.metric.gstatic.com^$denyallow=*-dnsotls-ds.metric.gstatic.com
+||*.mp4$rewrite=abp-resource:blank-mp3,domain=huavod.com
 ||*/ad/$rewrite=abp-resource:blank-mp3,domain=huaren.tv
 ||*xav.*/guang/*.gif
 ||*xav.*/guang/*.jpg
@@ -40784,6 +40788,7 @@ zzzyk.com###Tinfo
 ||pan.baidu.com/api/report/
 ||pan.baidu.com/pcloud/counter/refreshcount?
 ||pan.baidu.com/recent/report?
+||pan0304.com/ads.
 ||panc.cc/uploads/hongbao.png
 ||pandahostbd.com^
 ||pandora.com/api/v1/ad/
