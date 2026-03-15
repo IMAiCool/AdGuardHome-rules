@@ -3249,6 +3249,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /li.lms-analytics/insight.min.js
 /lib/analytics.js
 /library/svy/broker.js
+/libs/sentry/*/sentry.js
 /libs/tracker.js
 /liferay-analytics-api.js
 /liferay-analytics-processor.js
@@ -3440,7 +3441,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /measure/pixel/*
 /measure/visit/*
 /media.sailthru.com/5ik/1k4/9/*.gif
-/media/ads/*$image
+/media/ads/*$image,domain=~puzzler.com
 /media/fitad/*
 /media_ads/*$image
 /medialaanUniversalTracker.js
@@ -8390,7 +8391,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||ganma.jp/view/magazine/viewer/pages/advertisement/googleAdSense.html|$~third-party,xmlhttprequest
 @@||ganyancanavari.com/js/fingerprint2.min.js$~third-party
 @@||gaus.ee^$generichide
-@@||gaybeeg.info^$generichide
 @@||gaynetwork.co.uk/Images/ads/bg/$image,~third-party
 @@||gbf.wiki/images/$image,~third-party
 @@||gboku.com^$generichide
@@ -9233,7 +9233,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||rtr-vesti.ru/pvc_cdn/js/stat.js$domain=player.vgtrk.com
 @@||rubiconproject.com/prebid/dynamic/$script,domain=ask.com|journaldequebec.com
 @@||rudaw.net/images/pixel.gif$~third-party
-@@||rule34hentai.net^$generichide
 @@||runescape.wiki^$image,~third-party
 @@||ruten.com.tw/ahd/fetch_ad.php
 @@||ruten.com.tw/js/jquery.ruten.supertop_ad.js
@@ -9624,7 +9623,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||upaiyun.com^*.js$domain=cilimao.co|cilimao.one
 @@||upload.wikimedia.org/wikipedia/$image,media
 @@||upxin.net^$generichide
-@@||urlgalleries.net^$generichide
 @@||useinsider.com/ins.js$domain=pizzahut.jp
 @@||user.edenredplus.com/assets/packages/mixpanel_flutter/assets/mixpanel.js$script,~third-party
 @@||user.userguiding.com/sdk/identify$xmlhttprequest,domain=xaris.ai
@@ -9733,7 +9731,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||xbeibeix.com^$generichide
 @@||xeroshoes.co.uk/affiliate/scripts/trackjs.js$~third-party
 @@||xfinity.com/stream/js/api/fingerprint.js$~third-party
-@@||xfreehd.com^$generichide
 @@||xhaccess.com^$script,~third-party
 @@||xhamster.com^$script,~third-party
 @@||xhamster.desi^$script,~third-party
@@ -10426,7 +10423,7 @@ americanfreepress.net,sashares.co.za,strategicenergy.eu##.wppopups-whole
 americansongwriter.com,suggest.com,wideopencountry.com###sv-video-container
 americansongwriter.com,wideopencountry.com###video-header
 americasvoice.news##a[href^="https://freekit.birchgold.com/"]
-americasvoice.news,arcadepunks.com##img[width="728"]
+americasvoice.news,arcadepunks.com,sweetalert2.github.io##img[width="728"]
 amgreatness.com##.bg-gray-200.mx-auto
 aminoapps.com##.overflow-scroll-sidebar > div
 amishamerica.com##a[rel="nofollow"] > img
@@ -10798,7 +10795,7 @@ aura.cn##.foot-xcx
 aura.cn##.left-zc
 aura.cn##.suspension
 aura.cn##.tc1
-austinchronicle.com,carmag.co.za,fleetnews.co.uk,shawlocal.com,thegazette.com,vodacomsoccer.com###top-leaderboard
+austinchronicle.com,carmag.co.za,fleetnews.co.uk,shawlocal.com,the-scientist.com,thegazette.com,vodacomsoccer.com###top-leaderboard
 australiangolfdigest.com.au##.desktop_header
 austurfrett.is,boards.4chan.org,boards.4channel.org#@#.middlead
 auto-data.net##.ad_incar
@@ -13001,7 +12998,7 @@ coolors.co##[style*="position:absolute;top:20px;"]
 coolors.co##a[href*="srv.Buysellads.com"]
 coolors.co#?#a:-abp-has(div:last-child:-abp-contains(Hide))
 coolpc.com.tw##TD[onclick="cancelBubble()"]
-coomer.st,kemono.cr,official.coomer.com.co,pics-x.com,urlgalleries.net##.ad-container
+coomer.st,kemono.cr,official.coomer.com.co,pics-x.com,urlgalleries.net,xfreehd.com##.ad-container
 copart.com#@#.adscontainer
 copilot.microsoft.com##.b_ad
 copilot.microsoft.com##div[data-testid="ads-card"]
@@ -13097,10 +13094,11 @@ creativeuncut.com##.abox-s_i2
 creepypasta.com##center:has(+
 cricbuzz.com##.cbz-leaderboard-banner
 cricket.com.au##.w-sponsors
+cricket365.com,football365.com,golf365.com,loverugbyleague.com,planetf1.com,planetfootball.com,planetrugby.com,teamtalk.com,tennis365.com##.ps-block-a
 cricketcountry.com##.ad90mob300
 cricketcountry.com##.add-box
 cricketireland.ie##.sponsor-strip
-cricketnetwork.co.uk,f1network.net,pop.inquirer.net,rugbynetwork.net,thefootballnetwork.net###billboard
+cricketnetwork.co.uk,f1network.net,pop.inquirer.net,rugbynetwork.net,the-scientist.com,thefootballnetwork.net###billboard
 cricketnmore.com##.cmtopad
 cricketnmore.com##.desktop-ad-wrapper
 crictracker.com##div[class^="ad-block-"]
@@ -13351,6 +13349,7 @@ dailycaller.com###dailycaller_incontent_3
 dailycaller.com###dailycaller_incontent_4
 dailycaller.com##.dailycaller_adhesion
 dailycaller.com,fanatix.com,gamertweak.com,gematsu.com,politicalcompass.org,videogamemods.com,videogameschronicle.com,worldhistory.org##.adcontainer
+dailycaller.com,tuasaude.com##.ar82zL-ad-container
 dailycoffeenews.com##.banner-box
 dailycoffeenews.com##.sidebar-box
 dailycoffeenews.com##.site-top-ad-desktop
@@ -14312,6 +14311,7 @@ emojiterra.com###adz-header
 empflix.com##.pInterstitialx
 empflix.com##.pause-overlay
 empflix.com##.rightBarBannersx
+empflix.com,tnaflix.com##.bannerBlock
 empflix.com,tnaflix.com##.mewBlock
 empireonline.com##.article_adContainer--filled__vtAYe
 empireonline.com##.article_billboard__X_edx
@@ -15040,7 +15040,6 @@ fool.com##.promobox-container
 fool.com##.show-ad-label
 football-tribe.com##.c-single_post_inline_ad_box
 football-tribe.com##div[id^="da-article-"]
-football365.com,planetf1.com,planetrugby.com,tennis365.com##.ps-block-a
 footballdb.com##.rightcol_ad
 footballtransfers.com##div[style*="min-height: 250px;"]
 foottheball.com,small-screen.co.uk##.snackStickyParent
@@ -15799,7 +15798,7 @@ gomagic.org###fullscreen_ad
 gomagic.org###fullscreen_ad_wrap
 gongkong.com###dull_left
 gongkong.com###dull_right
-gonintendo.com##.pt-5
+gonintendo.com###first-leaderboard
 goodcome.com.tw###fulljad
 goodcome.com.tw###jad-float
 goodcome.com.tw###jad-right
@@ -19438,6 +19437,7 @@ musicbusinessworldwide.com##.mb-advert
 musicbusinessworldwide.com##[href^="https://wynstarks.lnk.to/"]
 musictimes.com,sciencetimes.com,techtimes.com##.ad_wrapper_video
 muslimobserver.com##.add2
+mustsharenews.com##.horizontal-adspace
 muve.org.tw#@#.sponsor-area
 muve.org.tw#@#.sponsor-wrap
 muzhi.baidu.com##.leftnest
@@ -23223,7 +23223,12 @@ the-express.com##.fr-container
 the-express.com##[data-tb-non-consent]
 the-independent.com###taboola-mid-article-thumbnails-ii
 the-scientist.com###Torpedo
+the-scientist.com###boombox-top
+the-scientist.com###content-74192-boombox-top
+the-scientist.com###leaderboard-below-magazine-widget
+the-scientist.com###leaderboard-top
 the-scientist.com###preHeader
+the-scientist.com###torpedo
 the-star.co.ke###teasers
 the-sun.com##.dpa-grid
 the-sun.com##[data-component="zergnet"]
@@ -23732,7 +23737,6 @@ tmo.report###directad
 tmtpost.com##.open-app
 tmz.com##.ad-header-wrapper
 tnaflix.com###ads-under-video_
-tnaflix.com##.bannerBlock
 tnaflix.com##.pspBanner
 tnaflix.com##.rbsd
 tnaflix.com##.zzMeBploz
@@ -23948,7 +23952,6 @@ tt1069.com#@##ad-slot
 ttks.tw##.txtcenter
 ttmeiju.me##DIV[style="float:left;margin-bottom:27px;margin-top:27px;"]
 ttsp.tv##.play_list_adbox
-tuasaude.com##.ar82zL-ad-container
 tubator.com##.ggg_container
 tube8.com##[data-spot-id]
 tube8.com##[data-spot]
@@ -34385,6 +34388,7 @@ zzzyk.com###Tinfo
 ||genieesspv.jp^$third-party
 ||geniusdexchange.com^$popup
 ||geniuslinkcdn.com^$third-party
+||geniusplus.ai/v1/lre-events?
 ||gensonal.com^$document
 ||gensonal.com^$popup
 ||genstart.ghost.io^
@@ -34927,6 +34931,8 @@ zzzyk.com###Tinfo
 ||gridsumdissector.com^$third-party
 ||gripdownload.co^$third-party
 ||grmtech.net^$third-party
+||grokipedia.com/api/analytics
+||grokipedia.com/api/ev
 ||groove.so/unlocker.js
 ||groovinads.com^$third-party
 ||grosserhis.top^$popup
@@ -39409,6 +39415,8 @@ zzzyk.com###Tinfo
 ||muragon.com/js/normal/gtag-event.js
 ||murdoog.com^$third-party
 ||murdoog.com^*/Pixel/$image
+||musescore.com/components/data?
+||musescore.com/score/stats/
 ||museter.com/track.php?
 ||music.163.com/device/signature/create/deviceid.js
 ||music.163.com^$domain=mvcat.com
@@ -42860,6 +42868,7 @@ zzzyk.com###Tinfo
 ||rubanners.com^$third-party
 ||rubiconredirect.com^$third-party
 ||rubylife.go2cloud.org^$popup
+||rudder-server-prd.arena.im/v1/track
 ||rudderlabs.com^$third-party
 ||rudderwebmy.com^$popup
 ||ruedux.com/code/script/
@@ -43201,10 +43210,19 @@ zzzyk.com###Tinfo
 ||secthatlead.com^$popup
 ||secure-cloudbeds-hotel-aut.bolt.host^
 ||secure.checkout.visa.com/logging/
+||secure.cricket365.com/tag/
 ||secure.dawn3host.com^
+||secure.football365.com/tag/
+||secure.golf365.com/tag/
 ||secure.hoststewart.com^
 ||secure.ifbyphone.com^$third-party
+||secure.loverugbyleague.com/tag/
 ||secure.money.com^$third-party
+||secure.planetf1.com/tag/
+||secure.planetfootball.com/tag/
+||secure.planetrugby.com/tag/
+||secure.teamtalk.com/tag/
+||secure.tennis365.com/tag/
 ||secure.trust-guard.com^$third-party
 ||secure.webhostingpad.com^
 ||secure289.inmotionhosting.com^
@@ -43265,6 +43283,7 @@ zzzyk.com###Tinfo
 ||seitwert.de^$third-party
 ||selaris.com^$third-party
 ||selectad.com^$third-party
+||selectika.com/selectika-pixel.min.js
 ||selectmedia.asia^$third-party
 ||selfcampaign.com^$third-party
 ||selfhost.online^
@@ -44853,6 +44872,7 @@ zzzyk.com###Tinfo
 ||swarthid.github.io/*/invoke.js$third-party
 ||swathedneural.shop^$popup
 ||sweet-candy.jp/c.php?$third-party
+||sweetalert2.github.io/images/sponsors/
 ||sweetgum.io^$third-party
 ||sweetmedia.org^$third-party
 ||sweetstudents.com^$third-party
@@ -48269,6 +48289,7 @@ zzzyk.com###Tinfo
 ||zebeaa.click^$popup
 ||zebestof.com^$third-party
 ||zed.dev/api/send_page_event
+||zed.dev/docs/theme/analytics.js
 ||zedo.com^$popup
 ||zedo.com^$third-party
 ||zedwhyex.com^$third-party
