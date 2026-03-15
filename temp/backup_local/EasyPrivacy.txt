@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: khedNjGADBKGzXlsALqzFg
-! Version: 202603150031
+! Checksum: pzAd4h/NIpPCbuJw3xozLw
+! Version: 202603150801
 ! Title: EasyPrivacy
-! Last modified: 15 Mar 2026 00:31 UTC
+! Last modified: 15 Mar 2026 08:01 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -10549,6 +10549,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||usersegment.wpdigital.net^
 ||usersonline.org/ping.php?
 ||userstatics.com/get/script.js
+||userway.org/api/abn/events
 ||userway.org/api/seo-widget/
 ||userway.org/api/v1/stats
 ||usizy.com/external/pageview
@@ -11573,6 +11574,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||metrics.find.gr^
 ||stats-real-clients.zentech.gr^
 ! Hebrew
+||callindex.co.il/campaign/send_analytics.js
 ||selectika.com/selectika-pixel.min.js
 ||tag.weezmo.com^
 ||walla.co.il/stats/
@@ -12035,6 +12037,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||d.wi-fi.ru^
 ||dbex-tracker-v2.driveback.ru^
 ||dp.ru/counter.gif?
+||dspgate.ru/pixel?
 ||error.videonow.ru^
 ||events.auth.gid.ru^
 ||events.plus.yandex.net^
@@ -13061,6 +13064,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||grgnsht.nzxt.com^
 ||grokipedia.com/api/analytics
 ||grokipedia.com/api/ev
+||grokipedia.com/api/stats
 ||groove.so/unlocker.js
 ||groupon.com/analytic/
 ||groupondata.com/tracky
@@ -53590,6 +53594,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||labrc.pw/advstats/$xmlhttprequest
 @@||mc.yandex.ru/metrika/tag.js$script,domain=auto.yandex|coddyschool.com
 @@||mealty.ru/js/ga_events.js$~third-party
+@@||my.beeline.ru/resources/js/webtrends.js?$script,~third-party
 @@||mycargo.rzd.ru/dst/scripts/common/analytics-helper.js$~third-party
 @@||online.bcs.ru^*/piwik.bcs.js$script
 @@||openfpcdn.io/fingerprintjs/v3/iife.min.js$script,domain=mos03education.ru
