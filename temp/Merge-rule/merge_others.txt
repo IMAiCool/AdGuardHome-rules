@@ -2016,6 +2016,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /ck.m.honto.jp/c/*$image
 /cklink.gif?
 /cklog.js
+/cl.animate.co.jp/c/*$image
 /cl.mos.jp/q/*$image
 /clear.gif?
 /click-tracking.js
@@ -2938,6 +2939,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /iframe_pfbad/*
 /ikanfan/b.js
 /ikanfan/i.js
+/image.info.jr-odekake.net/lib/*$image
 /image.ng/*
 /image/ad/*$image
 /image/ads/*$image,domain=~edatop.com
@@ -27016,6 +27018,7 @@ zzzyk.com###Tinfo
 ||a1087.b.akamai.net^$popup
 ||a1714.com^$popup
 ||a1tb.com/300x250$subdocument
+||a2-ghost-v3.columnasol.in.net^
 ||a2z.com/sping?
 ||a2zapk.com^$script,subdocument,third-party,xmlhttprequest
 ||a433.com^$third-party
@@ -28576,6 +28579,7 @@ zzzyk.com###Tinfo
 ||api.odysee.com/locale/get
 ||api.ouedkniss.com^*&xTrackId=
 ||api.patienten.helios-gesundheit.de/api/unleash/client/metrics
+||api.pcid.ca/v1/client/logs
 ||api.picox.bendingspoons.com/v1/events
 ||api.popin.cc/conversion2.js
 ||api.production.k8s.y3o.tv/nevarro/video-ads/$domain=yallo.tv
@@ -31426,6 +31430,7 @@ zzzyk.com###Tinfo
 ||consent.trustarc.com/noticemsg?
 ||consentmanager.net/delivery/info/$third-party
 ||consideratekaleidoscopehostile.com^
+||console.deno.com/_fresh/js/*/Posthog.js
 ||consoletarget.com/js/pp.js
 ||constellation.networknmedia.com/cdn-cgi/trace
 ||constructpreachystopper.com^$popup
@@ -39516,6 +39521,7 @@ zzzyk.com###Tinfo
 ||murdoog.com^$third-party
 ||murdoog.com^*/Pixel/$image
 ||musescore.com/components/data?
+||musescore.com/components/log/$ping
 ||musescore.com/score/stats/
 ||museter.com/track.php?
 ||music.163.com/device/signature/create/deviceid.js
@@ -40990,6 +40996,7 @@ zzzyk.com###Tinfo
 ||pbstck.com/kleanads-prebid/
 ||pbstck.com^$third-party
 ||pc-agency24.de^$third-party
+||pc-optimum.ada.support/api/business_events/track$domain=pcoptimum.ca
 ||pc161021.com/scripts/noui/StatProvider.js
 ||pc161021.com/scripts/noui/eventlogger.js
 ||pc20160522.com^$third-party
