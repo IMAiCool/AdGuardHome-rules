@@ -7585,7 +7585,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||adnz.co/dmp/publisher.js$domain=finanzen.ch
 @@||adnz.co/header.js?adTagId=$domain=finanzen.ch
 @@||adobe.com.ssl.d1.sc.omtrdc.net^$xmlhttprequest,domain=www.adobe.com
-@@||adobedc.demdex.net/ee/v1/identity/$xmlhttprequest,domain=cibc.com
+@@||adobedc.demdex.net/ee/v1/identity/$xmlhttprequest,domain=cibc.com|westjet.com
 @@||adobedtm.com/extensions/$domain=antena3.com|apple.com|atresmedia.com|atresplayer.com|automobiles.honda.com|bravotv.com|cadenaser.com|crave.ca|foodnetwork.com|lasexta.com|telus.com|verizon.com|xfinity.com
 @@||adobedtm.com/launch-$script,xmlhttprequest
 @@||adobedtm.com^$script,domain=sonystyle.com.cn
@@ -11137,6 +11137,7 @@ baidu.com##a[class*="fengchaoContainer"]
 baidu.com##div[class$="-ecom-ads"]
 baidu.com##div[class*="fc-"][tplid]
 baidu.com##div[data-ad]
+baidu.com##div[data-key^="ad__"]
 baidu.com##div[id^="toast"]
 baidu.com##div[style="padding: 20px 9px 20px 10px;widget:250px;height:250px;"]
 baidu.com#?#.c-gap-bottom-small:-abp-has(>a>div>div[class^="jr-stock-open-account-"])
@@ -11472,6 +11473,7 @@ bilibili.com##.layerWrapperRoot > div[style^="width: 1220px;"]
 bilibili.com##.online + .adpos
 bilibili.com##.operate-card[data-target-url*=".miaozhen."]
 bilibili.com##.operate-card[data-target-url*="doubleclick."]
+bilibili.com##.recommended-swipe .carousel-footer-title > a[href^="http"]:not([href*=".bilibili.com/"])
 bilibili.com##.title > span > a[href^="http"]:not([href*=".bilibili."])
 bilibili.com##.topic-preview > li > a[href^="http"]:not([href*=".bilibili."])
 bilibili.com##.video-page-game-card
@@ -11740,7 +11742,7 @@ boardgameoracle.com##.mui-style-x73gw8
 boatnews.com##.habillage
 boatnews.com##.sidebar-p
 boatnews.com##[href*="/l/"] > picture
-boatnews.com##div.p:has-text(Advertising)
+boatnews.com#?#div.p:has-text(Advertising)
 boatsonline.com.au,yachthub.com##.js-sticky
 bobvila.com##.bv-unit-wrapper
 bobvila.com##.unit-header-container
@@ -17662,7 +17664,7 @@ jianhuadaily.com##.alignnone[width="800"]
 jiankang.com##.all_eye
 jiankang.com##.three_hot
 jianshen114.com##.index_temp
-jianshen8.com,manwa.me##.index-banner
+jianshen8.com##.index-banner
 jianshu.com###note-fixed-ad-container
 jianshu.com###web-note-ad-1
 jianshu.com##.aside > div[aria-label="3rd-ad"] + div:last-child
@@ -18838,7 +18840,6 @@ mansurfer.com##a[href*="/out/"]
 manualslib.com##.abp_adv_s-title
 manutd.com##.home-content-panel__sponsor
 manutd.com##.primary-header-sponsors
-manwa.me##.ad-area > a
 maoken.com###siderAd01
 maolihui.com##.con-ad
 maomaomom.com###execphp-15
@@ -19853,6 +19854,7 @@ news18.com##.desktopadh
 news18.com##.desktopflex
 news18.com##.mc-ad
 news18.com##.taboolaWrap
+news18.com##[id*="_Ad_Mid"]
 news18.com##div[style*="min-height"][style*="background"]
 news18.com##div[style*="min-height: 250px"]
 news18.com##div[style*="min-height:250px"]
@@ -20924,7 +20926,6 @@ pornhd.com##phd-floating-ad
 pornhdtube.tv,recordbate.com##.video-overlay
 pornhoarder.tv##.video-detail-bspace
 pornhub.com###singleFeedSection > .emptyBlockSpace
-pornhub.com##.noBottom:has-text(Remove Ads)
 pornhub.com##.sectionWrapper:has(>
 pornhub.com##.sideAds
 pornhub.com##[srcset*="bloB:"]
@@ -20933,6 +20934,7 @@ pornhub.com##a[href^="https://www.uviu.com"]
 pornhub.com##div[class="video-wrapper"] > .clear.hd:has(.adsbytrafficjunky)
 pornhub.com##div[onclick*="bp1.com"]
 pornhub.com##img[srcset]
+pornhub.com#?#.noBottom:has-text(Remove Ads)
 pornhub.com#?#:-abp-properties(height: 300px; width: 315px;)
 pornhub.com,pornhub.org##.js_promoItem
 pornhub.com,pornhub.org##.realsex
@@ -32220,6 +32222,7 @@ zzzyk.com###Tinfo
 ||detentionquasipairs.com^$popup
 ||deteql.net^$third-party
 ||detmir-stats.ru^$third-party
+||dev-t0-host.vectorbase.in.net^
 ||dev-t44-host.veloxfundo.in.net^
 ||dev-x7-host.petitniveaux.in.net^
 ||dev.to/bb/sidebar_left^
@@ -32233,6 +32236,7 @@ zzzyk.com###Tinfo
 ||dev.to^*/billboards/post_sidebar^
 ||dev.visualwebsiteoptimizer.com/*/track-
 ||dev2pub.com^$third-party
+||dev3host.metracore.in.net^
 ||devaluequalmrelative.com^$popup
 ||devatics.com^$third-party
 ||devatics.io^$third-party
@@ -34584,7 +34588,9 @@ zzzyk.com###Tinfo
 ||ghost-node-0.fiumeveloce.in.net^
 ||ghost-node-x.froidespace.in.net^
 ||ghost-node-z.kaltesystem.in.net^
+||ghost-u4-node.fluidonodo.in.net^
 ||ghost-z2-node.genomax.in.net^
+||ghost-z2-node.nux-systems.in.net^
 ||ghost.trailblazer.com.de^
 ||ghost580.com/js/nei4.js
 ||ghost8.cn^
@@ -35957,6 +35963,8 @@ zzzyk.com###Tinfo
 ||huanqiucdn.cn/huanqiu/js/www/common/detected_block.
 ||huarenjie.com/attachment/myfiles/
 ||hub-started.ghost.io^
+||hub-v01-local.metropunto.in.net^
+||hub-v02-local.punto-viva.in.net^
 ||hub-v11-local.biosphera.in.net^
 ||hub-v22-local.starkewolke.in.net^
 ||hub-x0-local.starkewand.in.net^
@@ -38688,7 +38696,6 @@ zzzyk.com###Tinfo
 ||mantisadnetwork.com^$third-party
 ||manua.ls/g/collect?
 ||manua.ls/gtag
-||manwa.me/static/custom/files/300X250.$image,rewrite=abp-resource:1x1-transparent-gif,~third-party
 ||manysex.com/ha10y0dcss
 ||manysex.tube/soc/roll.js
 ||manytoon.com/script/$script
@@ -39554,6 +39561,7 @@ zzzyk.com###Tinfo
 ||mvxz.com/img/
 ||mw6.me/images/*.gif
 ||mwed.jp/assets/packs/js/measurements/
+||mwka.cc/static/gg.
 ||mwrf.net/images/js/*mrf.js
 ||mwrf.net/images/mrf/
 ||mwstats.net^$third-party
