@@ -3542,6 +3542,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /ms.analytics-web-3.min.js
 /mshow.aspx?AID=
 /msow.aspx?AID=
+/msq.tracker.min.js
 /mtc.js
 /mtiFontTrackingCode.js
 /mtifonttracker.js
@@ -3697,6 +3698,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /oval_web_analytics_latest.js
 /owa.Analytics.m.js
 /owa.tracker-combined-min.js
+/owa.tracker.js
 /oxAnalytics.js
 /p.gif?
 /p/rp/*?mi_u=*=&sap_id=$image
@@ -3917,7 +3919,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /plugins/adrotate/*$script
 /plugins/ads/*$~xmlhttprequest
 /plugins/adsanity-$stylesheet
-/plugins/advanced-ads/*$domain=~transinfo.pl|~wordpress.org
+/plugins/advanced-ads/public/*$domain=~transinfo.pl|~wordpress.org
 /plugins/affiliate-wp/assets/js/tracking.min.js
 /plugins/ane-banners-entre-links/*$script,stylesheet
 /plugins/ane-preroll$~xmlhttprequest
@@ -5263,6 +5265,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /widget-advert?$subdocument
 /wildfire/i/CIMP.gif?
 /wiseatom/banner/pack_
+/wix-code-telemetry-collector/*
 /wix-engage-visitors-
 /wizrocketmail.net/r?$image
 /wlexpert_tracker.js
@@ -10085,8 +10088,8 @@ advocate.com##.adgrid
 advocate.com##.bigbox_top_ad-wrap
 advocate.com##.partners__container
 advocate.com,anandtech.com,sciencefocus.com##.jwplayer
-advocate.com,bestlifeonline.com,good.is,pride.com##.placeholder-a-block
-advocate.com,good.is,papermag.com,pride.com##.topbarplaceholder
+advocate.com,bestlifeonline.com,good.is,out.com,pride.com##.placeholder-a-block
+advocate.com,good.is,out.com,papermag.com,pride.com##.topbarplaceholder
 advocate.com,out.com##.ad_leaderboard_wrap
 advocate.com,out.com,pride.com##div[id^="sPost_Layout_Default_"]:has(> .ad_leaderboard_wrap)
 advrider.com##.ad-align
@@ -10644,6 +10647,7 @@ archdaily.com##.js-publift
 architecturesideas.com##.linkpub_right_img
 archpaper.com##.an-ads
 arenaev.com###subHeader
+argos.co.uk##.ds-c-grid-item:has(a[href*="?clickPR="])
 argos.co.uk##.ds-c-grid-item:has(div[class*="ProductCardstyles__SponsoredBadge-"])
 argos.co.uk##[class^="styles__LazyHydrateCard"]:has([class*="ProductCardstyles__FlyoutBadge"])
 argos.co.uk##[class^="styles__LazyHydrateCard-sc"]:has([class*="SponsoredBadge"])
@@ -19688,6 +19692,7 @@ naturalblaze.com##.spot_between_posts
 naturalblaze.com##.trfkye8nxr
 naturalblaze.com##.xtfaoba0u1
 naughtyamerica.com#@#a[href^="https://natour.naughtyamerica.com/track/"]
+nautil.us##.PrimisVideoAdBlock_wrapper__vYQNI
 navajotimes.com##.etad
 navajotimes.com##.extra-hp-skyscraper
 navajotimes.com##div[style="text-align: center; margin-top: -35px;"]
@@ -20930,6 +20935,7 @@ pornhoarder.tv##.video-detail-bspace
 pornhub.com###singleFeedSection > .emptyBlockSpace
 pornhub.com##.sectionWrapper:has(>
 pornhub.com##.sideAds
+pornhub.com##:-abp-properties(height: 300px; width: 315px;)
 pornhub.com##[srcset*="bloB:"]
 pornhub.com##a[data-event="header_paid_tabs"]
 pornhub.com##a[href^="https://www.uviu.com"]
@@ -20937,7 +20943,6 @@ pornhub.com##div[class="video-wrapper"] > .clear.hd:has(.adsbytrafficjunky)
 pornhub.com##div[onclick*="bp1.com"]
 pornhub.com##img[srcset]
 pornhub.com#?#.noBottom:has-text(Remove Ads)
-pornhub.com#?#:-abp-properties(height: 300px; width: 315px;)
 pornhub.com,pornhub.org##.js_promoItem
 pornhub.com,pornhub.org##.realsex
 pornhub.com,pornhub.org##.sniperModeEngaged
@@ -20948,7 +20953,7 @@ pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com##[st
 pornhub.com,redtube.com,tube8.com,tube8.es,tube8.fr,youjizz.com,youporn.com##[style*="blob:"]:not(video)
 pornhub.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com##img[src*="blob:" i]:not(video)
 pornhub.com,youporn.com###pb_template
-pornhub.com,youporn.com#?#:-abp-properties(float: right; margin-top: 30px; width: 50%;)
+pornhub.com,youporn.com##:-abp-properties(float: right; margin-top: 30px; width: 50%;)
 pornicom.com##.pre-ad
 pornicom.com##.spot-after
 pornid.name,pornid.xxx##.aside-box
@@ -21600,10 +21605,10 @@ redtube.com##div > iframe
 redtube.com##div[class*="display: block; height:"]
 redtube.com##svg
 redtube.com,redtube.com.br,redtube.net###pb_block
-redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-abp-properties(*data:image*)
-redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-abp-properties(base64)
-redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-abp-properties(data:)
-redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com#?#:-abp-properties(image/)
+redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com##:-abp-properties(*data:image*)
+redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com##:-abp-properties(base64)
+redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com##:-abp-properties(data:)
+redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com##:-abp-properties(image/)
 redtube.com,tube8.com,you-porn.com,youporn.com##.upgradeButtonContainer
 redtube.com,tube8.com,youporn.com##a[class*="gtm-event-header-paidtabs"]
 reelviews.net##.picHolder
@@ -22772,6 +22777,7 @@ standard.co.uk##[class]:has(> [data-fluid-zoneid])
 standardmedia.co.ke##.border-thick-branding
 standardmedia.co.ke##.my-2
 staples.com##.SearchRootUX2__bannerAndSkuContainer
+staples.com##.flexible-banner-configurator__flexibleBannerWrapper:has(a[aria-label*="Sponsored by"])
 staples.com##div[class^="sku-configurator__banner"]:has([aria-label="Sponsored Products"])
 staples.com#?#.side-by-side-carousel__carousel_container:has-text(Sponsored Products)
 staples.com#?#.sku-configurator__skuOffsetCarouselNew:has(span:has-text(Sponsored products:))
@@ -24962,6 +24968,7 @@ womansworld.com##.products-carousel-video__wrapper___2hfhX
 womansworld.com##.recommended-posts
 woniupai.net##.wnp-adbox
 woolworths.com.au##.product-grid-v2--tile:has(.sponsored-text)
+woolworths.com.au##div[class^="aem-video-ad-unit_component_video-container_"]
 woot.com###cdm-zone-02
 woot.com##.css-1e4mcj
 woot.com##[data-test-ui="advertisement-cdm-zone-01"]
@@ -28273,6 +28280,7 @@ zzzyk.com###Tinfo
 ||alowbowsohef.com^$popup
 ||alpenridge.top^$popup
 ||alpha-affiliates.com^$third-party
+||alpha3ghost.cloudfoundation.in.net^
 ||alpharank.io/api/pixel/
 ||alpheratzscheat.top^$popup
 ||alpine-vpn.com^$document
@@ -28676,6 +28684,7 @@ zzzyk.com###Tinfo
 ||app.varify.io/varify.js
 ||app.yesware.com/t/$third-party
 ||app1ev.easypanel.host^
+||app3ghost.managementgateway.in.net^
 ||appareil-localiser.com^
 ||appboycdn.com^$third-party
 ||appcast.io^$third-party
@@ -32097,6 +32106,7 @@ zzzyk.com###Tinfo
 ||dbw.cn/eap/js/hl/hlj_ad
 ||dc-rotator.com^$popup
 ||dc-storm.com^$third-party
+||dc3local.platformendpoint.in.net^
 ||dcard.tw/v1/events
 ||dcdn.lt/g.js
 ||dcf.espn.com/privacy/
@@ -35682,11 +35692,15 @@ zzzyk.com###Tinfo
 ||host00.com^
 ||host0y.cfd^
 ||host11.traffic-builders.com^
+||host1store.datacentricnode.in.net^
 ||host238.hostmonster.com^
+||host2remote.datacentricnode.in.net^
 ||host2uls.com^
 ||host2y.cfd^
 ||host356980.stronawcal.pl^
+||host3dev.datacentricnode.in.net^
 ||host40x.cfd^
+||host4link.datacentricnode.in.net^
 ||host5536.zapto.org^
 ||host57k.cfd^
 ||host69k.cfd^
@@ -36106,6 +36120,7 @@ zzzyk.com###Tinfo
 ||icourse163.org/dwr/call/plaincall/CommonBean.obtain.dwr
 ||icq-window.
 ||icqwindow.
+||icreate-campaign.com^$third-party
 ||icstats.nl^$third-party
 ||icu.newsroom.bi/ingest.php
 ||icubeswire.co^$document
@@ -36576,6 +36591,7 @@ zzzyk.com###Tinfo
 ||instructables.com/counter
 ||insurads.com^$third-party
 ||inszu.com/js/qian/
+||int3ghost.virtualgatekeeper.in.net^
 ||intab.fun^$popup
 ||intake-lr.com^$third-party
 ||inte.sogoucdn.com^$domain=~index.sogou.com|~zhishu.sogou.com
@@ -38173,6 +38189,9 @@ zzzyk.com###Tinfo
 ||load.pro.prohost.net.br^
 ||load.server.localrank.so^
 ||load.tm.all3dp.com/rqlevydw.js
+||load3ghost.activegateway.in.net^
+||load3host.vectorstorage.in.net^
+||load3local.systemresource.in.net^
 ||loaditfile.com^$document
 ||loaditfile.com^$popup
 ||loadtime.org^$document
@@ -41400,6 +41419,7 @@ zzzyk.com###Tinfo
 ||poedb.tw/image/torchlight/
 ||poeticmetric.com^$third-party
 ||pog.com^$ping
+||point3local.virtualresource.in.net^
 ||pointclicktrack.com^$popup
 ||pointclicktrack.com^$third-party
 ||pointillist.com^$third-party
@@ -42631,6 +42651,7 @@ zzzyk.com###Tinfo
 ||res-x.com^$third-party
 ||res.cngoldres.com/web/index/img/*_ad_
 ||res.sooplive.co.kr/script/player/service-maintenance.js
+||res3local.platformcontroller.in.net^
 ||research-artisan.com^$third-party
 ||research-int.se^$third-party
 ||research-tool.com^$third-party
@@ -46940,6 +46961,7 @@ zzzyk.com###Tinfo
 ||vkcdnservice.com^$third-party
 ||vkgtrack.com^$popup
 ||vkvideo.ru/al_video.php?act=track
+||vld3local.dataintegritynet.in.net^
 ||vlexokrako.com^$popup
 ||vlexokrako.com^$third-party
 ||vlion.cn^$third-party
@@ -48477,6 +48499,7 @@ zzzyk.com###Tinfo
 ||zonupiza.com^$popup
 ||zooj.cn^$third-party
 ||zoomanalytics.co^$third-party
+||zoomengage.com^$third-party
 ||zoominfo.com/osx7m0dx/init.js
 ||zoominfo.com/pixel/
 ||zoomino.com^$third-party
