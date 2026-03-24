@@ -1673,6 +1673,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /api/pagevisits
 /api/pixel?
 /api/reqAnalytic/*
+/api/sentry/tunnel$xmlhttprequest
 /api/stat?
 /api/statsd|$~third-party,xmlhttprequest
 /api/track?guid
@@ -2738,6 +2739,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /geoip_cc
 /geov2.js
 /get/?go=1&data=$subdocument
+/get/live/web/_/*$script,~third-party
 /get?go=1&data=$subdocument
 /getAliyunAdv.
 /getGG.php?key=
@@ -10745,9 +10747,9 @@ atalayar.com##.column-content > .megabanner
 atalayar.com##.rotulo-publi
 atalayar.com,express.co.uk,the-express.com##.superbanner
 atea.com,ateadirect.com,knowyourmobile.com,nlk.org.np#@#.logo-ad
-athlonsports.com,autoblog.com,bikemag.com,dengarden.com,mensfitness.com,mensjournal.com,parade.com,paradehomeandgarden.com,paradepets.com,pethelpful.com,powder.com,surfer.com,thespun.com,thestreet.com,travelhost.com##.styles_headerAdSlot__f4Z0n
+athlonsports.com,autoblog.com,bikemag.com,bringmethenews.com,dengarden.com,mensfitness.com,mensjournal.com,parade.com,paradehomeandgarden.com,paradepets.com,pethelpful.com,powder.com,surfer.com,thespun.com,thestreet.com,travelhost.com##.styles_headerAdSlot__f4Z0n
+athlonsports.com,bringmethenews.com,dengarden.com,mensfitness.com,mensjournal.com,parade.com,paradehomeandgarden.com,paradepets.com,pethelpful.com,surfer.com,thespun.com,travelhost.com,www.autoblog.com,www.thestreet.com##.exco-player-wrapper
 athlonsports.com,bringmethenews.com,si.com##.is-exco-player
-athlonsports.com,dengarden.com,mensfitness.com,mensjournal.com,parade.com,paradehomeandgarden.com,paradepets.com,pethelpful.com,surfer.com,thespun.com,travelhost.com,www.autoblog.com,www.thestreet.com##.exco-player-wrapper
 atlantablackstar.com,finurah.com,theshadowleague.com##.raptive-ddm-header
 atlantatribune.com,footballleagueworld.co.uk,ioncinema.com,marijuanamoment.net,srilankamirror.com,tribune.net.ph###mvp-leader-wrap
 atlanticsuperstore.ca,fortinos.ca,loblaws.ca,maxi.ca,newfoundlandgrocerystores.ca,nofrills.ca,provigo.ca,realcanadiansuperstore.ca,valumart.ca,yourindependentgrocer.ca,zehrs.ca#?#.indiana-scroll-container > ul > li:has(.chakra-badge:has-text(/Sponsorisé|Sponsored/))
@@ -13519,6 +13521,8 @@ dataversity.net,ippmedia.com,sakshi.com,songlyrics.com,yallamotor.com##.adblock
 datedatego.com##.ddg
 datedatego.com##.ddg0
 datenna.com##.fPHZZA
+datetimego.com##.desktop-only
+datetimego.com##.mobile-only
 datingpornstar.com##a[href^="https://mylinks.fan/"]
 dav01.com##.adwraper
 davidjones.com##.criteo-carousel-wrapper
@@ -20622,6 +20626,7 @@ petmd.com##aside[aria-label="advertisement"]
 petri.com##.sponsorsInline
 petrochina.com.cn#@#.ggbox
 pexels.com##.inline-ads
+pexels.com##[data-testid="column"] [data-testid="item"]:has([data-text="Sponsored Photos"])
 pexels.com##a[href*=".istockphoto.com"]
 pexels.com##div[class="RowItem_gridItem__OfhML RowItem_fullWidth__cIdtN RowItem_expand__TR5R6"]
 pexels.com##div[class^="FullWidth_container_"]:has(a[rel="sponsored noopener"])
@@ -20742,7 +20747,7 @@ pixabay.com##.external-media
 pixabay.com##.gettyImagesContainer--7sZnR
 pixabay.com##.present-g-item
 pixabay.com##.show-gtty-item
-pixabay.com##[class^="gettySponsoredImagesContainer"]
+pixabay.com##[class^="gettySponsored"]
 pixabay.com##div[class*="sponsoredWithResults"]
 pixabay.com##div[class="cell--UMz-x"]:has(button[aria-label="About this advertiser"])
 pixhost.to##.under-image
@@ -30499,6 +30504,7 @@ zzzyk.com###Tinfo
 ||casinobonusdeals.io^$document
 ||casiyouaffiliates.com^$popup
 ||castillocaleb.shop^
+||castoola.tv^*/ads/$domain=sabc-plus.com
 ||casualstat.com^$third-party
 ||casumoaffiliates.com^$popup
 ||catalove.com/bimp/
@@ -32275,6 +32281,8 @@ zzzyk.com###Tinfo
 ||dev3host.metravolta.in.net^
 ||dev3local.chromaprocessing.in.net^
 ||dev3local.photonicdatanode.in.net^
+||dev3local.tensorvortexlink.in.net^
+||dev3local.thermalpulserelay.in.net^
 ||dev3local.vectorquantizer.in.net^
 ||devaluequalmrelative.com^$popup
 ||devatics.com^$third-party
@@ -33467,7 +33475,9 @@ zzzyk.com###Tinfo
 ||exrtbsrv.com^$popup
 ||ext.host-tracker.com^
 ||ext3ghost.acousticdatabuffer.in.net^
+||ext3ghost.nebularpointtrace.in.net^
 ||ext3ghost.tensorpointlink.in.net^
+||ext3ghost.vectordiffusion.in.net^
 ||ext3ghost.vectorstreamlink.in.net^
 ||extendoffice.com/analytics.js
 ||extension-ad-stopper.com^$document
@@ -35440,6 +35450,7 @@ zzzyk.com###Tinfo
 ||hh.ru/analytics^
 ||hh.ru/stat?
 ||hh010.com/static/image/fff/
+||hhba0*kdh.com^$script,xmlhttprequest,third-party
 ||hhbypdoecp.com^$popup
 ||hiao.com/node/node_27508.htm
 ||hiasor.com^$document
@@ -38981,6 +38992,7 @@ zzzyk.com###Tinfo
 ||meineserver.com^$third-party
 ||meipian.me^*/api_ad/
 ||meiqia.com^$third-party
+||meiro.io^$third-party
 ||meishiba.com.cn^$third-party
 ||meishichina.com/v3/
 ||meitiantv.com/ganggao/
@@ -41351,6 +41363,7 @@ zzzyk.com###Tinfo
 ||player.ex.co^$third-party
 ||player.globalsun.io/player/videojs-contrib-ads$script,third-party
 ||player.javboys.cam/cdn-cgi/trace
+||player.mangomolo.com/stats/
 ||player.ooyala.com/errors/report?
 ||player.sendtonews.com^$third-party
 ||player.target-video.com/player/build/plugins/googleanalytics/

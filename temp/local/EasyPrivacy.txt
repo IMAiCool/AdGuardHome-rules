@@ -349,6 +349,7 @@
 /api/pagevisits
 /api/pixel?
 /api/reqAnalytic/*
+/api/sentry/tunnel$xmlhttprequest
 /api/stat?
 /api/track?guid
 /api/trk?
@@ -1075,6 +1076,7 @@
 /geoip_cc
 /geoLocationData/v1/*
 /geov2.js
+/get/live/web/_/*$script,~third-party
 /get_geoip?
 /get_site_data?requestUUID=
 /getbglog.js
@@ -7163,6 +7165,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||p24.hu^$third-party
 ||modernus.is^$third-party
 ||analytic.rocks^$third-party
+||meiro.io^$third-party
 ||props.id^$third-party
 ||0stats.com^$third-party
 ||24log.it^$third-party
@@ -9134,6 +9137,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||lightboxcdn.com/static/identity.html
 ||limbik.com/static/tracking-script.js
 ||lingows.appspot.com/page_data/?
+||link.bhvr.com^
 ||link.cosmopolitan.com^$image
 ||link.indiegogo.com/img/
 ||link.informer.com^
@@ -9589,6 +9593,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||play.adtonos.com^
 ||play.ht/views/
 ||player-metrics.instaread.co^
+||player.mangomolo.com/stats/
 ||player.ooyala.com/errors/report?
 ||player.target-video.com/player/build/plugins/googleanalytics/
 ||playhop.com/clck/
@@ -9780,6 +9785,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||run.app/metrics/
 ||run.app/track.js
 ||rw.marchex.io^
+||rybbit.sg-app.com^
 ||s-microsoft.com/mscc/$~stylesheet
 ||s.autopilotapp.com^
 ||s.axon.ai^
@@ -12197,6 +12203,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ampltd.medal.tv^
 ||ampltd.top.gg^
 ||ampltd2.medal.tv^
+||anal.billingserv.com^
 ||anal.doubledouble.top^
 ||analytics-api.dvdfab.
 ||analytics-batch.blitz.gg^
@@ -12236,6 +12243,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics.ml.homedepot.ca^
 ||analytics.morphe.software^
 ||analytics.mouthshut.com^
+||analytics.netralex.com^
 ||analytics.nike.com^
 ||analytics.ovh.com^
 ||analytics.oyorooms.com^
@@ -14014,6 +14022,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||two.cm.com^
 ||tyler-brown.com/api/stats?
 ||typepad.com/t/stats?
+||u.strike.bz^
 ||u1sdata.webullfintech.com^
 ||ua.financialexpress.com/api/capture
 ||ua.indianexpress.com^
