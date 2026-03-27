@@ -1180,7 +1180,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /ad-blocking-alert/*$stylesheet
 /ad-choices-$image
 /ad-choices.png$image
-/ad-container-bundle.js
 /ad-scripts--$script
 /ad-scroll.js$script
 /ad-server.$~script
@@ -23970,6 +23969,7 @@ treesofblue.com###text-7
 trendhunter.com##.hcamp
 tri247.com##.show-ad
 triangletribune.com##.fba_links
+triblive.com##.mantine-Center-root:has(.ads-holder)
 tribuneindia.com##.ad_div_incls
 tribunnews.com###div-Inside-MediumRectangle
 tribunnews.com###wideskyscraper
@@ -32333,8 +32333,11 @@ zzzyk.com###Tinfo
 ||dev2pub.com^$third-party
 ||dev3host.metravolta.in.net^
 ||dev3local.annelidatrace.in.net^
+||dev3local.blackpeakstorage.in.net^
 ||dev3local.chromaprocessing.in.net^
 ||dev3local.elytrapointnode.in.net^
+||dev3local.investonerous.in.net^
+||dev3local.northoak.in.net^
 ||dev3local.photonicdatanode.in.net^
 ||dev3local.tectonicstream.in.net^
 ||dev3local.tensorvortexlink.in.net^
@@ -33547,10 +33550,13 @@ zzzyk.com###Tinfo
 ||exrtbsrv.com^$popup
 ||ext.host-tracker.com^
 ||ext3ghost.acousticdatabuffer.in.net^
+||ext3ghost.coldstonemetrics.in.net^
+||ext3ghost.deepoak.in.net^
 ||ext3ghost.feldspargateway.in.net^
 ||ext3ghost.nebularpointtrace.in.net^
 ||ext3ghost.poriferabuffer.in.net^
 ||ext3ghost.tensorpointlink.in.net^
+||ext3ghost.usurylocomotive.in.net^
 ||ext3ghost.vectordiffusion.in.net^
 ||ext3ghost.vectorstreamlink.in.net^
 ||extendoffice.com/analytics.js
