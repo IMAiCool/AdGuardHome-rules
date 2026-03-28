@@ -3584,6 +3584,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /nb/frot_lud.js$script
 /ncj-pixel.js
 /neilson.js
+/nelio-ab-testing/assets/dist/js/visitor-type.js
 /neoworx_tracker.php
 /netmining.js
 /netresults.js
@@ -11695,6 +11696,7 @@ blog.csdn.net###article_content > link + a
 blog.csdn.net##.t0
 blog.csdn.net##SCRIPT[src^="https://csdnimg.cn/release/phoenix/vendor/linkCatcher/linkCatcher.js"] + .t0
 blog.hubspot.com###hs_cos_wrapper_blog_post_sticky_cta
+blog.hubspot.com##.blog-cta-with-form
 blog.sina.cn###pl-ad-after-comments
 blog.sina.cn###pl-adtop-bar
 blog.sina.cn###pl-blog-artad
@@ -23963,6 +23965,9 @@ transfermarkt.com###home-rectangle-spotlight
 transfermarkt.com###zLHXgnIj
 transfermarkt.com##[src*="https://www.transfermarkt.com/image/"]
 transparencyreport.google.com#@#.ad-icon
+travelm.de###ad__banner
+travelm.de##.ad__row
+travelm.de##.header__banner
 travelpulse.com###ab_container
 travelsupermarket.com##.gptAdUnit__Wrapper-sc-f3ta69-0
 treesofblue.com###text-7
@@ -24941,10 +24946,10 @@ wikiwand.com##div[style="min-height: 325px; max-width: 600px;"]
 win7w.com###xldz
 win7xzb.com##.four_box
 win7xzb.com##.ware_gs
-winaero.com###inbll
-winaero.com###jkhskdfsdf-iycc-5
+winaero.com###inbll:not(.thank-you-adguard)
+winaero.com###jkhskdfsdf-iycc-5:not(.thank-you-adguard)
 winaero.com##.site-content > div > p[style="margin: 22px"]
-winaero.com##.windia
+winaero.com##.windia:not(.thank-you-adguard)
 winaero.com#?##qcihrbv5 > p:has-text(Tip)
 windows-noob.com##[href^="https://adaptiva.com/"]
 windows-noob.com##[href^="https://patchmypc.com/"]
@@ -29106,6 +29111,9 @@ zzzyk.com###Tinfo
 ||averoconnector.com^$third-party
 ||avfay.com^$third-party
 ||avgle.topgirlsdating.com^$domain=avgle.com
+||aviasales.*-analytics.
+||aviasales.*/analytics_pv.
+||aviasales.*/sentry-replay.
 ||avito.ru/stat/
 ||avitop.com/aviation/hitlist.asp
 ||avivid.likr.tw^$third-party
@@ -38405,6 +38413,7 @@ zzzyk.com###Tinfo
 ||localads.chengzijianzhan.cn.queniurc.com^
 ||localads.chengzijianzhan.cn^
 ||localaffectrecipe.com^
+||localaggeg.rest^
 ||localau.vip/plugin/ad_
 ||localau.vip/plugin/pause.php
 ||localau.vip/plugin/show.php
