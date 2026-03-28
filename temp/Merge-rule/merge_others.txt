@@ -366,7 +366,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .com/sh/to/$script,third-party,xmlhttprequest
 .com/sitejs/hansan.js
 .com/smartpop/$document
-.com/smartpop/$popup,third-party
 .com/smartpop/$third-party
 .com/src/ppu/$third-party
 .com/static/js/ad.js
@@ -7054,8 +7053,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 ://*:*/yeyue.html?k=$csp=script-src
 ://*btbtt.*/imgs.js
 ://*btbtt.*/view/image/QT_
-://0.*.*.com/papi/$script,xmlhttprequest
-://0.*.*.com/player/$script,xmlhttprequest
 ://0.www.*/player/*/a/$third-party,xmlhttprequest
 ://0.www.*/player/*/m/$script,third-party
 ://0.www.*/players/*/-1/$script,third-party,xmlhttprequest
@@ -12018,6 +12015,7 @@ business2community.com##.busin-coinzilla-after-content
 business2community.com##.busin-news-placement-2nd-paragraph
 business2community.com##.sticky-header
 business2community.com##div[id^="busin-"]
+businessaccountingbasics.co.uk##[href*="partnerlinks.io/"] > img
 businessday.co.za##.right-rail__ad
 businessday.co.za,chalkbeat.org,irishnews.com,sowetan.co.za,timeslive.co.za##.b-ads-block
 businessday.co.za,sowetan.co.za,timeslive.co.za#?#.content-list-block:has-text(News & insights from our commercial partners)
@@ -14531,6 +14529,7 @@ euronews.com##.qa-dfpLeaderBoard
 euronews.com##.tp-outbrain
 euronews.com#?#.m-object:has(.m-object__quote:has-text(/In partnership with|En partenariat avec|Mit Unterstützung von|In collaborazione con|En colaboración con|Em parceria com|Совместно с|ile birlikte|Σε συνεργασία με|Együttműködésben a|با همکاری|بالمشاركة مع/))
 euronews.com#?#.the-media-object--has-sponsored:has-text(/In partnership with|In collaborazione con|En partenariat avec|Mit Unterstützung von|En colaboración con|Em parceria com|We współpracy z|Совместно с|ile birlikte|Σε συνεργασία με|Együttműködésben a|با همکاری|با همکاری/)
+european-alternatives.eu##[data-banner-key]
 europeangaming.eu###mvp-leader-wrap > a[href^="https://www.softswiss.com/"]
 europeanpharmaceuticalreview.com##.europ-fixed-footer
 europeantimes.news##.tdi_71
@@ -20197,6 +20196,7 @@ officedepot.com##.od-col:has(.od-product-card-region-colors-sponsored)
 officedepot.com##.od-search-criteo-banner-ads__siderail
 officedepot.com##.od-search-criteo-banner-ads__upper-leaderboard
 officedepot.com##.od-search-piq-banner-ads__lower-leaderboard
+official.coomer.com.co##[id^="monetization-ad"]
 officialcharts.com##.bg-design-hoverGreige
 offidocs.com###adbottomoffidocs
 offidocs.com###adxx
@@ -24942,7 +24942,6 @@ win7w.com###xldz
 win7xzb.com##.four_box
 win7xzb.com##.ware_gs
 winaero.com###inbll
-winaero.com###jkhskdfsdf-iycc-4
 winaero.com###jkhskdfsdf-iycc-5
 winaero.com##.site-content > div > p[style="margin: 22px"]
 winaero.com##.windia
@@ -28494,6 +28493,7 @@ zzzyk.com###Tinfo
 ||analytics.ticketmaster.
 ||analytics.turk.pro^$third-party
 ||analytics.vg^$third-party
+||analytics.vgtimes.
 ||analytics.whostheboss.co.uk^
 ||analyticsip.net^$third-party
 ||analyticson.com^$third-party
@@ -34832,6 +34832,7 @@ zzzyk.com###Tinfo
 ||global-project.ghost.io^
 ||global-setup.ghost.io^
 ||global-site.ghost.io^
+||global-software.ghost.io^
 ||global-started.ghost.io^
 ||global-trk.com^$popup
 ||global.canon/00cmn/js/*/analytics-
@@ -38799,7 +38800,6 @@ zzzyk.com###Tinfo
 ||mainexclkdir.com^$document
 ||mainexclkdir.com^$popup
 ||mairdumont.com^$third-party
-||majestywebhost.com^
 ||majorgeeks.com/images/mg/ads/
 ||makaidong.com/img/
 ||making.party^$document
@@ -40548,7 +40548,6 @@ zzzyk.com###Tinfo
 ||ofcuboneom.com^$popup
 ||offaces-butional.com^$popup
 ||offaces-butional.com^$third-party
-||offcial-connect.ghost.io^
 ||offcialwebsite.ghost.io^
 ||offcn.com/index.php?m=dbsource&c=call&a=get&id=75
 ||offcn.com/index.php?m=dbsource&c=call&a=get&id=77
@@ -40578,7 +40577,6 @@ zzzyk.com###Tinfo
 ||official-home.ghost.io^
 ||official-key.ghost.io^
 ||official-know.ghost.io^
-||official-now.ghost.io^
 ||official-pagehome.ghost.io^
 ||official-startd.ghost.io^
 ||official-website.ghost.io^
@@ -47597,7 +47595,6 @@ zzzyk.com###Tinfo
 ||webhelp-1.ghost.io^
 ||webhelp.ghost.io^
 ||webhits.de^$third-party
-||webhome-page.ghost.io^
 ||webhomepage.ghost.io^
 ||webhosting-ads.home.pl^
 ||webhostinghunter935.weebly.com^
@@ -47943,6 +47940,7 @@ zzzyk.com###Tinfo
 ||womtp.com^$third-party
 ||wonder-ma.com^$third-party
 ||wonder.xhamster.com^$popup
+||wonderadblock.com^$document
 ||wonderblockoffer.com^$popup
 ||wonderpush.com^$third-party
 ||wondershare.com/trk
@@ -48557,7 +48555,6 @@ zzzyk.com###Tinfo
 ||youradexchange.com^$popup
 ||youramigo.com^$third-party
 ||yourbow.com^$third-party
-||yourcanadahost.com^
 ||yourcommonfeed.com^$popup
 ||yourcoolfeed.com^$popup
 ||yourdatelink.com^$third-party
