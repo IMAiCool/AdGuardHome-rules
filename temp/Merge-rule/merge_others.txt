@@ -3096,7 +3096,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /js/ad_common.js$script
 /js/adblockdetect.js$script
 /js/admiral-
-/js/adpopup.js$script
 /js/ads/*0.js
 /js/ads/*2.js
 /js/ads/*5.js
@@ -13581,6 +13580,7 @@ decrypt.co#?#span:has-text(AD)
 decrypt.co,metabattle.com##div[style^="min-width: 300px;"]
 deep-edge.net,forums.digitalspy.com,marketwatch.com#@#.has-ad
 deepai.org###primis-ads
+deepai.org##.ctx-ad-container
 deepfake-porn.com,deepfucks.com,faply.cc,hdpornflix.com,hentaisexclub.com,sexkbj.com,vpornhd.com,x-picture.com##.happy-sidebar
 deepfucks.com###block-88
 deepfucks.com###block-92
@@ -14309,6 +14309,7 @@ elecfans.com##div[class^="banner_ad"]
 elecfans.com##div[id^="new-listAd"]
 elecfans.com##div[style^="width: 960px;height: 40px;"]
 elecinfo.com##div[class$="-advert"]
+electrek.co##[href^="https://www.energysage.com/landing/"]
 electricbikereport.com###subscribe_to_our_newsletter
 electricianforum.co.uk##.gb-sponsored
 elektro.info.pl,mashingup.jp#@#.is-sponsored
@@ -14522,6 +14523,7 @@ eurogamer.net##.primis_wrapper
 eurogamer.net,rockpapershotgun.com,vg247.com###sticky_leaderboard
 eurogirlsescort.com##.js-stt-click > picture
 eurointegration.com.ua##.topban_r
+euromaidanpress.com##[data-fuse="header"]
 eurometeo.com##td[width="738"]
 euronews.com###connatix-container
 euronews.com###o-site-hr__leaderboard-wallpaper.u-show-for-xlarge {remove:true;}
@@ -15784,6 +15786,7 @@ goal.com##.ad-slot-live-score
 goal.com##.aside_ad-rail__cawG6
 goal.com##.commercial
 goal.com##.component-ad
+goal.com##.component-open-web-ad-with-lngtd-fallback
 goal.com##.fco-fc-video-player
 goal.com##.fco-sticky-wrapper__space-placeholder
 goal.com##[class*="-mpu__"]
@@ -17092,6 +17095,7 @@ india.com##.top-ads-expend
 india.com##.top-horizontal-banner
 indiabusinessjournal.com##.cus-ad-img
 indiabusinessjournal.com##.pt--20
+indianexpress.com###taboola-right-article-personalisation
 indianexpress.com##.add-first
 indianexpress.com##.adsizes
 indianexpress.com##.ie-adsbox
@@ -21697,6 +21701,7 @@ reverso.net##.bottom-horizontal
 reverso.net##.locd-rca
 reverso.net##.rcacontent
 reverso.net##.top-horizontal
+reverso.net##app-ads-block
 revimedia.com#@#a[href*=".revimedia.com/"]
 reviversoft.com##.promo_dr
 revolt.tv##.header-banner-wrapper
@@ -22379,13 +22384,13 @@ skyscanner.*,tianxun.com##section[data-testid="inline-ad-panel-desktop-layout"]
 skyve.io##.ads_space
 slant.co##.SummaryPage-LustreEmbed
 slashdot.org###announcement
-slashdot.org###monb-sticky
 slashdot.org###sitewide-top-banner-placeholder
 slashdot.org###slashdot_deals
 slashdot.org##.ad-blocked-newsletter
 slashdot.org##.deals-wrapper
 slashdot.org#?#.fhitem-story.fhitem:has-text(Sponsored Content)
 slashdot.org#?#.grid_24:has-text(Featured Content)
+slashdot.org,sourceforge.net###monb-sticky
 slashfilm.com###primis-container
 slashgear.com##.recommended-heading
 slaynews.com##.ai-rotate
@@ -22674,9 +22679,12 @@ soufun.com##.danmu_inbox
 soundofhope.org##div[class*="AD_"]
 soundonsound.com##.block---managed
 sourceforge.net###banner-sterling
+sourceforge.net###retool-coding-bar
+sourceforge.net##.nel-vertical.body
 sourceforge.net##.projects > .trunc-eligible
 sourceforge.net##.sterling
 sourceforge.net##a[data-label^="avast"]
+sourceforge.net#?#aside.m-sidebar-widget > .as-header:has-text(Featured)
 southernliving.com##.karma-sticky-rail
 soyacincau.com##.scadslot-widget
 soyoung.com###pubWideBanner
@@ -28636,6 +28644,7 @@ zzzyk.com###Tinfo
 ||api.country.is^$third-party
 ||api.cupid.qiyi.com/etx?
 ||api.cupid.qiyi.com/track2
+||api.deepai.org/thrad-ad-proxy
 ||api.doctolib.fr/nr_insert_
 ||api.doodle.com/data-layer/track
 ||api.ea3w.com/hits.js
@@ -30626,6 +30635,7 @@ zzzyk.com###Tinfo
 ||cdn.super.com/remote-event-registry.json
 ||cdn.tds.bid/bid.js
 ||cdn.thejournal.ie/media/hpto/$image
+||cdn.thrad.ai/ptag.min.js
 ||cdn.tolt.io/tolt.js
 ||cdn.turboviplay.com/ads.js
 ||cdn.vaughnsoft.net/abvs/
@@ -33237,7 +33247,6 @@ zzzyk.com###Tinfo
 ||entravision.com^$third-party
 ||entry.baidu.com/rp/home?
 ||entterto.com^$popup
-||enus-homepage.ghost.io^
 ||enus-user.ghost.io^
 ||envato.market/i/
 ||enviou.com.br^$third-party
@@ -34761,7 +34770,6 @@ zzzyk.com###Tinfo
 ||global-official.ghost.io^
 ||global-officials.ghost.io^
 ||global-platform.ghost.io^
-||global-port.ghost.io^
 ||global-project.ghost.io^
 ||global-setup.ghost.io^
 ||global-site.ghost.io^
@@ -35683,7 +35691,6 @@ zzzyk.com###Tinfo
 ||homepagehub.ghost.io^
 ||homeprivatevids.com/js/580eka426.js
 ||homeschoolmath.net/a/
-||homestartd.ghost.io^
 ||homestore.com/srv/
 ||homoactive.tv/banner/
 ||honestlyvicinityscene.com^$popup
@@ -39951,7 +39958,6 @@ zzzyk.com###Tinfo
 ||never2never.com^$popup
 ||new-connected.ghost.io^
 ||new-icon.ol-img.com/jslib/ad
-||new-started.ghost.io^
 ||newads.bangbros.com^$third-party
 ||newagebd.net/assets/img/ads/
 ||newagerevenue.com^$third-party
@@ -43417,7 +43423,6 @@ zzzyk.com###Tinfo
 ||selectmedia.asia^$third-party
 ||selfcampaign.com^$third-party
 ||selfhostedprivacyawarestats.futo.org^
-||sell-started.ghost.io^
 ||seller-log-collector.shopee.
 ||sellhealth.com^$third-party
 ||sellpoint.net^$third-party
@@ -44512,7 +44517,6 @@ zzzyk.com###Tinfo
 ||starnnews.com/banner/
 ||starry-galaxy.com^$popup
 ||start.ru/logger/
-||startat.ghost.io^
 ||startd0wnload22x.com^$popup
 ||startden.ghost.io^
 ||startdhub.ghost.io^
@@ -44520,7 +44524,6 @@ zzzyk.com###Tinfo
 ||started-advance.ghost.io^
 ||started-another.ghost.io^
 ||started-begin.ghost.io^
-||started-browser.ghost.io^
 ||started-cloud.ghost.io^
 ||started-explore.ghost.io^
 ||started-faqs.ghost.io^
@@ -44556,7 +44559,6 @@ zzzyk.com###Tinfo
 ||startedu.ghost.io^
 ||startengus.ghost.io^
 ||starterhosttrk.com^
-||startestart.ghost.io^
 ||startg.ghost.io^
 ||startghost.ghost.io^
 ||startherehosting.net^
@@ -44566,7 +44568,6 @@ zzzyk.com###Tinfo
 ||starting-homepagee.ghost.io^
 ||starting-install.ghost.io^
 ||starting-intro.ghost.io^
-||starting.ghost.io^
 ||startjourney.ghost.io^
 ||startk.ghost.io^
 ||startmyhost.com^
