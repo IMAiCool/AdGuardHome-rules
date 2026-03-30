@@ -8996,6 +8996,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||impdesk.com/smartpix/
 ||impel.io/releases/analytics/
 ||impress.vcita.com^
+||impression.appsflyer.com^
 ||impressionmedia.cz/statistics/
 ||in.treasuredata.com^
 ||inbound-analytics.pixlee.co^
@@ -9442,6 +9443,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||ondigitalocean.app/insight-analytics.js
 ||one.store/v1/analytics/
 ||onecount.net/onecount/oc_track/
+||onelinksmartscript.appsflyer.com^
 ||onelinksmartscript.appsflyersdk.com^
 ||onescreen.net/os/static/pixels/
 ||onesignal.com/api/v*/apps/
@@ -9840,6 +9842,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||sdiapi.com/reporter/
 ||sdk-service.nsureapi.com/events
 ||sdk.51.la^$third-party
+||sdk.appsflyer.com^
 ||sdk.mrf.io/statics/marfeel-sdk.js
 ||sdrive.skoda-auto.com^
 ||sdtagging.azureedge.net^
@@ -52566,6 +52569,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||sohotheatre.com^*/PageView.js$~third-party
 @@||solr.sas.com/query/$xmlhttprequest,domain=jmp.com
 @@||sophos.com^*/tracking/gainjectmin.js$script,domain=community.sophos.com
+@@||soundcore.com/metrics/gtd?id=$script,~third-party
 @@||spark.co.nz/content/*/utag.sync.js$domain=skinny.co.nz
 @@||src.fedoraproject.org/static/issues_stats.js?$~third-party
 @@||src.litix.io/shakaplayer/*/shakaplayer-mux.js
