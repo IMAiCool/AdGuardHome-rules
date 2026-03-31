@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: zA3mThHo7HyR6zcLfZIP6w
-! Version: 202603310031
+! Checksum: KV5/vRr+qQMcaXDq+YY/XA
+! Version: 202603311611
 ! Title: EasyPrivacy
-! Last modified: 31 Mar 2026 00:31 UTC
+! Last modified: 31 Mar 2026 16:11 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -3296,6 +3296,7 @@ _WebVitalsReporter_
 /go.news.fly.io/e/o/*$image
 /gp/r.html?$image
 /gridinbound.blob.core.
+/ho.php?t=$image
 /i?aid=*&se_ac=open&$image
 /image.info.jr-odekake.net/lib/*$image
 /impression?mkevt=
@@ -8218,6 +8219,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||beacon.sftoaa.com^
 ||beacon.sojern.com^
 ||beacon.statful.com^
+||beacon.webpresence.work^
 ||beacons.mediamelon.com^
 ||beam.mjhlifesciences.com^
 ||beamanalytics.b-cdn.net^
@@ -13710,6 +13712,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rabbit.donald.cat^
 ||raenonx.cc/api/tag
 ||raenonx.cc/g/usage/
+||rainbet.com/api/ping
 ||raindrop.io/pb/api/event
 ||rakuten.com/rmsgjs/soj2.js
 ||ranker.com/api/px
@@ -52146,6 +52149,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||analyzer.fc2.com^
 ||analyzer2.fc2.com^
 ||anyelse.com/stat^
+||api.mercari.jp/client_events/
 ||apps.nhk.jp/assets/dtm/
 ||askdoctors.jp/assets/packs/js/impression_tracker-
 ||astat.nikkei.com^
