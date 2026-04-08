@@ -3590,6 +3590,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /neoworx_tracker.php
 /netmining.js
 /netresults.js
+/network-analytics.js
 /neustar.beacon.js
 /neverblock/*$script
 /new-client/trackers.
@@ -8992,6 +8993,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||nodkey.xyz^$generichide
 @@||noodid.ee/chordQuiz/$~third-party
 @@||notafree.host^$generichide
+@@||notebooklm.google.com^$generichide
 @@||notion.so^$generichide
 @@||nowscore.com/script/common/adHelper.js
 @@||noxgroup.com/noxinfluencer/sensor_sdk/$script,domain=noxinfluencer.com
@@ -14099,6 +14101,7 @@ duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##[
 duckduckgo.com,duckduckgogg42xjoc72x3sjasowoarfbgcmvfimaftt6twagswzczad.onion##li[data-layout="products"]
 duelmeta.com##.single-bottom-html
 duelmeta.com##.single-top-html
+duffelblog.com##.kg-cta-content
 dujiaoshou.cn###ad1
 duo.op.gg###duo-ad-box-head
 duo.op.gg##.admanager--box
@@ -18080,9 +18083,9 @@ kingcard.com.tw#@##adbox
 kingkong.com.tw##.public-activity
 kingkong.com.tw##.room-banner-wrap
 kingmodapk.net,online-calculator.org##[style*="height:300px"]
-kingmods.net##.banner-ad
 kingmods.net##[data-ad-wrapper-slot]
 kingmods.net##[x-data="nativeAd"]
+kingmods.net,tappedout.net##.banner-ad
 kingsleague.pro###partnersGrid
 kingsofchaos.com#@#.textad
 kiplinger.com##.dianomi_gallery_wrapper
@@ -33566,7 +33569,6 @@ zzzyk.com###Tinfo
 ||ext3ghost.vectordiffusion.in.net^
 ||ext3ghost.vectorstreamlink.in.net^
 ||extendoffice.com/analytics.js
-||extension-ad-stopper.com^$document
 ||extensions-media.com^$popup
 ||extensionworthwhile.com^$popup
 ||extensoft.com/artisteer/banners/
@@ -33755,7 +33757,6 @@ zzzyk.com###Tinfo
 ||fbooksluts.com^$third-party
 ||fbot.me/error
 ||fbot.me/events/
-||fbpqvs.com^$document
 ||fbpqvs.com^$popup
 ||fbsbx.com/paid_ads_pixel/
 ||fc.lc/CustomTheme/img/ref$third-party
@@ -33983,7 +33984,6 @@ zzzyk.com###Tinfo
 ||flow.1passwordservices.com/api/v1/event
 ||flower-ads.com^$third-party
 ||flowerdicks.com^$popup
-||flowldsb.online^$document
 ||flowldsf.online^$document
 ||flowplayer.com/releases/ads/
 ||flowworksfivesphere.com^$popup
@@ -34074,7 +34074,6 @@ zzzyk.com###Tinfo
 ||formstack.com/forms/js/*/analytics_
 ||formula1.com/api/track
 ||formulawire.com^$third-party
-||forooqso.tv^$document
 ||forooqso.tv^$popup
 ||forter.com^$third-party
 ||fortune.com/comscore-json/
@@ -34208,7 +34207,6 @@ zzzyk.com###Tinfo
 ||freshcounter.com^$third-party
 ||freshmarketer.com^$third-party
 ||freshplum.com^$third-party
-||freshpops.net^$document
 ||freshpops.net^$popup
 ||freshrelevance.com^$third-party
 ||freshstopstate-com.beak.host^
@@ -34581,7 +34579,6 @@ zzzyk.com###Tinfo
 ||gensonal.com^$popup
 ||genteeze-6f4d.localdynah.workers.dev^
 ||gentent.stre4mplay.one^$popup
-||gentwoleads.top^$document
 ||gentwoleads.top^$popup
 ||genxwhosting.com^
 ||geo-targetly.com^$third-party
@@ -34730,7 +34727,6 @@ zzzyk.com###Tinfo
 ||ghostporcupineschool.com^
 ||ghostsapp.com^
 ||ghostsearch.com^
-||ghostsgloams.cfd^
 ||ghostsinstance.com^
 ||ghostsoutright.com^
 ||ghostssquadpoints.dlcodes.com^
@@ -40566,6 +40562,7 @@ zzzyk.com###Tinfo
 ||omine.org^$third-party
 ||omklefkior.com^$popup
 ||omkt.co^$third-party
+||omni-dex.io^$third-party
 ||omniconvert.com^$third-party
 ||omnie.ai/api/ddMetric
 ||omnilocal.ai^
