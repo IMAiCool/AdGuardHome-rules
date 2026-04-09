@@ -5077,6 +5077,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /urchin.js
 /usage/Clickstream?
 /usage/ReportEvent?
+/use1-track.atlassian.com/*
 /user-context?referrer=
 /user-data-minified.$script
 /userdata_n?
@@ -13095,6 +13096,7 @@ cpomagazine.com##.cpoma-adlabel
 cpomagazine.com##.cpoma-main-header
 cpomagazine.com##.cpoma-target
 cps.com.cn##.couplet-le
+cpstest.org##.bottomAdsection
 cpu-monkey.com,gpu-monkey.com##.werb
 cpuid.com###console_log
 cq.qq.com##div.clearfix[style*="1000"]
@@ -18831,6 +18833,9 @@ majorgeeks.com###op1-ad
 majorgeeks.com##.alford > tbody > tr
 majorgeeks.com##a[href*="/affiliate.php?"]
 majorgeeks.com##div > [style]:has([style]:has([href*="&utm"]))
+majorgeeks.com##div[style="background-color:
+majorgeeks.com##img[alt="tip"]
+majorgeeks.com##img[alt="tip"] + b
 makaidong.com###bdcs
 makaidong.com###cyWallsplugin
 makeitmeme.com##div[class^="_adContainer_"]
@@ -21184,7 +21189,10 @@ producthunt.com##.styles_item__hNPI1
 producthunt.com##div[class="my-2 flex cursor-pointer flex-row items-center gap-4 rounded-lg bg-gray-50 p-3"]:has(a[href="/sponsor"])
 producthunt.com##div[class="my-2 flex cursor-pointer flex-row items-center gap-4 rounded-lg bg-gray-50 p-3"]:has(img[src="/i/33b26ee8f2668842e38841253cfde42aa203585e395ff731f21aebffbb38c8e5"])
 producthunt.com##div[class="my-2 flex cursor-pointer flex-row items-center gap-4 rounded-lg bg-gray-50 p-3"]:has(img[src^="/i/"])
+producthunt.com##div[class="my-4 flex flex-1 cursor-pointer items-center justify-center overflow-hidden rounded-md border-2 border-gray-200"]:has(img[srcset^="https://ph-files.imgix.net/"])
+producthunt.com##div[class="my-4 flex flex-1 cursor-pointer items-center justify-center overflow-hidden rounded-md border-2 border-gray-200"]:has(video[poster^="https://ph-files.imgix.net/"])
 producthunt.com##div[data-test] > section:has(a[href^="/r/ad/"])
+producthunt.com##div[data-test] > section:has(img[src="/i/299a62819c7092e196f7fc2c331cc11ef4f93a0f32c3b3069c4fd974cda0cb4c"])
 producthunt.com##div[data-test^="ad-slot-"]
 producthunt.com#?#.text-12:has-text(Promoted)
 producthunt.com#?#div[class="flex cursor-pointer items-start gap-4 rounded-lg bg-gray-50 p-4"]:has-text(Promoted)
@@ -22964,6 +22972,7 @@ streamed.pk,streamed.st,streami.su##div[role="alert"]
 streamingmedia.com##.expand
 streams.tv###flowerInGarden
 streams.tv###sunGarden
+streamsports99.*##.min-h-\[70px\]
 streamtvinsider.com##.recommended-content
 streetdirectory.com###offers_splash_screen
 streetdirectory.com###splash_screen_overlay
@@ -23899,6 +23908,7 @@ tokyvideo.com###overlay-video
 tokyvideo.com##.fan--related-videos.fan
 tom.com###body_right_banner
 tom.com###popupDivgame
+tomato.gg##div[class^="GenericPage__VerticalAdslotContainer"]
 tomestone.gg###ad-sidebar-skyscraper-container
 tomsguide.com##.bordeaux-anchored-container
 tomsguide.com##.bordeaux-slot
@@ -37978,6 +37988,7 @@ zzzyk.com###Tinfo
 ||lensdump.com/i/*.gif
 ||lensmenfratchy.shop^$popup
 ||lentainform.com^$third-party
+||lenticularhost.net^
 ||leonbetvouum.com^$popup
 ||leosudclocal104.weebly.com^
 ||leosuvalocal104.weebly.com^
