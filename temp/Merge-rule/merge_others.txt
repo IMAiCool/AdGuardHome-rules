@@ -22423,6 +22423,7 @@ skylinewebcams.com###hostedby
 skylinewebcams.com###skylinewebcams-ads2
 skylinewebcams.com##.cam-vert
 skylinewebcams.com##.text-center.cam-light
+skylinewebcams.com##[style="width:100%;text-align:center"]
 skyscanner.*##[data-testid="inline-ad-panel-desktop-layout"]:has([data-testid="adInfoBtn"])
 skyscanner.*,tianxun.com##[class^="FlightsResults"] > div:has([class^="Sponsored"])
 skyscanner.*,tianxun.com##div > a:has(div[class^="DefaultBanner_sponsorshipRow"])
@@ -27400,6 +27401,7 @@ zzzyk.com###Tinfo
 ||ad.mail.ru^$~image,domain=~mail.ru|~sportmail.ru
 ||ad.plus^$third-party
 ||ad.pornimg.xyz^$popup
+||ad.reachlocal.com^
 ||ad.soicos.com^$popup
 ||ad.style^$third-party
 ||ad.ymcdn.org^$popup
@@ -27561,6 +27563,7 @@ zzzyk.com###Tinfo
 ||adhigh.net^$third-party
 ||adhitzads.com^$third-party
 ||adhoc2.net^$popup
+||adhost.com^
 ||adhost.in^
 ||adhost.se^
 ||adhouse.pro^$third-party
@@ -27763,9 +27766,13 @@ zzzyk.com###Tinfo
 ||ads.cc^$third-party
 ||ads.google.com^$xmlhttprequest,domain=ynet.co.il
 ||ads.host.camz.com^
+||ads.local.ie^
+||ads.localyokelmedia.com^
+||ads.my3whost.com^
 ||ads.planetwin365affiliate.com^$popup,third-party
 ||ads.sexier.com^$popup
 ||ads.sportslocalmedia.com^
+||ads.w3hoster.de^
 ||ads.webhosting.info^
 ||ads.whoishostingthis.com^
 ||ads.yahoo.com^$~image
@@ -28469,6 +28476,7 @@ zzzyk.com###Tinfo
 ||alxbgo.com^$popup
 ||alypw.com/zb_users/plugin/ZF_tanchuang/
 ||alzexa.com^$third-party
+||am1.adlocal.co.kr^
 ||am10.ru^$popup
 ||am15.net^$popup
 ||amadesa.com^$third-party
@@ -28589,6 +28597,7 @@ zzzyk.com###Tinfo
 ||analytics.facebook.com^$third-party
 ||analytics.google.com^$third-party
 ||analytics.greensender.pl^$third-party
+||analytics.hosting24.com^
 ||analytics.hostiran.net^
 ||analytics.locallogic.co^
 ||analytics.loop-cloud.de^$third-party
@@ -30818,7 +30827,6 @@ zzzyk.com###Tinfo
 ||center.io^$third-party
 ||centerblog.net/a/in
 ||centerblog.net/stats.js
-||centerstart.ghost.io^
 ||centurys.net/promo_
 ||cenyou.net/wp-content/uploads/1200-200.
 ||ceramicturtleremnant.com^$document
@@ -35793,7 +35801,6 @@ zzzyk.com###Tinfo
 ||holidaycheck.*/svc/ubt/v1/events
 ||hollysocialspuse.com^$popup
 ||holyfamilyradio.org/banners/
-||home-begin.ghost.io^
 ||home-connected.ghost.io^
 ||home-connects.ghost.io^
 ||home-en-intro.ghost.io^
@@ -35924,6 +35931,7 @@ zzzyk.com###Tinfo
 ||host14u.net^
 ||host1849145.hostland.pro^
 ||host1store.datacentricnode.in.net^
+||host2-entry.xelvorinax.in.net^
 ||host238.hostmonster.com^
 ||host2remote.datacentricnode.in.net^
 ||host2uls.com^
@@ -40112,6 +40120,7 @@ zzzyk.com###Tinfo
 ||neighbourly.co.nz/event-tracking
 ||nejmqianyan.cn^$third-party
 ||neko-san.fr/stats
+||nekoweb.org/.nekoweb-api/count-view
 ||nelioabtesting.com^$third-party
 ||nelonenmedia.fi/hitcounter$image
 ||nelonenmedia.fi/logger/
@@ -40880,7 +40889,6 @@ zzzyk.com###Tinfo
 ||open-homepage.ghost.io^
 ||open-homepages.ghost.io^
 ||open-legrlive.ghost.io^
-||open-started.ghost.io^
 ||open.oneplus.net^$third-party
 ||open.ua/stat/
 ||openadserving.com^$popup
@@ -44839,7 +44847,6 @@ zzzyk.com###Tinfo
 ||started-advance.ghost.io^
 ||started-another.ghost.io^
 ||started-begin.ghost.io^
-||started-cloud.ghost.io^
 ||started-en-us.ghost.io^
 ||started-explore.ghost.io^
 ||started-faqs.ghost.io^
@@ -44847,7 +44854,6 @@ zzzyk.com###Tinfo
 ||started-ladger.ghost.io^
 ||started-netural.ghost.io^
 ||started-new.ghost.io^
-||started-news.ghost.io^
 ||started-page.ghost.io^
 ||started-portfolio.ghost.io^
 ||started-setup.ghost.io^
