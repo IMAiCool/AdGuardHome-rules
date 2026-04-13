@@ -3099,7 +3099,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /js/aahome.htm
 /js/ad.js$domain=69shuba.com
 /js/ad_common.js$script
-/js/adblockdetect.js$script
 /js/admiral-
 /js/ads/*0.js
 /js/ads/*2.js
@@ -10031,6 +10030,7 @@ acfun.cn##.danmu-activity
 acfun.cn##.pause-display
 acfun.cn##.right-activity
 acfun.cn##a[href^="https://click.dsp.com/"]
+acg-hentai.com##.adbox
 acg17.com##.yhq
 acgbuster.moe##.tg-inner
 acgcku.com##a[href]:not([href*="acgcku."]) > img[src*="acgcku.com/wp-content/"]
@@ -12961,6 +12961,10 @@ cometbird.com##.gg_250x250
 comfig.app#?#.card:has-text(Partnered)
 comic.qq.com###fixed_right > div
 comicat.org,dapenti.com,douyu.com,iqiyi.com,jinti.com,kisssub.org,libvio.me,mvcat.com,mzh.ren,rufengso.net,v.qq.com,zhanzhangb.com##a[href*=".jd.com"]
+comicbook.com##.lngtd-dynamic-inarticle
+comicbook.com##.lngtd-dynamic-leaderboard
+comicbook.com##.lngtd-dynamic-leaderboard-index
+comicbook.com##.lngtd-dynamic-rightrail
 comicbook.com,vice.com##.wp-block-savage-platform-primis-video
 comicbookmovie.com###adATFLeaderboard
 comicbookmovie.com##.ad > .blur-up
@@ -24192,6 +24196,7 @@ twinfinite.net###mvp-main-content-wrap
 twistedsifter.com###mm-player
 twistedsifter.com##.widget_sifter_ad_bigbox_widget
 twitch.tv##.video-player--stream-display-ad_lower-third {height:100%
+twitch.tv##[data-test-selector="sda-wrapper"]
 twitch.tv##button[aria-label="Learn more about this ad"]
 twitter.com,x.com##.promoted-account
 twitter.com,x.com##.stream-item-group-start[label="promoted"]
@@ -26839,6 +26844,8 @@ zzzyk.com###Tinfo
 ||5dmail.net/image/ORF_1000.gif
 ||5dmail.net/image/ad_
 ||5dmail.net/js/
+||5dxs.net/themes/jieqi/wap/js/fixed.
+||5dxs.net/themes/jieqi/wap/js/test.
 ||5etv.com^$third-party
 ||5fz.cc/t/aimg/tao
 ||5icool.org/uploadfile/poster/
@@ -36068,6 +36075,7 @@ zzzyk.com###Tinfo
 ||hub.com.pl^$third-party
 ||hub.reacti.co/index.js
 ||hub3local.systemintegritynode.in.net^
+||hub5-local.plu8moran.in.net^
 ||hub6-gate.local-market-hub.in.net^
 ||hubpd.com/hubpd/images/dingtong
 ||hubpd.com^$third-party
@@ -38123,6 +38131,7 @@ zzzyk.com###Tinfo
 ||link.realself.com^$image
 ||link.superlocal.com^
 ||link.tv-asahi.co.jp/tver/cookiesync?
+||link1-host.draxolin.in.net^
 ||link114.cn/template/js/showpics_
 ||link2.strawberrynet.com^$image
 ||linkadvdirect.com^$popup
@@ -43884,7 +43893,6 @@ zzzyk.com###Tinfo
 ||sihbb.com/yang/
 ||silimbompom.com^$third-party
 ||silvergames.com/div/g.php?
-||silverhost.vg^
 ||silverpop.com^$third-party
 ||silverpush.co^$third-party
 ||sim-technik.de/dvs.gif?
