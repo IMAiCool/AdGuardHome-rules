@@ -2170,6 +2170,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /contentiq.js
 /conversion_async.js
 /convertro.js
+/convivaAppTracker.js
 /cookie.gif?
 /cookieAnalytics.js
 /cookieId.htm
@@ -22871,6 +22872,7 @@ standard.co.uk##.teads
 standard.co.uk##[class]:has(> [data-fluid-zoneid])
 standardmedia.co.ke##.border-thick-branding
 standardmedia.co.ke##.my-2
+staples.com###searchResultsContainer [data-id^="tile"]:has(.standard-tile__sponsored_badge_holder)
 staples.com##.SearchRootUX2__bannerAndSkuContainer
 staples.com##.flexible-banner-configurator__flexibleBannerWrapper:has(a[aria-label*="Sponsored by"])
 staples.com##div[class^="sku-configurator__banner"]:has([aria-label="Sponsored Products"])
@@ -23155,6 +23157,7 @@ target.com##[data-test="sponsored-text"]
 target.com##div[class^="styles__PubAd"]
 target.com#?#.ProductRecsLink-sc-4mw94v-0:has(p:has-text(sponsored))
 target.com#?#.styles_ndsCarouselItem__dnUkr:has(p.h-text-sm:has-text(Sponsored))
+target.com#?#[class*="styledCarouselItem"]:has-text(Sponsored)
 target.com#?#[data-test="ProductCardVariantRecommendation"]:has-text(Sponsored)
 target.com#?#[data-test="productCardVariantRecommendation"]:has-text(Sponsored)
 target.com#?#div[class^="styles_productCardVariantMiniWrapper_"]:has(div.h-text-sm:has-text(Sponsored))
@@ -28674,6 +28677,7 @@ zzzyk.com###Tinfo
 ||apexstats.com^$third-party
 ||apextag.com^$third-party
 ||apextwo.com^$third-party
+||api-dynhost.hismarttv.com^
 ||api-iam.intercom.io/messenger/web/metrics
 ||api-location-prd.pelcro.com^$domain=newsweek.com
 ||api-pf.nw18.com/cdp-api/api/data
@@ -28833,7 +28837,6 @@ zzzyk.com###Tinfo
 ||appront.net/click.js
 ||approved.website^$document
 ||apprupt.com^$third-party
-||apps-started.ghost.io^
 ||apps.ihlasdigitalassets.com/stats
 ||apps.nhk.jp/assets/dtm/
 ||apps.omegatheme.com/facebook-pixel/
@@ -30569,6 +30572,7 @@ zzzyk.com###Tinfo
 ||cargurus.com/cars/cganalyticspageview.action
 ||cargurus.com/tr/
 ||carhost-e6d05c1c-875b-44a8-8308-f83eef7f99be.myportfolio.com^
+||carmenbrosa1768827392980.0951940.meusitehostgator.com.br^
 ||carnoc.com/noticejs/
 ||caroda.io^$third-party
 ||carolsdaughter.com/IZ/uaPO0cuk/init.js
@@ -32696,7 +32700,6 @@ zzzyk.com###Tinfo
 ||dotaki.com^$third-party
 ||dotaudiences.com^$third-party
 ||dotesports.com/sp.js
-||dotlink.ghost.io^
 ||dotmetrics.net^$third-party
 ||dotomi.com^$third-party
 ||dotyruntchan.com^$popup
@@ -33238,7 +33241,6 @@ zzzyk.com###Tinfo
 ||empresameusnet.kinghost.net^
 ||empresasjuridica.kinghost.net^
 ||emumuendaku.info^$popup
-||en-global-homepages.ghost.io^
 ||en-learnpage.ghost.io^
 ||en8848.com.cn/js/ad
 ||en8848.com.cn/js/content.
@@ -33257,7 +33259,6 @@ zzzyk.com###Tinfo
 ||eng-homes.ghost.io^
 ||eng-intro.ghost.io^
 ||eng-publicstart.ghost.io^
-||eng-setup.ghost.io^
 ||eng24.com/js_new/copyright_float.
 ||engageclick.com^$third-party
 ||engagemaster.com^$third-party
@@ -34678,7 +34679,6 @@ zzzyk.com###Tinfo
 ||getsthis.com^$popup
 ||gettapeads.com/stat/
 ||getthisappnow.com^$popup
-||getting-home.ghost.io^
 ||getting-startd.ghost.io^
 ||getting-started.ghost.io^
 ||gettopple.com^$popup
@@ -40232,7 +40232,7 @@ zzzyk.com###Tinfo
 ||nmgnews.com.cn/sys/online_calc.js
 ||nmrodam.com^$third-party
 ||nn125.com^$popup
-||nnmtools.com^third-party
+||nnmtools.com^$third-party
 ||nnteens.com/ad$subdocument
 ||no1.168abc.net/upload/
 ||noagentfees.com^$subdocument,domain=independent.com.mt
@@ -44652,7 +44652,6 @@ zzzyk.com###Tinfo
 ||startherehosting.org^
 ||starti.pl^$third-party
 ||starting-gets.ghost.io^
-||starting-homepagee.ghost.io^
 ||starting-intro.ghost.io^
 ||startjourney.ghost.io^
 ||startk.ghost.io^
@@ -44703,6 +44702,7 @@ zzzyk.com###Tinfo
 ||static.parsely.com^$third-party
 ||static.prd.datawars.io/static/promo/
 ||static.qiyi.com/js/pingback/
+||static.republika.co.id/js/tracker.js
 ||static.sunmedia.tv/integrations/
 ||static.tradetracker.net^$third-party
 ||static.youku.com/*/index/js/iresearch.js
@@ -44817,6 +44817,7 @@ zzzyk.com###Tinfo
 ||stockx.com/16uD0kOF/init.js
 ||stol.it/pcookie?
 ||stonecalcom.com^$third-party
+||stonetest.rap-hosting.com^
 ||stoopfalse.com^$popup
 ||stoorgel.com^$popup
 ||stoorgouzoy.com^$popup
@@ -46918,7 +46919,6 @@ zzzyk.com###Tinfo
 ||videopress.com/plugins/stats/
 ||videoroll.net^$third-party
 ||videos.oms.eu^$third-party
-||videoscliphost2026.binzaminrandow.site^
 ||videosection.com/adv-agent.php
 ||videostat.com^$third-party
 ||videostep.com^$third-party
@@ -48071,6 +48071,7 @@ zzzyk.com###Tinfo
 ||xp.apple.com/config/*/report/
 ||xp.apple.com/report/
 ||xp.audience.io/sdk.js$third-party
+||xp600.com/js/
 ||xp85.com/common/js/allpage.js
 ||xpaja.net/views/images/ads/
 ||xparthost.net^
