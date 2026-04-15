@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: 84GLaFw4bWL6wThr7IJwDw
-! Version: 202604140832
+! Checksum: wdmFhwCkNpJTOx6RQ5uFwQ
+! Version: 202604150041
 ! Title: EasyList China
-! Last modified: 14 Apr 2026 08:32 UTC
+! Last modified: 15 Apr 2026 00:41 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1776,6 +1776,11 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||mip37c9nf.com^
+||yehrrtjop.com^
+||nly9u12pi.com^
+||47c7zhqak.com^
+||additional59.top^
 ||j1s956aee8.com^
 ||gvwjiasjlk.com^
 ||sgjewpnite.com^
@@ -1786,6 +1791,10 @@ newduba.cn###jq_youxi
 ||wmcurwxrjc.com^
 ||q6zikgclq9.com^
 ||eglnktnqnz.com^
+||121yscfk5e.com^
+||zeigraim.com^
+||vrufe4ikql.com^
+||4y13js.work^
 ||5wv0y42ub.com^
 ||51ympuu7y.com^
 ||property58.top^
@@ -19143,7 +19152,7 @@ niuyankan.top###content > a
 ||uaa.com/js/dxj.
 uaa.com##.popup_dialog_box
 wss://*.com:29*/$third-party
-wss://*.com:800*/$third-party
+wss://*.com:800*/$third-party,domain=~survev.io
 ##.row.nav-bottom + div[style^="display: block; position: relative; width: 0px; height:"]
 ##a[href*="aHR0cHM6Ly9xc2Z2bDExLmFsYXp2LmNvbS8zNzA4Lmh0bWw="]
 ||lzbao.net/syster.
