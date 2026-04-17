@@ -18615,6 +18615,7 @@ loldk.com##.tools-recommend
 loldk.com##a[href$=".html?from=video_right"]
 loldk.com##a[href^="http://www.esportsclub.cn/home/"]
 lolshipin.com##.box2
+lolvvv.com,yourbittorrent.com##iframe[src]
 lonestarlive.com##.below-toprail
 longevity.technology##.addvertisment
 longevity.technology,news18.com##.add_section
@@ -22434,13 +22435,13 @@ skyscanner.*,tianxun.com##section[data-testid="inline-ad-panel-desktop-layout"]
 skyve.io##.ads_space
 slant.co##.SummaryPage-LustreEmbed
 slashdot.org###announcement
-slashdot.org###sitewide-top-banner-placeholder
+slashdot.org###mon-sticky-div
 slashdot.org###slashdot_deals
 slashdot.org##.ad-blocked-newsletter
 slashdot.org##.deals-wrapper
 slashdot.org#?#.fhitem-story.fhitem:has-text(Sponsored Content)
 slashdot.org#?#.grid_24:has-text(Featured Content)
-slashdot.org,sourceforge.net###monb-sticky
+slashdot.org,sourceforge.net###bolt-coding-bar
 slashfilm.com###primis-container
 slashgear.com##.recommended-heading
 slaynews.com##.ai-rotate
@@ -22730,13 +22731,8 @@ sou-yun.cn###ads_index_2
 soufun.com##.danmu_inbox
 soundofhope.org##div[class*="AD_"]
 soundonsound.com##.block---managed
-sourceforge.net###banner-sterling
-sourceforge.net###retool-coding-bar
-sourceforge.net###vibe-coding-bar
-sourceforge.net##.nel-vertical.body
-sourceforge.net##.projects > .trunc-eligible
+sourceforge.net###mon-sticky-obj
 sourceforge.net##.sterling
-sourceforge.net##a[data-label^="avast"]
 sourceforge.net#?#aside.m-sidebar-widget > .as-header:has-text(Featured)
 southernliving.com##.karma-sticky-rail
 soyacincau.com##.scadslot-widget
@@ -25709,7 +25705,6 @@ youporn.com##aside:has(a.ad-remove)
 youpornzz.com##a[href*="/videoads.php?"]
 yourbittorrent.com##.extneed
 yourbittorrent.com##[href*="%20"][href$=".html"]
-yourbittorrent.com##iframe[src]
 yourharlow.com###single_rhs_ad_col
 yourharlow.com###top_ad_row
 yourlust.com###headC
@@ -27734,9 +27729,13 @@ zzzyk.com###Tinfo
 ||ads.cc^$third-party
 ||ads.google.com^$xmlhttprequest,domain=ynet.co.il
 ||ads.host.camz.com^
+||ads.local.ie^
+||ads.localyokelmedia.com^
+||ads.my3whost.com^
 ||ads.planetwin365affiliate.com^$popup,third-party
 ||ads.sexier.com^$popup
 ||ads.sportslocalmedia.com^
+||ads.w3hoster.de^
 ||ads.webhosting.info^
 ||ads.whoishostingthis.com^
 ||ads.yahoo.com^$~image
@@ -35858,7 +35857,6 @@ zzzyk.com###Tinfo
 ||hostcontent.live^$third-party
 ||hostdomainpeople.112.2o7.net^
 ||hostdomainpeopleca.112.2o7.net^
-||hostealo.com^
 ||hostecountspringweb-4sbw8uzi5y.edgeone.dev^
 ||hosted.muses.org/mrp.js$domain=flamecomics.xyz|mgeko.cc
 ||hosted.stats.com.edgesuite.net^
@@ -41485,6 +41483,7 @@ zzzyk.com###Tinfo
 ||player.avplayer.com^$third-party
 ||player.ex.co^$third-party
 ||player.globalsun.io/player/videojs-contrib-ads$script,third-party
+||player.instaread.co/js/inarticle-metrics.js
 ||player.javboys.cam/cdn-cgi/trace
 ||player.mangomolo.com/stats/
 ||player.ooyala.com/errors/report?
