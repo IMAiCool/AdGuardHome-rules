@@ -8942,6 +8942,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hdnux.com/HNP/stats/page_view?
 ||hearstmags.com^*/hdm-lib_hearstuser_proxy.html$third-party
 ||hearstnp.com/log?
+||heartbeat-pearl.vercel.app^
 ||heg-cp.com/upm/$third-party
 ||helix.bitformations.ca^
 ||hello.myfonts.net/count/
@@ -13608,6 +13609,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||rta2.newzit.com^
 ||rtds.progressive.com^
 ||rum.api.intuit.com^
+||rum.battle.net^
 ||rum.cdnpure.com^
 ||rum.condenastdigital.com^
 ||rumble.com/l/
@@ -52532,6 +52534,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||onenote.com^*/aria-web-telemetry
 @@||online-metrix.net/fp/tags.js$domain=donorschoose.org
 @@||onlinebanking.usbank.com/TUX/public/libs/adobe/appmeasurement.js$script,~third-party
+@@||open.video/ezais/analytics?$~third-party
 @@||openfpcdn.io/botd/v1$script,domain=collinsdictionary.com
 @@||opex.xplan.iress.com.au/js/xiled/util/pageview.js$~third-party
 @@||optimove.net^$domain=app.touchnote.com
@@ -52613,6 +52616,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 @@||src.fedoraproject.org/static/issues_stats.js?$~third-party
 @@||src.litix.io/shakaplayer/*/shakaplayer-mux.js
 @@||src.litix.io/videojs/*/videojs-mux.js
+@@||srv024.service.canada.ca/assets/adobe-analytics-route-helpers-$script,~third-party
 @@||ssl-images-amazon.com^*/satelliteLib-$script,domain=audible.com
 @@||starlink.com/sst/gtag/js$script,~third-party
 @@||startribune.com/analytics-assets/sitecatalyst/appmeasurement.js$~third-party
