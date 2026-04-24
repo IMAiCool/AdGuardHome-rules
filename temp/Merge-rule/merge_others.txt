@@ -22455,16 +22455,11 @@ skyscanner.*,tianxun.com##section[data-testid="inline-ad-panel-desktop-layout"]
 skyve.io##.ads_space
 slant.co##.SummaryPage-LustreEmbed
 slashdot.org###announcement
-slashdot.org###mon-sticky-div
 slashdot.org###slashdot_deals
-slashdot.org###vibe-code
 slashdot.org##.ad-blocked-newsletter
 slashdot.org##.deals-wrapper
 slashdot.org#?#.fhitem-story.fhitem:has-text(Sponsored Content)
 slashdot.org#?#.grid_24:has-text(Featured Content)
-slashdot.org,sourceforge.net###bolt-coding-bar
-slashdot.org,sourceforge.net###mongo-stick-div
-slashdot.org,sourceforge.net###perplexity-coding-bar
 slashfilm.com###primis-container
 slashgear.com##.recommended-heading
 slaynews.com##.ai-rotate
@@ -22754,8 +22749,7 @@ sou-yun.cn###ads_index_2
 soufun.com##.danmu_inbox
 soundofhope.org##div[class*="AD_"]
 soundonsound.com##.block---managed
-sourceforge.net###mon-sticky-obj
-sourceforge.net##.sterling
+sourceforge.net###top-placeholder
 sourceforge.net#?#aside.m-sidebar-widget > .as-header:has-text(Featured)
 southernliving.com##.karma-sticky-rail
 soyacincau.com##.scadslot-widget
@@ -22925,6 +22919,8 @@ startribune.com##[class*="htlad-"]
 startribune.com##div[data-testid$="-ad"]
 startup.ch##.smallbanner
 startuphub.ai##.newsletter-ad-container
+startuphub.ai#?#.p-4.rounded-xl:has-text(Sponsored)
+startuphub.ai#?#a.block.group:has-text(Sponsored)
 stat-nba.com###ad_video
 stationx.net##.stnx-cta-embed
 statnews.com##.ad-in-article
@@ -41801,6 +41797,7 @@ zzzyk.com###Tinfo
 ||proewildfire.cn/fd.js
 ||proext.com^$third-party
 ||profamouslife.com/js/adcash.js
+||professional-social-bwfy.bolt.host^
 ||professionalswebcheck.com^$popup
 ||proffering.xyz^$popup
 ||profitablecpmgate.com^$popup
