@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Checksum: qdzmp6VwsIsSNLm9g9BGqA
-! Version: 202604240831
+! Checksum: DQYGS3bl9Xl00oIXdakQWw
+! Version: 202604250032
 ! Title: EasyList China
-! Last modified: 24 Apr 2026 08:31 UTC
+! Last modified: 25 Apr 2026 00:32 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://github.com/easylist/easylistchina/
 !
@@ -1780,6 +1780,14 @@ newduba.cn###jq_youxi
 ||cnzz.trafficmanager.net^
 ||cupfox.app^$third-party
 !
+||5vs7i3cuc.com^
+||btlgp4vze.com^
+||dlbefft.com^
+||6f42v90nz.com^
+||bytytxkz.icu^
+||uu8bq6rnj.com^
+||incubation95.top^
+||zinoe.cn^
 ||vxydbok.com^
 ||3sd6w6oga9.com^
 ||6aoodbdx94.com^
@@ -1788,6 +1796,11 @@ newduba.cn###jq_youxi
 ||ttzerqriro.com^
 ||vdfgjn.icu^
 ||brnyzr.icu^
+||q5viqnac3i.com^
+||5bkhq0lwmq.com^
+||nbdpbxkf.top^
+||u1aczgx9so.com^
+||zinoe.cn^
 ||a51wzxssu.com^
 ||wydk6zdk2.com^
 ||jc7t7it24.com^
@@ -11222,6 +11235,7 @@ meijutt.*/js/pcjs/
 ||riskbird.com/riskbird-api/guest/unionGoods
 !------------------------Specific element hiding rules------------------------!
 huaren.live##.pause-love
+doubao.com###activity-entrance-popup-root
 2345.com##.part-banner
 qq.com##.qzone-carousel-ad
 m.mydrivers.com##.news_content + div > a:first-child
