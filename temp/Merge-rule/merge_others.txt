@@ -5985,7 +5985,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 1280wnam.com##a[href^="https://wistatefair.com/fair/tickets/"]
 12news.com,9news.com,9to5google.com,9to5mac.com,aad.org,advfn.com,all3dp.com,allaboutcookies.org,allnovel.net,amny.com,athleticbusiness.com,audiokarma.org,beeradvocate.com,beliefnet.com,bizjournals.com,bolavip.com,bonappetit.com,breakingac.com,britishheritage.com,businessday.ng,businessinsider.com,capemaynjdaily.com,cbs8.com,cc.com,ccjdigital.com,centralbucksnews.com,dailytrust.com,delish.com,downbeach.com,dutchnews.nl,ecr.co.za,electrek.co,engineeringnews.co.za,equipmentworld.com,euromaidanpress.com,fastcompany.com,fishermap.org,footyheadlines.com,fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox7austin.com,fox9.com,foxbusiness.com,foxla.com,foxnews.com,funkidslive.com,gfinityesports.com,globalspec.com,gmanetwork.com,grammarbook.com,greatbritishchefs.com,greatitalianchefs.com,hbr.org,highdefdigest.com,historynet.com,horshamnow.com,howstuffworks.com,huffpost.com,ibtimes.sg,inc.com,insidehook.com,intouchweekly.com,irishcentral.com,karanpc.com,khou.com,koat.com,ktvu.com,lifeandstylemag.com,longislandpress.com,macstories.net,mail.com,memuplay.com,metro.us,metrophiladelphia.com,minecraftforum.net,miningweekly.com,mixed-news.com,mobilesyrup.com,modernhealthcare.com,namemc.com,nbcnews.com,newrepublic.com,northpennnow.com,nzherald.co.nz,ocnjdaily.com,oneesports.gg,opb.org,outkick.com,papermag.com,perkvalleynow.com,phillydaily.com,physiology.org,pixiv.net,podcastaddict.com,punchng.com,qns.com,realsport101.com,reason.com,refinery29.com,ringsidenews.com,roadandtrack.com,scroll.in,seaislenews.com,seattletimes.com,songkick.com,sportskeeda.com,storyboard18.com,streamfree.to,thedailybeast.com,thelocal.at,thelocal.ch,thelocal.de,thelocal.dk,thelocal.es,thelocal.fr,thelocal.it,thelocal.no,thelocal.se,thenationonlineng.net,thenewstack.io,thepost.co.nz,thetimes.com,tmz.com,toofab.com,tuasaude.com,uploadvr.com,usmagazine.com,vanguardngr.com,wildtangent.com,willowgrovenow.com,wired.com,wogx.com,worldsoccertalk.com,wral.com,yahoo.com##.ad-container
 12tomatoes.com###footboard
-12tomatoes.com,allwomenstalk.com,bloomberg.com,datpiff.com,gadgetreview.com,hockeybuzz.com,koreaboo.com,logotv.com,news.sky.com,onthesnow.co.uk,onthesnow.com,penny-arcade.com,publishersweekly.com,skysports.com,thedrinknation.com,theserverside.com,vacations.info###leaderboard
+12tomatoes.com,allwomenstalk.com,bloomberg.com,datpiff.com,gadgetreview.com,gransnet.com,hockeybuzz.com,koreaboo.com,logotv.com,news.sky.com,onthesnow.co.uk,onthesnow.com,penny-arcade.com,publishersweekly.com,skysports.com,thedrinknation.com,theserverside.com,vacations.info###leaderboard
 131400.best,vikacg.com,vikacg.icu,vikacg.xyz##.post-card-list > a
 131400.best,vikacg.com,vikacg.icu,vikacg.xyz##a[href^="http"] > img[src*="/assets/moonlight/"]
 131458.com###header_gg
@@ -11604,7 +11604,6 @@ bitcoinworld.co.in,boardgamegeek.com##.post-inline-ad
 bitdegree.org###campaign-modal
 bitdegree.org##.comparison-suggestion
 bitdegree.org##.page-coupon-landing
-bitxzlhi*.top/$script,xmlhttprequest,third-party
 biz.chosun.com##.arcad-wrapper
 biz.chosun.com##.box--margin-bottom-xl.box--pad-top-xl.box--pad-bottom-xl.box--bg-grey-10
 biz.ifeng.com##.header
@@ -12585,6 +12584,7 @@ citywire.com##.cw-top-advert
 civilsdaily.com##.modal
 civilserviceindia.com##a[href*="/red.php?bu="]
 cjjjs.com,cnblogs.com,fastadmin.net,ziqiangxuetang.com##a[href^="https://promotion.aliyun.com/"]
+cjleo.com#?#.alt-widget-title:has-text(advertisement)
 cjn.cn###slidelr
 cjn.cn##.sidebar
 cjw123.com##a[href="http://tb.cjw123.com"]
@@ -14782,6 +14782,7 @@ faxingw.cn##.detailadv
 faxingw.cn##.detailgc
 faxingw.cn##.indadv1
 fcbarcelona.dk#@##article_ad
+fcenxe*.top/$script,xmlhttprequest,third-party
 fctables.com##.box-width > .hidden-xs
 fctables.com##div[style^="background:#e3e3e3;position:fixed"]
 fdc.com.cn##.yifangbanner
@@ -15254,6 +15255,10 @@ freethesaurus.com###qk5
 freeuseporn.com###floating-iframe-container
 freeuseporn.com##.featured-links-bar
 freeuseporn.com##.hhzt
+freeuseporn.com##a:has(svg[class*="lucide-chevron-right"]):not([href^="/"])
+freeuseporn.com##div:has(> iframe)
+freeuseporn.com#?#section > div > div:has(h2:has-text(Friends))
+freeuseporn.com#?#section:has-text(Sponsor)
 freewebarcade.com##.pnum
 freewebarcade.com##.rsads
 freewebarcade.com##.rxads
@@ -15845,6 +15850,7 @@ golf.com##.golf-ad
 golfdigest.com##.adSlot
 golfdigest.com##.midslot
 golfdigest.com##.o-ArticleRecirc
+golfdigest.com##.river-ad-full
 golfgalaxy.com###sponsored-product
 golfgalaxy.com##div.hmf-position-relative:has(.sponsored)
 golflink.com##.desktop-top-fixed-ad
@@ -15919,6 +15925,8 @@ gr8.cc,psycatgames.com##.sticky-banner
 grabcad.com##[ng-if="model.asense"]
 grail.moe,trans.info##img[width="500"]
 grannymommy.com##.banner-on-player
+gransnet.com###rcol_lower_mpu
+gransnet.com###rcol_mpu
 graphic.com.gh##a[href^="/adverts/"]
 graziadaily.co.uk##.adContainer--inline
 graziadaily.co.uk,livefortheoutdoors.com##.article_adContainer__qr_Hd
@@ -17038,6 +17046,7 @@ image.baidu.com##.wrapper_dot_box.dot_black
 image.baidu.com##div[id^="relecom"]
 image.baidu.com#?#.newfcImgli:-abp-has(.fc-ad-tip)
 image.baidu.com,nongjitong.com##.recommend
+image.pi7.org###adswithloader
 image.pi7.org###sidebarxad
 image.so.com###js_textlink
 image.so.com###starlist
@@ -24304,6 +24313,7 @@ udn.com###simplemodal-container
 udn.com###simplemodal-overlay
 udn.com##.ad_mask
 udn.com##.ec-section
+udn.com##.fixed-ad
 udn.com##.overlay-container
 udn.com##.sponsor-wrapper
 udn.com##div[class*="edn-ads"]
@@ -37806,6 +37816,9 @@ zzzyk.com###Tinfo
 ||knorex.com^$third-party
 ||knotch-cdn.com^$third-party
 ||knowledgevine.net^$third-party
+||knowunity.com/ads/
+||knowunity.com/events^
+||knowunity.com/pixels/
 ||knoxvillewebsitehosting.com^
 ||kobo.com/TrackClicks
 ||kochava.com/track/$third-party
@@ -38951,6 +38964,7 @@ zzzyk.com###Tinfo
 ||manoreaper.kinghost.net^
 ||manqian.cn/784a6e27-be5b-4442-86e5-9f4adb51894d?
 ||manqian.cn/async/adLocationConfig
+||manscaped.com/rud-dataplane/
 ||mansurfer.com/flash_promo/
 ||mantisadnetwork.com^$third-party
 ||manua.ls/g/collect?
@@ -46491,6 +46505,7 @@ zzzyk.com###Tinfo
 ||trustyable.com^$popup
 ||trustzonevpn.info^$popup
 ||truthsocial.com/instance/innovid.js
+||truthsocial.com^*/ads^
 ||truthtraff.com^$popup
 ||truvidplayer.com/v*/v.php?*&adid=
 ||trvl-px.com/trvl-px/
