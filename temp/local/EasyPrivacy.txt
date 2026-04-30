@@ -7811,6 +7811,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||analytics-cms.whitebeard.me^
 ||analytics-consent-manager-v2-prod.azureedge.net^
 ||analytics-fe.digital-cloud-prem.medallia.com^
+||analytics-fe.digital-cloud.medallia.ca^
 ||analytics-fe.digital-cloud.medallia.com^
 ||analytics-ipv6.tiktokw.us^
 ||analytics-prd.aws.wehaa.net^
@@ -8088,6 +8089,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||auryc.com/v1/event
 ||autoline-top.com/counter.php?
 ||automate-prod.s3.amazonaws.com^$~script
+||aux-log.bidmatic.io^
 ||avln.me/t.js
 ||avo.app^*/track
 ||awaps.yandex.net^
@@ -8211,7 +8213,8 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||byteoversea.com/captcha/report
 ||byteoversea.com/monitor_browser/
 ||bzpics.com/jslib/st.js?
-||bzrcdn.openai.com/sdk/oaiq.min.js
+||bzr.openai.com^
+||bzrcdn.openai.com^
 ||c-date.com/pixel/
 ||c.albss.com^
 ||c.amazinglybrilliant.com.au^
@@ -52315,6 +52318,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||obozrevatel.com/pixel.png
 ||piccy.info/c?
 ||piccy.org.ua/c?
+||prm.ua/en/events/
 ||remp.nv.ua^
 ||sport.ua/pixel/
 ||stats.itc.ua^
