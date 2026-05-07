@@ -7922,6 +7922,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||c.webtrends-optimize.com/acs/$image,script,domain=tvlicensing.co.uk
 @@||caf.fr^*/smarttag.js$script,~third-party
 @@||calendar.google.com^$generichide
+@@||camel1.tv/lib/sensorsdata.full.min.js$~third-party
 @@||camel3.live/lib/sensorsdata.full.min.js$~third-party
 @@||camerabay.tv/ads/entry/camerabay/fullbk/bg.jpg
 @@||canadacomputers.com/templates/ccnew/assets/js/jquery.browser-fingerprint-$~third-party
@@ -11534,7 +11535,7 @@ bilinovel.com,linovelib.com#@#.ads_box
 binaries4all.com###payserver
 bincodes.com##.transferwise
 bing.com###BottomAppPro
-bing.com###b_results > li[style*="padding-bottom: 8px;"][style*="235, 235, 235"]
+bing.com###b_results > li:has(.b_adProvider)
 bing.com###bepfo.popup[style^="visibility: visible"]
 bing.com###bingBrand
 bing.com##.OpInNwWndw
@@ -11543,8 +11544,8 @@ bing.com##.b_ad
 bing.com##.b_adBottom
 bing.com##.b_adLastChild
 bing.com##.b_adPATitleBlock
-bing.com##.b_algo:has(.rms_img[src*="/th?id=OADD2."][src$="21.2"])
-bing.com##.b_algo:has(.rms_img[src*="=AdsPlus"])
+bing.com##.b_algo:has(.ad_esltitle)
+bing.com##.b_algo:has(.b_ads1line)
 bing.com##.b_algo:has(> .b_title > h2 > .b_ads1line)
 bing.com##.b_spa_adblock
 bing.com##.br-poleoffcarousel
@@ -11555,6 +11556,7 @@ bing.com##.nad_ctn
 bing.com##.pa_sb
 bing.com##.productAd
 bing.com##.ra_car_block
+bing.com##.sb_form_placeholder:has(>.ad-ghost-slug)
 bing.com##.slide:has(.rtb_ad_caritem_mvtr)
 bing.com##.text-ads-container
 bing.com##[id$="adsMvCarousel"]
@@ -11565,14 +11567,12 @@ bing.com##cs-responsive-card[ad][id^="nativead-"]
 bing.com##div[aria-label$="ProductAds"]
 bing.com##div[class="ins_exp tds"]
 bing.com##div[class="ins_exp vsp"]
+bing.com##li[class="b_algo"]:has(.b_attribution[data-partnertag]+p[class])
 bing.com##li[data-idx]:has(#mm-ebad)
-bing.com#?#.b_algo:-abp-has(.ad_esltitle)
-bing.com#?#.b_algo:-abp-has(.b_ads1line)
-bing.com#?#.sb_form_placeholder:-abp-has(>.ad-ghost-slug)
 bing.com#?#.ta_c:has-text(Sponsored)
 bing.com#?#li.b_algo:has(.rms_img[src*="id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F"]):has(.tptt:has-text(/^([Aa]mazon(\.[acdefinps][aeglnorst]m?\.?[abjmtu]?[kprux]?)?|Best Buy|Booking\.com|eBay|eDreams|Lenovo US|Trip\.com|Tripadvisor|Walmart)$/))
-bing.com#?#li[class="b_algo"]:-abp-has(.b_attribution[data-partnertag]+p[class])
-bing.com,~www.bing.com#?#.b_algo:-abp-has(p:-abp-properties(display: inline-block;))
+bing.com,~www.bing.com##.b_algo:has(p[style="display: none
+bing.com,~www.bing.com#?#.b_algo p:-abp-properties(display: inline-block;)
 bingdou.com.cn,hoteastday.com##.float_ad
 bingfeng.tw###adbt
 bingfeng.tw##.wow-ad-link
@@ -12678,7 +12678,6 @@ cmswire.com##[class^="styles_article__top-ad-wrapper"]
 cn-healthcare.com##.fh_ad_wrap
 cn-healthcare.com##.fh_advent_wrap
 cn.bing.com##.b_bza_pole
-cn.bing.com#?##b_results > li:-abp-has(.b_adProvider)
 cna.com.tw,ettoday.net##.ad_970
 cnbc.com##.BoxRail-styles-makeit-ad--lyuQB
 cnbc.com##.TopBanner-container
@@ -31697,7 +31696,6 @@ zzzyk.com###Tinfo
 ||connect.facebook.net^*/fbds.js$third-party
 ||connect.facebook.net^*/pcm.js$third-party
 ||connecteam.com/bi/api/ReportHit/
-||connecthost.live^
 ||connectif.cloud^$third-party
 ||connexity.net^$popup
 ||connexity.net^$third-party
@@ -41283,7 +41281,6 @@ zzzyk.com###Tinfo
 ||perljs.com^$third-party
 ||perlmaven.com/img/*0x2
 ||perlmaven.com/img/sticker-you.jpg
-||permanentillnessclever.com^$document
 ||permanentillnessclever.com^$popup
 ||permutive.com^$third-party
 ||perpetraterummage.com^$popup
@@ -41382,7 +41379,6 @@ zzzyk.com###Tinfo
 ||pichost24.site^
 ||pichost24.stream^
 ||pichost24.website^
-||pichost64.site^
 ||pickaflick.co^$popup
 ||piclect.com^*.gif$third-party
 ||pico.tools/metrics/
@@ -41789,7 +41785,6 @@ zzzyk.com###Tinfo
 ||postlnk.com^$popup
 ||potawe.com^$popup
 ||pothostio.live^
-||potsaglu.net^$document
 ||potsaglu.net^$popup
 ||potsdamer-stadtplan.com/t.gif
 ||potskolu.net^$popup
@@ -42049,7 +42044,6 @@ zzzyk.com###Tinfo
 ||psma02.com^$popup
 ||psma03.com^$third-party
 ||psoabojaksou.net^$popup
-||psockapa.net^$document
 ||psockapa.net^$popup
 ||psotudev.com^$popup
 ||pssy.xyz^$popup
@@ -42749,7 +42743,6 @@ zzzyk.com###Tinfo
 ||redirect-path1.com^$popup
 ||redirect.prod.experiment.routing.cloudfront.aws.a2z.com/x.png$domain=amazon.com
 ||redirectify.app/script_tags/tracking.js
-||redirecting.online^$document
 ||redirecting.online^$popup
 ||redirectingat.com^$document
 ||redirectingat.com^$popup
@@ -43107,7 +43100,6 @@ zzzyk.com###Tinfo
 ||roupitpompier.cfd^$document
 ||route.com/collect
 ||routeapp.io/route-analytics/
-||routes.name^$document
 ||routes.name^$popup
 ||routeumber.com^$popup,domain=hltv.org
 ||routgveriprt.com^$popup
@@ -43359,7 +43351,6 @@ zzzyk.com###Tinfo
 ||saveit.us/img/$third-party
 ||savinist.com^$document
 ||savinist.com^$popup
-||sawd.cloud^$document
 ||sawpf.com/1.0.js$third-party
 ||sax*.sina.
 ||say.ac^$third-party
