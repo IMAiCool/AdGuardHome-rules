@@ -19398,6 +19398,7 @@ moneyweekly.com.tw##div[id*="_ScupioHomeAD"]
 mongoing.com#?#.widget_custom_html:-abp-has(> .custom-html-widget > a[href^="http"]:not([href*="mongoing.com"]))
 monochrome-watches.com##.interscroll
 monocle.com##.super-leaderboard
+monocle.com##[href^="https://a1.adform.net/C/"]
 monsoonjournal.com##.mom-e3lanat-wrap
 monstertruckgames.org##.gamecatbox
 moodiedavittreport.com##.notice
@@ -22152,7 +22153,7 @@ sciencenews.org##.ad-block__mq-wrapper
 sciencenews.org##.from-nature-index__wrapper___2E2Z9
 sciencenews.org#?#p:has-text(Sponsor Message)
 sciencetimes.com##.player
-scloud.ws##a.download-button
+scloud.ws,stagatv.com##a.download-button
 scmp.com###after-page-layout-container
 scmp.com##.advertisers
 scmp.com##.article--sponsor
@@ -27898,9 +27899,13 @@ zzzyk.com###Tinfo
 ||ads.cc^$third-party
 ||ads.google.com^$xmlhttprequest,domain=ynet.co.il
 ||ads.host.camz.com^
+||ads.local.ie^
+||ads.localyokelmedia.com^
+||ads.my3whost.com^
 ||ads.planetwin365affiliate.com^$popup,third-party
 ||ads.sexier.com^$popup
 ||ads.sportslocalmedia.com^
+||ads.w3hoster.de^
 ||ads.webhosting.info^
 ||ads.whoishostingthis.com^
 ||ads.yahoo.com^$~image
@@ -33508,7 +33513,6 @@ zzzyk.com###Tinfo
 ||enet.com.cn/counter.php
 ||enetres.net/StatisticsV1/
 ||enframement.pics^$popup
-||eng-browsing.ghost.io^
 ||eng-intro.ghost.io^
 ||eng-started.ghost.io^
 ||eng-startedweb.ghost.io^
@@ -35980,7 +35984,6 @@ zzzyk.com###Tinfo
 ||hollysocialspuse.com^$popup
 ||holyfamilyradio.org/banners/
 ||home-en-intro.ghost.io^
-||home-global.ghost.io^
 ||home-learn.ghost.io^
 ||home-page.ghost.io^
 ||home-pages.ghost.io^
@@ -36064,6 +36067,7 @@ zzzyk.com###Tinfo
 ||host-195-103-203-106.business.telecomitalia.it^
 ||host-507901.world^
 ||host-95-230-215-65.business.telecomitalia.it^
+||host-95-255-114-11.business.telecomitalia.it^
 ||host-cuin-base-pages.pages.dev^
 ||host-cuin-base.pages.dev^
 ||host-desktop.wixstudio.com^
@@ -36126,7 +36130,6 @@ zzzyk.com###Tinfo
 ||hostcontent.live^$third-party
 ||hostdomainpeople.112.2o7.net^
 ||hostdomainpeopleca.112.2o7.net^
-||hostealo.com^
 ||hostecountspringweb-4sbw8uzi5y.edgeone.dev^
 ||hosted-by.armoredvm.net^
 ||hosted.muses.org/mrp.js$domain=flamecomics.xyz|mgeko.cc
@@ -45048,7 +45051,6 @@ zzzyk.com###Tinfo
 ||startedpages.ghost.io^
 ||startedsetup.ghost.io^
 ||startedsnew.ghost.io^
-||startedstart.ghost.io^
 ||startedu.ghost.io^
 ||startedweb.ghost.io^
 ||starterhosttrk.com^
@@ -47330,6 +47332,7 @@ zzzyk.com###Tinfo
 ||veret-fqv.com^$document
 ||verifiable-warning.com^$popup
 ||verificationatuneticationdomainhosting3.pages.dev^
+||verifiedmeta2026.bolt.host^
 ||verify.authorize.net^$third-party
 ||verify.safesigned.com^$third-party
 ||veriga.site.tb-hosting.com^
