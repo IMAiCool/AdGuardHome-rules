@@ -3285,7 +3285,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /link_track.js
 /linkinformer.js
 /linkpulse.js
-/links.gitlab.com/s/eo/*$image
 /links/popad$popup
 /links1.strava.com/*$image
 /linktrack.js
@@ -7132,7 +7131,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 ://l.*/counter.php?id=$script,~third-party
 ://l.*/script.php?i=$script,~third-party
 ://lightning.*/launch/
-://links.flickr.com/s/eo/$image
+://links.*/s/eo/$image
 ://links.paypal.*/eos/$image
 ://load.*.js?st=$~third-party
 ://loader.*.com/loader.min.js|$script,~third-party
@@ -36260,7 +36259,6 @@ zzzyk.com###Tinfo
 ||hostdomainpeople.112.2o7.net^
 ||hostdomainpeopleca.112.2o7.net^
 ||hostecountspringweb-4sbw8uzi5y.edgeone.dev^
-||hosted-by.armoredvm.net^
 ||hosted.muses.org/mrp.js$domain=flamecomics.xyz|mgeko.cc
 ||hosted.stats.com.edgesuite.net^
 ||hostedads.realitykings.com^
@@ -37730,6 +37728,7 @@ zzzyk.com###Tinfo
 ||josemargomesdasilva1751988902000.1220108.meusitehostgator.com.br^
 ||joserufinobarbosa1778462306564.2351829.meusitehostgator.com.br^
 ||joserufinobarbosa1778507044195.2351829.meusitehostgator.com.br^
+||joserufinobarbosa1778705442809.2361829.meusitehostgator.com.br^
 ||josueaidug.diowebhost.com^
 ||jotform.io/getReferrer/$third-party
 ||joudauhee.com^$popup
@@ -42659,6 +42658,8 @@ zzzyk.com###Tinfo
 ||public.cobrowse.oraclecloud.com/rely/storage/
 ||public.fbot.me/track/
 ||public.porn.fr^$third-party
+||public.tableau.com/inst?v=
+||public.tableau.com/public/apis/audit-event
 ||publicapp.ghost.io^
 ||publicbroadcasting.net/analytics/
 ||publicdomaintorrents.info/grabs/hdsale.png
@@ -46025,7 +46026,6 @@ zzzyk.com###Tinfo
 ||tarteaucitron.io/log/
 ||tashanmp3.com/api/pops/
 ||taskanalytics.com^$third-party
-||taskhostw.netxi.in^
 ||tatadigital.com/analytics-engine/
 ||tatrck.com^$document
 ||tatrck.com^$popup
