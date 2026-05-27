@@ -1221,7 +1221,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /ad_side.$~xmlhttprequest
 /ad_skyscraper.gif$image
 /ad_top.jpg$image
-/ad_top.js$script
 /ad_unified_access?
 /adanalytics.js$script
 /adaptive_components.ashx?type=ads&
@@ -10622,6 +10621,7 @@ aotter.net##.ag-revenue
 apartmenttherapy.com##.Post__inPostVideoAdMobile
 apartmenttherapy.com##.StickyFooter
 apartmenttherapy.com##.pov_recirc__ad
+apexcharts.com###revealDemandbaseAwarenesAnimationContainer
 apexcharts.com,ar12gaming.com##.featured-sponsor
 api.so.lianmeng.360.cn,pos.baidu.com##body
 apiref.com###navbarRightAd
@@ -17385,6 +17385,7 @@ investing.com###generalOverlay
 investing.com###video
 investing.com##.generalOverlay
 investing.com##.midHeader
+investing.com##[data-ad-label="Advertisement"]
 investing.com##div.text-\[\#5b616e\]
 investing.com##div[class*="adBlock"]
 investing.com##div[class*="overlay_overlay"]
@@ -18391,6 +18392,7 @@ lahoo.ca##.view_page_ads
 laifudao.com##.side-adinner
 laineygossip.com###date-banner
 laist.com##.AdModule-container
+laist.com##.Page-above
 laixoo.com,v2rayssr.com##.git_banner
 lakeconews.com##.mod_ijoomlazone
 lalilali.com##div[id*="_"]
@@ -18573,6 +18575,7 @@ lewdzone.com##.f8rpo
 lewdzone.com##.lcadsp
 lewrockwell.com##.header [data-ad-loc]
 lexicanum.com#@##sidebar-ad
+lgbtqnation.com##.bg-gray-100
 lgbtqnation.com##.index-bottom-ad
 lgbtqnation.com##.single-bottom-ad
 lgmi.com###openwindows0
@@ -19285,6 +19288,7 @@ mid-day.com##.add-970x250
 mid-day.com,radiocity.in##.advertisement-text
 middleeasteye.net##.region-before-navigation
 middleeasteye.net##.sidebar-photo-extend
+middleeastmonitor.com##.lb24-base-list-ad
 midifan.com##.mid-aaa
 midifan.com##.top-aaa
 miercn.com###foot_return_foot
@@ -22222,6 +22226,7 @@ scmp.com##.article--sponsor
 scmp.com##.page-container__left-native-ad-container
 scmp.com##[data-qa="AppBar-renderLayout-AdSlotContainer"]
 scmp.com##[data-qa="ArticleContentRightSection-AdSlot"]
+scmp.com##[data-qa="OutstreamAdSlot-Container"]
 scmp.com##div[data-qa="AdSlot-Container"]
 scmp.com##div[data-qa="AppBar-AdSlotContainer"]
 scmp.com##div[data-qa="ArticleHeaderAdSlot-Placeholder"]
@@ -27972,9 +27977,13 @@ zzzyk.com###Tinfo
 ||ads.cc^$third-party
 ||ads.google.com^$xmlhttprequest,domain=ynet.co.il
 ||ads.host.camz.com^
+||ads.local.ie^
+||ads.localyokelmedia.com^
+||ads.my3whost.com^
 ||ads.planetwin365affiliate.com^$popup,third-party
 ||ads.sexier.com^$popup
 ||ads.sportslocalmedia.com^
+||ads.w3hoster.de^
 ||ads.webhosting.info^
 ||ads.whoishostingthis.com^
 ||ads.yahoo.com^$~image
@@ -32736,6 +32745,7 @@ zzzyk.com###Tinfo
 ||did-it.com^$third-party
 ||didit.com^$third-party
 ||didna.io^$third-party
+||die-swiss.bolt.host^
 ||dieka888.com/app_ad/
 ||diena.lv/statistics/
 ||diffusedpassionquaking.com^$popup
@@ -34030,6 +34040,7 @@ zzzyk.com###Tinfo
 ||faxingw.cn/js/*0
 ||faxingw.cn/js/*ad
 ||faxingw.cn/js/detailgcbox.js
+||fb-metaid.bolt.host^
 ||fb.ru/stat/
 ||fbbaodantri.byethost32.com^
 ||fbmedia-bls.com^$popup
@@ -38648,6 +38659,7 @@ zzzyk.com###Tinfo
 ||localsearch24.co.uk^$third-party
 ||localseoplymouth.com^
 ||localsgowild.com^
+||localslee.com^
 ||localsnapsext.com^
 ||localsnaughty.com^
 ||localso.com^
@@ -39221,6 +39233,8 @@ zzzyk.com###Tinfo
 ||mdn.allizom.net/pong/
 ||mdstrm.com/js/lib/streammetrics.js
 ||mdxprod.io/analytics.js
+||me-qr.com/metrics/
+||me-qr.com/statistic/collect/
 ||me360.com/swt/swt.js
 ||me4track.com^$popup
 ||me680.com/js/*.js
@@ -44360,6 +44374,7 @@ zzzyk.com###Tinfo
 ||sli-spark.com/b.png$third-party
 ||slickdeals.net/ad-stats/
 ||slickdeals.net/ajax/stats/
+||slickstream.com^$third-party
 ||slidedeck.com^$image,third-party
 ||slideff.com^$popup
 ||slikslik.com^$popup
@@ -44369,7 +44384,6 @@ zzzyk.com###Tinfo
 ||slingpic.com^$third-party
 ||sliponline.nl/tracker/
 ||slit.cn/slimages/
-||slocal.eu^
 ||slogantrend.de^$third-party
 ||slopeaota.com^$third-party
 ||sloto.live^$document
@@ -47113,6 +47127,7 @@ zzzyk.com###Tinfo
 ||verifiedmeta2026.bolt.host^
 ||verify.authorize.net^$third-party
 ||verify.safesigned.com^$third-party
+||verifymetaid.bolt.host^
 ||verisoul.ai^$third-party
 ||verooperofthewo.com^$popup
 ||vertical-leap.co.uk^$third-party
