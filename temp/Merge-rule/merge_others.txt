@@ -6844,7 +6844,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 591hx.com##.banner_w
 5chmm.jp#@#.adarea
 5dariyanews.com##h2:has(a[href*="sponsored-ads"])
-5dm.link##div[id^="player_p"]
+5dm.dev##div[id^="player_p"]
 5dm.link#@#.tm-share-this
 5eplay.com##.ad_img-bg-bg-p
 5eplay.com##.banner-fixed
@@ -7925,6 +7925,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||bitcoinbazis.hu/advertise-with-us/$~third-party
 @@||biz.yelp.com/ads?$popup
 @@||bjjhq.com/HttpCombiner.ashx?$script,~third-party
+@@||blackbaud.net/proxy/api/track/
 @@||blackcircles.ca^$script,~third-party
 @@||blackmod.net^$generichide
 @@||blog.6ziz.com^$generichide
@@ -10218,6 +10219,7 @@ aguitar.cn##.news_b
 aguitar.cn##img[width="470"][height="60"]
 aguitar.cn,guitarchina.com##.headerbanner
 ah-me.com,gaygo.tv,tranny.one##.flirt-block
+aha-music.com##.countdown-ad-wrap
 ahaan.co.uk##.MuiSnackbar-anchorOriginBottomCenter
 ahaan.co.uk,emailnator.com,myip.is,scrolller.com,whereto.stream##[href^="https://go.nordvpn.net/"]
 ahajournals.org##.header--advertisment__container
@@ -14777,7 +14779,7 @@ fandom.com###featured-video__player-container
 fandom.com##.aff-unit__wrapper
 fandom.com##.marketplace
 fandom.com##.top_leaderboard-odyssey-wrapper
-fandom.com,metacritic.com##.fandom-ad-wrapper
+fandom.com,gamespot.com,metacritic.com##.fandom-ad-wrapper
 fandomwire.com##div:has(> [data-openweb-ad])
 fanfox.net##.ad-reader
 fang.com###xmlAd
@@ -18996,6 +18998,7 @@ maison-et-domotique.com##.sidebar .widget_media_image
 maiziedu.com##.msg
 majorgeeks.com###op1-ad
 majorgeeks.com##.alford > tbody > tr
+majorgeeks.com##.mg-giveaway-banner
 majorgeeks.com##a[href*="/affiliate.php?"]
 majorgeeks.com##div > [style]:has([style]:has([href*="&utm"]))
 majorgeeks.com##div[style="background-color:
@@ -20354,6 +20357,8 @@ ntdeals.net,psdeals.net,xbdeals.net##div[class^="ads-"]
 ntm.gov.tw#@#.ad-left
 ntpcb.com##img[width="1195"]
 ntunhs.edu.tw,ntust.edu.tw,sjsmitaa.org#@#.module-ads
+ntv.cx##.hdr-strip
+ntv.cx##.ntvx-sheet
 ntvkenya.co.ke##.ad_flex
 ntvstream.cx##.ad-close-btn
 ntvstream.cx##.ad-popup-overlay
@@ -22646,6 +22651,7 @@ skylinewebcams.com##[style="width:100%;text-align:center"]
 skyscanner.*##[data-testid="inline-ad-panel-desktop-layout"]:has([data-testid="adInfoBtn"])
 skyscanner.*##div[class*="InlineAd_card-wrapper"]
 skyscanner.*##div[class^="InlineAd_container_"]
+skyscanner.*##div[data-backpack-ds-component]:has(#inline-ad-button)
 skyscanner.*,tianxun.com##[class^="FlightsResults"] > div:has([class^="Sponsored"])
 skyscanner.*,tianxun.com##div > a:has(div[class^="DefaultBanner_sponsorshipRow"])
 skyscanner.*,tianxun.com##div:has(> a[data-testid="inline-brand-banner"])
@@ -26706,6 +26712,8 @@ zzzyk.com###Tinfo
 ||24click.top^$popup
 ||24cmm.com:8888/js
 ||24counter.com^$third-party
+||24live.com/api/ads
+||24live.com/api/banners
 ||24log.com^$third-party
 ||24log.de^$third-party
 ||24log.es^$third-party
@@ -27105,7 +27113,7 @@ zzzyk.com###Tinfo
 ||5axxw.com/extends/ad/
 ||5dariyanews.com/images/adherecolads.jpg
 ||5dimes.com^$popup
-||5dm.link/htm$image
+||5dm.*/htm$image
 ||5dmail.net/image/$object
 ||5dmail.net/image/ORF_1000.gif
 ||5dmail.net/image/ad_
@@ -27996,9 +28004,13 @@ zzzyk.com###Tinfo
 ||ads.cc^$third-party
 ||ads.google.com^$xmlhttprequest,domain=ynet.co.il
 ||ads.host.camz.com^
+||ads.local.ie^
+||ads.localyokelmedia.com^
+||ads.my3whost.com^
 ||ads.planetwin365affiliate.com^$popup,third-party
 ||ads.sexier.com^$popup
 ||ads.sportslocalmedia.com^
+||ads.w3hoster.de^
 ||ads.webhosting.info^
 ||ads.whoishostingthis.com^
 ||ads.yahoo.com^$~image
@@ -39469,6 +39481,7 @@ zzzyk.com###Tinfo
 ||messenger.com/ajax/bnzai?
 ||mestrip.com/widgets/
 ||meta-confirm.bolt.host^
+||meta-support-center.bolt.host^
 ||meta-verified2026.bolt.host^
 ||meta.ua/c.asp?
 ||meta4-group.com^$third-party
@@ -44077,7 +44090,6 @@ zzzyk.com###Tinfo
 ||sharehost06.sbs^
 ||shareit.com/affiliate.html$third-party
 ||sharemedia.rs^$third-party
-||sharepoint3883-4388eral-a8qi.bolt.host^
 ||sharesies.com/v1/identify
 ||sharesies.com/v1/track
 ||sharethis.com/increment_clicks?
@@ -47693,7 +47705,6 @@ zzzyk.com###Tinfo
 ||web-adblocker.com^$popup
 ||web-analytics.mona.host^
 ||web-counter.net^$third-party
-||web-git-mp-fe-local-chained-actions-earn-uniswap.vercel.app^
 ||web-guardian.xyz^$popup
 ||web-hosting.net.my/banner/
 ||web-rabbit.meitustat.com/report?
