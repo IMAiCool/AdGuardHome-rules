@@ -9551,7 +9551,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||tagcommander.com^*/tc_$script
 @@||tags.news.com.au/prod/heartbeat/$script
 @@||tags.t.tailtarget.com/t3m.js?$domain=superesportes.com.br
-@@||tags.tiqcdn.com/utag/*/utag.sync.js$domain=bankofamerica.com|hsbc.co.uk|samsung.com|sony.jp|visible.com|vmware.com
+@@||tags.tiqcdn.com/utag/*/utag.sync.js$domain=10.com.au|bankofamerica.com|hsbc.co.uk|samsung.com|sony.jp|visible.com|vmware.com
 @@||tailscale.com^$generichide
 @@||taipit-mebel.ru/upload/resize_cache/$image,~third-party
 @@||tajs.qq.com/stats?$~third-party
@@ -20906,7 +20906,7 @@ petri.com##.sponsorsInline
 petrochina.com.cn#@#.ggbox
 pexels.com##.inline-ads
 pexels.com##[data-testid="column"] [data-testid="item"]:has([class*="AIGCAdShared"])
-pexels.com##[data-testid="column"] [data-testid="item"]:has([data-label*="Sponsored"])
+pexels.com##[data-testid="column"] [data-testid="item"]:has([data-heading*="Sponsored"])
 pexels.com##[data-testid="column"] [data-testid="item"]:has([data-text="Sponsored Photos"])
 pexels.com##[data-testid="column"] [data-testid="item"]:has([data-title*="Sponsored"])
 pexels.com##a[href*=".istockphoto.com"]
@@ -20999,10 +20999,10 @@ pinchofyum.com##.adthrive_header_ad
 pincong.rocks##.a-a
 pincong.rocks##.aw-mod > a[target="_blank"]
 ping.chinaz.com##.sth > .col-red
-ping0.cc###adbright
+ping0.cc###adfright
 ping0.cc###websites-wrap:has([rel$="sponsored"])
 ping0.cc##.aditems
-ping0.cc##.xzeles
+ping0.cc##.xaeles
 pinggu.org##.banner2015
 pinggu.org##.hdbanner
 pinggu.org##.index-somelinks
@@ -21029,6 +21029,7 @@ pixabay.com##.external-media
 pixabay.com##.gettyImagesContainer--7sZnR
 pixabay.com##.present-g-item
 pixabay.com##.show-gtty-item
+pixabay.com##[class^="adsSection"]
 pixabay.com##[class^="gettySponsored"]
 pixabay.com##div[class*="sponsoredWithResults"]
 pixabay.com##div[class^="cell--"]:has(button[aria-label="About this advertiser"])
@@ -21839,6 +21840,7 @@ rankedboost.com##.above-article-section
 ranker.com###BLOG_AD_SLOT_1
 ranker.com###GRID_AD_SLOT_1
 ranker.com##.nativeAdSlot_nativeAdContainer__NzSO_
+rankiapro.com##.undefined.relative
 ranking.sanrio.co.jp#@#.is-ad
 ranobes.top##.free-support-top
 rapidsave.com##.alert.col-md-offset-2
@@ -24965,6 +24967,7 @@ walmart.*##li.items-center:has(div[data-ad-component-type="wpa-tile"])
 walmart.*##section[data-dca-type="module"]:has(img[src^="https://i5.walmartimages.ca/dfw/8822aef6-854b/k2-_cb5cd2e8-b2ce-4ab7-b954-e86bea1e7648.v1.jpg"])
 walmart.*#?#div > div[io-id]:has-text(Sponsored)
 walmart.*#?#div[role="group"]:has(div:has-text(/Sponsored|Commandité/))
+walmart.com##[data-testid="skyline-ad"]
 walterfootball.com###top_S
 walterfootball.com###wf_brow_box
 wanderlustcrew.com###fpub-popup
@@ -27941,6 +27944,7 @@ zzzyk.com###Tinfo
 ||admetricspro.com^$third-party
 ||admile.ru^$third-party
 ||admin.blog.fc2.com/dctanalyzer.php
+||admin.microsoft.com/api/instrument/logclient
 ||admin25.com/ad/
 ||adminbuy.cn/images/
 ||admitad.com^$popup
@@ -28925,6 +28929,7 @@ zzzyk.com###Tinfo
 ||ankangwang.com/js/info.js
 ||ankdoier.com^$popup
 ||anmdr.link^$popup
+||annihilativefaltermillion.com^$popup
 ||announcement.ru^$third-party
 ||annual-gamers-choice.com^$popup
 ||annulmentequitycereals.com^$popup
@@ -30548,6 +30553,7 @@ zzzyk.com###Tinfo
 ||breadpayments.com/stats
 ||breaktime.com.tw^$third-party
 ||brealtime.com^$third-party
+||breezebrowsing.com^$popup
 ||breitbart.com/t/assets/js/prebid
 ||bricks-co.com^$third-party
 ||brid.tv^$script,domain=67hailhail.com|deepdaledigest.com|forevergeek.com|geordiebootboys.com|hammers.news|hitc.com|molineux.news|nottinghamforest.news|rangersnews.uk|realitytitbit.com|spin.com|tbrfootball.com|thechelseachronicle.com|thefocus.news|thepinknews.com
@@ -30556,6 +30562,7 @@ zzzyk.com###Tinfo
 ||bridgevine.com^$third-party
 ||brieflizard.com^$popup
 ||briefly.co.za/banners/
+||brigadedelegatesandbox.com^$popup
 ||brightadnetwork.com^$popup
 ||brightdata.com^$third-party
 ||brightdata.de^$third-party
@@ -30923,6 +30930,7 @@ zzzyk.com###Tinfo
 ||cardboardcrispyrover.com^$popup
 ||cardinalcommerce.com/prod/log
 ||cards.thriftytraveler.com/widget/
+||career-mesh.com^$document
 ||careerjournalonline.com^$popup
 ||careermatch.com/oGckki0e/init.js
 ||careerwebsite.com/distrib_pages/jobs.cfm?
@@ -32257,6 +32265,7 @@ zzzyk.com###Tinfo
 ||crunchbase.com/rw7M6iAV/init.js
 ||crunchyroll.com/awidget/
 ||crunchyroll.com/tracker?
+||cruzswim.org^$popup
 ||crxcr1.com^$third-party
 ||crxs.me/service/assets/core-state.
 ||cryingforanyth.com^$popup
@@ -34181,6 +34190,7 @@ zzzyk.com###Tinfo
 ||fh21.com.cn/partners/
 ||fhcmeiju.com/template/DYXS2/html/1.
 ||fhserve.com^$popup
+||fhvfd.com^$document
 ||fideuram.it/js/cookie-manager/tracking-scripts.js
 ||figma.com/api/figment-proxy/
 ||figma.com/api/web_logger/
@@ -35745,6 +35755,7 @@ zzzyk.com###Tinfo
 ||haveamint.com^$third-party
 ||havegrosho.com^$popup
 ||havetohave.com^$third-party
+||hawkhosterz.com^
 ||hayahost.com^
 ||hayghe12.byethost7.com^
 ||haymarket.com/injector/deliver/
@@ -36127,6 +36138,7 @@ zzzyk.com###Tinfo
 ||host*.rigbyandpeller.com^
 ||host*.rvshare.com^
 ||host-185-193-126-85.njalla.net^
+||host-195-103-203-106.business.telecomitalia.it^
 ||host-507901.world^
 ||host-95-230-215-65.business.telecomitalia.it^
 ||host-95-255-114-11.business.telecomitalia.it^
@@ -39019,6 +39031,7 @@ zzzyk.com###Tinfo
 ||m1905.cn/js/afp/m
 ||m1905.com/asp_js/k.js
 ||m1955.com/template/qq/images/playad/
+||m365.cloud.microsoft/events
 ||m365log.com^$third-party
 ||m6r.eu^$third-party
 ||m6web.fr/statsd/
@@ -45327,6 +45340,7 @@ zzzyk.com###Tinfo
 ||submitnet.net^$third-party
 ||subscribe.ru/1.gif/$image
 ||subscribers.com^$third-party
+||substrate.office.com/search/api/v1/events
 ||succeedscene.com/openads/
 ||successfultogether.co.uk^$third-party
 ||suche.web.de/click
