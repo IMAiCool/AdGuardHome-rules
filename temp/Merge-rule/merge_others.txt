@@ -7238,6 +7238,9 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 ://tracker.*/track/event
 ://tracking.*/beacon/
 ://tracking.*/event
+://tralut.*/collect/value?
+://tralut.*/js/script-dynamic.js
+://tralut.*/js/tracking.js
 ://tru.am^
 ://uads.$third-party,xmlhttprequest
 ://willap.jp/t?r=$image
@@ -8304,6 +8307,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||dushu.ru^$script,domain=bhshu.net
 @@||dw.com.com/js/dw.js$domain=cbsnews.com|tv.com
 @@||dwstatic.com/b=amkit&f=*/adjoin.
+@@||dwt.soundcloud.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=soundcloud.com
 @@||dynamicyield.com/scripts/*/dy-coll-nojq-min.js$domain=gigasport.at|gigasport.ch|gigasport.de
 @@||dz9qn8fh4jznm.cloudfront.net/script.js$script,domain=bostonglobe.com
 @@||e-stat.go.jp/modules/custom/retrieve/src/js/stat.js?$script,~third-party
@@ -12217,6 +12221,7 @@ camcam.cc##.menu-item-5880
 camerabay.tv##.popupad
 camfuze.com##.banner_inner
 campaignlive.com##.optanon-category-3
+campbellrivermirror.com,magnoliastatelive.com##.one_by_one_group
 camsoda.com##div[class^="AdsRight-"]
 camstreams.tv,eurogirlsescort.com,hdtube.porn,sexu.com##.banners
 camvideos.tv,jizzoncam.com##.place
@@ -14370,6 +14375,7 @@ editpad.org##.edsec
 editpad.org##div[style="min-height: 300px;min-width: 300px"]
 editpad.org##div[style="min-width: 300px;min-height: 300px"]
 edmunds.com##.car-news-marquee
+edmunds.com##.overflow-hidden.w-100:has(.exco-player)
 edn.com###SideBarWrap
 edn.com###bannerWrap
 edrawsoft.cn###bottom-banner-activity-md
@@ -14674,6 +14680,7 @@ euronews.com##.qa-dfpLeaderBoard
 euronews.com##.tp-outbrain
 euronews.com#?#.m-object:has(.m-object__quote:has-text(/In partnership with|En partenariat avec|Mit Unterstützung von|In collaborazione con|En colaboración con|Em parceria com|Совместно с|ile birlikte|Σε συνεργασία με|Együttműködésben a|با همکاری|بالمشاركة مع/))
 euronews.com#?#.the-media-object--has-sponsored:has-text(/In partnership with|In collaborazione con|En partenariat avec|Mit Unterstützung von|En colaboración con|Em parceria com|We współpracy z|Совместно с|ile birlikte|Σε συνεργασία με|Együttműködésben a|با همکاری|با همکاری/)
+euronews.com,globalnews.ca,stuff.tv##.c-ad
 european-alternatives.eu##[data-banner-key]
 europeangaming.eu###mvp-leader-wrap > a[href^="https://www.softswiss.com/"]
 europeanpharmaceuticalreview.com##.europ-fixed-footer
@@ -15927,7 +15934,6 @@ globalgovernancenews.com##.dlopiqu
 globalnews.ca##.c-adChoices
 globalnews.ca##.c-stickyRail
 globalnews.ca##.l-headerAd
-globalnews.ca,stuff.tv##.c-ad
 globalrph.com##.homepage-middle-ad
 globalsecurity.org#@##adtop
 globalwaterintel.com###sidebar-banner
@@ -16714,6 +16720,7 @@ home-designing.com,inc.com,trustpilot.com##.ad-block
 home.cricketwireless.com##div.skeleton.block-item
 home.ifeng.com##.fengjc02
 homebrewtalk.com,kitchenknifeforums.com,quadraphonicquad.com##.gb-sponsored-wrapper
+homedepot.ca##sponsored-banner
 homedepot.com##.browse-search__pod:has([id^="plp_pod_sponsored"])
 homedepot.com##[id*="sponsored"]
 homedepot.com##section[id^="browse-search-pods-"] > div.browse-search__pod:has(div.product-sponsored)
@@ -17275,6 +17282,7 @@ imyfone.com##.magicmic-banner-2024
 in.fo,moovitapp.com#@#.ads-banner
 inbox.com##.slinks
 inc.com##.min-h-\[4000px\].second-scroll-container
+inc.com#?#.pr-\[25px\].py-\[27px\]:has-text(Apply Now)
 inc42.com###large_leaderboard_desktop-0
 inchcalculator.com##.results-ad-container-outer
 independent.co.ug##img[width="320"]
@@ -18994,7 +19002,6 @@ mafengwo.cn##.hotel-banner
 magazine.raspberrypi.com#?#.bg-rpi-grey-100:has-text(Advertisement)
 magic1069.com##a[href^="https://www.fetchahouse.com/"]
 magma.com##.partnership-content-wrapper
-magnoliastatelive.com##.one_by_one_group
 maguays.cc##.animate-bounce-up
 mahua.com##.hidden_ab
 maiche.com##a.some-img
@@ -19159,6 +19166,7 @@ mashable.com##.exco
 mashable.com##.top-0.sticky > div
 mashable.com##.ziff-video-container
 mashable.com##[data-pogo="top"]
+mashable.com##[data-seamless-ad]
 mashable.com##section.mt-4 > div
 masok.cn###bottomLayer
 massfans.cc,massrips.cc###banner
@@ -19646,6 +19654,7 @@ msn.com##.drrTopAdWrapper
 msn.com##.eocb-ads
 msn.com##.galleryPage_eoabContent_new-DS-EntryPoint1-1
 msn.com##.galleryPage_eoabNativeAd_new-DS-EntryPoint1-1
+msn.com##.gem-display-ad-wrapper
 msn.com##.intra-article-ad-full
 msn.com##.intra-article-ad-half
 msn.com##.me-stripe-tile-content:has(a[href*="?"] .me-stripe-title-subtitle)
@@ -24658,6 +24667,7 @@ upi.com##.playwire-ad-unit
 upi.com##.text-center.mt-5
 upi.com##[style="height: 102px; min-width: 982px; margin: 0 auto;"]
 upjoke.com##div[style="margin-bottom:0.5rem; min-height:250px;"]
+upload-apk.com##.vr-adv-unit
 uploader.link##[class^="ads"]
 uploadrar.com##a[href*="?"][target="_blank"]
 uploadvr.com##.ai-sticky-widget
@@ -38494,9 +38504,7 @@ zzzyk.com###Tinfo
 ||lementwrencespri.info^$popup
 ||lemnisk.co^$third-party
 ||lemonadds.com^$third-party
-||lemonde.fr/*.pa.js
-||lemonde.fr/bucket/*/tagistan.
-||lemonde.fr^$ping
+||lemonde.fr/b9d29410eafefd859fb36add0cb64f9b4ad2138b
 ||lemrock.com/v1/publishers/tracking/
 ||lendingtree.com/analytics/
 ||lendingtree.com/pixel/
@@ -42278,6 +42286,7 @@ zzzyk.com###Tinfo
 ||pornogramxxx.com/out/$popup
 ||pornohans.net/*==/
 ||pornohans.net/static/exo
+||pornone.com/js/combined.js
 ||pornpapa.com/extension/
 ||pornpics.com^$subdocument
 ||pornpics.de/api/banner/
