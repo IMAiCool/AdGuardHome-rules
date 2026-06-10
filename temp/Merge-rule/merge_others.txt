@@ -462,6 +462,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .js?advertID=
 .js?id=GTM-
 .js?ssid=_$script,third-party
+.js?tg=$~third-party
 .k618.cn/sytab/
 .k618.cn/zbggw/
 .keap-link003.com/$image
@@ -678,7 +679,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /(https?:\/\/)51\.195\.31\..{100,}/
 /(https?:\/\/)\w{30,}\.me\/\w{30,}\./$script,third-party
 /*JmVu.js?sp=
-/*JmVu.js?tg=
 /.netlify/scripts/rum
 /.rum/@adobe/helix-
 /.webscale/rum?
@@ -20592,6 +20592,8 @@ onlymyhealth.com##[class*="_omh_banner_"]
 onlyporn.tube##.ft
 onlyporn.tube,porntop.com###s-suggesters
 onlytik.com##.temporary-real-extra-block
+onthisday.com##.sponsor--center
+onthisday.com##.sponsor--footer
 ontvtonight.com##.body-container > div:has(script[src^="https://live.primis.tech/"])
 ontvtonight.com##.dynamicStuffHere
 ontvtonight.com##.spacerRow
@@ -30443,8 +30445,6 @@ zzzyk.com###Tinfo
 ||bookedeshostelo25.world^
 ||bookedsshostel25.world^
 ||bookeeshostels2025.world^
-||bookeseshostel2025.world^
-||bookeseshosteles2025.world^
 ||bookforum.com/api/ads/
 ||booking.com.ishostedby.com^
 ||booking.com/87sduif98q3rijax
@@ -31671,6 +31671,7 @@ zzzyk.com###Tinfo
 ||cloudhosting-business.vodafone.com^
 ||cloudhosting.actonservice.com^
 ||cloudiq.com^$third-party
+||cloudorchestranova.com/f59d610a61063c7ef3ccdc1fd40d2ae6.js
 ||cloudpsh.top^$popup
 ||cloudtracer101.com^$third-party
 ||cloudtrack-camp.com^$popup
@@ -32500,6 +32501,7 @@ zzzyk.com###Tinfo
 ||danorenius.com^$third-party
 ||dantesfnzk.diowebhost.com^
 ||dap.digitalgov.gov/Universal-Federated-Analytics-Min.js
+||dap.rri.go.id/tracker/
 ||dapxl.com^$third-party
 ||daqiso.com/ggbl/
 ||dark-reader.com^$popup
@@ -36261,7 +36263,6 @@ zzzyk.com###Tinfo
 ||hostip.info^
 ||hostip.info^$third-party
 ||hostiteasy.com^
-||hostizons.com^
 ||hostk.cfd^
 ||hostlyai.com^
 ||hostmaiws1.webcindario.com^
@@ -38655,7 +38656,6 @@ zzzyk.com###Tinfo
 ||local-coinbase.com^
 ||local-hub-01.ondeviva.in.net^
 ||local-hub-v9.starkewelle.in.net^
-||local-prime.fr^
 ||local-shares.ri.la^
 ||local-update.com^
 ||local1319541735cosapgermany.pages.dev^
@@ -38685,7 +38685,6 @@ zzzyk.com###Tinfo
 ||localdating.cyou^
 ||localdelivery.com.au^
 ||localdirectysmg.pro^
-||localdisk.xyz^
 ||localdnsin.com^
 ||locale-tri.com^
 ||localedgemedia.com^
@@ -38716,8 +38715,8 @@ zzzyk.com###Tinfo
 ||localiser-apple.fr^
 ||localiser-connect.net^
 ||localiser-maps.services^
-||localiser-perdu.fr^
 ||localiser.pro^
+||localiseriphone.com^
 ||localisuivpylpip.fr^
 ||localizar-iphone.info^
 ||localization-iphone.online^
@@ -39073,6 +39072,7 @@ zzzyk.com###Tinfo
 ||maiche.com/iframe/rank.html
 ||mail-app.com/pvtracker/
 ||mail-spinner.com^$third-party
+||mail.ajericoff.bluehoststaff.com^
 ||mail.aol.com/d/gemini_api/?adCount=
 ||mail.pchome.com.tw/img/classifieds/300120.gif
 ||mail.proton.me/api/data/v1/stats
@@ -39325,6 +39325,7 @@ zzzyk.com###Tinfo
 ||mddsp.info^$popup
 ||mdmexclusives.com^$popup
 ||mdn.allizom.net/pong/
+||mdstats.fr^$third-party
 ||mdstrm.com/js/lib/streammetrics.js
 ||mdxprod.io/analytics.js
 ||me-qr.com/metrics/
@@ -40183,7 +40184,6 @@ zzzyk.com###Tinfo
 ||n4sredirect.com^$popup
 ||n74s9.com^$third-party
 ||n8nhostauto.store^
-||n8nhosting.ru^
 ||n91hg.com^$document
 ||n91hg.com^$popup
 ||naajie.com/float.js
@@ -43409,7 +43409,6 @@ zzzyk.com###Tinfo
 ||routes.name^$popup
 ||routeumber.com^$popup,domain=hltv.org
 ||routgveriprt.com^$popup
-||rover-host.com^
 ||roverinvolv.bid^$popup
 ||rovno.xyz^$document
 ||rovno.xyz^$popup
@@ -46609,7 +46608,6 @@ zzzyk.com###Tinfo
 ||trstplse.com^$third-party
 ||trstx.org/overroll/
 ||trtl.ws^$third-party
-||trucclocal.cyou^
 ||truck1.eu/_BANNERS_/
 ||trucknetuk.com/phpBB2old/sponsors/
 ||truconversion.com^$third-party
@@ -47452,6 +47450,7 @@ zzzyk.com###Tinfo
 ||vivistats.com^$third-party
 ||vivocha.com^$third-party
 ||vivociti.com/images/$third-party
+||viwomaloq.easyfreehosting.com^
 ||vixenlive.com/api/metrics
 ||vizcloud.co/ping/
 ||vizisense.net^$third-party
