@@ -56,7 +56,7 @@ $script,subdocument,third-party,websocket,xmlhttprequest,domain=bhshu.net|louzho
 $script,third-party,domain=cilimao.co|cilimao.one
 $script,third-party,domain=colamanga.com
 $script,third-party,domain=torkitty.net|torkitty.com|torrentkitty.app|torrentkitty.asia|torrentkitty.cam|torrentkitty.ink|torrentkitty.io|torrentkitty.live|torrentkitty.lol|torrentkitty.net|torrentkitty.one|torrentkitty.tv|torrkitty.com
-$script,third-party,domain=xiaoyakankan.com|52movieba.com|audio699.com|kan-tv.com|m.supfree.net|movieffm.net|xiaoxintv.cc|xiaoxintv.com|xiaoxintv.net
+$script,third-party,domain=xiaoyakankan.com|52movieba.com|audio699.com|kan-tv.com|m.supfree.net|movieffm.net|xiaoheimi.cc
 $script,third-party,websocket,domain=52codes.net
 $third-party,websocket,xmlhttprequest,domain=qiyoudy2.com|qiyoudy4.com
 $third-party,xmlhttprequest,domain=mega4upload.net
@@ -2786,6 +2786,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /gmu-download.oss-
 /go.news.fly.io/e/o/*$image
 /goAnalytics.js
+/google-listings-and-ads/js/build/gtag-events.js
 /google-nielsen-analytics.js
 /google/analytics.js
 /googleAnal.js
@@ -7063,11 +7064,11 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 91lai.com##.showimgs
 91mobiles.com,techyv.com##.td-header-header
 91porn.com##.preroll-blocker
-91porna.com##.ad-dialog
 91porna.com##.checkNum[target="_blank"]:not([href*="91porna.com"])
-91porna.com##.dx-banner-item
 91porna.com##.h-full.swiper
-91porna.com##.modal-backdrop
+91porna.com,evgpopxb.cc##.ad-dialog
+91porna.com,evgpopxb.cc##.dx-banner-item
+91porna.com,evgpopxb.cc##.modal-backdrop
 91porny.com##.container-fluid.p-0[class*="mb-"]
 91porny.com##.jsv-g1
 91wenmi.com###xiezuo
@@ -8854,6 +8855,8 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||lancdn.com/landian/public/js/ads.js
 @@||landtop.com.tw/images/ad/
 @@||languagecloud.sdl.com/node_modules/fingerprintjs2/dist/fingerprint2.min.js$~third-party
+@@||laosu.cf^$generichide
+@@||laosu.tech^$generichide
 @@||laotiesao.vip^$generichide
 @@||lasicilia.it/wp-content/plugins/digistream/digiplayer/js/videojs.ga.js?$script,~third-party
 @@||lastpass.com/ads.php$subdocument,domain=chrome-extension-scheme
@@ -26376,9 +26379,9 @@ zzzyk.com###Tinfo
 ||02b7485.netsolhost.com^
 ||02wq.com/script/
 ||02wq.com/script1/
+||0314312.netsolhost.com^
 ||0338861.netsolhost.com^
 ||03629e3.netsolhost.com^
-||0416c34.netsolhost.com^
 ||042.cn/adver/
 ||0439.com/javascript.php?part=advertisement&
 ||044088d.wcomhost.com^
@@ -26419,17 +26422,14 @@ zzzyk.com###Tinfo
 ||0f2cc53.wcomhost.com^
 ||0f39788.wcomhost.com^
 ||0f77e28.wcomhost.com^
-||0hostmaster.cryptonotepool.org.uk^
-||0hostmaster.hodlpool.com^
-||0hostmaster.hostmaster.hostmaster.starbird.hodlpool.com^
-||0hostmaster.miner-control.de^
-||0hostmaster.minerjet.com^
-||0hostmaster.multiminer.us^
-||0hostmaster.pool.gntl.co.uk^
+||0hostmaster.clot.poolerino.com^
+||0hostmaster.coinpool.net^
+||0hostmaster.gethash.cc^
+||0hostmaster.minerxmr.com^
 ||0i0i0i0.com^$document
 ||0i0i0i0.com^$popup
 ||0kkbb.com/js/i.js
-||0mailhost.cryptopool.eu^
+||0mailhost.cryptonight.net^
 ||0o0.ooo/2017/01/13/58787d42bbad6.jpg
 ||0stats.com^$third-party
 ||0sxs.com/js/all.
@@ -26481,6 +26481,7 @@ zzzyk.com###Tinfo
 ||115img.com/static/115tj.js
 ||115img.com/static/pc/d_
 ||115mm.com/js/
+||1168d5a.dcomhost.com^
 ||116xs.com/js/backbone.js
 ||118-237.echostar.pl^
 ||1188.com^$third-party
@@ -26504,6 +26505,7 @@ zzzyk.com###Tinfo
 ||123compteur.com^$third-party
 ||123count.com^$third-party
 ||123date.me^$third-party
+||123freehost.co.uk^
 ||123movies.ai/sab_
 ||123rf.com/apicore-index/traffic_log
 ||123stat.com^$third-party
@@ -26637,6 +26639,7 @@ zzzyk.com###Tinfo
 ||17house.com/zt/style/pc/js/zt_
 ||17k.com/jump/uh
 ||17ok.com/focus/3j_right_jdt.shtml
+||17ql2gea01yvetyarzala6ks2x38xw2133oby2.look4hosts.com^
 ||17yy.com/style/ifra_ad/
 ||180.76.2.18^$third-party,domain=~baidu.ip
 ||180.96.27.85^*.htm
@@ -26676,7 +26679,6 @@ zzzyk.com###Tinfo
 ||1av.to/assets/ad/
 ||1betandgonow.com^$popup
 ||1dmp.io^$third-party
-||1dollarwindowshosting.com^
 ||1freecounter.com^$third-party
 ||1fxs.com^$third-party
 ||1gr.cz/log/
@@ -26924,7 +26926,6 @@ zzzyk.com###Tinfo
 ||33img.com^$domain=18board.com|18p2p.com
 ||33shu.net/js/game
 ||34.102.137.201^$popup
-||3434df3ffd.host^
 ||34iq.com/index
 ||35.227.234.222^$popup
 ||35.232.188.118^$popup
@@ -27102,6 +27103,7 @@ zzzyk.com###Tinfo
 ||512ms.com/webggwhtml/
 ||51688.cc/ya/
 ||516qq.cn/theme/dd/
+||517.157.alohahosts.com^
 ||5173.com/__tra.gif?
 ||5184.com/container/html/news_view_gg
 ||51bczx.com/images1/
@@ -27202,7 +27204,6 @@ zzzyk.com###Tinfo
 ||58.com/ds/tgbrand/*.js
 ||58.com/show/ads?
 ||580bk.com/ceshi/
-||58312863.swh.strato-hosting.eu^
 ||5888.tv/Js/topBanner.js
 ||5888.tv/User_Ad/
 ||58avgo.*/AirADPic/
@@ -27285,6 +27286,7 @@ zzzyk.com###Tinfo
 ||6angebot.ch^$popup,third-party
 ||6avz.com^$script,third-party
 ||6by30.com^$document
+||6fh.gearhostpreview.com^
 ||6gxs.net/js/
 ||6lxdqb.easypanel.host^
 ||6pan.cc/ps/vip.jpg
@@ -27382,7 +27384,6 @@ zzzyk.com###Tinfo
 ||880sy.com/Public/js/*_gg.js
 ||88148.com/UpFile/a/2016040849191350.jpg
 ||88448.com/images/appkai980x100.gif
-||888locals.xyz^
 ||888media.net^$popup
 ||888media.net^$third-party
 ||888promos.com^$popup
@@ -27394,6 +27395,7 @@ zzzyk.com###Tinfo
 ||8boobs.com/flr.js
 ||8c4d591d.ithemeshosting.com.php73-39.lan3-1.websitetestlink.com^
 ||8d8d.me/images/dealer.gif
+||8gbhosting.com^
 ||8h93.com^*.gif
 ||8jfbt5va3r.com^$document
 ||8maple.ru/dzcm$rewrite=abp-resource:1x1-transparent-gif,domain=8maple.ru
@@ -27441,7 +27443,6 @@ zzzyk.com###Tinfo
 ||92dp.com/home/showga?
 ||92ghai.com/zz/
 ||92uq.com/Ads/
-||93269.hostsonaten.com^
 ||933m.com/1.js
 ||94994.com*/js/plugin/shoppingMall/
 ||949949.com/2013/end/hot_news.js
@@ -27550,7 +27551,6 @@ zzzyk.com###Tinfo
 ||aa.com/aileron/api/log
 ||aa.hostasa.org^
 ||aaaf.info^$script
-||aaahosting.xyz^
 ||aaaimg.com/images*.gif
 ||aachener-zeitung.de/zva/drive.js
 ||aaddcount.com^$third-party
@@ -27670,7 +27670,6 @@ zzzyk.com###Tinfo
 ||actiontracking.jp^$third-party
 ||actionviewphotography.com/api/stats?
 ||actirinius.com^$third-party
-||activar-buzon-outlook.alchosting.xyz^
 ||activate-game.com^$popup
 ||activate.latimes.com/pc/caltimes/?pulse2001=
 ||active-tracking.de^$third-party
@@ -28081,7 +28080,6 @@ zzzyk.com###Tinfo
 ||adro.co^$third-party
 ||adro.pro^$popup
 ||adrocket.com^$third-party
-||adroitdigihosting.com^
 ||adroll.com^$third-party
 ||adrta.com^$third-party
 ||adrunnr.com^$popup
@@ -28312,6 +28310,7 @@ zzzyk.com###Tinfo
 ||adx1.com^$document
 ||adxadtracker.com^$third-party
 ||adxcel-ec2.com^$third-party
+||adxhost.org^
 ||adxoo.com^$third-party
 ||adxpansion.com^$popup
 ||adxpartner.com^$popup
@@ -28467,6 +28466,7 @@ zzzyk.com###Tinfo
 ||agoda.net/v2/track
 ||agogo.tv/images//uploads/ad/
 ||agorahtag.tech^$third-party
+||agri-mobile4.bolt.host^
 ||agricole-activation1.bolt.host^
 ||agricole.bolt.host^
 ||agrointel.ro/ga.js
@@ -28481,6 +28481,7 @@ zzzyk.com###Tinfo
 ||ahgame.com/js/new_ad.js
 ||ahlife.com/api.php?mod=adv&
 ||ahostdir.com^
+||ahosting2025.com^
 ||ahrefs.com^$third-party
 ||ahscdn.com^$popup
 ||ahuys.net/Runtime/js/
@@ -28604,8 +28605,7 @@ zzzyk.com###Tinfo
 ||alarmsportsnetwork.com^$third-party
 ||alaskaair.com/AlXMT4Ma/init.js
 ||albacross.com^$third-party
-||albamariagilflores1764352049831.0410236.misitiohostgator.com^
-||albertetienne1752715747611.0140026.meusitehostgator.com.br^
+||albertahealthservicesinteraconlinetransfer.hostclone.com^
 ||albonsa.com^$document
 ||albonsa.com^$popup
 ||alby.net/tracking-service/
@@ -28723,6 +28723,7 @@ zzzyk.com###Tinfo
 ||alice.it/cnt/
 ||aliceblue-wasp-214350.hostingersite.com^
 ||alicloud.b-cdn.net/1.js
+||alienghost.com^
 ||alienhub.xyz^$third-party
 ||aliexpress.com/ts?
 ||alightbornbell.com^$popup
@@ -28780,6 +28781,7 @@ zzzyk.com###Tinfo
 ||alowbowsohef.com^$popup
 ||alpenridge.top^$popup
 ||alpha-affiliates.com^$third-party
+||alphahosting-server.de^
 ||alpharank.io/api/pixel/
 ||alpheratzscheat.top^$popup
 ||alpine-vpn.com^$document
@@ -28874,6 +28876,7 @@ zzzyk.com###Tinfo
 ||amazonaws.com/webengage-files/
 ||amazonaws.com^$domain=animeflv.net|mangakakalot.gg|nelomanga.net|uploadhaven.com
 ||amazonaws.com^*/prod_analytics
+||amazonghost.xyz^
 ||amazononline.xyz/mp4/*.mp4$rewrite=abp-resource:blank-mp3,domain=iyingshi7.tv|localmv1.com
 ||amazonpay.com/customerInsight?
 ||ambercrow.com^$third-party
@@ -28958,8 +28961,6 @@ zzzyk.com###Tinfo
 ||andcomemunicateth.info^$popup
 ||andersenit.dk^$third-party
 ||andersonfborj.diowebhost.com^
-||andrefelipedonascime1753562407700.0461178.meusitehostgator.com.br^
-||andrefelipedonascime1768785037020.1552093.meusitehostgator.com.br^
 ||andrefelipedonascime1772127941945.0062186.meusitehostgator.com.br^
 ||andrefelipedonascime1775471117328.2082219.meusitehostgator.com.br^
 ||andres2727t.diowebhost.com^
@@ -29057,6 +29058,7 @@ zzzyk.com###Tinfo
 ||aorms.com^$third-party
 ||aorpum.com^$third-party
 ||aoshi.com/rbc.jpg
+||apa-store.au3.lmshosting.com.au^
 ||apache21.hostbasket.com^
 ||apapuacauthong.com^$popup
 ||aparat.com/gogol/
@@ -29064,13 +29066,13 @@ zzzyk.com###Tinfo
 ||apartments.com/clientvisit/al.gif?
 ||apartmenttherapy.com/jAYekY18/init.js
 ||apbood.boodstream.com/v*/ad/
-||apdevhost512.com^
 ||apester.com/cookie/bundle.js
 ||apester.com/event^
 ||apex-ad.com^$third-party
 ||apexstats.com^$third-party
 ||apextag.com^$third-party
 ||apextwo.com^$third-party
+||api-bmtestserver-com.web01-bearingmatrix-com.vps.ezhostingserver.com^
 ||api-iam.intercom.io/messenger/web/metrics
 ||api-location-prd.pelcro.com^$domain=newsweek.com
 ||api-pf.nw18.com/cdp-api/api/data
@@ -29274,6 +29276,7 @@ zzzyk.com###Tinfo
 ||aquete.com^$popup
 ||aqy103.com/js/aqy/
 ||ar-x.site^$third-party
+||araguaiahost.com.br^
 ||aralego.net^$third-party
 ||aramuz.net/frontapi/*/analyticsEvent?
 ||arbiscan.io/images/gen/*_StylusBlitz_Arbiscan_Ad.png
@@ -29335,6 +29338,7 @@ zzzyk.com###Tinfo
 ||arukereso.hu/*.impression?tt=
 ||arwobaton.com^$popup
 ||as.coinbase.com/metrics
+||as.hosterec.com^
 ||asayer.io/tracker.js
 ||asb.co.nz/analytics/
 ||asce.xyz^$popup
@@ -29405,6 +29409,7 @@ zzzyk.com###Tinfo
 ||astro-way.com^$third-party
 ||astrokompas.com^$popup
 ||astrologybacklightsinless.com^$popup
+||astrucking-hosting.net^
 ||asuhosting.net^
 ||asuracomic.net/api/ads/
 ||aswpsdkeu.com^$third-party
@@ -29441,6 +29446,7 @@ zzzyk.com###Tinfo
 ||atsg.me^$popup
 ||atsptp.com^$third-party
 ||att.com/scripts/adobe/prod/marketing.min.js
+||att.fraud.hostmonkey.com^
 ||att.ydss.cn/attachments/portal/
 ||attacheatableoverlabor.com^$popup
 ||attachedkneel.com^$popup
@@ -29534,7 +29540,6 @@ zzzyk.com###Tinfo
 ||automobile.it/fb/
 ||autonet.com.tw/90/
 ||autopiano.cn/data/jd_
-||autopsy.createandhost.com^
 ||autoscout24.de^$ping
 ||autotrader.ca/result/AutosAvailableListings.aspx?
 ||autotrader.co.za/partners/
@@ -29808,7 +29813,7 @@ zzzyk.com###Tinfo
 ||bakabok.com^$popup
 ||bakjaqa.net^$popup
 ||baldo-toj.com^$popup
-||balkan-hosting.net^
+||balkanhost.net^
 ||balldollars.com^$popup
 ||ballive.*/addm/
 ||ballyhoopla.club^$popup
@@ -29865,6 +29870,7 @@ zzzyk.com###Tinfo
 ||baqend.com/v1/rum/
 ||baremetrics.com^$third-party
 ||barilliance.net^$third-party
+||barinhost.ir^
 ||barks.jp/v1/stats
 ||barometercorrodingunease.com^$popup
 ||baronsoffers.com^$third-party
@@ -29885,6 +29891,7 @@ zzzyk.com###Tinfo
 ||bazaarvoice.com/sid.gif
 ||baztrack.com^$third-party
 ||bb.itwc.ca/js/cube.js
+||bb.tweethost.com^
 ||bb1nn.com/js/i.js
 ||bb999.net/pic/n/agents/C-79.gif
 ||bbccn.org^$popup
@@ -30046,7 +30053,6 @@ zzzyk.com###Tinfo
 ||bendingspoonsapps.com/v4/web-events
 ||benefit-ads.com^$third-party
 ||benfly.net^$third-party
-||benhost.org^
 ||beniluuxen.com^$popup
 ||benjamingroff.com/uploads/images/ads/
 ||benmed1778652514257.2301823.meusitehostgator.com.br^
@@ -30087,7 +30093,6 @@ zzzyk.com###Tinfo
 ||bestcontentfood.top^$popup
 ||bestcontentsoftware.top^$third-party
 ||bestconvertor.club^$popup
-||bestest-hosting.com^
 ||bestgames-2022.com^$popup
 ||besthitsnow.com^$third-party
 ||bestlittlesites.com/plugins/advertising/getad/
@@ -30299,6 +30304,7 @@ zzzyk.com###Tinfo
 ||bitchute.com/data/script.js
 ||bitchute.com/slot1/value?adDataKey
 ||bitcoadz.io^$third-party
+||bitcore.host^
 ||bitcotasks.com/je.php
 ||bitcotasks.com/yo.php
 ||bitdefender.top^$popup
@@ -30338,7 +30344,6 @@ zzzyk.com###Tinfo
 ||bkjia.com/bkjia/js/banner
 ||bkjia.com/bkjia/js/subnavtop.js
 ||blackandwhite-temporary.com^$popup
-||blackapplehost.com^
 ||blackcrow.ai/v1/events/
 ||blacklinknow.com^$popup
 ||blacklinknowss.co^$popup
@@ -30389,6 +30394,7 @@ zzzyk.com###Tinfo
 ||blogger.googleusercontent.com/img/b/$domain=javdesu.tv
 ||bloggeramt.de^$third-party
 ||bloggerei.de^$third-party
+||bloglocal.com^
 ||blogmeetsbrand.com^$third-party
 ||blogmura.com/js/*/gtag-event-
 ||blogostock.com^$popup
@@ -30860,10 +30866,10 @@ zzzyk.com###Tinfo
 ||caanalytics.com^$third-party
 ||caast.tv/v1/record.gif?
 ||cabbagereporterpayroll.com^$popup
-||cabelin.vps-kinghost.net^
 ||cachead.com^*.js
 ||cacheserve.*/promodisplay/
 ||cacheserve.*/promodisplay?
+||cachuchostack.digital^
 ||cactusglobal.io^$third-party
 ||cactusheadroomscaling.com^$popup
 ||cactusmedia.com^$third-party
@@ -30921,6 +30927,7 @@ zzzyk.com###Tinfo
 ||camcrush.com^$third-party
 ||camdough.com^$third-party
 ||camduty.com^$third-party
+||camelhosting.net^
 ||camghosts.com^
 ||camghosts.com^$third-party
 ||camgirls.casa/p.php
@@ -30931,6 +30938,7 @@ zzzyk.com###Tinfo
 ||camonster.com/landing/$popup,third-party
 ||camonster.com^$third-party
 ||camonster.io^$third-party
+||campaigbnavoi.host^
 ||campaigncog.com^$third-party
 ||campaignlook.com^$third-party
 ||campaignmonitor.com^$third-party
@@ -30961,7 +30969,6 @@ zzzyk.com###Tinfo
 ||canem-auris.com^$third-party
 ||canimgs.com/images/
 ||canlytics.com^$third-party
-||canneryrowghosttours.com^
 ||canopylabs.com^$third-party
 ||canstockphoto.com/server.php?rqst=track
 ||canton8.com/adphoto/
@@ -30973,7 +30980,6 @@ zzzyk.com###Tinfo
 ||caoav.net/img/*.js
 ||caohv.com/mm/
 ||caoimgs.com/images/*.gif
-||caonguyensoft.prkzuryq.nethost-4511.000nethost.com^
 ||capacitygrid.com^$third-party
 ||capital.com/widgets/$third-party
 ||capital.com^$ping
@@ -31006,7 +31012,6 @@ zzzyk.com###Tinfo
 ||cargurus.com/tr/
 ||carhost-e6d05c1c-875b-44a8-8308-f83eef7f99be.myportfolio.com^
 ||carlmcbeath-host.com^
-||carmenbrosa1768827392980.0951940.meusitehostgator.com.br^
 ||carnoc.com/noticejs/
 ||caroda.io^$third-party
 ||carolsdaughter.com/IZ/uaPO0cuk/init.js
@@ -31029,7 +31034,6 @@ zzzyk.com###Tinfo
 ||casinobonusdeals.io^$document
 ||casiyouaffiliates.com^$popup
 ||castoola.tv^*/ads/$domain=sabc-plus.com
-||castpshost.com^
 ||casualstat.com^$third-party
 ||casumoaffiliates.com^$popup
 ||catalove.com/bimp/
@@ -31084,6 +31088,7 @@ zzzyk.com###Tinfo
 ||cctvpic.com/photoAlbum/templet/common/*/game_
 ||cd.elements.video^$domain=fangoria.com
 ||cd.thecontentserver.com^$domain=ratemyprofessors.com
+||cd10.csthost.xyz^
 ||cddtsecure.com^$document
 ||cddtsecure.com^$popup
 ||cdeledu.com/ADVC/$domain=~chinaacc.com|~ruidaedu.com
@@ -31091,7 +31096,6 @@ zzzyk.com###Tinfo
 ||cdn-data-cloud.com/history/
 ||cdn-ds.com/analytics/
 ||cdn-files.prsmedia.fr^*/xiti/
-||cdn-js-conhost.icu^
 ||cdn-js.xyz/code?
 ||cdn-net.com^$third-party
 ||cdn-sitegainer.com^$third-party
@@ -31203,6 +31207,7 @@ zzzyk.com###Tinfo
 ||center.io^$third-party
 ||centerblog.net/a/in
 ||centerblog.net/stats.js
+||centhosting.net^
 ||centurys.net/promo_
 ||cenyou.net/wp-content/uploads/1200-200.
 ||ceramicturtleremnant.com^$document
@@ -31494,7 +31499,6 @@ zzzyk.com###Tinfo
 ||classdojo.com/logs/
 ||classistatic.com^*/js/lib/prebid-7.5.0.min.js$script,domain=kijiji.ca
 ||claude.ai/sentry^
-||claw.dpohosting.top^
 ||claydar.com^$third-party
 ||clb.biz/Public/static/js/common-v2.js
 ||clbanners16.com^$popup
@@ -31552,7 +31556,6 @@ zzzyk.com###Tinfo
 ||clickbrainiacs.com^$third-party
 ||clickcease.com^$third-party
 ||clickcertain.com^$third-party
-||clickchat.freewebhost24.in^
 ||clickclick.net^$third-party
 ||clickdaly.com^$popup
 ||clickdaly.com^$third-party
@@ -31627,6 +31630,8 @@ zzzyk.com###Tinfo
 ||clickzzs.nl^$third-party
 ||clictrck.com^$popup
 ||client-errors.rebble.io/log-client-error
+||client.hosthlior.com^
+||client24.shared.atcihosting.com^
 ||clientgear.com^$third-party
 ||clinch.co/a_js/client_pixels/
 ||clipcentric.com^$third-party
@@ -31647,6 +31652,7 @@ zzzyk.com###Tinfo
 ||clkpback3.com^$popup
 ||clkrev.com^$popup
 ||clladss.com^$document
+||cloakhost-test.com^
 ||clobberprocurertightwad.com^$popup
 ||clodsplit.com^$popup
 ||closercopy.cfd^$popup
@@ -31737,7 +31743,6 @@ zzzyk.com###Tinfo
 ||cloudfunctions.net/vanalytics
 ||cloudfunctions.net/webtraffic$domain=eurocampings.nl
 ||cloudghostdefense.com^
-||cloudhost.net^
 ||cloudhosting-business.vodafone.com^
 ||cloudhosting.actonservice.com^
 ||cloudiq.com^$third-party
@@ -31817,6 +31822,7 @@ zzzyk.com###Tinfo
 ||cnmo.com/pv.js
 ||cnmoad.com/wp-content/uploads/*_banner.
 ||cnmysoft.com/images/logo02.png
+||cnn-host-worldcup.com^
 ||cnnx.io^*/tracker.js
 ||cnnx.io^*/tracking.js
 ||cnnx.link/roi/
@@ -31893,6 +31899,7 @@ zzzyk.com###Tinfo
 ||coguan.com^$third-party
 ||coherentpath.com/tracker/
 ||cohesionapps.com^$third-party
+||cohostmarket.cn^
 ||cohostsbewet.shop^
 ||cohostsguilfat.com^
 ||coin-have.com^$third-party
@@ -31907,7 +31914,6 @@ zzzyk.com###Tinfo
 ||coincodex.com/cdn-cgi/trace
 ||coinerra.com^$third-party
 ||coingolive.com/assets/img/partners/
-||coinlocally-login.at^
 ||coinlocallyapp.com^
 ||coinmama.com/assets/img/banners/
 ||coinmarketcap.com/static/img/cdp_ad_banner/
@@ -31933,6 +31939,7 @@ zzzyk.com###Tinfo
 ||colleem.com^$popup
 ||collider.com/strpixel.png
 ||collink6813.diowebhost.com^
+||collocalcore.digital^
 ||collserve.com^$third-party
 ||colonistnobilityheroic.com^$popup
 ||coloradoghosttowns.com^
@@ -31997,6 +32004,7 @@ zzzyk.com###Tinfo
 ||configurator.ecom-mobile-samsung.com/api/logger
 ||confirmational.com^$third-party
 ||confirmit.com/wix/inline.aspx?
+||conhost.kilob.ru^
 ||connatix.com/rtb/
 ||connatix.com/scripts/$~third-party
 ||connatix.com/tr/
@@ -32073,7 +32081,6 @@ zzzyk.com###Tinfo
 ||contiamo.com^$third-party
 ||contineljs.com^$third-party
 ||continue.com^$third-party
-||control-hosts-app.com^
 ||control.cityofcairns.com^$third-party
 ||controlclickflow.com^$popup
 ||contx.net/collect.js
@@ -32132,7 +32139,6 @@ zzzyk.com###Tinfo
 ||cornpic.com/images/*.gif
 ||coronapolocalypse.com^
 ||coros.com/traceapi
-||corphostedfileservices.s3.eu-north-1.amazonaws.com^
 ||correry.com^$popup
 ||corvetteblogger.com/images/banners/
 ||corvidae.ai/pixel.min.js
@@ -32208,7 +32214,6 @@ zzzyk.com###Tinfo
 ||covertarget.com^*_*.php
 ||covery.ai/fp/$third-party
 ||covet.pics/beacons
-||cowgatehostel.com^
 ||cp.as.com/stats
 ||cp.finanzfrage.net/stats
 ||cp121.com/js2/
@@ -32220,11 +32225,11 @@ zzzyk.com###Tinfo
 ||cpalabtracking.com^$popup
 ||cpalead.com^$third-party
 ||cpanel-webbhosting.framer.website^
+||cpanel.businesshostz.xyz^
 ||cpaoffers.network^$popup
 ||cpb.esprit.*/91405.js
 ||cpbl-elta.cdn.hinet.net/web/images/ad_
 ||cpcmanager.com^$third-party
-||cpcontacts.businesshostz.xyz^
 ||cpfclassifieds.com^$third-party
 ||cpkshop.com/campaign/$third-party
 ||cpm.media^$third-party
@@ -32258,7 +32263,6 @@ zzzyk.com###Tinfo
 ||cracataum.com^$third-party
 ||cradaygo.com^$document
 ||craftkeys.com^$third-party
-||craigslist.gearhostpreview.com^
 ||crakmedia.com^$third-party
 ||craktraffic.com^$third-party
 ||crall.io/beacon/
@@ -32360,9 +32364,9 @@ zzzyk.com###Tinfo
 ||cryptocoinsad.com^$third-party
 ||cryptoecom.care^$third-party
 ||cryptomcw.com^$document
+||cryptominerhost.com^
 ||cryptonoter.com^$third-party
 ||cryptopuffs.io^$popup
-||cryptopunksv2-preview.nfthost.org^
 ||cryptotrials.care^$third-party
 ||cryptowheel.net^$popup
 ||crystal-blocker.com^$popup
@@ -32396,7 +32400,6 @@ zzzyk.com###Tinfo
 ||ctfile.com/iz.php?
 ||ctfile.com/popjump.php?$popup
 ||ctinsider.com/413gkwMT/init.js
-||ctlocalhub.com^
 ||ctosrd.com^$document
 ||ctosrd.com^$popup
 ||ctpost.com/413gkwMT/init.js
@@ -32476,6 +32479,7 @@ zzzyk.com###Tinfo
 ||cybmas.com^$third-party
 ||cycyw.com/mf/
 ||cycyw.com/qdj/
+||czestochowa24.atthost24.pl^
 ||czh5aa.xyz^$popup
 ||czsp12.com/api/*=advert&
 ||czsp12.com/api/*=announce&
@@ -32559,6 +32563,7 @@ zzzyk.com###Tinfo
 ||daiyanbao.com/flash/md
 ||dajiadu8.com/17mb/script/gg.
 ||dajiazhao.com/login/reg.js
+||dakexa1346.com.fozzyhost.com^
 ||dal-business-26.hostwindsdns.com^
 ||dal-business-28.hostwindsdns.com^
 ||daleelerah.info^$document
@@ -32587,6 +32592,7 @@ zzzyk.com###Tinfo
 ||dark-reader.com^$popup
 ||darknessporn.com/prrls/
 ||darkreader.org/elements/statistics.js
+||dashboard-ghostwareos.xyz^
 ||dashboard.io^$third-party
 ||dashboard.iproyal.com/img/b/
 ||dashboard.nowdialogue.com/api/events/
@@ -32609,8 +32615,8 @@ zzzyk.com###Tinfo
 ||databrain.com^$third-party
 ||databreakers.com^$third-party
 ||datacaciques.com^$third-party
-||datacloudhost1.xyz^
-||datacloudhost3.lol^
+||datacloudhost2.lat^
+||datacloudhost3.sbs^
 ||datacluster.club^$popup
 ||datacomm.ch^*/count.cgi?
 ||datacoral.com^$third-party
@@ -32631,6 +32637,7 @@ zzzyk.com###Tinfo
 ||datafeedfile.com^$third-party
 ||datafront.co^$third-party
 ||dataguru.cn/site_
+||datahost.jp^
 ||datahub-srgssr.ch/tracking/
 ||datam.com^$third-party
 ||datamilk.app^$third-party
@@ -32710,6 +32717,7 @@ zzzyk.com###Tinfo
 ||dcraddock.uk/frame/
 ||dcraddock.uk/images/b/
 ||dcs.conac.cn/js/
+||dcusp.hostswiss.com^
 ||dd6364.com/js/777/
 ||ddbhm.pro^$popup
 ||dddomainccc.com^$popup
@@ -32812,7 +32820,6 @@ zzzyk.com###Tinfo
 ||deqwas.net^$third-party
 ||derevya2sh8ka09.com^$popup
 ||derwesten.de/stats/
-||desertstarhosting.com^
 ||desertsutilizetopless.com^$popup
 ||designtaxi.com/js/dt-seo.js
 ||designtaxi.com/small-dt.php$subdocument
@@ -32849,6 +32856,7 @@ zzzyk.com###Tinfo
 ||developpez.com/public/js/log.js
 ||device9.com^$third-party
 ||deviceprotect.eu^$third-party
+||devops.host^
 ||devopscon.io/session-qualification/$subdocument
 ||devphp.org.ua^$third-party
 ||devtribu.fr/t.php?
@@ -32877,6 +32885,7 @@ zzzyk.com###Tinfo
 ||dftoutiao.com/ssp/
 ||dgmaxinteractive.com^$third-party
 ||dhgxl8qk9zgzr.cloudfront.net/js/log.js
+||dhl--service.m130790.hostde41.fornex.host^
 ||dhl.com/g8Dj6P8TAg/
 ||dhostgroup.com^
 ||dhostingmanagerealacjkehdervermgrdeoruderu.pages.dev^
@@ -32910,6 +32919,7 @@ zzzyk.com###Tinfo
 ||didit.com^$third-party
 ||didna.io^$third-party
 ||dieka888.com/app_ad/
+||dielau3-homehost.info^
 ||diena.lv/statistics/
 ||diffusedpassionquaking.com^$popup
 ||diffusion-tracker.com^$third-party
@@ -32987,8 +32997,10 @@ zzzyk.com###Tinfo
 ||discover.hubpages.com/.bootscripts/analytics.min.js
 ||discover.hubpages.com/.bootscripts/hubPagesViewDurationTracker.min.js
 ||discover.hubpages.com/runtime/webads.js
+||discover.local.getfire.bot^
 ||discovertrail.net^$third-party
 ||discovery.evvnt.com/prd/evvnt_discovery_plugin-latest.min.js
+||discoveryhostel.com^
 ||discuss.com.hk/dfp_forum.php?au=Discuss_Web_
 ||discuss.com.hk/oath/
 ||discuss.com.hk^*_prod.html
@@ -33039,7 +33051,6 @@ zzzyk.com###Tinfo
 ||dk11863356269.activehosted.com^
 ||dk11863366030.activehosted.com^
 ||dkswshap-3.online^$popup
-||dl1u.ghosttracebuildhaze.monster^
 ||dl8.me^$third-party
 ||dlads.cn^$third-party
 ||dlhd.link/rs4k-adbanner.html
@@ -33117,6 +33128,7 @@ zzzyk.com###Tinfo
 ||dolohen.com^$popup
 ||domain.local-bd0fddf4c41ce0addf40701e8992c9bb.email^
 ||domainadvertising.com^$third-party
+||domaincroud.host^
 ||domainhostinghosstingserviceshostingneeded03.pages.dev^
 ||domainhostinghosstingserviceshostingneeded04.pages.dev^
 ||domainit.com/scripts/track.js
@@ -33217,14 +33229,18 @@ zzzyk.com###Tinfo
 ||dpbolvw.net/placeholder-
 ||dpbolvw.net^$third-party
 ||dpd-local.eu.cc^
-||dpdlocal-co.icu^
-||dpdlocal.co-ukk.web.id^
-||dpdlocal.co-ukm.cyou^
-||dpdlocal.coi-uk.eu.cc^
-||dpdlocali.shop^
-||dpdlocalo.shop^
-||dpdlocalss.xin^
-||dpdlocalt.cn^
+||dpdlocal.co-uke.shop^
+||dpdlocal.co-ukj.icu^
+||dpdlocal.co-uko.shop^
+||dpdlocal.co-ukv.biz.id^
+||dpdlocal.co-ukz.web.id^
+||dpdlocala.cn^
+||dpdlocale.cn^
+||dpdlocall.eu.cc^
+||dpdlocalr.cn^
+||dpdlocalss.beer^
+||dpdlocalsu.art^
+||dpdlocalw.shop^
 ||dpfantasy.org/k2s.gif
 ||dpg.danawa.com/*/rest/*getStampEvent
 ||dphunters.com^$third-party
@@ -33241,6 +33257,7 @@ zzzyk.com###Tinfo
 ||dragonthumbs.com/adcode.js
 ||dramatic-pause.ghost.io^
 ||drctcldff.com^$popup
+||drdhostud.com^
 ||dreamaquarium.com^$third-party
 ||dreamcounter.de^$third-party
 ||dreamdata.cloud^$third-party
@@ -33319,6 +33336,7 @@ zzzyk.com###Tinfo
 ||duba.com/static/*/js/min.pop.js
 ||duba.com/wangmeng/
 ||duba.net/skins/2009/images/db300_250.gif
+||dubaihoster.site^
 ||duboku.net/static/images/20201111
 ||duboku.net/static/images/yabo
 ||dubz.co/analytics/
@@ -33339,6 +33357,7 @@ zzzyk.com###Tinfo
 ||duoyi.com/welcome/$popup
 ||duplichecker.com/csds/
 ||durationmedia.net^$third-party
+||dv2.host^
 ||dvnfo.com^$third-party
 ||dw.com.com^$script
 ||dw.xcar.com.cn^*.gif?
@@ -33508,6 +33527,7 @@ zzzyk.com###Tinfo
 ||easyhash.io^$third-party
 ||easyhitcounters.com^$third-party
 ||easyhits4u.com^$third-party
+||easyhost.online^
 ||easyicon.net/gg2019/
 ||easyinline.com^$third-party
 ||easyliao.com^$third-party
@@ -33642,9 +33662,8 @@ zzzyk.com###Tinfo
 ||egretswamper.com^$popup
 ||eharmony.ca/fd/
 ||eharmony.co.uk/bd/
-||ehost-services233.com^
+||ehost-services238.com^
 ||ehub.cz^$third-party
-||ehzariye.sana.freehost.io^
 ||eic.org.cn/api/Popup?
 ||eic.org.cn^*/analytics
 ||eick.it/statistics/
@@ -33700,6 +33719,7 @@ zzzyk.com###Tinfo
 ||embedme.top/embed/extra
 ||embedsports.top/ad.html
 ||embodied-economics.ghost.io^
+||embratonhost.com.br^
 ||emediatrack.com^$third-party
 ||emetriq.de^$domain=spiegel.de
 ||emetriq.de^$third-party
@@ -33714,7 +33734,6 @@ zzzyk.com###Tinfo
 ||empresameusnet.kinghost.net^
 ||empresasjuridica.kinghost.net^
 ||emumuendaku.info^$popup
-||en136834661.wxbpub.host^
 ||en8848.com.cn/js/ad
 ||en8848.com.cn/js/content.
 ||en8848.com.cn/js/lianxi.js
@@ -33764,8 +33783,10 @@ zzzyk.com###Tinfo
 ||entensity.net/crap/
 ||enter-system.com^$third-party
 ||enter.javhd.com/track/
+||entertek.lean-host.net^
 ||entjgcr.com^$popup
 ||entravision.com^$third-party
+||entregacorreta.store.alonconetomodestopin1756077575000.0441633.meusitehostgator.com.br^
 ||entry.baidu.com/rp/home?
 ||entterto.com^$popup
 ||enus-user.ghost.io^
@@ -33807,6 +33828,7 @@ zzzyk.com###Tinfo
 ||epsilonlocal.com^
 ||eptougry.net^$popup
 ||epworthlocalboard.co.zw^
+||equalstegy-host.com^
 ||equilibriumfestive.com^$popup
 ||equirodi.*/addstat.php
 ||er.sanoma-sndp.fi/stats/
@@ -33818,6 +33840,7 @@ zzzyk.com###Tinfo
 ||erectile.byethost33.com^
 ||ereportz.com^$third-party
 ||eresmas.net^$third-party
+||erfwdfsghajky.gearhostpreview.com^
 ||ergeapp.com^$third-party
 ||ericdraken.com/a/$script
 ||ericknamyk.diowebhost.com^
@@ -33933,7 +33956,6 @@ zzzyk.com###Tinfo
 ||event.lib.visumo.io/js/hbn_track.js
 ||event.northghost.com^
 ||eventful.com/apps/generic/$image,third-party
-||eventhostingcenter.com^
 ||eventhub.au01.miro.com/api/stream
 ||eventhub.eu01.miro.com/api/stream
 ||eventhub.us01.miro.com/api/stream
@@ -34024,6 +34046,7 @@ zzzyk.com###Tinfo
 ||explorads.com^$popup,third-party
 ||explore-123.com^$third-party
 ||explore-site.com^$popup
+||explorelocalmag.com^
 ||exponential.com^$third-party
 ||exporder-patuility.com^$popup
 ||exporntoons.net/api/stats?
@@ -34085,6 +34108,7 @@ zzzyk.com###Tinfo
 ||f8dy.tv/template/m1938/js/foot.js
 ||f92j5.com^$third-party
 ||fa1con-44457.portmap.host^
+||faberhost.net^
 ||fabricww.com^$third-party
 ||fabuye.vip/zhuanfa/
 ||faceb00k-free00.hostingerapp.com^
@@ -34205,7 +34229,6 @@ zzzyk.com###Tinfo
 ||fastdntrk.com^$popup
 ||fastfuckgames.com/aff.htm
 ||fastgolbalserver.com^$popup
-||fasthost.com^
 ||fastincognitomode.com^$popup
 ||fastlnd.com^$popup
 ||fastly-analytics.com^$third-party
@@ -34294,7 +34317,6 @@ zzzyk.com###Tinfo
 ||fhcmeiju.com/template/DYXS2/html/1.
 ||fhserve.com^$popup
 ||fhvfd.com^$document
-||fi-local-network.uk^
 ||fideuram.it/js/cookie-manager/tracking-scripts.js
 ||figma.com/api/figment-proxy/
 ||figma.com/api/web_logger/
@@ -34304,16 +34326,17 @@ zzzyk.com###Tinfo
 ||file-file-host4.com^
 ||file-upload.net/include/mitte-orig.php
 ||fileboom.me/images/i/$third-party
-||filecarryhost10.com^
 ||filecrypt.cc/pdb.html
 ||filehippo.com/best-recommended-apps^
 ||filehippo.com/revamp.js
 ||filehost09.sbs^
+||filehost76a.com^
 ||filehostingz.com^
 ||filemoon-*/js/baf.js
 ||filemoon.*/js/baf.js
 ||filemoon.*/js/dola.js
 ||filemoon.*/js/skrrt.js
+||fileprimehost20.com^
 ||files.envoke.com^*_nvk_tracking.js
 ||files.im/images/bbnr/
 ||files.jb51.net/image/
@@ -34336,12 +34359,12 @@ zzzyk.com###Tinfo
 ||financeads.net/tb.php$third-party
 ||finanvideos.com^$document
 ||finanvideos.com^$popup
+||find-appl-localization.app^
 ||find-ip-address.org^$third-party
 ||findash.ghost.io^
 ||findbetterresults.com^$popup
 ||findcouponspromos.com^$third-party
 ||finddatinglocally.com^
-||findlocaldate.com^
 ||findmatches.com/bts.js
 ||findmatches.com/tri?tid=
 ||findthelocals.info^
@@ -34389,6 +34412,7 @@ zzzyk.com###Tinfo
 ||fiverr.com/px/client/PXK3bezZfO/main.min.js
 ||fixcounter.com^$third-party
 ||fixionmedia.com^$third-party
+||fizzzhost.xyz^
 ||fj.sina.com.cn/iframe/63/
 ||fjisu.*/js/huimi.js
 ||fjlqqc.com/common/api/v1.0/slot-code/
@@ -34561,6 +34585,7 @@ zzzyk.com###Tinfo
 ||foruftuiov.com^$document
 ||forum.miata.net/sp/
 ||forum.zuvio.com.tw/api/article/finish
+||forums-realcp.tk.hostinghood.com^
 ||forzubatr.com^$popup
 ||fotbollskanalen.se^$ping
 ||fotocommunity.de/track/
@@ -34620,6 +34645,7 @@ zzzyk.com###Tinfo
 ||free.fr/services/compteur_page.php?
 ||freeadblockerbrowser.com^$popup
 ||freeadultcomix.com^$third-party
+||freeasphost.net^
 ||freebloghitcounter.com^$third-party
 ||freecamsexposed.com^$popup
 ||freecheapwebhosting.com^
@@ -34640,9 +34666,11 @@ zzzyk.com###Tinfo
 ||freehitscounter.org^$third-party
 ||freehookupaffair.com^$popup
 ||freehostedscripts.net^*.php?site=*&s=*&h=$third-party
-||freehostyou.com^
+||freehoster.ch^
+||freehosting.cc^
 ||freejavbt.com/assets/images/banner
 ||freelivesex.tv/imgs/ad/
+||freelocalflirts.com^
 ||freelogs.com^$third-party
 ||freeones.com/build/freeones/adWidget.$script
 ||freeones.com/static-assets/istripper/
@@ -34700,7 +34728,6 @@ zzzyk.com###Tinfo
 ||friendfinder.com^$popup
 ||friendlyduck.com^$popup
 ||friendlyduck.com^$third-party
-||fritzhost-001-site1.site4future.com^
 ||frivol-ads.com^$third-party
 ||frodx.com^$third-party
 ||frog.wix.com/da-client?
@@ -34731,6 +34758,7 @@ zzzyk.com###Tinfo
 ||fsclzs.com/Ad_User/
 ||fsd2.digital^$third-party
 ||fsho.st/tracker.js
+||fsihost.com^
 ||fspark-ap.com/ft/analytics_log
 ||fspark-ap.com^$third-party
 ||fstats.xyz^$third-party
@@ -34753,13 +34781,11 @@ zzzyk.com###Tinfo
 ||ftopx.com/345.php
 ||ftopx.com/isttf558550ef6e.js
 ||ftopx.com/tf558550ef6e.js
-||ftp-louis.lurahosting.net^
-||ftp.ovalhost.co^
+||ftp.hostingsitesreviews.com^
 ||ftp271303.host553.zhujiwu.cn^
 ||ftz.io^$third-party
 ||fubuki-umami.space/api/script.js
 ||fuck-ads.vercel.app^$document
-||fuckalocal.com^
 ||fuckbook.cm^$third-party
 ||fuckbookdating.com^$third-party
 ||fuckedbyme.com^$third-party
@@ -34837,8 +34863,8 @@ zzzyk.com###Tinfo
 ||fxxz.com/skin/know/all.js
 ||fydisk.com/images/showvip.gif
 ||fyglovilo.pro^$popup
+||fyphost.se^
 ||fyreball.com^$third-party
-||fyvehost.com^
 ||fzbm.com/bbs/static/js/bma.js
 ||fzd3.com/gg/
 ||fzev75-rtbix.top^$document
@@ -34886,6 +34912,7 @@ zzzyk.com###Tinfo
 ||galacg.me/wp-content/uploads/*750x
 ||galada.it/omnitag/
 ||galaxiemedia.fr^$third-party
+||galaxus.ch/api/public/sbm/v1/fp
 ||galaxus.com/_next/static/chunks/rum.$script
 ||galaxyearningsfly.com^$popup
 ||galaxymedia.xyz/app/images/banner.gif
@@ -34921,6 +34948,7 @@ zzzyk.com###Tinfo
 ||gamefy.cn/cookiead.php
 ||gamegecko.com/gametrack?
 ||gamejolt.com/tick/
+||gameland.host^
 ||gamemale.com/static/js/valida.js
 ||gamemonetize.com/account/event.php?
 ||gamemonetize.com/account/eventvideo.php?
@@ -34983,12 +35011,12 @@ zzzyk.com###Tinfo
 ||gasaq.com/public/flash/
 ||gasasthe.freehostia.com^
 ||gatehousemedia.com/wickedlocal/ip.js
-||gateway.breezehost.xyz^
 ||gateway.bridged.media/Engagement/View
 ||gateway.bridged.media/Logging/
 ||gateway.dev/log
 ||gateway.melia.com/tracking
 ||gateway.src-play.com/Analytics/
+||gator862.hostgator.com^
 ||gatorleads.co.uk^$third-party
 ||gaug.es^$third-party
 ||gavbus*.com/assets/common/js/ad.js
@@ -35115,6 +35143,7 @@ zzzyk.com###Tinfo
 ||get-partner.life^$popup
 ||get-trust-vpn.info^$third-party
 ||get.stoplocker.com^$popup
+||get4396.host44p.cfd^
 ||get4click.ru^$third-party
 ||getaawp.com^$third-party
 ||getadblock.com/js/log.js
@@ -35131,7 +35160,6 @@ zzzyk.com###Tinfo
 ||getdrip.com^$third-party
 ||getelevar.com/configs/
 ||getelevar.com/shops/*/events.js
-||getfile3048.host77p.cfd^
 ||getflowads.net^$popup
 ||getfreebl.com^$third-party
 ||getglue.com^*/count?
@@ -35202,23 +35230,21 @@ zzzyk.com###Tinfo
 ||ghjie.com/JS/youcegg.js
 ||ghjie.com/images/2012/images/bg
 ||ghost-5by.pages.dev^
-||ghost.nestdns.com^
 ||ghost580.com/js/nei4.js
 ||ghost8.cn^
 ||ghostaccesscloud.com^
-||ghostb3b837port.com^
-||ghostchainnft.club^
+||ghostcustomz.life^
 ||ghostdatashield.com^
 ||ghostdeviceprotect.com^
-||ghosted.top^
 ||ghosterpycnial.qpon^
-||ghostgamb.com^
+||ghostflow.org^
 ||ghostgaming101.weebly.com^
 ||ghostgenie.com^
+||ghostgunsofficial.com^
 ||ghosthouse.lol^
-||ghostlighttop.com^
+||ghostink.com^
 ||ghostly-arcade.com^
-||ghostmain.site^
+||ghostlyplaza.shop^
 ||ghostmixer.cc^
 ||ghostmule.com^
 ||ghostnewz.com^
@@ -35227,23 +35253,22 @@ zzzyk.com###Tinfo
 ||ghostpanel.giize.com^
 ||ghostport995-qpwn.blogspot.com^
 ||ghostprivacybarrier.com^
-||ghosts.bond^
+||ghostqwazy.online^
 ||ghostsapp.com^
 ||ghostsearch.com^
 ||ghostsecuredata.com^
 ||ghostsecurenetwork.com^
 ||ghostsecureweb.com^
+||ghostshellrat.net^
 ||ghostsinstance.com^
 ||ghostsniper.ru.com^
-||ghostsocks.net^
 ||ghostsoutright.com^
 ||ghostssquadpoints.dlcodes.com^
 ||ghostsurfsecure.com^
 ||ghostteamone.com^
-||ghostware-os.com^
+||ghosttownexploration.online^
+||ghostwareos.net^
 ||ghostwoodalbum.com^
-||ghostwriter.adlounge.se^
-||ghostwriting.online^
 ||gianteagle.com/webevents/
 ||giaoji.com/Runtime/Js/
 ||gias.jd.com/js/td.js
@@ -35398,7 +35423,6 @@ zzzyk.com###Tinfo
 ||go.thunder.partners^$popup
 ||go.toutapp.com^$third-party
 ||go.trvdp.com^$domain=~canaltech.com.br|~ig.com.br|~monitordomercado.com.br|~noataque.com.br|~oantagonista.com.br|~olhardigital.com.br|~omelete.com.br
-||go.tweethost.com^
 ||go.xhamsterlive.com^$popup
 ||go2affise.com^$document
 ||go2affise.com^$popup
@@ -35453,7 +35477,7 @@ zzzyk.com###Tinfo
 ||goldstats.com^$third-party
 ||golem.de/staticrl/scripts/external/snow-390-min.js
 ||golem.de/staticrl/scripts/golem_cpxl_
-||golocaly.online^
+||golocal.online^
 ||gome.com.cn/flight?
 ||gomo.cc^$popup
 ||gomohost2.com^
@@ -35626,7 +35650,6 @@ zzzyk.com###Tinfo
 ||groove.so/unlocker.js
 ||groovinads.com^$third-party
 ||grosserhis.top^$popup
-||grotski-hostyn.com^
 ||group-ib.ru^$third-party
 ||groupbycloud.com/gb-tracker-client-5.min.js
 ||groupbycloud.com/wisdom/v2/pixel
@@ -35785,9 +35808,11 @@ zzzyk.com###Tinfo
 ||h.seznam.cz/hit
 ||h.seznam.cz/js/dot-small.js$domain=~stream.cz
 ||h0w-t0-watch.net^$popup
+||h112-174.rackhostvps.com^
 ||h2porn.com/new-hit/?
 ||h6295.com^$popup
 ||h74v6kerf.com^$popup
+||h8123165.hostingrd.pl^
 ||haberler.com/dinamik/
 ||hackhome.com/js/*top.js
 ||hackhome.com/js/bhref.js
@@ -35808,7 +35833,6 @@ zzzyk.com###Tinfo
 ||haiyuer.com/didi
 ||haiyuer.com/nb.js
 ||haiyuer.com/uc
-||halfhosting.com^
 ||halifax-online.co.uk/scripts/16c9d93d/
 ||halldata.com^$third-party
 ||haloscan.com^$third-party
@@ -35964,7 +35988,6 @@ zzzyk.com###Tinfo
 ||hello.myfonts.net/count/
 ||helloavgirls.com/public/hg/
 ||hellobar.com/ping?
-||hellobrands-host.com^
 ||hellocenter.xyz^*.mp4$rewrite=abp-resource:blank-mp4,domain=localmv1.com
 ||helloextend.com/tracking
 ||hellogithub.com/v1/advert/
@@ -35975,7 +35998,6 @@ zzzyk.com###Tinfo
 ||hellporno.com/_a_xb/
 ||hellporno.com^$subdocument,~third-party
 ||helmethomicidal.com^$popup
-||help.axxhosting.net^
 ||helpmonks.com/cftag/
 ||helpnetsecurity.com/wp-admin/admin-ajax.php
 ||helpshift.com/events/
@@ -35998,7 +36020,6 @@ zzzyk.com###Tinfo
 ||hentaifox.com/js/slider.js
 ||hentaihere.com/arkNVB/
 ||hentaiheroes.com/landing/$popup,third-party
-||hentaihoster.com^
 ||hentaikey.com/images/banners/
 ||hentaini.com/img/ads/
 ||hentairider.com/banners/
@@ -36062,6 +36083,7 @@ zzzyk.com###Tinfo
 ||hiasor.com^$document
 ||hiasor.com^$popup
 ||hiaxj.com/dbxf/
+||hibazwaj1754497798308.0130138.meusitehostgator.com.br^
 ||hibids10.com^$popup
 ||hibiquan.com/uploads/images/
 ||hicloud.com/download/web/dtm.js
@@ -36173,6 +36195,7 @@ zzzyk.com###Tinfo
 ||hkmte.com/seo.js
 ||hktvmall.com/api/event
 ||hktvmall.com/api/preroll/getList?
+||hlocalweatheralerts.co^
 ||hlstatus.com^$third-party
 ||hltoon.com/hanman/static/dist/ppm/js/foot
 ||hltv.org/partnerimage/$image
@@ -36209,6 +36232,7 @@ zzzyk.com###Tinfo
 ||holidaycheck.*/svc/ubt/v1/events
 ||hollysocialspuse.com^$popup
 ||holyfamilyradio.org/banners/
+||holyghostflow.org^
 ||home-en-intro.ghost.io^
 ||home-xxx-videos.com/snowy-
 ||homedepot-static.com/data-collection/
@@ -36218,7 +36242,6 @@ zzzyk.com###Tinfo
 ||homeguide.ghost.io^
 ||homehre.bravehost.com^
 ||homemade.xxx/player/html.php?aid=
-||homepage-global.ghost.io^
 ||homepage-trezo.ghost.io^
 ||homepage-user.ghost.io^
 ||homeprivatevids.com/js/580eka426.js
@@ -36229,7 +36252,6 @@ zzzyk.com###Tinfo
 ||honeycomb.io/1/events/
 ||honglingjin.co.uk/wp-content/uploads/*-Homepage-Takeover-BG-
 ||hongyingbbs.com/jj/
-||honnhostyou.com^
 ||hoo.be/api/hoobe/analytics
 ||hookupbucks.com^$third-party
 ||hooliganapps.com^$popup
@@ -36258,7 +36280,6 @@ zzzyk.com###Tinfo
 ||hornygamer.com/includes/gamefile/sw3d_hornygamer.gif
 ||hornygamer.com/play_horny_games/
 ||hornyjourney.com/fr.js
-||hornylocals24.com^
 ||hornymatches.com^$popup,third-party
 ||hornymatches.com^$third-party
 ||hornymatches.com^*/visit.php?
@@ -36274,65 +36295,69 @@ zzzyk.com###Tinfo
 ||host*.polaroid.com^
 ||host*.rigbyandpeller.com^
 ||host*.rvshare.com^
-||host--mahjong.com^
+||host--lgclub.com^
+||host-184-174-140-166.wisolt3.epbfi.com^
 ||host-185-193-126-85.njalla.net^
 ||host-195-103-203-106.business.telecomitalia.it^
+||host-24-138-44-7.public.eastlink.ca^
 ||host-507901.world^
 ||host-95-230-215-65.business.telecomitalia.it^
 ||host-95-255-114-11.business.telecomitalia.it^
-||host-factura.certificado-aeta.us^
-||host-factura.live^
+||host-97-112-211.iccnet.cm^
 ||host-file-host6.com^
 ||host-host-file8.com^
-||host-netsup.com^
 ||host-ptit.amartstudio.it^
 ||host-tracker.com^$third-party
 ||host-vc-fone-dx-wiem-qa.weebly.com^
+||host.deathshiver.com^
 ||host.gefmedica.it^
-||host.gsslcloud.com^
-||host.hotel-approve176219.com^
 ||host.k12insight.org^
 ||host.laurita.net^
-||host.looha.top^
 ||host.officinegullo.com^
 ||host.pornolenta.cc^
-||host.retirevillage.com^
 ||host.roxiapp.com^
 ||host.scrtcheck.com^
 ||host.sogoforms.com^
-||host.wemnbbsweoipmngbyutrdcunbgrtjeroendns.pro^
 ||host.zoodipistoia.it^
-||host01hdx.online^
+||host00.com^
 ||host0y.cfd^
+||host1.com^
 ||host11.traffic-builders.com^
 ||host11m.cfd^
+||host12q.cfd^
 ||host14u.net^
+||host151391.info^
 ||host15m.cfd^
 ||host17x.cfd^
+||host2.ecombeast.shop^
 ||host238.hostmonster.com^
 ||host2uls.com^
 ||host2y.cfd^
-||host30s.cfd^
-||host33s.cfd^
 ||host356980.stronawcal.pl^
-||host36s.cfd^
-||host39s.cfd^
 ||host40x.cfd^
-||host42s.cfd^
+||host46q.cfd^
+||host49q.cfd^
 ||host5536.zapto.org^
 ||host57k.cfd^
+||host61s.cfd^
 ||host63x.cfd^
+||host66p.cfd^
 ||host69k.cfd^
+||host71s.cfd^
 ||host72x.cfd^
+||host77.ru^
+||host85500.info^
 ||host9.link^
+||hosta.dedspac.ru^
 ||hostadsmarkets.com^
-||hostagelabs.digital^
-||hostalbolivar.com^
+||hostahero.online^
+||hostaliraq.com^
 ||hostalloscisnes.cl^
-||hostalvalichawasi.com^
 ||hostanalytics.com^
 ||hostance.net^
 ||hostaofficial.com^
+||hostapi.ir^
+||hostasandra.online^
 ||hostave.net^
 ||hostave2.net^
 ||hostave2.net^$third-party
@@ -36346,40 +36371,42 @@ zzzyk.com###Tinfo
 ||hostcomplicatedspam.com^
 ||hostcontent.live^
 ||hostcontent.live^$third-party
+||hostdocket.com^
 ||hostdomainpeople.112.2o7.net^
 ||hostdomainpeopleca.112.2o7.net^
-||hosteciara.com^
+||hosted-by-vdsina.com^
 ||hosted.muses.org/mrp.js$domain=flamecomics.xyz|mgeko.cc
 ||hosted.stats.com.edgesuite.net^
 ||hostedads.realitykings.com^
 ||hostedfiles.net^
 ||hostedgo.com^
 ||hostedmovieupdates.aebn.net^$domain=datingpornstar.com
+||hostedsupport.com^
+||hostel-in.ru^
 ||hostelca.com^
-||hostelness.com^
+||hostelsaharovo.online^
 ||hostelskalds.cfd^
 ||hoster.bobbylevin.com^
-||hosterae.com^
+||hosterxxvw.xyz^
 ||hostessdeeply.com^
 ||hosteuggio.rest^
-||hostfacile.online^
 ||hostfitter.com^
+||hostflix.live^
 ||hostforn8n.store^
+||hostfr5.it.com^
 ||hostgrater.com^
 ||hostguestwelcomehub.com^
-||hosthelper.xyz^
 ||hostiasdomus.es^
 ||hostiera.com^
 ||hostify.fr^
-||hostikslu.is^
 ||hostileconductive.com^
+||hosting-chat-room.xyz^
 ||hosting.sproutbuilder.com^
 ||hosting.tempors.com^
 ||hosting.web.tr^
-||hosting.wf^
 ||hosting24.com/images/banners/$third-party
+||hostingaz.info^
 ||hostingbudur.net^
-||hostingchileno.com^
 ||hostingcloud.*.wasm^
 ||hostingcloud.party
 ||hostingcloud.racing^
@@ -36413,63 +36440,71 @@ zzzyk.com###Tinfo
 ||hostingfatties.cyou^
 ||hostingfile.live^
 ||hostinglex-academy.pro^
-||hostingninja.bid^
 ||hostingoot.com^
 ||hostingoutlook.com^
 ||hostingsbaratos.com^
 ||hostingtestluc.com^
 ||hostingtinysoft.space^
 ||hostingue.com^
-||hostingupdate.club^
 ||hostingvirtual.net^
 ||hostingwebsitereview.com^
 ||hostip.info^
 ||hostip.info^$third-party
 ||hostiteasy.com^
+||hostize.com^
 ||hostk.cfd^
+||hostly.online^
 ||hostlyai.com^
-||hostmailsecure.com^
 ||hostmaiws1.webcindario.com^
-||hostmaster.amoseast.bakaert.com^
-||hostmaster.cra42.at^
-||hostmaster.crxybjcmpmadtjyezmikhjkafxgzn-j-izyrxxm.club^
-||hostmaster.dynatect.bakaert.com^
-||hostmaster.guests-reservation.com^
-||hostmaster.hostmaster.hostmaster.autorenkiste.de^
-||hostmaster.hostmaster.toscanaamrhein.de^
+||hostmanvps.com^
+||hostmaster.aipl.bakaert.com^
+||hostmaster.buvlivu.com^
+||hostmaster.casinovale.xyz^
+||hostmaster.clausal.blue-sky-ent.com^
+||hostmaster.confirmationdetails.com^
+||hostmaster.fotot6trq5wq23.grafa.biz^
+||hostmaster.hostmaster.insurancebroker.top^
+||hostmaster.koro-rivv.bakaert.com^
+||hostmaster.lolly86.grafa.biz^
 ||hostmaster.loveseat.studio^
 ||hostmaster.mammaonline.co.uk^
-||hostmaster.odsseyofficial.be^
-||hostmaster.plasma-surgical.bakaert.com^
-||hostmaster.server.mxtiktok.com^
-||hostmaster.simpac-co.bakaert.com^
-||hostmaster.svccc.biz^
+||hostmaster.oliviaex41185fgdxgs73dro2fdqffg3q3.grafa.biz^
+||hostmaster.order-eu.com^
+||hostmaster.piemmemed.bakaert.com^
+||hostmaster.pm-list.com^
+||hostmaster.silverberries.blue-sky-ent.com^
+||hostmaster.talex.bakaert.com^
+||hostmaster.theconnectiv.com^
+||hostmaster.thicongcayxanh.com.vn^
+||hostmaster.toscanaamrhein.de^
+||hostmaster.tvserial.vip^
 ||hostmaster.vernongayle.com^
-||hostmatrix.shop^
+||hostmaster.vero.grafa.biz^
 ||hostmonster.com/src/js/$third-party
-||hostmyclaudehtml.com^
 ||hostname-30u.pages.dev^
-||hostnova.click^
-||hostovz.com^
+||hostname.help^
+||hostpim.com^
 ||hostpoint-update.servepics.com^
-||hostpoints-ch.click^
+||hostpoint.ch.122b0295.colsan.info^
+||hostpoint.ch.12550297.esteticamoser.it^
+||hostpoints-ch.org^
 ||hostpowermedium.112.2o7.net^
 ||hostring.dns-cloud.net^
+||hostrocket-blows.com^
 ||hostroids.com^
-||hosts-coinbase.com^
-||hosts-to-nicaragua.com^
+||hosts-to-austria.com^
+||hosts-to-paraguay.com^
 ||hosts.dnsabr.com^
-||hostscontrol.com^
 ||hostsearch.com/creative/
 ||hostsinfo.store^
 ||hostslick.com^$domain=fileditch.com
+||hostsonaten.com^
 ||hostssp.com^
 ||hostt.link^
 ||hostteyahoo.ddns.net^
 ||hostujmy.pl^
-||hostupdate.site^
 ||hostxxxinquiries.creatorlink.net^
-||hostzukan.com^
+||hostyourmovies.com^
 ||hot-count.com^$third-party
 ||hot-growngames.life^$popup
 ||hot-mob.com^$third-party
@@ -36502,6 +36537,7 @@ zzzyk.com###Tinfo
 ||hotstar.com^*/midroll?
 ||hotstar.com^*/preroll?
 ||hottest-girls-online.com^$popup
+||hottie-locals.com^
 ||hottraffic.nl^$third-party
 ||hottystop.com/f9de7147b187.js
 ||hottystop.com/t33638ba5008.js
@@ -36528,7 +36564,6 @@ zzzyk.com###Tinfo
 ||howsliferightnow.com^$popup
 ||howsmyssl.com^$third-party
 ||howtogeek.com/emv2/
-||howzithostelsmoni.prt-cl.com^
 ||hoyeungc57.sg-host.com^
 ||hoyoverse.com/device-fp/
 ||hoyoverse.com/dora/biz/*-h5log/
@@ -36750,6 +36785,7 @@ zzzyk.com###Tinfo
 ||ice.hockey/images/sponsoren/
 ||icebns.com^$third-party
 ||iceinspace.com.au/iisads/
+||icelandhost.com^
 ||icepbns.com^$popup,domain=iceporn.com
 ||iceporn.com/player_right_ntv_
 ||icetechus.com^$document
@@ -36783,8 +36819,6 @@ zzzyk.com###Tinfo
 ||id.google.*/verify/
 ||id.managehosting-aruba.info^
 ||id.verticalhealth.net/script.js?partnerid=
-||idealhostingsolutions.com^
-||ideallytopicalghost.shop^
 ||ideng.com^$third-party
 ||identitymind.com^$third-party
 ||ideoclick.com^$third-party
@@ -36888,6 +36922,7 @@ zzzyk.com###Tinfo
 ||ihg.com/logging/
 ||ihhmh.com/mg/show
 ||ihookup.com/configcreatives/
+||ihoster.fr^
 ||ihuntghoststv.com^
 ||iiauu.cn/777/
 ||iid-network.jp^$third-party
@@ -36907,6 +36942,8 @@ zzzyk.com###Tinfo
 ||ikuailian.com^$third-party
 ||ilaterdeallyig.info^$popup
 ||ilcdn.fi^*/Bootstrap.js
+||ilepilub.myhostpoint.ch^
+||iliclaw.yunethosting.rs^
 ||iljmp.com^$third-party
 ||illicium.web.money^$subdocument
 ||illicium.wmtransfer.com^$subdocument
@@ -36918,6 +36955,7 @@ zzzyk.com###Tinfo
 ||ilxdh.com/navig/2020-09-08/1599538164_1474.png
 ||im-apps.net^$third-party
 ||im286.net/286/
+||image-hoster11.sbs^
 ||image-shop.baidu.com/n/imageproduct?
 ||image.39.net/style/
 ||image201844.hostoi.com^
@@ -36936,6 +36974,7 @@ zzzyk.com###Tinfo
 ||imagetwist.com/b9ng.js
 ||imagetwist.com/img/1001505_banner.png
 ||imagetwistcams.com/pixel/
+||imageurlhost.com^
 ||imageweb.ws/whaledate.gif
 ||imageweb.ws^$domain=tongabonga.com
 ||imaxcash.com^$popup
@@ -37024,7 +37063,6 @@ zzzyk.com###Tinfo
 ||imhentai.xxx/js/slider.js
 ||imhentai.xxx/js/slider_
 ||imho.ru^$third-party
-||imhost.top^
 ||imitrk13.com^$popup
 ||imjtv.cc^$third-party
 ||imkirh.com^$document
@@ -37081,7 +37119,6 @@ zzzyk.com###Tinfo
 ||independent.co.uk/iframe/native-cookiesync-frames.html
 ||independent.co.uk/internal-api/indy100
 ||index.ru^$third-party
-||indexler.freehostia.com^
 ||indexstats.com^$third-party
 ||indextools.com^$third-party
 ||indiadesire.com/bbd/
@@ -37163,7 +37200,7 @@ zzzyk.com###Tinfo
 ||inhe.net/Uploadfiles/inhegg2016/
 ||inheart.ru^$third-party
 ||inheritknow.com^$popup
-||iniciolocal.live^
+||iniciolocal.info^
 ||inimbus.com.au^$third-party
 ||inistrack.net^$third-party
 ||init.voz.party/info_hex.js
@@ -37198,6 +37235,7 @@ zzzyk.com###Tinfo
 ||insbergs.lv/ins_statistics/
 ||insene.de/tag/$third-party
 ||inshelmetan.com^$popup
+||inshost34.app^
 ||inside-channels.ch/proxy/engine/api/v1/auth/ping/
 ||inside-graph.com^$third-party
 ||inside-it.ch/proxy/engine/api/v1/auth/ping/
@@ -37218,6 +37256,7 @@ zzzyk.com###Tinfo
 ||inspectlet.com^$third-party
 ||inspoloji.com^$document
 ||instadia.net^$third-party
+||instagram-verification-badge.gearhostpreview.com^
 ||instagram.com/ajax/bz
 ||instagram.com/ajax/qm/?
 ||instagram.com/api/v1/injected_story_units/
@@ -37302,6 +37341,7 @@ zzzyk.com###Tinfo
 ||intextdirect.com^$third-party
 ||intextual.net^$third-party
 ||intgr.net^$third-party
+||inthostingpro.com^
 ||intimlife.net^$third-party
 ||intopicmedia.com^$third-party
 ||intorterraon.com^$popup
@@ -37361,7 +37401,6 @@ zzzyk.com###Tinfo
 ||iopiopiop.net^$popup
 ||iotechnologies.com^$third-party
 ||iovation.com^$third-party
-||ip-157-20-182-57.hosted-by-hosterdaddy.com^
 ||ip-adress.com^$third-party
 ||ip-check-perf.radar.cloudflare.com^$third-party
 ||ip-label.net^$third-party
@@ -37376,6 +37415,7 @@ zzzyk.com###Tinfo
 ||ip2location.com^$third-party
 ||ip2map.com^$third-party
 ||ip2phrase.com^$third-party
+||ip4host-sender.xyz^
 ||ipaddresslabs.com^$third-party
 ||ipcatch.com^$third-party
 ||ipcount.net^$third-party
@@ -37443,6 +37483,7 @@ zzzyk.com###Tinfo
 ||iqoption.com/land/$popup
 ||iqshw.com/d/js/m/thea
 ||iqzone.com^$third-party
+||ir-test-nglocale123.online^
 ||iraiser.eu/analytics.js
 ||irecommend.ru/collect/
 ||irhostel.com^
@@ -37568,7 +37609,6 @@ zzzyk.com###Tinfo
 ||iwanttodeliver.com^$third-party
 ||iwantusingle.com^$popup
 ||iwebtrack.com^$third-party
-||iwokshosting.com^
 ||ixiaa.com^$third-party
 ||ixigua.com/at/log/
 ||ixkw3.cc/wp-content/themes/wpMyTube/assets/js/mobile.
@@ -37931,6 +37971,7 @@ zzzyk.com###Tinfo
 ||justanswer.com/jatag/
 ||justdial.com/jd-trkr
 ||justfullporn.net/a554739c4f.php
+||justingreer.hhhosting.co.uk^
 ||justonemorenews.com^$popup
 ||justthegays.com/agent.php
 ||justthegays.com/api/spots/
@@ -37989,6 +38030,7 @@ zzzyk.com###Tinfo
 ||kaixin001.com.cn/js/cpm-
 ||kaizenplatform.net^$third-party
 ||kakbik.info^$popup
+||kaltapirte.ihostfull.com^
 ||kalvin.cn/page/img/
 ||kamalafooner.space^$popup
 ||kamazcentr.nichost.ru^
@@ -38138,7 +38180,6 @@ zzzyk.com###Tinfo
 ||king3rsc7ol9e3ge.com^$popup
 ||kingtrck1.com^$popup
 ||kinguin.net/affiliatepluswidget/$third-party
-||kinkhostgrid.click^
 ||kinoghost.xyz^
 ||kinoprofi.org^$third-party
 ||kio.ac/analytics/
@@ -38156,6 +38197,7 @@ zzzyk.com###Tinfo
 ||kit.com/posts/visit
 ||kit.com/ui/reporting_event
 ||kitbit.net^$third-party
+||kitchen.localservice.me^
 ||kitchiepreppie.com^$popup
 ||kitco.com/jscripts/popunders/
 ||kitz.co.uk/files/jump2/
@@ -38163,7 +38205,6 @@ zzzyk.com###Tinfo
 ||kiwi8.top/media/plugins/jquery_confirm/
 ||kiwihk.net^$third-party
 ||kiwisizing.com/api/log
-||kiwu3.gipfelstuermer-hosting.de^
 ||kk-resources.com/ks.js
 ||kkkkdm.com/js/comic-
 ||kkkkdm.com/mg/show
@@ -38316,10 +38357,10 @@ zzzyk.com###Tinfo
 ||l-tike.com/akam/$script
 ||l.euronews.com/sdk.js
 ||l.fairblocker.com^$third-party
-||l.ocalhost.host^
 ||l.qq.com/lview?
 ||l.usaa.com/e/v1/
 ||l2.io^$third-party
+||l31608.nb.host-domain-lookup.com^
 ||la7.it/js-live/nielsen1.js
 ||labuladong.github.io/algo/pictures/ad/
 ||lacentrale.fr/collect
@@ -38358,6 +38399,7 @@ zzzyk.com###Tinfo
 ||landing.candynetwork.ai^$popup
 ||landing.hostmerchantservices.com^
 ||landing1.brazzersnetwork.com^$popup
+||landingpagedesign.tempurl.host^
 ||landingpg.com^$third-party
 ||lanesusanne.com^$popup
 ||langxi.org/langxi/*900$image,object
@@ -38375,7 +38417,6 @@ zzzyk.com###Tinfo
 ||laowangblog.com^*-ad
 ||laposte.fr/cdp/events?
 ||lapresse.ca/webparts/ads/
-||laranovahost.com^
 ||laregione.ch/ext/av.php?
 ||larissaposa418313.diowebhost.com^
 ||lasagneandands.com^$third-party
@@ -38476,6 +38517,7 @@ zzzyk.com###Tinfo
 ||learn-cpp.org/static/img/banners/cfk/$image
 ||leboncoin.fr/rav-monitoring/
 ||lecai.com/page/zhuanti/baidu/
+||lecharroboss1766883340378.0280245.misitiohostgator.com^
 ||leche69.com^$third-party
 ||lecho.be/fb2?
 ||lecho.be/tag/tag-
@@ -38502,6 +38544,7 @@ zzzyk.com###Tinfo
 ||leju.com/abp/cmslead_new.v2.js
 ||leju.com/scripts/app/pc/indexlayer/v1/indexlayer.js
 ||leju.com^*=abs.processReqChange
+||lekkerlocals.com^
 ||lele36.com/p/*.gif
 ||lelekan.com/sp/fmt.js
 ||leleketang.com/dat/a/
@@ -38634,7 +38677,6 @@ zzzyk.com###Tinfo
 ||likedatings.life^$popup
 ||likemore-go.imgsmail.ru^$image
 ||lilinstall11x.com^$popup
-||lim107.truehost.cloud^
 ||limbik.com/static/tracking-script.js
 ||lindychat.com^$document
 ||lindychat.com^$popup
@@ -38676,8 +38718,8 @@ zzzyk.com###Tinfo
 ||linkedin.com/platform-telemetry/
 ||linkedin.com/sensorCollect/
 ||linkedin.com/tscp-serving/
-||linkedinlocalden.com^
-||linkedinlocalsfo.com^
+||linkedinlocalbos.com^
+||linkedinlocalsanfrancisco.com^
 ||linkexchange.
 ||linkexchangers.net^$third-party
 ||linkgrand.com^$third-party
@@ -38722,6 +38764,7 @@ zzzyk.com###Tinfo
 ||linuxhaxor.net/wp-content/uploads/pum/pum-site-scripts.js$script
 ||linuxidc.com/linuxfile/linux$script
 ||linuxidc.com/linuxfile/list
+||linuxpro5.internet-webhosting.com^
 ||linuxtracker.org/images/dw.png
 ||linximpulse.net/impulse/
 ||lionessgrandchild.com^$popup
@@ -38853,21 +38896,19 @@ zzzyk.com###Tinfo
 ||loadtime.org^$document
 ||loazuptaice.net^$popup
 ||loc.kr^$third-party
-||locahost.com^
 ||local-analytics.uberinternal.com^
 ||local-bang.com^
-||local-briefing.today^
+||local-classified-ads.com^
 ||local-coinbase.com^
 ||local-hub-01.ondeviva.in.net^
 ||local-hub-v9.starkewelle.in.net^
-||local-plumbers-8934.online^
+||local-independent-girls.com^
 ||local-shares.ri.la^
 ||local-update.com^
-||local.intergratedcareservices.com^
-||local.trident.tools^
+||local.marksypark.com^
 ||local1319541735cosapgermany.pages.dev^
-||local309.com^
 ||local606.weebly.com^
+||local777casino.com^
 ||localads.chengzijianzhan.cn.queniurc.com^
 ||localads.chengzijianzhan.cn^
 ||localaffectrecipe.com^
@@ -38876,12 +38917,12 @@ zzzyk.com###Tinfo
 ||localandbasket.eu^
 ||localandloom.eu^
 ||localandvine.eu^
-||localarticles5.xyz^
+||localartistm.ink^
 ||localau.vip/plugin/ad_
 ||localau.vip/plugin/pause.php
 ||localau.vip/plugin/show.php
 ||localau.vip/tccenter/ad/
-||localbitcoins.fi^
+||localbizledger.com^
 ||localcabletvdeals.com^
 ||localcanvas.eu^
 ||localchatgptads.com^
@@ -38901,7 +38942,6 @@ zzzyk.com###Tinfo
 ||localdnsin.com^
 ||localdrip.store^
 ||locale-tri.com^
-||locale.noocuwio.sa.com^
 ||localedgemedia.com^
 ||localelover.com^$popup
 ||localexpr.photoshop-naturephotostop.com^
@@ -38942,26 +38982,24 @@ zzzyk.com###Tinfo
 ||localisuivpylpip.fr^
 ||localitecoreio.digital^
 ||localizado-lphone.app^
-||localizaip.com.br^
 ||localizar-iphone.info^
 ||localization-iphone.online^
 ||localizesuaentrega.shop^
 ||localjnail.shop^
-||localkind.org.uk^
 ||localleadsforbusiness.site^
 ||localliine.com^
 ||locallivingcfo.com^
 ||locally.pro^
 ||locallyapproved.com^
-||locallyrightsatyr.shop^
+||locallycunningpoodle.shop^
+||locallyrobustmastodon.shop^
 ||localmail.ten98.de^
 ||localmantra.com^
 ||localmeadow.eu^
 ||localmediabuying.com^
-||localmedproduct.com^
+||localmeets.link^
 ||localmilfs.co^
 ||localnfp.org^
-||localnike.live^
 ||localnyprogram.convertri.com^
 ||localo.fr^
 ||localofferdealrn.info^
@@ -38972,13 +39010,12 @@ zzzyk.com###Tinfo
 ||localporch.eu^
 ||localpulsedg.info^
 ||localquarry.eu^
-||localraces.info^
 ||localrealtor.space^
 ||localredefined.com^
 ||localresponder.com^
 ||localrestaurant365.com^
 ||locals.dating^
-||locals.travel^
+||localsape.com^
 ||localsearch24.co.uk^
 ||localsearch24.co.uk^$third-party
 ||localseoplymouth.com^
@@ -38987,11 +39024,11 @@ zzzyk.com###Tinfo
 ||localsnapsext.com^
 ||localsnaughty.com^
 ||localso.com^
-||localss-cvereas11.info^
+||localssushi.com^
 ||localstockservicefr.firebaseapp.com^
 ||localstonehouse.eu^
 ||localsystems.org^
-||localtalent.ph^
+||localterrace.com^
 ||localto.net^
 ||localtonet.com^
 ||localtop.digital^
@@ -38999,15 +39036,14 @@ zzzyk.com###Tinfo
 ||localunconsciousmingled.com^
 ||localup.net^
 ||localvantia.com^
-||localvibex.pro^
+||localvideomethod.com^
 ||localvineyard.eu^
 ||localweb1.wpenginepowered.com^
 ||localwindowhome.eu^
-||localwomenpics.com^
+||localwomensexdating.com^
 ||localyellowqwuq.info^
 ||localytics.com^
 ||localytics.com^$third-party
-||localzyn.com^
 ||location3.com/analytics/
 ||locked-link.com^$popup
 ||lockerdome.com^$third-party
@@ -39022,7 +39058,6 @@ zzzyk.com###Tinfo
 ||lofter.com/mailEntryMobile.do
 ||log-collector.shopee.
 ||log.api-maps.yandex.
-||log.evergreenhostingoptions.de^
 ||log.outbrain.com^$domain=autobild.de|widgets.outbrain.com
 ||logaholic.com^$third-party
 ||logbor.com^$third-party
@@ -39035,6 +39070,7 @@ zzzyk.com###Tinfo
 ||logicdate.com^$popup
 ||logicschort.com^$popup
 ||logicsfort.com^$third-party
+||login-microhost.llvebrava.com^
 ||login.microsoftonline.o365.zerohosting.nl^
 ||login.microsoftonline.zerohosting.nl^
 ||loginfra.com^$third-party
@@ -39112,6 +39148,7 @@ zzzyk.com###Tinfo
 ||lovecam.com.br^$third-party
 ||lovedlocals.com^
 ||lovek01.com/gif/97-
+||lovelocalplacentia.ca^
 ||loveme.com^$third-party
 ||lovense.com/UploadFiles/Temp/$third-party
 ||lovercash.com^$third-party
@@ -39194,6 +39231,7 @@ zzzyk.com###Tinfo
 ||luxq8.com^$popup
 ||luyx8.com/tu/666.gif
 ||lv-play.com/web/adv/list
+||lv.cleaninfoishost.info^
 ||lvse.cn/output/block/html/
 ||lvse.com/9
 ||lvuptech.com/wp-content/plugins/deblocker/
@@ -39267,6 +39305,7 @@ zzzyk.com###Tinfo
 ||ma-tag.com^$third-party
 ||ma3ion.com^$popup
 ||mabaya.com^$third-party
+||mabialas.freesite.host^
 ||mabipa.com^$third-party
 ||macacussimpson.top^$popup
 ||macan-native.com^$popup
@@ -39282,7 +39321,6 @@ zzzyk.com###Tinfo
 ||macys.com/tag_path/
 ||madeupice.com^$document
 ||madeupice.com^$popup
-||madhosting.online^
 ||madkudu.com^$third-party
 ||madlan.co.il/o4wPDYYd/init.js
 ||madnet.ru^$third-party
@@ -39314,8 +39352,6 @@ zzzyk.com###Tinfo
 ||mail-spinner.com^$third-party
 ||mail.ajericoff.bluehoststaff.com^
 ||mail.aol.com/d/gemini_api/?adCount=
-||mail.gustavohenriquerodri1742918417132.2541127.myhostgator.site^
-||mail.hostingit.se^
 ||mail.hostwala.in^
 ||mail.pchome.com.tw/img/classifieds/300120.gif
 ||mail.proton.me/api/data/v1/stats
@@ -39327,7 +39363,9 @@ zzzyk.com###Tinfo
 ||mail.ru/grstat?
 ||mail.ru/k?
 ||mail.sami-host.me^
+||mail.umbeehosting.co.uk^
 ||mail.yahoo.com/f/track/
+||mailboxfullpro.gearhostpreview.com^
 ||mailgooramslocalise.info^
 ||mailinbox.com.br^$third-party
 ||maillist-manage.eu/wa/actionlogger?
@@ -39352,7 +39390,7 @@ zzzyk.com###Tinfo
 ||maltunfaithfulpredominant.com^$popup
 ||mamaunweft.click^$popup
 ||mamecn.com/style/pcjs/bgimg.
-||managehosting-aruba.click^
+||managementlocal.com^
 ||manbycus.com^$popup
 ||manconsider.com^$popup
 ||mandjasgrozde.com^$popup
@@ -39404,7 +39442,6 @@ zzzyk.com###Tinfo
 ||maptrackpro.com/track/
 ||maquiags.com^$popup
 ||marawaresearch.com/js/wosevu.js
-||marcinx.atthost24.pl^
 ||maredpt.com^$document
 ||maredpt.com^$popup
 ||marfeel.com^$third-party
@@ -39463,6 +39500,7 @@ zzzyk.com###Tinfo
 ||massungold.byethost7.com^
 ||master-push.com^$third-party
 ||master-push.net^$third-party
+||master.amex-carta-verde-landing-amazon.n3.caffeina.host^
 ||masternodes.online/baseimages/
 ||masterreviews.org^$document
 ||masterstats.com^$third-party
@@ -39503,6 +39541,7 @@ zzzyk.com###Tinfo
 ||maxidefender.xyz^$popup
 ||maxidownload.com^$popup
 ||maxigamma.com^$popup
+||maxihost.dev^
 ||maximise.nyc3.cdn.digitaloceanspaces.com/mxmse.min.js$domain=essentiallysports.com
 ||maximum-bot-protecti-1umz.bolt.host^
 ||maxmind.com/app/$third-party
@@ -39672,7 +39711,7 @@ zzzyk.com###Tinfo
 ||meendocash.com^$third-party
 ||meenetiy.com^$popup
 ||meetflirtmatch.com^$document
-||meetlocalmatch.com^
+||meetlocalsingles.fun^
 ||meetlocalsingles.us^
 ||meetradar.com^$popup
 ||meetrics.net^$domain=spiegel.de
@@ -39684,7 +39723,7 @@ zzzyk.com###Tinfo
 ||mega-stats.com^$third-party
 ||megacot.com^$popup
 ||megaffiliates.com^$popup
-||megafilehost2.autos^
+||megafilehost.xyz^
 ||megalogs.host22.com^
 ||megaplay.cc/cdn-cgi/trace
 ||megatube.xxx/atrm/
@@ -39704,6 +39743,7 @@ zzzyk.com###Tinfo
 ||meijutt.tv/js/layer/mobile/layer.
 ||meijuxz.com/template/ZQ/
 ||meilele.com/js/mll/baiduLabelRecommend.
+||mein-host.de^
 ||meineserver.com^$third-party
 ||meipian.me^*/api_ad/
 ||meiqia.com^$third-party
@@ -39768,7 +39808,7 @@ zzzyk.com###Tinfo
 ||metaffiliation.com^$third-party,domain=~netaffiliation.com
 ||metaffiliation.com^*^mclic=
 ||metahilan.hosted.phplist.com^
-||metahosting.shop^
+||metahost.online^
 ||metalyzer.com^$third-party
 ||metarouter.io^$third-party
 ||metartmoney.com^$third-party
@@ -39813,6 +39853,7 @@ zzzyk.com###Tinfo
 ||mgid.com^$popup
 ||mgln.ai^$~media,third-party
 ||mgmlcdn.com/stats/
+||mgmnt2host-center.com^
 ||mgtmod01.com^$third-party
 ||mh3666.com^*.jsonp
 ||mha.fi/simple.gif?
@@ -39832,6 +39873,7 @@ zzzyk.com###Tinfo
 ||miaozhen.com^$third-party
 ||mibatech.com/track/
 ||micaitu.net/js/dibu.js
+||michaelfalkner1765999723286.1482081.meusitehostgator.com.br^
 ||michel8899.github.io/test/$media
 ||micodigo.com^$third-party
 ||micpn.com^$script,third-party
@@ -39885,7 +39927,6 @@ zzzyk.com###Tinfo
 ||minixiazai.com/statics/js/soft/index.js
 ||minkatu.com^$third-party
 ||minsk-in.net/counter.php?
-||minute-host-birth.com^
 ||minute.ly^$third-party
 ||minutemediacdn.com/campaign-manager-client/
 ||minutemediaservices.com^$third-party
@@ -39900,6 +39941,7 @@ zzzyk.com###Tinfo
 ||mirsuwoaw.com^$popup
 ||mirtesen.ru/js/ms.js
 ||misarea.com^$popup
+||miscotiaenlinepe.eshost.com.ar^
 ||miserly-phone.com^$popup
 ||misrepush.com^$third-party
 ||missav.com/pop?$popup
@@ -40119,6 +40161,7 @@ zzzyk.com###Tinfo
 ||moviepilot.de/assets/autotrack-
 ||moviesflix4k.club^$popup
 ||moviesflix4k.xyz^$popup
+||moviesuccess.hostoise.com^
 ||movingfwd.co^$popup
 ||movshow.com/*portal/
 ||mowenxi.com/1.png
@@ -40272,6 +40315,7 @@ zzzyk.com###Tinfo
 ||mwrf.net/images/js/*mrf.js
 ||mwrf.net/images/mrf/
 ||mwstats.net^$third-party
+||mx.mailhost12.net^
 ||mxapis.com^$third-party
 ||mxcdn.net^$domain=spiegel.de
 ||mxcdn.net^$third-party
@@ -40299,6 +40343,7 @@ zzzyk.com###Tinfo
 ||myaffpartners.com^$popup
 ||myanimelist.net/c/i/images/event/
 ||myanimelist.net/static/logging.html
+||myb1.hoothost.co^
 ||mybestdc.com^$popup
 ||mybettermb.com^$popup
 ||mybjx.net/theme/default/js/common/bjx_service_
@@ -40347,8 +40392,8 @@ zzzyk.com###Tinfo
 ||myhack58.com/Articleacb0
 ||myhack58.com^*0$script
 ||myhaitang.cc/assets/public/*.js
+||myhost.trade^
 ||myhost228228.ddns.net^
-||myhostcpl.com^
 ||myhostedrat.ddns.net^
 ||myhostisstillgood.hopto.org^
 ||myhostly.com^
@@ -40390,6 +40435,7 @@ zzzyk.com###Tinfo
 ||mysanantonio.com/413gkwMT/init.js
 ||myscoop-tracking.googlecode.com^$third-party
 ||mysdcc.sdccd.edu^*/.log/
+||myseolocal.com^
 ||myseostats.com^$third-party
 ||mysexgames.com/pix/ads/
 ||mysexgames.com/pix/best-sex-games/
@@ -40421,6 +40467,7 @@ zzzyk.com###Tinfo
 ||myvisitors.se^$third-party
 ||myweb.hinet.net/menu.htm
 ||mywebclick.net^$third-party
+||mywebhost.top^
 ||mywebstats.com.au^$third-party
 ||mywebstats.org^$third-party
 ||mywondertrip.com^$popup
@@ -40462,7 +40509,6 @@ zzzyk.com###Tinfo
 ||namnak.com/ga.js
 ||nan0cns.com^$document
 ||nan0cns.com^$popup
-||nanasuuakiaa.host^
 ||nanfengyl.com/static/js/zdad.js
 ||nanigans.com^$third-party
 ||nanoadexchange.com^$popup
@@ -40733,7 +40779,6 @@ zzzyk.com###Tinfo
 ||nex.163.com/q?
 ||nexac.com^$third-party
 ||nexage.com^$third-party
-||nexcesshostsupp.mallorca-transporte.com^
 ||nexeps.com^$third-party
 ||nexon.com/api/nxlog/
 ||nexon.com/nxlog-collect/
@@ -40744,7 +40789,6 @@ zzzyk.com###Tinfo
 ||nextclick.pl^$third-party
 ||nextdoor.*/ajax/ping_ndas/
 ||nextdoor.com/events/
-||nexthost.click^
 ||nextmillennium.io^$third-party,domain=~nextmillennium.com
 ||nextoptim.com^$popup
 ||nextoptim.com^$third-party
@@ -40758,7 +40802,6 @@ zzzyk.com###Tinfo
 ||nexx360-static.io^$third-party
 ||nexx360.io^$third-party
 ||nexxxt.biz^$third-party
-||neza.hostidc.net^
 ||nfcube.com/assets/img/pixel.gif
 ||nflshop.com/api/track
 ||nfmovies.com/pic/tu/*_863x59.
@@ -40786,6 +40829,7 @@ zzzyk.com###Tinfo
 ||ngsinspiringtga.info^$popup
 ||ngx273.inmotionhosting.com^
 ||nhentai.net/api/_/popunder?$popup
+||nhishost.club^
 ||nhk.or.jp/mpulse/boomerang/
 ||nhk.or.jp^*/bc.js
 ||nhl-web01-cluster.hosting-ch.ch^
@@ -40802,6 +40846,7 @@ zzzyk.com###Tinfo
 ||nicelocaldates.com^
 ||nicequest.com^$third-party
 ||nicerisle.com^$popup
+||nick.hostupdate.site^
 ||nickles.de/ivw/
 ||nicoad.nicovideo.jp/*/instream/tracking/
 ||nicolive.cdn.nimg.jp/relive/sp/browser-logs.
@@ -40848,6 +40893,7 @@ zzzyk.com###Tinfo
 ||njih.net^$third-party
 ||njxzwh.com/pcsoft/statics/ycgg/
 ||nkis.nikkei.com/imp?
+||nl1.hostry.host^
 ||nmc.cn/static/nmclog/nmclog.js
 ||nmgnews.com.cn/sys/online_calc.js
 ||nmrodam.com^$third-party
@@ -40860,7 +40906,6 @@ zzzyk.com###Tinfo
 ||noavoahevugrib.com^$popup
 ||noblocktape.com/stat/
 ||nodereal.ghost.io^
-||nodzhostinger.com.br^
 ||nofraud.com/js/device.js
 ||nofraud.com^*/customer_code.js
 ||noibu.com^$third-party
@@ -40898,6 +40943,7 @@ zzzyk.com###Tinfo
 ||nossairt.net^$popup
 ||nosto.com/analytics/
 ||notebrains.com^$image,domain=businessworld.in
+||nothostu.space^
 ||notifadz.com^$third-party
 ||notificationhost.com^
 ||notifpushnext.net^$popup
@@ -40950,12 +40996,9 @@ zzzyk.com###Tinfo
 ||nrs6ffl9w.com^$popup
 ||nrsfh.com/neirong/
 ||ns-cdn.com^*/ns_vmtag.js
-||ns1.avayahosting.com^
 ||ns1.hostasa.org^
-||ns1.hosterloving.blog^
+||ns1.hostlegends.com^
 ||ns1.hostwps.cn^
-||ns1.padyhost.com^
-||ns189.mukhost.uk^
 ||ns2.hostasa.org^
 ||ns3.hostasa.org^
 ||ns4.hostasa.org^
@@ -41135,6 +41178,7 @@ zzzyk.com###Tinfo
 ||officialmeta.bolt.host^
 ||offidocs.com/media/system/*afi$script,~third-party
 ||offshuppetchan.com^$popup
+||ofigyculeg.freehostyou.com^
 ||ofphanpytor.com^$popup
 ||ofredirect.com^$popup
 ||ofseedotom.com^$popup
@@ -41147,7 +41191,6 @@ zzzyk.com###Tinfo
 ||ogtrk.net^$popup
 ||oh100.com/js/pubuliu.
 ||ohayoo.io^$third-party
-||ohiouniversity.hosted.zebyinbox.com^
 ||ohmygore.com/ef_pub
 ||ohmystats.com^$third-party
 ||ohnorobot.com/verify.pl?
@@ -41163,7 +41206,6 @@ zzzyk.com###Tinfo
 ||oklink.com/jsstat/
 ||okokserver.com/uploads/lesi/
 ||okooo.com/I/?method=system.data.ad&
-||okrhosting.com^
 ||okt.to^$third-party
 ||oktopost.com^$third-party
 ||okueroskynt.com^$popup
@@ -41207,6 +41249,7 @@ zzzyk.com###Tinfo
 ||omniconvert.com^$third-party
 ||omnie.ai/api/ddMetric
 ||omnilocal.ai^
+||omnilocalcare.com^
 ||omsnative.de/tracking/
 ||omynews.net^$third-party
 ||omzal.com^$document
@@ -41247,6 +41290,7 @@ zzzyk.com###Tinfo
 ||onehostcloud.net^
 ||oneinstack.com/images/oneinstack-
 ||onelink.me^$image,script,third-party
+||onelocal.host^
 ||onepush.app^$third-party
 ||oneroof.co.nz/*/record-log/
 ||onescreen.net/os/static/pixels/
@@ -41435,7 +41479,6 @@ zzzyk.com###Tinfo
 ||oshkosh.com/0F3091f3/init.js
 ||osiaffiliate.com^$third-party
 ||ositracker.com^$third-party
-||osmoghost.com^
 ||ospreymedialp.com^$third-party
 ||oss-ap-southeast-1.aliyuncs.com/js/copy.js
 ||ossfloetteor.com^$popup
@@ -41472,7 +41515,6 @@ zzzyk.com###Tinfo
 ||oundhertobeconsist.org^$popup
 ||oungimuk.net^$popup
 ||our-localfirstbnk.pages.dev^
-||ouraanthosthenature.com^
 ||ourcommonnews.com^$popup
 ||ourcommonstories.com^$popup
 ||ourcoolposts.com^$popup
@@ -41503,6 +41545,7 @@ zzzyk.com###Tinfo
 ||outster.com^$third-party
 ||outwingullom.com^$popup
 ||oval.id/tracker/
+||ovalhost.co^
 ||ovardu.com^$document
 ||ovardu.com^$popup
 ||ovdimin.buzz^$popup
@@ -41570,9 +41613,9 @@ zzzyk.com###Tinfo
 ||pa5ka.com^$popup
 ||paaeeets.net^$popup
 ||pabidding.io^$third-party
+||pablodaniel1779812892380.2091781.meusitehostgator.com.br^
 ||pac.talksport.com/track
 ||pacha-wui.com^$document
-||packethost.online^
 ||packethosting.net^
 ||paddle.com^*/analytics.js
 ||paeastei.net^$popup
@@ -41626,7 +41669,7 @@ zzzyk.com###Tinfo
 ||pandora.com/web-client-assets/displayAdFrame.
 ||panelghostscontractor.com^
 ||panelghostscontractor.com^$popup
-||paneljs.dimashost.xyz^
+||panelhosting.vip^
 ||panjin.net/ichat2/adhtml.htm
 ||panmeme.com^*/common.js
 ||panpan.org/js/google
@@ -41809,6 +41852,7 @@ zzzyk.com###Tinfo
 ||pega.com/logserver
 ||peise.net/Skin/js/global.
 ||pejzeexukxo.com^$popup
+||pelezhost2.freecluster.eu^
 ||pelis-123.org^$popup
 ||pelisfree.site/cdn-cgi/trace
 ||pelisfree.site/js/script_
@@ -41945,6 +41989,7 @@ zzzyk.com###Tinfo
 ||piccy.org.ua/c?
 ||picgd.com/images/*.gif
 ||picgd.com/images/2018/12/01/h1pi5.png
+||pichin-web.ihostfull.com^
 ||pichost.pics^
 ||pichost24.click^
 ||pichost24.club^
@@ -42217,7 +42262,6 @@ zzzyk.com###Tinfo
 ||polyh-nce.com^$popup
 ||polymorphicads.jp^$third-party
 ||polyvalent.co.in^$third-party
-||polywebhost.com^
 ||pomxd.com^$document
 ||pomxd.com^$popup
 ||pon-prairie.com^$popup
@@ -42360,6 +42404,7 @@ zzzyk.com###Tinfo
 ||posthostandshare.com^
 ||postimg.cc^*-960x60.
 ||postlnk.com^$popup
+||postofficeupdate.hostenko.net^
 ||potawe.com^$popup
 ||pothostio.live^
 ||potsaglu.net^$popup
@@ -42404,6 +42449,7 @@ zzzyk.com###Tinfo
 ||pravda.com.ua/counter/
 ||prchecker.info^$third-party
 ||prd.media.cnn.com/global/*/dash.mpd$domain=cnn.com
+||prd.tweethost.com^
 ||prdredir.com^$popup
 ||prebid.org^$third-party
 ||prebidmanager.com^$third-party
@@ -42469,6 +42515,7 @@ zzzyk.com###Tinfo
 ||primedatahost1.pics^
 ||primedatahost3.mom^
 ||primedia.co.za/analytics/
+||primehost365.net^
 ||primer.typekit.net^$xmlhttprequest
 ||primis-amp.tech^$third-party
 ||princesinistervirus.com^$popup
@@ -42586,7 +42633,6 @@ zzzyk.com###Tinfo
 ||protection-suggestion.com^$document
 ||protectsubrev.com^$third-party
 ||protizer.ru^$third-party
-||protonlocal.com^
 ||protrckit.com^$popup
 ||provenpixel.com^$document
 ||provenpixel.com^$popup
@@ -42615,6 +42661,7 @@ zzzyk.com###Tinfo
 ||psaugourtauy.com^$popup
 ||psaussasta.net^$popup
 ||psauwaun.com^$popup
+||psbd3.hostseba.com^
 ||psegeevalrat.net^$popup
 ||psh.one^$third-party
 ||psilaurgi.net^$popup
@@ -42855,6 +42902,7 @@ zzzyk.com###Tinfo
 ||qhimg.com/static/5dcd236fc857be9c,5b391c33a0748022.js
 ||qhimgs4.com/t01d8315ddb1a5adcce.gif
 ||qhnews.com/tupian/
+||qhost.digital^
 ||qhres.com/static/*/common/seed.js
 ||qhres.com/static/4b6ab193405b6ca3.js
 ||qhres.com/static/b4f92ac067a4768b/v4/modules/footer.js
@@ -43024,7 +43072,6 @@ zzzyk.com###Tinfo
 ||quge66.com/jdjd/
 ||quibids.com/marketing/pixels/
 ||quick-counter.net^$third-party
-||quickhost.digital^
 ||quickmeme.com/tracker/
 ||quickwittedfeedback.pro^$popup
 ||quilladot.org^$popup
@@ -43066,6 +43113,7 @@ zzzyk.com###Tinfo
 ||qyerstatic.com/common/models/common/component/footerBanner/
 ||qyun.vip/pic/*.gif
 ||qz496amxfh87mst.com^$popup
+||qzcjmuhost.click^
 ||qzlog.com^$third-party
 ||qzone.la/Scripts/m.js
 ||qzone.qq.com/iframe/report
@@ -43202,6 +43250,7 @@ zzzyk.com###Tinfo
 ||rbc.ru/redir/stat/
 ||rbc.ru/rightarror.gif
 ||rbc.ua/enghits/
+||rbhoster.com^
 ||rbl.ms/res/users/tracking/
 ||rbtfit.com^$document
 ||rbtfit.com^$popup
@@ -43227,7 +43276,6 @@ zzzyk.com###Tinfo
 ||reachlocalservices.com^$third-party
 ||reachmax.cn^$third-party
 ||reactful.com^$third-party
-||reactiongmxhost.hosted.phplist.com^
 ||reactx.com^$third-party
 ||read.amazon.*/uploadMetrics/
 ||readcube.com/assets/track_
@@ -43415,6 +43463,7 @@ zzzyk.com###Tinfo
 ||remkhosting.com^
 ||remv43-rtbix.top^$popup
 ||rencessedessations.com^$popup
+||rencontreslocales.com^
 ||renderbetter.net^$third-party
 ||rentalcars.com/?affiliateCode=$popup,domain=seatguru.com
 ||rentalcars.com/partners/
@@ -43437,6 +43486,7 @@ zzzyk.com###Tinfo
 ||reporo.net^$popup
 ||report-uri.com^$third-party
 ||report-uri.io^$third-party
+||reportdatahosting.com^
 ||reprintvariousecho.com^$popup
 ||reprocautious.com^$third-party
 ||reproio.com^$third-party
@@ -43463,11 +43513,9 @@ zzzyk.com###Tinfo
 ||resentreaccotia.com^$document
 ||resentreaccotia.com^$popup
 ||reservationday.com/metrics/
-||reserve-domeinhostel.com^
 ||resetdigital.co^$third-party
 ||reshin.de^$third-party
 ||residenceseeingstanding.com^$popup
-||resourcehost.net^
 ||responsetap.com^$third-party
 ||responsiverender.com^$popup
 ||respro.softhofhosting.com^
@@ -43682,7 +43730,6 @@ zzzyk.com###Tinfo
 ||rounddescribe.com^$popup
 ||roundflow.net^$document
 ||roundflow.net^$popup
-||route-a4.host.co.nl^
 ||route.com/collect
 ||routeapp.io/route-analytics/
 ||routes.name^$popup
@@ -43703,6 +43750,7 @@ zzzyk.com###Tinfo
 ||rs6.net^$image,script,third-party
 ||rsaltsjt.com^$popup
 ||rsj36.rhostjh.com^
+||rsm-hosting.com^
 ||rsppartners.com^$popup
 ||rspro.xyz/wp-content/uploads/*/redotpay.webp
 ||rss-loader.com/track/
@@ -43874,6 +43922,7 @@ zzzyk.com###Tinfo
 ||safevisit.online^$third-party
 ||sageanalyst.net^$third-party
 ||sagetrc.com^$third-party
+||sahamirani.host^
 ||sahibinden.com/sbbi/
 ||sail-horizon.com/horizon/$third-party
 ||saillevity.com^$popup
@@ -43911,7 +43960,7 @@ zzzyk.com###Tinfo
 ||sankei.co.jp/js/privacy/sando.js
 ||sanoma.nl/pixel/
 ||santaccount.kinghost.net^
-||santanderpod.fsthosting.com^
+||santrahosting.com^
 ||saohu*.com/config/json/cctv.json?
 ||sape.ru^$third-party
 ||sapha.com^$third-party
@@ -43958,6 +44007,7 @@ zzzyk.com###Tinfo
 ||sbi-push.com^$third-party
 ||sbitany.com^*/affiliate/$third-party
 ||sbo8.com/static/theme/js/bottom.
+||sc-specialhost.com^
 ||sc.g-cdn.net/tracker-i/main.js
 ||sc.g-cdn.net/tracker/gsms.js
 ||scaledb.com^$third-party
@@ -44073,9 +44123,7 @@ zzzyk.com###Tinfo
 ||searchenginereports.net/theAdGMC/$image
 ||searchfeed.com^$third-party
 ||searchignite.com^$third-party
-||searchingforlocals.com^
 ||searchiq.co/api/tr?
-||searchlightlocal.com^
 ||searchmeta.webhost.ru^
 ||searchmulty.com^$popup
 ||searchnowexpert.com/sr/
@@ -44093,8 +44141,6 @@ zzzyk.com###Tinfo
 ||secretbehindporn.com^$third-party
 ||secretbenefits.com/js/script.js
 ||secthatlead.com^$popup
-||secure-email-host.com^
-||secure-hosting.lol^
 ||secure.checkout.visa.com/logging/
 ||secure.cricket365.com/tag/
 ||secure.dawn3host.com^
@@ -44176,6 +44222,7 @@ zzzyk.com###Tinfo
 ||selectika.com/selectika-pixel.min.js
 ||selectmedia.asia^$third-party
 ||selfcampaign.com^$third-party
+||selfhost.nl^
 ||selfhost.online^
 ||selfhosted.online^
 ||selfhostedprivacyawarestats.futo.org^
@@ -44195,7 +44242,6 @@ zzzyk.com###Tinfo
 ||sempra.pro/stat/
 ||semqraso.net^$popup
 ||semtracker.de^$third-party
-||sendi118.hostlife.link^
 ||sendpulse.com^$third-party
 ||sendspace.com/defaults/sendspace-pop.html$popup
 ||sendtonews.com/stn_trk.gif?
@@ -44212,6 +44258,7 @@ zzzyk.com###Tinfo
 ||sentimentalflight.com^$document
 ||sentinelbi.com^$third-party
 ||sentinelpro.com^$third-party
+||sentrex.bluehat.hosting^
 ||sentry-cdn.com^$third-party,domain=~sentry.dev|~sentry.io
 ||sentry-cdn.top^$third-party
 ||sentry.io^$third-party
@@ -44232,6 +44279,7 @@ zzzyk.com###Tinfo
 ||sereanstanza.com^$popup
 ||serengeseba.com/static/view.js
 ||serie-vostfr.com^$third-party
+||seriesflix.host^
 ||serious-local.pro^
 ||serious-partners.com^$third-party
 ||sermonaudio.com/images/sponsors/
@@ -44245,7 +44293,6 @@ zzzyk.com###Tinfo
 ||servedby-buysellads.com^$third-party,domain=~buysellads.com
 ||serveipqs.com^$third-party
 ||servemeads.com^$third-party
-||server.instahosting.in^
 ||server.localrank.so^
 ||server.valuehost.com.br^
 ||server279.hosting.reg.ru^
@@ -44350,12 +44397,12 @@ zzzyk.com###Tinfo
 ||sfstatic.net/build/js/basicMetricsTracking.
 ||sg-activation.bolt.host^
 ||sg-confirmation.bolt.host^
+||sg.solhost.cc^
 ||sgben.com^$document
 ||sgenerale.bolt.host^
 ||sgenerale2.bolt.host^
 ||sgenerale9.bolt.host^
 ||sgk.xyz/static/js/pc.js
-||sgsmtp12.sgcloudhosting.com^
 ||sgtm.craftlands.host^
 ||sgtm.fairmont.
 ||sgtm.fashionunited.
@@ -44482,7 +44529,6 @@ zzzyk.com###Tinfo
 ||shoppinglifestyle.biz^$document
 ||shoptarget.com.br^$third-party
 ||shoptimally.com^$third-party
-||shoreshosting.com^
 ||short-wave.info/html/adsense-
 ||short.bitchute.com^$popup
 ||shorthand.com/analytics/
@@ -44571,7 +44617,6 @@ zzzyk.com###Tinfo
 ||simpleanalyticscdn.com^$third-party
 ||simpleanalyticsexternal.com^$third-party
 ||simplehitcounter.com^$third-party
-||simplelocalguide-tokyo.com^
 ||simplelogin.io/p/api/event
 ||simplereach.com^$third-party
 ||simpletraffic.co^$third-party
@@ -44842,6 +44887,7 @@ zzzyk.com###Tinfo
 ||smrt-content.com^$popup
 ||smrtmnk2.com^$document
 ||smsaffari.it/count_new.php?
+||smtp11.cp8nl.hyperhost.ua^
 ||smtrk.net^$third-party
 ||smutgamer.com/ta2b8ed9c305.js
 ||smutty.com/ajax/trcking/
@@ -44901,7 +44947,6 @@ zzzyk.com###Tinfo
 ||sobaigu.com/images/server_tourist.jpg
 ||sobakenchmaphk.com^$popup
 ||sobeycloud.com/Services/Stat.
-||sobhanhost.cfd^
 ||sobt8.org/Public/static/js/common.js
 ||soccer.ru/counter/
 ||soccerinhd.com/aclib.js
@@ -44985,12 +45030,12 @@ zzzyk.com###Tinfo
 ||soko.ai^$third-party
 ||sokrati.com^$third-party
 ||sol-data.com^$third-party
+||sol-host.cc^
 ||solaranalytics.org^$popup
 ||solarcdn.me^$third-party
 ||solarwinds.com/ra-$script
 ||soldierreproduceadmiration.com^$popup
 ||solidcams.com/api/metrics
-||solidwebhost.com^
 ||solispartner.com^$popup
 ||solosegment.com^$third-party
 ||solucx.com.br^$third-party
@@ -45016,7 +45061,6 @@ zzzyk.com###Tinfo
 ||sooopu.com/js/contentad330.js
 ||soperson.com^$third-party
 ||sophi.io^$third-party
-||sophostraining.org^
 ||sophus3.com^$third-party
 ||sorcerers.net/images/aff/
 ||sorcerers.net/includes/butler/
@@ -45101,7 +45145,6 @@ zzzyk.com###Tinfo
 ||speednetwork14.com^$popup
 ||speedrun.com/bluepill.js
 ||speedsupermarketdonut.com^$popup
-||speedtest-us-sjc.niihost.win^
 ||speedtest.cn/api/v2/show
 ||speedtest.cn/assets/images/ce_
 ||speedtest.dailymotion.com/latencies.js
@@ -45112,6 +45155,7 @@ zzzyk.com###Tinfo
 ||spendcrazy.net^$popup
 ||sperans-beactor.com^$popup
 ||sperebnf.click^$popup
+||sperm.com.br.edneifernandodonasci1741979926451.2531127.myhostgator.site^
 ||sphdigital.com.sg/_plat/$domain=zaobao.com.sg
 ||sphostserver.com^
 ||sphostserver.com^$third-party
@@ -45198,10 +45242,12 @@ zzzyk.com###Tinfo
 ||srmdata.com^$third-party
 ||srowox.com^$document
 ||srpx.net^$third-party
+||srrladieshostel.com^
 ||srtrak.com^$popup
-||srv025260171.host.ultaserver.net^
+||srv285422580.host.ultasrv.net^
 ||srv2trking.com^$popup
-||srv662579641.host.ultaserver.net^
+||srv310292860.host.ultaserver.net^
+||srv679804763.host.ultaserver.net^
 ||srvhost.servehttp.com^
 ||srvmath.com^*/analytics.js
 ||srvpcn.com^$document
@@ -45225,6 +45271,7 @@ zzzyk.com###Tinfo
 ||ssgdfs.com/kr/common/getPageIcfCd
 ||ssh.*.com^*!$script,third-party
 ||ssjv1.com/dm/
+||ssl-host.org^
 ||ssl-images-amazon.com/images/*/DAsf-
 ||ssl-images-amazon.com/images/*/MAsf-
 ||ssl-images-amazon.com/images/I/21auWwkMYgL.js$domain=imdb.com
@@ -45388,6 +45435,7 @@ zzzyk.com###Tinfo
 ||stats.fr^$third-party
 ||stats.ghostiam.dev^
 ||stats.hostplus.com.au^
+||stats.lead.mysitehosted.com^
 ||stats.live-video.net^$domain=kick.com
 ||stats.locallabs.com^
 ||stats.localmetravel.com^
@@ -45457,9 +45505,11 @@ zzzyk.com###Tinfo
 ||stilanzeigen.net/track/
 ||stileproject.com/vhtk/
 ||stimaariraco.info^$popup
+||stintino.host^
 ||stippleit.com^$third-party
 ||stirr.com/api/ads/
 ||stirr.com/api/stats
+||stknzi.host^
 ||stlog*-local.kakao.com^
 ||stockanalysis.com/cfa/
 ||stockstar.com/*DUILIAN&t=
@@ -45535,7 +45585,6 @@ zzzyk.com###Tinfo
 ||streams.tv/js/slidingbanner.js
 ||streamsearchclub.com^$popup
 ||streamsend.com^$third-party
-||streamsharehost.com^
 ||streamta.pe/stat/
 ||streamta.site/stat/
 ||streamtape.cc/stat/
@@ -45690,7 +45739,9 @@ zzzyk.com###Tinfo
 ||support.github.com/session/event
 ||support.github.com/session/user
 ||support.google.com/apis/logjourney
+||support.host-it.ie^
 ||supportxmr.com^$third-party
+||supreme-host.net^
 ||supremeadblocker.com^$popup
 ||suptraf.com^$document
 ||suptraf.com^$popup
@@ -45717,7 +45768,6 @@ zzzyk.com###Tinfo
 ||svc.dynamics.com/f/m/$third-party
 ||svc.dynamics.com/t/v/$third-party
 ||svc.dynamics.com/t/w$third-party
-||svchost.gutaf.ru^
 ||svhostwp.duckdns.org^
 ||sviluppo.host^
 ||svtrd.com^$third-party
@@ -45743,6 +45793,7 @@ zzzyk.com###Tinfo
 ||swiftypecdn.com/te.js$third-party
 ||swinity.com^$popup
 ||swiss-counter.com^$third-party
+||swisschpass.dreamhosters.com^
 ||swncdn.com/ads/$domain=christianity.com
 ||swomanifefashionis.org^$popup
 ||swoole.com/_images/kundian
@@ -45953,7 +46004,6 @@ zzzyk.com###Tinfo
 ||targeta41.net^$popup
 ||targetads.io^$third-party
 ||targetfuel.com^$third-party
-||targetghost.top^
 ||targetingnow.com^$popup
 ||targetingnow.com^$third-party
 ||targetix.net^$third-party
@@ -45977,6 +46027,7 @@ zzzyk.com###Tinfo
 ||taz.de/count/
 ||tb58.net/plugin.php?id=tb58_
 ||tbao684tryo.com^$document
+||tbc-hosting.com^
 ||tbcconnect.ge^$third-party
 ||tbcdn.cn/mm/tanxssp-custom/sina_
 ||tbd54566975.ghost.io^
@@ -46007,7 +46058,6 @@ zzzyk.com###Tinfo
 ||teasernet.com^$third-party
 ||teasernet.ru^$third-party
 ||tech426.com/pub/
-||techhosthub.com^
 ||techhostseo.blog^
 ||techiteration.com^$popup
 ||techlab-cdn.com^$third-party
@@ -46026,7 +46076,6 @@ zzzyk.com###Tinfo
 ||tedo-stats.de^$third-party
 ||teenfinder.com/landing/$popup,third-party
 ||teenhost.net^
-||teenpornhub.com.info.nl1.hostry.host^
 ||teenporno.xxx/ab/
 ||tegleebs.com^$popup
 ||tejoafotocmal.com^$popup
@@ -46116,6 +46165,7 @@ zzzyk.com###Tinfo
 ||tfg2.com/images/upfile/banner/
 ||tgb.cn/res/js/tgbgg/
 ||tgdaudience.com^$third-party
+||tgdohost.click^
 ||tgel2ebtx.ru^$document
 ||tget.me^$third-party
 ||tgknt.com^$third-party
@@ -46136,6 +46186,7 @@ zzzyk.com###Tinfo
 ||the-cassandra-files.ghost.io^
 ||the-dread-literary-review.ghost.io^
 ||the-group.net/aether/
+||the-local-guide.co.uk^
 ||the-silence-tax.ghost.io^
 ||theactivetag.com^$third-party
 ||theadex.com^$third-party
@@ -46149,6 +46200,7 @@ zzzyk.com###Tinfo
 ||theblock.co/api/analytics
 ||thebookseller.com/AfoSiteAnalysis/
 ||thecarconnections.com^$popup
+||thecathedralhostel.info^
 ||thechronicles2.xyz^$popup
 ||theconversation.com/javascripts/lib/content_tracker_hook.js
 ||thecounter.com^$third-party
@@ -46171,7 +46223,6 @@ zzzyk.com###Tinfo
 ||thehealthsite.com/apstag.js
 ||thehill.com/6zcfGH4h/init.js
 ||thehiveworks.com/*/fallback.js$domain=snafu-comics.com
-||thehost.online^
 ||thehour.com/413gkwMT/init.js
 ||thehun.net/banners/
 ||theindependentbd.com/assets/images/banner/
@@ -46179,8 +46230,8 @@ zzzyk.com###Tinfo
 ||theirbellstudio.co^$popup
 ||thekitchn.com/jAYekY18/init.js
 ||theladders.com/api/user-tracking/
+||thelocalbuzz.site^
 ||thelocalsscoop.com^
-||thelocaltribe.com^
 ||thelotter-affiliates.com^$third-party
 ||themesltd.com/online-users-counter/$third-party
 ||themespixel.net/banners/
@@ -46251,6 +46302,7 @@ zzzyk.com###Tinfo
 ||thronecdn.com/analytics/
 ||thscore.fun/mn/
 ||thumbzilla.com/_xa/ads
+||thz-hosting.com^
 ||thztv.*/tool/
 ||tianji520.cn^$third-party
 ||tianmu.com/DA201
@@ -46485,6 +46537,7 @@ zzzyk.com###Tinfo
 ||topflownews.com^$popup
 ||topgurudeals.com^$popup
 ||tophitbit.com^$third-party
+||tophost.click^
 ||tophost.dynamicdns.co.uk^
 ||tophostbg.net^
 ||tophosting101.com^
@@ -46568,6 +46621,7 @@ zzzyk.com###Tinfo
 ||tovery.net^$third-party
 ||tower.jp/bundle/beacon
 ||townnews.com/tucson.com/content/tncms/live/libraries/flex/components/ads_dfp/
+||tox.rsh.mybluehostin.me^
 ||toxtren.com^$popup
 ||toyota.com/analytics/
 ||tozoruaon.com^$popup
@@ -46590,7 +46644,6 @@ zzzyk.com###Tinfo
 ||tr.mail.solocal.com^
 ||tr.news.solocalms.fr^
 ||tr.solocal.espmp-aufr.net^
-||tr1.hostgator.com.tr^
 ||tra.scds.pmdstatic.net/advertising-core/
 ||tra.scds.pmdstatic.net/sourcepoint/
 ||tracdelight.com^$third-party
@@ -46618,7 +46671,6 @@ zzzyk.com###Tinfo
 ||track.kinetiksoft.com^$popup
 ||track.laredoute.fr^$image
 ||track.livesportnet.com^$popup
-||track.local-hotsite.com^
 ||track.omguk.com/c?$document
 ||track.robee.tech^$third-party
 ||track.tiara.
@@ -47032,7 +47084,6 @@ zzzyk.com###Tinfo
 ||turbobit.net/fd1/js/brinpopup.js
 ||turbobit.net/js/analytics/fdUserFingerprintToken.js
 ||turbobit.net/pus/
-||turbohost25.ru^
 ||turboviplay.com/ads_gala.js
 ||turkmenportal.com/images/uploads/banners/
 ||turn.com^$third-party
@@ -47141,16 +47192,16 @@ zzzyk.com###Tinfo
 ||u-on.eu^$third-party
 ||u.ctrip.com/showcaseadvertisementsit/
 ||u.riju.com/click.php
-||u0333428.isp.regruhosting.ru^
+||u0102520.cp.regruhosting.ru^
 ||u0466829.cp.regruhosting.ru^
 ||u0477674.cp.regruhosting.ru^
 ||u0482802.cp.regruhosting.ru^
+||u154611594.hostingerapp.com^
 ||u1pmt.com^$popup
 ||u26u.com^$popup,third-party
 ||u3183968.isp.regruhosting.ru^
 ||u532344488.hostingerapp.com^
 ||u5e.com^$third-party
-||u700222964.hostingerapp.com^
 ||u7do.sbs^$document
 ||u7u9.com^$third-party
 ||ua.financialexpress.com/api/capture
@@ -47158,7 +47209,6 @@ zzzyk.com###Tinfo
 ||uadblocker.com/pixel1.php?$third-party
 ||uadx.com^$third-party
 ||uai.com.br^*/analytics.js
-||ualocal6org.com^
 ||uarating.com^$third-party
 ||ub-analytics.com^$third-party
 ||ub.galaxus.
@@ -47227,9 +47277,9 @@ zzzyk.com###Tinfo
 ||ultimedia.com/js/common/smart.js$script,third-party
 ||ultra-soccer.jp/js/analytics.js
 ||ultracdn.top^$popup
-||ultradatahost1.homes^
-||ultradatahost2.mom^
-||ultradatahost3.sbs^
+||ultradatahost1.mom^
+||ultradatahost2.sbs^
+||ultradatahost4.cfd^
 ||ultraimg.com^$domain=18board.com|18p2p.com
 ||ultrapartners.com^$popup
 ||ultrapartners.com^$third-party
@@ -47403,6 +47453,7 @@ zzzyk.com###Tinfo
 ||usheebainaut.com^$popup
 ||usingageghoaft.net^$popup
 ||usizy.com/external/pageview
+||uslocalshop.com^
 ||usnews.com/static/esi/usn-geo.json
 ||usr-2253.hosti24.pl^
 ||usrfiles.com^$domain=melophobemusic.com
@@ -47433,6 +47484,7 @@ zzzyk.com###Tinfo
 ||uxmatters.com/images/sponsors/
 ||uxxux.com/js/zd.js
 ||uzerly.net^$third-party
+||uzp.apz.mybluehostin.me^
 ||uzrating.com^$third-party
 ||v.blog.sohu.com/dostat.do?
 ||v.center^$third-party
@@ -47557,6 +47609,8 @@ zzzyk.com###Tinfo
 ||vgao.xyz/images/*.gif
 ||vghd.com^$third-party
 ||vhanime.com/js/bnanime.js
+||vhhg.ghosttracebuildhaze.monster^
+||vhostpro.com^
 ||viadata.store^$third-party
 ||viads.com^$third-party
 ||viads.net^$third-party
@@ -47587,6 +47641,7 @@ zzzyk.com###Tinfo
 ||video.mobile.yahoo.com/log|$xmlhttprequest
 ||video.oms.eu^$third-party
 ||video.qq.com/checktime?
+||video02.videohost.top^
 ||videoadblockerpro.com^$popup
 ||videoamp.com^$third-party
 ||videocampaign.co^$popup
@@ -47628,6 +47683,7 @@ zzzyk.com###Tinfo
 ||view.email.hostplus.com.au^
 ||viewar.org^$third-party
 ||viewdeos.com^$script,third-party
+||viewhosts.com^
 ||viewlnk.com^$popup
 ||viewtraff.com^$third-party
 ||viglink.com/api/ping$third-party
@@ -47713,6 +47769,7 @@ zzzyk.com###Tinfo
 ||visilabs.net^$third-party
 ||visionarycompany52.com^$third-party
 ||visioncriticalpanels.com^$third-party
+||visionlocal.click^
 ||visionsage.com^$third-party
 ||visistat.com^$third-party
 ||visit-japan.jp/parts/visitjapan_f35_170_170.jpg
@@ -47772,7 +47829,6 @@ zzzyk.com###Tinfo
 ||vizoalygrenn.com^$popup
 ||vizury.com/analyze/
 ||vizury.com^$third-party
-||vizzhost.com^
 ||vizzit.se^$third-party
 ||vjie.com^$third-party
 ||vk.com/al_video.php?act=ads_stat
@@ -47851,9 +47907,10 @@ zzzyk.com###Tinfo
 ||vps-41077.vps-default-host.net^
 ||vps140325.inmotionhosting.com^
 ||vps140923.inmotionhosting.com^
+||vps1500577.vs.server-hosting.expert^
 ||vps234.com/resources/images/hosting-promotion/
+||vps23702.hosted-by-eurohoster.org^
 ||vpsbenchmarks.com/plausible.vpsb.js
-||vpvphost.click^
 ||vq4b0q.fun^$popup
 ||vrbo.com/edap/elo/v1/event/beacon
 ||vrbo.com/serp/api/metrics
@@ -47920,7 +47977,6 @@ zzzyk.com###Tinfo
 ||wacowla.com/wp-content/plugins/popover/js/
 ||wahoha.com^$popup
 ||wai69.com/js/baidu/
-||waimaohost.com^
 ||waipian*.com/statics/recommend/
 ||waisheph.com^$popup
 ||waitrose.com/gDaVC7/
@@ -48015,7 +48071,6 @@ zzzyk.com###Tinfo
 ||wct.link^$popup
 ||wdff.buzz/hengf.
 ||wdsvc.net^$third-party
-||we-only.statichost.page^
 ||we-stats.com^$third-party
 ||we560.com/js/*.js
 ||wealthfront.com/cm/metrics
@@ -48045,7 +48100,7 @@ zzzyk.com###Tinfo
 ||web.w300.vhostgo.com^
 ||web.whatsapp.com/wam
 ||web3ads.net^$third-party
-||web4200.craft-host.ru^
+||web4067.craft-host.ru^
 ||web8.net^$third-party
 ||webads.eu^$third-party
 ||webads.nl^$third-party
@@ -48085,12 +48140,10 @@ zzzyk.com###Tinfo
 ||webgozar.com/c.aspx*&t=counter
 ||webgozar.ir/c.aspx*&t=counter
 ||webhits.de^$third-party
-||webhost01.atmires.be^
-||webhosterg.com^
 ||webhosting-ads.home.pl^
 ||webhostinghunter935.weebly.com^
 ||webhostinguse.com^
-||webhostvine.com^
+||webhostingwebsite.info^
 ||webhusethost.dk^
 ||webiqonline.com^$third-party
 ||webjx.com/zanzhushang/
@@ -48127,7 +48180,6 @@ zzzyk.com###Tinfo
 ||websecurity.norton.com^$third-party
 ||webseed.com/WP/
 ||webser99-mxhost997.vercel.app^
-||webserverhost.top^
 ||webserviceaward.com^$third-party
 ||webservis.gen.tr^$third-party
 ||webshark.pl^$third-party
@@ -48239,12 +48291,12 @@ zzzyk.com###Tinfo
 ||werbestandard.de/out2/$popup
 ||werkenntdenbesten.de/js/tracking.
 ||werkenntdenbesten.de/pd.js
+||wertikeo.free.nowhosting.kr^
 ||west.cn/vcp/getJScode/
 ||westca.com/server/
 ||westcoa.com^$popup
 ||weste.net/js/showpagead.js
 ||westiron.byethost7.com^
-||wet.solhost.cc^
 ||wetpaint.com^*/track?
 ||wetpussygames.com/t78d42b806a3.js
 ||wetrackgames.com^$document
@@ -48304,7 +48356,6 @@ zzzyk.com###Tinfo
 ||whoson.com/poll.gif
 ||whoson.com/w.js
 ||whosread.com/counter/
-||whostapp.net^
 ||whoucheehy.net^$popup
 ||whouphesaussums.net^$popup
 ||whoursie.com^$popup
@@ -48349,8 +48400,10 @@ zzzyk.com###Tinfo
 ||wikipedia.org/ins-502b/v2/events
 ||wikopole-local.pl^
 ||williamlong.info/script/sidebar.js
+||wilsonhousecamden.hostel.town^
 ||win2008.info/gongyi.gif
 ||windows.net/732d.js
+||windowshostnamehost.club^
 ||windowszj.net/d/js/list/click
 ||windy.com/sedlina/ga/
 ||wine-searcher.com/K6S8okp3/init.js
@@ -48394,7 +48447,6 @@ zzzyk.com###Tinfo
 ||wlxww.com/html/analytics/
 ||wmcdp.io^$third-party
 ||wmediahosting.com^
-||wmfjska.hostsonaten.com^
 ||wmmediacorp.com^$third-party
 ||wmptengate.com^$popup
 ||wmtools.it/wmtcounter.php?
@@ -48415,6 +48467,7 @@ zzzyk.com###Tinfo
 ||wolfram.com/common/javascript/analytics.js
 ||wolfram.com/common/javascript/wal/latest/walLoad.js
 ||wolsretet.net^$popup
+||wombatscityhostelviennathelounge.at-austria.com^
 ||womm.com.tr/0/sendEventV2
 ||womtp.com^$third-party
 ||wonder-ma.com^$third-party
@@ -48448,6 +48501,7 @@ zzzyk.com###Tinfo
 ||worldfreshblog.com^$popup
 ||worldlogger.com^$third-party
 ||worldmarket.com/px/XMpXrQpA/init.js
+||worldquantumledgerxlive.online.torque-4580151e.mileswebhosting.com^
 ||worldremit.com/web-cms/api/metric
 ||worldsbestcams.com^$third-party
 ||worldssl.net/reporting.js
@@ -48531,8 +48585,6 @@ zzzyk.com###Tinfo
 ||wuxibus.com/Image/title
 ||wuxingruoyin.top/public/*/plugins/
 ||wuyunks.com/1.
-||wvw.tweethost.com^
-||ww.hostrocketsupport.net^
 ||ww7814.win/pic
 ||ww9874.com/asset/playerInit.js
 ||wwads.cn^$third-party
@@ -48555,12 +48607,14 @@ zzzyk.com###Tinfo
 ||www.youtube.com/get_midroll_$domain=youtube.com
 ||wwwbaiducom.xyz/4/js4/
 ||wwwcdn.kimiss.net/btn/
+||wwwnetnetsolutiohost.ncecreditunion.com^
 ||wwwpromoter.com^$popup
 ||wwwxxx.uno/pop-code.js
 ||wwwxxx.uno/taco-code.js
 ||wwydakja.net^$popup
 ||wwzw.cc/img/
 ||wx.sina.com.cn/iframe/pdps/
+||wxbpub.host^
 ||wxc.cc/scripts/gg.
 ||wxhiojortldjyegtkx.bid^$popup
 ||wy213.com^$popup,third-party
@@ -48723,6 +48777,7 @@ zzzyk.com###Tinfo
 ||xkzzz.com/zb_users/plugin/MoreLinks/MoreLinks.
 ||xl.pt/api/stats.ashx?
 ||xl720.com/tmp/
+||xlargehost.site^
 ||xlgirls.com/banner/$third-party
 ||xliirdr.com^$popup
 ||xlirdr.com^$popup
@@ -48747,7 +48802,6 @@ zzzyk.com###Tinfo
 ||xmrpool.net^$third-party
 ||xmtrading.com^$third-party
 ||xn--e1aaipcdgnfsn.su^*/counter.php
-||xn--lidofistakeliquidstakingethstethconnectlog-y6b46066afandfh.ethearacorp.live.hosting21930.world^
 ||xnewsletter.de/count/counter.php?
 ||xng02.com/api.php?mod=ad&
 ||xnimg.cn^*/liveinc/rightlive.js
@@ -48798,11 +48852,11 @@ zzzyk.com###Tinfo
 ||xtv.cz/api/v3/log/
 ||xuan5.com^$third-party
 ||xuehi.cn/reward/reward
-||xueserverhost.com^
 ||xuexila.com^*-xxl.js
 ||xunlei.com/api/stat/rt/js?
 ||xunsu.cc/js/indexbottom.js
 ||xunyugong.xyz/sitejs/xunyugong.js
+||xurrad96.smallhost.pl^
 ||xuymgm.hostgator.mx^
 ||xuzhi.net/uploadfile/poster/960x50.jpg
 ||xv98.com/js/daohang
@@ -49006,7 +49060,6 @@ zzzyk.com###Tinfo
 ||yldr.io^$third-party
 ||ylih6ftygq7.com^$popup
 ||yllix.com^$third-party
-||ymca.hostel.town^
 ||ymetrica1.com^$third-party
 ||ymlykj.com/nuxt/static/liveBanner.jpg
 ||ynet.co.il/gpt/
@@ -49169,9 +49222,9 @@ zzzyk.com###Tinfo
 ||zahodi-ka.ru/ic/index_cnt.fcgi?
 ||zahodi-ka.ru^*/schet.cgi?
 ||zajukrib.net^$popup
-||zakhost34.my.id^
 ||zalando-lounge.*/api/tracking/
 ||zalando-prive.*/api/tracking/
+||zalandolocal.shop^
 ||zalo.me/v3/w/_zaf.gif
 ||zampda.net^$third-party
 ||zanderkllll.diowebhost.com^
@@ -49185,7 +49238,6 @@ zzzyk.com###Tinfo
 ||zantj.com/diao
 ||zap.buzz^$third-party
 ||zapcdn.space/zapret.js
-||zaphosted.com^
 ||zappos.com/err.cgi?
 ||zappos.com/karakoram/js/main.
 ||zarget.com^$third-party
@@ -49379,7 +49431,6 @@ zzzyk.com###Tinfo
 ||zp365.com/newhousered/hb-index-pop-
 ||zpiyi.com/public/js/global.js
 ||zprk.io^$third-party
-||zqphost.click^
 ||zrblog.net*/gg/
 ||zrlqm.com^$document
 ||zrlqm.com^$popup
