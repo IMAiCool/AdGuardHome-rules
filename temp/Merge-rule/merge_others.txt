@@ -6938,6 +6938,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 69games.xxx##[id^="center"] .I:has(> [class=""][href])
 69games.xxx,gamcore.com###tvnotice
 69games.xxx,porcore.com##body > [id][style^="position: fixed; top: 0px;"]
+69tang.org##a[id^="imgs_link"]
 69xx.one,69xx487.xyz,8mav.cc,av411.xyz,cable2055.cc,theav.xyz,thep178.com,theporn.cc,weav.xyz#?#[class]:-abp-has(>a>.q-responsive)
 6abc.com,abc11.com,abc13.com,abc30.com,abc7.com,abc7chicago.com,abc7news.com,abc7ny.com##.StickyAdWrapper
 6abc.com,abc11.com,abc13.com,abc30.com,abc7.com,abc7chicago.com,abc7news.com,abc7ny.com##.leaderboard2
@@ -11350,6 +11351,7 @@ baixing.com,leiphone.com,sina.com.cn##.top-banner
 baking-forums.com,windows10forums.com##div.message--post.message
 balkangreenenergynews.com##.banner-l
 balkangreenenergynews.com##.banner-premium
+ballroomdancers.com,digitimes.com,pintprice.com###adspace
 balls.ie##.gray-ad-title
 balls.ie##[type="doubleclick"]
 balls.ie##div[style="min-height: 170px;"]
@@ -11579,8 +11581,8 @@ bestfriendsclub.ca###theme-bottom-section > .section-content
 bestfriendsclub.ca###theme-top-section > .section-content
 bestjavporn.com,javdock.com,javhdporn.net##.related-native-banner
 bestlifeonline.com,bodynetwork.com,hellogiggles.com##.widget_gm_karmaadunit_widget
-bestlifeonline.com,eatthis.com##.inline
 bestlifeonline.com,eatthis.com,hellogiggles.com##.vi-video-wrapper
+bestlifeonline.com,eatthis.com,wolfsgamingblog.com##.inline
 bestlifeonline.com,zeenews.india.com##.first-ad
 bestoftelegram.com##a[href^="/ads/banner_ads?"]
 bestopview.com###pubtextnone
@@ -13603,6 +13605,7 @@ dailymail.co.uk,thisismoney.co.uk##.connatix-wrapper
 dailymail.co.uk,thisismoney.co.uk##.watermark
 dailymail.co.uk,thisismoney.co.uk#@#.article-advert
 dailymail.com##.billboard-container
+dailymail.com##.mol-products-module
 dailymotion.com##div[class^="AdBanner"]
 dailymotion.com##div[class^="DisplayAd"]
 dailymotion.com##div[class^="NewWatchingDiscovery__adSection"]
@@ -13911,7 +13914,6 @@ digitaltrends.com##.b-connatix
 digitaltrends.com##.dtads-location
 digitaltrends.com##.dtcc-affiliate
 digitaltrends.com,themanual.com##.dt-primis
-digitimes.com###adspace
 digitimes.com##.square-ad
 digitimes.com.tw##.dt-ad-block
 digitimes.com.tw##a[href*="/webad/"]
@@ -16693,6 +16695,8 @@ hilltimes.com##.elementor-element-5818a09
 himovies.sx##[style="text-align: center; margin-bottom: 20px; margin-top: 20px;"]
 hindustantimes.com###affiliate-shop-now
 hindustantimes.com###divshopnowRight
+hindustantimes.com##.adHeight270
+hindustantimes.com##.adHeight313
 hindustantimes.com##.affilaite-widget
 hindustantimes.com##.bottomFixAd
 hindustantimes.com##.h325
@@ -25477,6 +25481,7 @@ wnacg.com#@#.pcgg
 wncv.com##.simple-image
 woaimoon.com##div[id^="juan_"]
 woego.cn#@##topAds
+wolfsgamingblog.com##.wpa-about
 wolt.com#?#button:has(> div > div > div > span:has-text(Sponsored))
 wolt.com#?#div:has(> div > div > div > div > div > p:has-text(Sponsored))
 womansworld.com###taboola-article-1x1
@@ -32788,6 +32793,7 @@ zzzyk.com###Tinfo
 ||dev.to^*/billboards/post_comments^
 ||dev.to^*/billboards/post_sidebar^
 ||dev.visualwebsiteoptimizer.com/*/track-
+||dev.visualwebsiteoptimizer.com/ping_tpc.php
 ||dev2pub.com^$third-party
 ||devaluequalmrelative.com^$popup
 ||devatics.com^$third-party
@@ -34230,6 +34236,7 @@ zzzyk.com###Tinfo
 ||fhserve.com^$popup
 ||fhvfd.com^$document
 ||fideuram.it/js/cookie-manager/tracking-scripts.js
+||fierierghoster.cyou^
 ||figma.com/api/figment-proxy/
 ||figma.com/api/web_logger/
 ||figpii.com^$third-party
@@ -35126,6 +35133,7 @@ zzzyk.com###Tinfo
 ||ghjie.com/JS/youcegg.js
 ||ghjie.com/images/2012/images/bg
 ||ghost-5by.pages.dev^
+||ghost-loader.com^
 ||ghost580.com/js/nei4.js
 ||ghost8.cn^
 ||ghostaccesscloud.com^
