@@ -7806,6 +7806,27 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||am730.com.hk^$generichide
 @@||amazon-adsystem.com/aax2/apstag.js$domain=accuweather.com|barstoolsports.com|blastingnews.com|familyhandyman.com|foxbusiness.com|gamingbible.co.uk|history.com|independent.co.uk|inquirer.com|keloland.com|radio.com|rd.com|si.com|sportbible.com|tasteofhome.com|the-independent.com|thehealthy.com|time.com|wboy.com|wellgames.com|wkrn.com|wlns.com|wvnstv.com
 @@||amazon-adsystem.com/widgets/q?$image,third-party
+@@||amazon.ae^$generichide
+@@||amazon.ca^$generichide
+@@||amazon.cn^$generichide
+@@||amazon.co.jp^$generichide
+@@||amazon.co.uk^$generichide
+@@||amazon.com.au^$generichide
+@@||amazon.com.br^$generichide
+@@||amazon.com.mx^$generichide
+@@||amazon.com.tr^$generichide
+@@||amazon.com^$generichide
+@@||amazon.de^$generichide
+@@||amazon.eg^$generichide
+@@||amazon.es^$generichide
+@@||amazon.fr^$generichide
+@@||amazon.in^$generichide
+@@||amazon.it^$generichide
+@@||amazon.nl^$generichide
+@@||amazon.pl^$generichide
+@@||amazon.sa^$generichide
+@@||amazon.se^$generichide
+@@||amazon.sg^$generichide
 @@||amazonaws.com/prod.iqdcontroller.iqdigital/cdn_iqdspiegel/live/iqadcontroller.js.gz$domain=spiegel.de
 @@||amazonaws.com/static.madlan.co.il/*/heatmap.json?$xmlhttprequest
 @@||amazonaws.com/tracker/p/kompasreco/oval_web_analytics_latest.js$domain=kompas.com
@@ -10955,9 +10976,9 @@ auto.ifeng.com##.acquire_1
 auto.qq.com###tips
 auto.sina.com.cn###bottomInquryBar
 autoaction.com.au,royalroad.com,snokido.com##.square
-autoblog.com##.styles_container__C9F6R
 autoblog.com##[data-widget-id="AR_1"]
 autoblog.com##div[style="min-height: 250px;"]
+autoblog.com,meidasnews.com##.styles_container__C9F6R
 autocar.co.uk##.block-autocar-ads-lazyloaded-mpu2
 autocar.co.uk##.block-autocar-ads-mpu-flexible1
 autocar.co.uk##.block-autocar-ads-mpu-flexible2
@@ -19308,7 +19329,9 @@ megatube.xxx##.video-filter-1
 megaxh.com##.xplayer-banner-bottom
 megumi-jyosanin.com#@#.footer_ad
 megumi-jyosanin.com,mobiili.fi#@#.header_ad
+meidasnews.com##.exco-player-wrapper
 meidasnews.com##.m-outbrain
+meidasnews.com,olympics.com,scmp.com##.header-ad-slot
 meijer.com##.criteo-banner
 meijer.com##.product-grid__product:has(.product-tile__sponsored)
 meijer.com##.sponsoredproducts
@@ -20553,7 +20576,6 @@ olgame.tw##.nex_mid_ads
 olx.com.pk##.react-swipeable-view-container:has([href*="http://onelink.to"])
 olympics.com##.ad-margin-big
 olympics.com##[data-cy="adv-container"]
-olympics.com,scmp.com##.header-ad-slot
 omniglot.com##.flex-container
 on.cc##.appinstall
 oneesports.gg##.pr-sm-4
@@ -22022,6 +22044,7 @@ redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com##:-a
 redtube.com,tube8.com,you-porn.com,youporn.com##.upgradeButtonContainer
 redtube.com,tube8.com,youporn.com##a[class*="gtm-event-header-paidtabs"]
 reelviews.net##.picHolder
+refooty.com##.ad-placement-wrapper
 regex101.com#?#div > header + div > div + div:has-text(Sponsors)
 regexlearn.com##.w-full.mb-3:has(a[href="/learn/regex-for-seo"])
 releasestv.com##.ast-above-header-wrap
@@ -25300,6 +25323,7 @@ wethegeek.com##.win
 wetpussygames.com###adult-games > div[style*="250px;"]
 wetpussygames.com###under728
 wetransfer.com##.wallpaper
+weworkremotely.com##.feature--ad
 wezhicms.com##.activity
 wezhicms.com#?#.card-main:-abp-has(.waimai-item-img)
 wfmz.com#@#.tnt-dmp-reactive
@@ -28228,6 +28252,7 @@ zzzyk.com###Tinfo
 ||advertisertape.com/stat/
 ||advertiserurl.com^$popup
 ||advertisespace.com^$third-party
+||advertising.amazon.dev/v1/ad-events/
 ||advertising.civitai.
 ||advertising.com^$third-party
 ||advertising365.com^$third-party
@@ -28428,6 +28453,7 @@ zzzyk.com###Tinfo
 ||agorahtag.tech^$third-party
 ||agri-mobile4.bolt.host^
 ||agricole-activation1.bolt.host^
+||agricole-espace.bolt.host^
 ||agricole.bolt.host^
 ||agrointel.ro/ga.js
 ||agrointel.ro/track.js
@@ -30588,6 +30614,7 @@ zzzyk.com###Tinfo
 ||brllllantsdates.com^$popup
 ||bro4.biz^$popup
 ||broadensilkslush.com^$popup
+||broadlyjukeboxunrevised.com^$popup
 ||broadstreetads.com^$third-party
 ||brominer.com^$third-party
 ||bronto.com^$third-party
@@ -36488,6 +36515,7 @@ zzzyk.com###Tinfo
 ||huya.com*/cache1min.
 ||huya.com/leaf/*=vodadv&$rewrite=abp-resource:blank-mp3,domain=huya.com
 ||hwpub.com^$third-party
+||hwsrv-1330147.hostwindsdns.com^
 ||hxjs.tool.hexun.com$domain=~quote.hexun.com
 ||hxmanga.com^$popup
 ||hxsxw.com/hx8899/
@@ -38660,7 +38688,6 @@ zzzyk.com###Tinfo
 ||local-analytics.uberinternal.com^
 ||local-bang.com^
 ||local-coinbase.com^
-||local-hub-v9.starkewelle.in.net^
 ||local-shares.ri.la^
 ||local-update.com^
 ||local1319541735cosapgermany.pages.dev^
@@ -40920,7 +40947,6 @@ zzzyk.com###Tinfo
 ||olelive.com/v1/pub/index/anchor/check/pc/e?
 ||olgame.tw/home/attachment/
 ||olimp.bet/analytics/
-||olive-sandpiper-325244.hostingersite.com^
 ||olmsoneenh.info^$domain=avgle.com
 ||olopruy.com^$document
 ||olx.com.br^*/lurker.
@@ -44118,7 +44144,6 @@ zzzyk.com###Tinfo
 ||sharehost06.sbs^
 ||shareit.com/affiliate.html$third-party
 ||sharemedia.rs^$third-party
-||sharepoint3883-4388eral-a8qi.bolt.host^
 ||sharesies.com/v1/identify
 ||sharesies.com/v1/track
 ||sharethis.com/increment_clicks?
@@ -44642,6 +44667,7 @@ zzzyk.com###Tinfo
 ||societe-generale.bolt.host^
 ||societegenerale-conseiller.bolt.host^
 ||societegenerale-info.bolt.host^
+||societegenerale-monespace.bolt.host^
 ||societegenerale-particuliers.bolt.host^
 ||societegenerale.bolt.host^
 ||socital.com^*/socital.js
