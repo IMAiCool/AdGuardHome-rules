@@ -12464,6 +12464,8 @@ chanpindashi.com##.personal-information > a[href^="http"]:not([href*="chanpindas
 chaomi.cc##.cm-ads
 chaomi.cc,cpnn.com.cn,cs.com.cn,dyhjw.com,kkj.cn,my0538.com,mydrivers.com,ofweek.com,silver.org.cn,wendu.cn,y1118.com##.duilian
 chapaofan.com##a[href^="http"]:not([href*=".chapaofan."]) > img[src*=".sinaimg."]
+character.ai##.z-40.max-w-\[970px\]
+character.ai#?#.space-y-4 > .w-full:has-text(Advertisement)
 chargedretail.co.uk,foodstuffsa.co.za,thinkcomputers.org##.apPluginContainer
 charlieintel.com,dexerto.com##.bg-neutral-grey-4.items-center
 charlieintel.com,dexerto.com##.external\:bg-custom-ad-background
@@ -14403,6 +14405,7 @@ ebaumsworld.com#@#.promoAd
 ebaumsworld.com,greedyfinance.com##.divider
 ebay.co.uk,ebay.com,ebay.com.au##.srp-1p__link
 ebay.com##div[title="ADVERTISEMENT"]
+ebay.com,revolt.tv##.leaderboard_ad
 ebc.net.tw###lotteryfnc
 ebiotrade.com###dlBoxs
 ebiotrade.com###pop_banner1
@@ -15694,6 +15697,7 @@ gameslol.net,yabiladi.com##.pub_header
 gamesofdesire.com###chat
 gamesofdesire.com##[id^="skin_"]
 gamespot.com###block-72
+gamesradar.com##.dfp-leaderboard-container
 gamesradar.com##.in-article
 gamesradar.com,guitarworld.com,pcgamer.com,techradar.com,tomsguide.com,tomshardware.com,whathifi.com,windowscentral.com##.vid-present
 gamesradar.com,kiplinger.com,livescience.com,tomshardware.com,whathifi.com##.jwplayer__widthsetter
@@ -22049,6 +22053,7 @@ redtube.com,tube8.com,you-porn.com,youporn.com##.upgradeButtonContainer
 redtube.com,tube8.com,youporn.com##a[class*="gtm-event-header-paidtabs"]
 reelviews.net##.picHolder
 refooty.com##.ad-placement-wrapper
+refooty.com##.mobile-sticky-ad
 regex101.com#?#div > header + div > div + div:has-text(Sponsors)
 regexlearn.com##.w-full.mb-3:has(a[href="/learn/regex-for-seo"])
 releasestv.com##.ast-above-header-wrap
@@ -22092,7 +22097,6 @@ reverso.net##app-ads-block
 revimedia.com#@#a[href*=".revimedia.com/"]
 reviversoft.com##.promo_dr
 revolt.tv##.header-banner-wrapper
-revolt.tv##.leaderboard_ad
 revolution935.com##.qt-sponsor
 revolutionsoccer.net##.mls-o-adv-container
 revolver.news##.af-slim-promo
@@ -22467,6 +22471,7 @@ securenetsystems.net##.bannerPrerollArea
 security.org##.banner-img-container
 securityaffairs.com##.add-banner
 securityonline.info###block-59
+securityweek.com##.sw-block-webinar
 securityweek.com##.sw-bulletin
 securityweek.com##.sw-home-ads
 securityweek.com##.zox-post-ad-wrap
@@ -24902,7 +24907,6 @@ video.laxd.com###owDmcIsUc
 video.laxd.com##.ads-container
 video.laxd.com##.c-ad-103
 video.laxd.com##.side_banner
-video.tv-tokyo.co.jp,zeirishi-web.com#@##adspace
 videocelebs.net##.fp-brand
 videocelebs.net##.recl
 videogamemods.com##.topbanners
@@ -30263,6 +30267,7 @@ zzzyk.com###Tinfo
 ||birdsend.co/assets/static/js/pixel/
 ||birdsend.email/pixel
 ||birdsend.net/pixel
+||bisque-bison-333202.hostingersite.com^
 ||bit.ly/stats?
 ||bit.ly^$domain=boyfriend.tv|boyfriendtv.com
 ||bit.ly^$image,domain=tooxclusive.com
@@ -31876,7 +31881,6 @@ zzzyk.com###Tinfo
 ||coincodex.com/cdn-cgi/trace
 ||coinerra.com^$third-party
 ||coingolive.com/assets/img/partners/
-||coinlocallyapp.com^
 ||coinmama.com/assets/img/banners/
 ||coinmarketcap.com/static/img/cdp_ad_banner/
 ||coinmedia.co^$third-party
