@@ -1,8 +1,8 @@
 [Adblock Plus 1.1]
-! Checksum: u/WPrsVvLT5jXF8fe4wilA
-! Version: 202606251642
+! Checksum: BIE5Q+t7YYFdp9J1fQRNkw
+! Version: 202606260852
 ! Title: EasyPrivacy
-! Last modified: 25 Jun 2026 16:42 UTC
+! Last modified: 26 Jun 2026 08:52 UTC
 ! Expires: 1 days (update frequency)
 ! Homepage: https://easylist.to/
 ! Licence: https://easylist.to/pages/licence.html
@@ -955,6 +955,7 @@
 /fbevents.min.js
 /fbpix-events-
 /fbpixel.js
+/fcp/v1/i
 /fdmg-tag-manager/tags.js
 /fe_logger?
 /feature/metrics$xmlhttprequest
@@ -1162,6 +1163,7 @@
 /GTag/general_tracker.js
 /gtag/js?
 /gtagv4.js
+/gtgcore/?id=
 /gtm-data-layer-$script
 /gtm-listeners.js
 /gtm-suite.js
@@ -9085,6 +9087,7 @@ $third-party,xmlhttprequest,domain=opensubtitles.org
 ||hearstnp.com/log?
 ||heartbeat-pearl.vercel.app^
 ||heg-cp.com/upm/$third-party
+||heimdall.hearstapps.com^
 ||helix.bitformations.ca^
 ||hello.myfonts.net/count/
 ||hello.staticstuff.net^
@@ -52418,6 +52421,7 @@ $csp=child-src 'none'; frame-src *; worker-src 'none',domain=thepiratebay.org|vi
 ||logcollector.note.com^
 ||logql.yahoo.co.jp^
 ||m-oo-m.com/data/report/
+||majikichi.com/js/tracking.js
 ||mangaraw.to/api/v1/view/
 ||masutabe.info/js/access.js
 ||mayla.jp/TRACKING/
