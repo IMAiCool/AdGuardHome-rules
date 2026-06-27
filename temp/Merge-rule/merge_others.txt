@@ -230,7 +230,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .backcountry.com/o/$image
 .bahn.de/op/$image
 .benchurl.com/c/o?$image
-.bgf0*lko.com/$script,xmlhttprequest,third-party
 .bhphotovideo.com/mo/
 .bid/ads/
 .birdsend.net/o/$image
@@ -441,7 +440,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .html?android=hx*&_$csp=script-src
 .html?clicktag=
 .html|$domain=www.gamer.com.tw
-.hur0*kns.com/$script,xmlhttprequest,third-party
 .icu/ads/
 .imgur.com/lumbar.gif
 .in/js/ads/
@@ -459,7 +457,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .inxmail-commerce.com/tracking/$image
 .inxserver.com/transparent.gif
 .io/js/ads/
-.jkn0*loi.com/$script,xmlhttprequest,third-party
 .jp/ads/$third-party,domain=~hs-exp.jp
 .jp/pv?
 .jp/static/js/track.js
@@ -511,7 +508,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .mkt2684.com/eos/
 .mkt51.net/eos/
 .moa0*ju.com/$script,xmlhttprequest,third-party
-.mos0*o9i.com/$script,xmlhttprequest,third-party
 .mozilla.org/eos/$image
 .mp4?*sdtfrom=&$domain=m.v.qq.com
 .n.2.1.js^$third-party
@@ -571,8 +567,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .qidian.com/floatOpBox.
 .qidian.com/gameBox.
 .qidian.com/pageOps.
-.qpqp0*oki.com/$script,xmlhttprequest,third-party
-.qsko0*mas.com/$script,xmlhttprequest,third-party
 .qualtrics.com/subscription/watermark.gif?
 .quora.com/qemail/mark_read?
 .recolution.de/tools/emails/open/$image
@@ -637,7 +631,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .umusic-online.com^*/o.gif
 .us/js/ads/
 .useinsider.com/pixel?$image
-.uuso0*qhs.xyz/$script,xmlhttprequest,third-party
 .v4.analytics.
 .vip/ads/
 .vip/gg/
@@ -7203,6 +7196,10 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 91porna.com,evgpopxb.cc##.modal-backdrop
 91porny.com##.container-fluid.p-0[class*="mb-"]
 91porny.com##.jsv-g1
+91porny.com,91porn.fans###main > div[class][id] > .mb-0
+91porny.com,91porn.fans##.videoPlayContainer > style + div[data-nosnippet]
+91porny.com,91porn.fans#?##main > div[class][id]:-abp-has(>style)
+91porny.com,91porn.fans#?#.colVideoList:-abp-has(>.video-elem>.d-block[href^="http"])
 91wenmi.com###xiezuo
 91wenmi.com###xzsp
 91wenmi.com##a[href^="http://www.91wenmi.com/xiezuo/"]
@@ -10094,9 +10091,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 [Adblock Plus 2.0]
 [Adblock Plus]
 ^endpoint=track^$image
-^kklq0*p0i.com/$script,xmlhttprequest,third-party
-^niu0*jd.top/$script,xmlhttprequest,third-party
-^ouqo0*luj.com/$script,xmlhttprequest,third-party
 _120_600.
 _120_600_
 _120x240.
@@ -25997,9 +25991,6 @@ xing.com##div[data-qa="jobs-inline-ad"]
 xing.com##div[data-qa="jobs-recommendation-ad"]
 xing.com##li[data-qa="notifications-ad"]
 xingkbjm.com##.d_textbanner
-xinhua348.com,jstv42.site,91porny.org,jstv600.com###main > div[id^="rd"]
-xinhua348.com,jstv42.site,91porny.org,jstv600.com##.footer + .block
-xinhua348.com,jstv42.site,91porny.org,jstv600.com#?#.card:-abp-has(>.card-image>a[href^="http"])
 xinhuanet.com##.adv-column2
 xinhuanet.com##.adv3
 xinhuanet.com##.columBox.book
@@ -30405,6 +30396,7 @@ zzzyk.com###Tinfo
 ||birdsend.co/assets/static/js/pixel/
 ||birdsend.email/pixel
 ||birdsend.net/pixel
+||bis.org/metrics/web.gif?
 ||bisque-bison-333202.hostingersite.com^
 ||bit.ly/stats?
 ||bit.ly^$domain=boyfriend.tv|boyfriendtv.com
@@ -37176,7 +37168,6 @@ zzzyk.com###Tinfo
 ||intrapromotion.com^$third-party
 ||intrastats.com^$third-party
 ||intravert.co^$third-party
-||intro-homelearn.ghost.io^
 ||intuit.com/static/scripts/cookie-sync/cookiesync-pixel.js
 ||intuitwebsites.com/tracking/
 ||inumbreonr.com^$popup
@@ -39801,6 +39792,7 @@ zzzyk.com###Tinfo
 ||moratame.tw/img/contents/banner
 ||mordoops.com^$popup
 ||morehitserver.com^$third-party
+||morningstar.com/api/v1/analytics
 ||mortgagecentres.net/banner.gif
 ||moshimo.com^$third-party
 ||moshimo.com^*/impression?
@@ -43669,6 +43661,7 @@ zzzyk.com###Tinfo
 ||segmetrics.io^$third-party
 ||segs.jp^$third-party
 ||sehiba.com^$third-party
+||seismic.com/playerservice/api/v1/log?
 ||seitentipp.com^$third-party
 ||seitwert.de^$third-party
 ||selaris.com^$third-party
