@@ -342,7 +342,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .com/logo/ad.js
 .com/logo/logo.js
 .com/logo/logoxia.js
-.com/m-2594|$script,third-party
 .com/mediaController.php?pid=$script,third-party
 .com/myjs/alljs.js
 .com/myjs/mys_alljs.js
@@ -4121,7 +4120,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /r.rnc?
 /r/*?_r=$object,subdocument,third-party
 /r/collect?
-/r/t1/*$subdocument,third-party
 /r/video/*$domain=youxi.baidu.com
 /rad_singlepageapp.js$script
 /radar/trace?
@@ -5931,7 +5929,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0.0.0.0 www3.webhostingtalk.com
 0.0.0.0 wym.sfu.mybluehost.me
 012.tw#@#.ad728
-020job.com##A[href^="/Click.aspx?AdPageID="]
 0439.com###kanfang
 0594.com##div[id^="PCMSAD_"]
 0594.com,164580.com,2234.cn,appinn.com,appledaily.com.tw,china.com,chinamedevice.cn,cnodejs.org,danyang.com,doyouhike.net,e3zy.com,haokan5.com,hc360.com,helloavgirls.com,hkjunkcall.com,meiyouad.com,moe48.com,qq.com,sina.com,sogou.com,tongren.gov.cn,uc123.com,up01.cc,wokao.co,yeeyi.com##.ads
@@ -5943,9 +5940,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0597kk.com##.lyhux_mu
 0597kk.com##div[style="width:960px; overflow:hidden; margin:2px auto; "]
 0597kk.com##img[width^="37"][height="30"]
-0597ok.com,nongjitong.com,typecho.wiki##.div_ad
 0598yu.com##.v1100_ad
-060s.com###header4
 07073.com###Vsss00
 07073.com###rightDiv > div[style="height:250px"]
 07073.com###tanchuang
@@ -6570,8 +6565,8 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 2cto.com##.adv980
 2cto.com##.adv980box
 2cto.com##div[style^="float:left;width:300px;"]
+2cycomic.com##body > a
 2cycomic.com##body > div > center
-2cycomic.com,whnyd.com##body > a
 2dfan.com,galge.fun###popadv-container
 2dfan.com,galge.fun##.collapse > a[href*=".taobao.com"]
 2dfan.com,galge.fun##.leftside-bg
@@ -7097,9 +7092,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 77mh.nl###bdtopbot
 7808.cn###float-chat
 7808.cn###force-popup
-789ys.com##h1[style]
-789ys.com,fffdm.com##ul[style]
-789ys.com,ruanyifeng.com##div[style*="important"]
 78dm.net###qpgg
 78dm.net##.ad_logor
 78dm.net##.add-980
@@ -7647,8 +7639,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@_prebid.js$domain=now.com
 @@|data:text^$popup,domain=box.com|clker.com|labcorp.com
 @@|http://r.i.ua/s?*&p*&l$image,domain=swordmaster.org
-@@||060s.com/images_ad/*.png
-@@||073img.com/*,*,
 @@||1.1.1.1/cdn-cgi/trace$xmlhttprequest,domain=myair.resmed.com|one.one.one.one
 @@||10010.cn^*/ad
 @@||10010.com/mall/common/js/fa.js?referer=
@@ -12277,8 +12267,6 @@ bsc.news##div[id^="bscn-ad-"]
 bsc.news,web3wire.news##.banner-one
 bt.cn##.left_wrap:nth-child(3)
 bt.cn,lotour.com##.btad
-bt1207ma.xyz##a[href*="/uuribao.com/"]
-bt1207ma.xyz##a[href*="/uuribao.com/"] + .caption
 btbtt.me###wrapper2 > .width
 btime.com###ad_full_button_placehoder
 btime.com###download
@@ -15173,6 +15161,7 @@ fextralife.com###content-add-a
 ff00::0 ip6-localnet
 ff02::3 ip6-allhosts
 fffdm.com##[style^="width"][style*="height"]
+fffdm.com##ul[style]
 ffxiv.xin,fotor.com.cn,weiyun.com,youdao.com#@#.icon-share
 fh21.com.cn###lbzxM
 fhm.com.tw###add-box
@@ -20611,6 +20600,7 @@ nofilmschool.com##[class^="rblad-nfs_content"]
 nogomania.com##div[data-ocm-ad]
 nolotiro.org#@#.ad-hero
 nongjitong.com##.ad_sms
+nongjitong.com,typecho.wiki##.div_ad
 noon.com###modules-renderer:has([class*="sponsored"])
 noon.com###noon-modules:has([class*="AdBrandVideo"])
 noon.com###noon-modules:has(div[data-qa="widget_AdMultiProductSide"])
@@ -22411,6 +22401,7 @@ ruanyifeng.com##a[href*=".apeclass.com"]
 ruanyifeng.com##a[href*=".kaikeba.com"]
 ruanyifeng.com##a[href*=".ke.qq.com"]
 ruanyifeng.com##a[href^="https://ke.qq.com/"]
+ruanyifeng.com##div[style*="important"]
 ruanyifeng.com##p[style="text-align:center;font-size: 16px;"]
 ruanyifeng.com#?#.asset-content > p:-abp-contains(/二维|助教|0 元|报名费|原价/) + p + p > img
 ruanyifeng.com#?#.asset-content > p:-abp-contains(/二维|助教|0 元|报名费|原价/) + p > img
@@ -24318,7 +24309,6 @@ thoughtco.com##.mntl-outbrain
 thrillist.com##[class^="Container__GridRow-sc-"]:has(> .concert-ad)
 thumbsnap.com##.ts-blurb-wrap
 thwiki.cc###a-carousel
-tianhaohz.com##span[style="display: block; clear: both; overflow: hidden;"]
 tianqi.com##.xcx_erweima
 tianshif.com###comment-ad
 tianshui.com.cn##td[height="420"]
@@ -25586,7 +25576,6 @@ whitecoatinvestor.com##.widget_abc
 whitecoatinvestor.com##[class*="blog-"][class*="-as"]
 whnews.cn###gd_l
 whnews.cn###gd_r
-whnyd.com##div[style*="height: 115px"]
 who-called.co.uk###snigel_ads-mobile
 who-called.co.uk##.advertLeftBig
 who.is##.teaser-bar
@@ -26627,9 +26616,6 @@ zzzyk.com###Tinfo
 ||03629e3.netsolhost.com^
 ||042.cn/adver/
 ||0439.com/javascript.php?part=advertisement&
-||0460.com/images/ad/
-||0460.com/images/banner/
-||0460.com/js/txtrec.js
 ||04cmm.com:8888/js
 ||04stream.tv/sda/
 ||0512s.com^$third-party
@@ -26637,7 +26623,6 @@ zzzyk.com###Tinfo
 ||0575bbs.com/js/float.js
 ||0575bbs.com/updateimeags/
 ||0579.cn/SHow/Showplacenew.aspx
-||0597ok.com/ilike/597/
 ||0598yu.com/api.php?mod=ad&
 ||0606kk.com/js/index/index.js
 ||07073.com/api/getKfList?
@@ -40487,6 +40472,7 @@ zzzyk.com###Tinfo
 ||njih.net^$third-party
 ||njxzwh.com/pcsoft/statics/ycgg/
 ||nkis.nikkei.com/imp?
+||nlab.itmedia.co.jp/scripts/cx.js
 ||nmc.cn/static/nmclog/nmclog.js
 ||nmgnews.com.cn/sys/online_calc.js
 ||nmrodam.com^$third-party
@@ -43719,6 +43705,7 @@ zzzyk.com###Tinfo
 ||servestats.com^$third-party
 ||servetean.site^$popup
 ||servhost.hopto.org^
+||service-support.byethost31.com^
 ||service-webmaster.fr/cpt-visites/$third-party
 ||service.iwara.tv/z/z.php
 ||service.smscoin.com/js/sendpic.js
