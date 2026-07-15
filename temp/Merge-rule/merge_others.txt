@@ -461,7 +461,9 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 .jp/pv?
 .jp/static/js/track.js
 .js?advertID=
+.js?i=*&referrer_url=
 .js?id=GTM-
+.js?rh=*&bh=
 .js?ssid=_$script,third-party
 .js?tg=$~third-party
 .k618.cn/sytab/
@@ -5486,6 +5488,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0.0.0.0 api.omnilocal.ai
 0.0.0.0 atom.freehosting.dev
 0.0.0.0 auth-check.byethost31.com
+0.0.0.0 auth-pomoc.byethost32.com
 0.0.0.0 avworld.activehosted.com
 0.0.0.0 ayerbo.xhost.ro
 0.0.0.0 banner1.pornhost.com
@@ -5587,6 +5590,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0.0.0.0 eupolaco.sviluppo.host
 0.0.0.0 ext.host-tracker.com
 0.0.0.0 free-money.host.sk
+0.0.0.0 freecpanel.host
 0.0.0.0 freehostservers.com
 0.0.0.0 freeimghost.trafflow.com
 0.0.0.0 gasasthe.freehostia.com
@@ -5618,7 +5622,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0.0.0.0 hosting.conduit.com
 0.0.0.0 hosting.sextracker.com
 0.0.0.0 hostingfreelife.com
-0.0.0.0 hostingoo.sviluppo.host
+0.0.0.0 hostingnana.com
 0.0.0.0 hostingprod.com
 0.0.0.0 hostingupp.net
 0.0.0.0 hostpowermedium.112.2o7.net
@@ -5684,7 +5688,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0.0.0.0 secure.ownlocal.com
 0.0.0.0 server44.dubhosting.co.uk
 0.0.0.0 service-support.byethost31.com
-0.0.0.0 serviceappleid.sviluppo.host
 0.0.0.0 serwer2675071.hosting-home.pl
 0.0.0.0 sexpe.localsavingsguide.com
 0.0.0.0 sleeper-sofa.dreamhoster.com
@@ -5695,8 +5698,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0.0.0.0 static.locallogic.co
 0.0.0.0 static.omnilocal.ai
 0.0.0.0 stayarriwes-hostels23.com
-0.0.0.0 staysroom-hostels871.com
-0.0.0.0 staysroom-hostels982.com
 0.0.0.0 swfhostltd.com
 0.0.0.0 tag.placelocal.com
 0.0.0.0 theadhost.com
@@ -5732,6 +5733,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0.0.0.0 www.adpeepshosted.com
 0.0.0.0 www.aparthost.com
 0.0.0.0 www.auth-check.byethost31.com
+0.0.0.0 www.auth-pomoc.byethost32.com
 0.0.0.0 www.bcloudhost.com
 0.0.0.0 www.bluecrabhosting.co.uk
 0.0.0.0 www.bry.hpj.mybluehost.me
@@ -5809,13 +5811,14 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0.0.0.0 www.dpdlocalq-pl.xyz
 0.0.0.0 www.echostoneunion.info
 0.0.0.0 www.eupolaco.sviluppo.host
+0.0.0.0 www.freecpanel.host
 0.0.0.0 www.freehostservers.com
 0.0.0.0 www.helpcenteraple.tempurl.host
 0.0.0.0 www.host-it.co.uk
 0.0.0.0 www.hostedfiles.net
 0.0.0.0 www.hostingcloud.science
 0.0.0.0 www.hostingfreelife.com
-0.0.0.0 www.hostingoo.sviluppo.host
+0.0.0.0 www.hostingnana.com
 0.0.0.0 www.hostingupp.net
 0.0.0.0 www.hostujmy.pl
 0.0.0.0 www.localappify.com
@@ -5842,13 +5845,10 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0.0.0.0 www.rubyknice.localsavingsguide.com
 0.0.0.0 www.sapienthost.com
 0.0.0.0 www.service-support.byethost31.com
-0.0.0.0 www.serviceappleid.sviluppo.host
 0.0.0.0 www.serwer2675071.hosting-home.pl
 0.0.0.0 www.sexpe.localsavingsguide.com
 0.0.0.0 www.srv250136.hoster-test.ru
 0.0.0.0 www.stayarriwes-hostels23.com
-0.0.0.0 www.staysroom-hostels871.com
-0.0.0.0 www.staysroom-hostels982.com
 0.0.0.0 www.tinyfilehost.com
 0.0.0.0 www.track.bpchost.info
 0.0.0.0 www.trekpleister.topxhost.com
@@ -6314,7 +6314,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 18moe.org##.alignnone[alt="恰饭广告"]
 18moe.vip##a[href^="http"]:not([href*="18moe.vip"]) > img[src*="tc.18moe.net"]
 18porn.sex,18teensex.tv,429men.com,4kporn.xxx,4wank.com,alotporn.com,amateur8.com,amateurporn.co,amateurporn.me,bigtitslust.com,camwhores.tv,danude.com,daporn.com,epicgfs.com,fapnow.xxx,fpo.xxx,freeporn8.com,fuqer.com,gayck.com,hentai-moon.com,hentai0day.com,heroero.com,hoes.tube,intporn.com,japaneseporn.xxx,javwind.com,jizzberry.com,mmshub.online,multi.xxx,onlyhentaistuff.com,porndr.com,sexjav.tv,sextubespot.com,sortporn.com,tabootube.xxx,trueamateurporn.org,vilevideos.com,watchmygf.xxx,watchporn.to,xcavy.com,xgroovy.com,xmateur.com,xxxshake.com##.table
-18porn.sex,amateur8.com,anyporn.com,area51.porn,bigtitslust.com,eachporn.com,fapster.xxx,fpo.xxx,freeporn8.com,hentai-moon.com,hentai0day.com,its.porn,izlesimdiporno.com,mmshub.online,pervertslut.com,porngem.com,pornmeka.com,porntop.com,sexvid.xxx,sortporn.com,tktube.com,uiporn.com,xhamster.com##.sponsor
+18porn.sex,anyporn.com,area51.porn,bigtitslust.com,eachporn.com,fapster.xxx,fpo.xxx,freeporn8.com,hentai-moon.com,hentai0day.com,its.porn,izlesimdiporno.com,mmshub.online,pervertslut.com,porngem.com,pornmeka.com,porntop.com,sexvid.xxx,sortporn.com,tktube.com,uiporn.com,xhamster.com##.sponsor
 18teensex.tv,3movs.xxx,adultdeepfakes.com,babesmachine.com,chaturbate.com,fboomporn.com,freepornpicss.com,gramateurs.com,happysex.ch,hdtube.porn,its.porn,kawaiihentai.com,milffox.com,oldies.name,paradisehill.cc,playporngames.com,playsexgames.xxx,playvids.com,porngames.com,private.com,submittedgf.com,teenextrem.com,video.laxd.com,vikiporn.com,vjav.com,watchhentaivideo.com,waybig.com,xbabe.com,xcum.com,xnudepics.com,youcanfaptothis.com,yourdailygirls.com,youx.xxx##.banner
 1905.com##.mobile_ad_promote
 1905.com##.zx-pic
@@ -10544,9 +10544,10 @@ am5.com##.ad-box-right-pc-1
 amateur-vids.eu,bestjavporn.com,deepfucks.com,mature.community,milf.community,milf.plus##.happy-footer
 amateur-vids.eu,camgirl-video.com,mature.community,milf.community,milf.plus##.happy-under-player
 amateur8.com###A8-Under-Video
-amateur8.com##.inp__wrapper
 amateur8.com##.is-av
-amateur8.com,maturetubehere.com###nopp
+amateur8.com##.item.pignu
+amateur8.com##.pignu[style="width: 100%; max-width:800px; aspect-ratio: auto; margin:0 auto; margin-bottom: 10px;"]
+amateur8.com##li.pignu
 amateurfapper.com,iceporn.tv,pornmonde.com##.sources
 amateurphotographer.com,cryptoslate.com,techspot.com##.cta
 amateurphotographer.com,sherwood.news##.content-ad
@@ -19375,6 +19376,7 @@ mati.hk##.banner_middle
 matongwu.com.cn##div[style="height:90px;clear:both;"]
 mature.community,milf.community,milf.plus,pornhub.com##img[width="300"]
 maturetubehere.com###lotal
+maturetubehere.com###nopp
 maxelevator.com,mcp79.com,olliemagic.com,stove-chijo.com#@##footer_ad
 maxi.ca##.product-tile-group__list__item:has([data-track-products-array*="sponsored"])
 maxjizztube.com###spotxt
@@ -24726,8 +24728,10 @@ twiman.net##div[class*="my-"][class*="px\]"]
 twinfinite.net###mvp-main-content-wrap
 twistedsifter.com###mm-player
 twistedsifter.com##.widget_sifter_ad_bigbox_widget
+twitch.tv##.online-video-ad-container
 twitch.tv##.stream-display-ad__wrapper
 twitch.tv##.video-player--stream-display-ad_lower-third {height:100%
+twitch.tv##[data-a-target="outstream-ax-overlay"]
 twitch.tv##[data-test-selector="sda-wrapper"]
 twitch.tv##button[aria-label="Learn more about this ad"]
 twitter.com,x.com##.promoted-account
@@ -28906,7 +28910,6 @@ zzzyk.com###Tinfo
 ||amateur.tv/cacheableContent/GetWContentV3/device/pc/target/normal/contentKey/affbmr/
 ||amateur.tv/freecam/$third-party
 ||amateur.tv/misc/mYcLBNp7fx.js
-||amateur8.com/ffd5/afb.js
 ||amateurhub.cam^$third-party
 ||amateurporn.net^$third-party
 ||amatrck.com^$popup
@@ -31079,6 +31082,7 @@ zzzyk.com###Tinfo
 ||cauditcommernal.com^$document
 ||cautommityring.com^$document
 ||cautommityring.com^$popup
+||cawsg.com^$document
 ||cb.com.cn/index/ad/
 ||cb1-mailhost-17-mweb-co-za.weebly.com^
 ||cbc.ca/g/stats/
@@ -31650,6 +31654,7 @@ zzzyk.com###Tinfo
 ||clientgear.com^$third-party
 ||clinch.co/a_js/client_pixels/
 ||clipcentric.com^$third-party
+||cliphotbokep.xyz^$document
 ||clipkit.co/clipkit_assets/beacon-
 ||clipkit.de/metrics?
 ||clips4sale.com^$domain=mrdeepfakes.com
@@ -35782,7 +35787,6 @@ zzzyk.com###Tinfo
 ||hellporno.com/_a_xb/
 ||hellporno.com^$subdocument,~third-party
 ||helmethomicidal.com^$popup
-||helpcenteraple.tempurl.host^
 ||helpmonks.com/cftag/
 ||helpnetsecurity.com/wp-admin/admin-ajax.php
 ||helpshift.com/events/
@@ -38584,7 +38588,6 @@ zzzyk.com###Tinfo
 ||localiseriphone.com^
 ||localisuivpylpip.fr^
 ||localizar-iphone.info^
-||localization-iphone.online^
 ||localjnail.shop^
 ||localleadsforbusiness.site^
 ||locallivingcfo.com^
@@ -38594,7 +38597,6 @@ zzzyk.com###Tinfo
 ||localmeadow.eu^
 ||localmediabuying.com^
 ||localnewsmatrix.com^
-||localnfp.org^
 ||localnyprogram.convertri.com^
 ||localo.fr^
 ||localofferdealrn.info^
@@ -38608,7 +38610,6 @@ zzzyk.com###Tinfo
 ||localrealtor.space^
 ||localredefined.com^
 ||localresponder.com^
-||localriacc.cyou^
 ||locals.dating^
 ||localsavingsguide.com^
 ||localsgowild.com^
@@ -39042,6 +39043,7 @@ zzzyk.com###Tinfo
 ||marmiton.org/reloaded/errpix.php
 ||maroohost.online^
 ||maropost.com^$third-party
+||marovia.cc^$document
 ||marsads.com^$third-party
 ||marsflag.com/mf2file/site/ext/tr.js
 ||marthaannesdiasthomp1746983281251.0640324.meusitehostgator.com.br^
@@ -40409,7 +40411,6 @@ zzzyk.com###Tinfo
 ||noowho.com^$third-party
 ||nordace.com/track.js
 ||nordicresearch.com^$third-party
-||nordpostapp.tempurl.host^
 ||nordstrom.com/api/cake/
 ||nordstrom.com/api/cupcake/
 ||nordstromrack.com/sponsoredads/
@@ -40426,7 +40427,6 @@ zzzyk.com###Tinfo
 ||nosto.com/analytics/
 ||notebrains.com^$image,domain=businessworld.in
 ||notifadz.com^$third-party
-||notificationhost.com^
 ||notifpushnext.net^$popup
 ||notify.solutions^$third-party
 ||notifyvisitors.com^$third-party
@@ -44534,7 +44534,6 @@ zzzyk.com###Tinfo
 ||srowox.com^$document
 ||srpx.net^$third-party
 ||srtrak.com^$popup
-||srv250136.hoster-test.ru^
 ||srv2trking.com^$popup
 ||srvhost.servehttp.com^
 ||srvmath.com^*/analytics.js
@@ -44753,7 +44752,6 @@ zzzyk.com###Tinfo
 ||stayforlong.com/api/kafka/tracking
 ||staysafeonlinetoday.com^$document
 ||staysroom-hostels871.com^
-||staysroom-hostels982.com^
 ||stayz.com.au/cl/data/omgpixel.json
 ||stbanalytics.echostarbeta.com^
 ||stbanalyticschy.echostarbeta.com^
@@ -47057,7 +47055,6 @@ zzzyk.com###Tinfo
 ||vps-41077.vps-default-host.net^
 ||vps140923.inmotionhosting.com^
 ||vps234.com/resources/images/hosting-promotion/
-||vps36563.maxko-hosting.net^
 ||vpsbenchmarks.com/plausible.vpsb.js
 ||vq4b0q.fun^$popup
 ||vrbo.com/edap/elo/v1/event/beacon
@@ -47656,7 +47653,6 @@ zzzyk.com###Tinfo
 ||wpengine.com/wp-json/api/advanced_placement/api-in-article-ad/
 ||wpengine.com/wp-json/api/advanced_placement/new-in-article/?type=placement^$domain=androidauthority.com
 ||wpfc.ml^$third-party
-||wphostingapp.com^
 ||wples.com/pc/common.js
 ||wpnetwork.eu^$popup
 ||wpzoom.com/images/aff/
