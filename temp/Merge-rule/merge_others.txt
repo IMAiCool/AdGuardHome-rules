@@ -10788,6 +10788,7 @@ apkaward.com##.bidgear728
 apkaward.com##.btcccc
 apkcombo.com##.calc-container
 apkcombo.com##.diseanmevrtt
+apkcombo.com##[style="margin-bottom: 10px; max-height: 260px; min-height: 260px; overflow: hidden"]
 apkdone.com,crazygames.com,english-hindi.net,livesoccertv.com,malaysiakini.com,sporticos.com##div[style^="height:250px"]
 apkgk.com##.adv-block2
 apkmb.com##.alert-noty-download
@@ -12254,6 +12255,7 @@ businessinsider.com##.l-ad
 businessinsider.com##.rail-container:has(> .ad-label)
 businessinsider.com##.rail.has-video-ad
 businessinsider.com##.right-rail-min-height-250
+businessinsider.com##.with-markets-insider-banner
 businessmirror.com.ph##.busin-after-content
 businessmirror.com.ph##.busin-before-content
 businessnow.mt,igamingcapital.mt,maltaceos.mt,whoswho.mt##.footer__second
@@ -12548,6 +12550,7 @@ chatelaine.com##.assmbly-ad-text
 chatelaine.com,fashionmagazine.com##.assmbly-ad-wrapper
 chatgpt.com##.border-token-border-default.mt-2.border-t:has(button[aria-label="Ad options"])
 chatgpt.com##[data-testid="bazaar-v2-elevated-box"]:has([data-ad-card-root="true"])
+chatgpt.com##[data-testid="bazaar-v2-elevated-box"]:has([data-testid="image-card-v2-elevated-disclosure"])
 chatgpt.com##div.opacity-100.transition-opacity.ease-out:has(button[aria-label="Sponsored options"], button[aria-label="Ad options"])
 chatgpt.com##div[data-assistant-ads]
 chaussures.fr,eapavi.lv,ecipele.hr,ecipo.hu,eobuv.cz,eobuv.sk,eobuwie.com.pl,epantofi.ro,epapoutsia.gr,escarpe.it,eschuhe.at,eschuhe.ch,eschuhe.de,eskor.se,evzuttya.com.ua,obuvki.bg,zapatos.es##.product-item:has(.sponsored-label)
@@ -15286,6 +15289,7 @@ flatpanelshd.com###sb-site > .hidden-xs.container
 flatpanelshd.com##.bannerdiv_twopage
 flatpanelshd.com##.forsideboks2
 flatpanelshd.com##[data-aa-adunit]
+flatpanelshd.com##[data-onpage="true"]
 flava.co.nz,hauraki.co.nz,thehits.co.nz,zmonline.com##.layout__background
 flickr.com##.getty-search-view
 flickr.com##.getty-widget-view
@@ -20698,6 +20702,7 @@ oibdgtxw.com#?#.xqbj-list-rows:-abp-has(img[z-image-loader-url*=".gif"])
 oilchem.net##.LzAdv
 oilcity.news##.above-footer-widgets
 oilcity.news##.sticky-sponsors-large
+oilprice.com##.banner--header_mobile
 oilprice.com##.banner--inPage
 oilprice.com##.dianomi_context
 oisd.nl###adgb
@@ -24623,6 +24628,7 @@ truck1.eu##.c-banners
 truckinginfo.com##.gpt-ad-slot-wrapper
 truckinginfo.com##.lazy-ad-slot-wrapper
 trucknetuk.com###sidebarright
+trueachievements.com##.dyn-lb
 trueachievements.com##.vr-auction
 trueachievements.com,truesteamachievements.com,truetrophies.com###mpu-2
 trueachievements.com,truesteamachievements.com,truetrophies.com###mpu-3
@@ -29344,6 +29350,7 @@ zzzyk.com###Tinfo
 ||appspot.com/stats?
 ||appspot.com/take?
 ||appspot.com/track-analytics-event
+||appteka.store/api/banners?
 ||apptjmp.com^$popup
 ||apptracer.ru^$third-party
 ||apptry.easylife.tw/pub/js/common/common.js
@@ -29949,6 +29956,7 @@ zzzyk.com###Tinfo
 ||basicthinking.de/stats/
 ||basilic.io^$third-party
 ||basis.net/assets/up.js
+||batemansbayholidayparkhostel.hostel.town^
 ||bathandbodyworks.com/lsXlyYa5/init.js
 ||batheunits.com^$popup
 ||batiactu.com/cap_
@@ -32053,6 +32061,7 @@ zzzyk.com###Tinfo
 ||constellation.networknmedia.com/cdn-cgi/trace
 ||constructpreachystopper.com^$popup
 ||consultant.ru/js/counter.js
+||consultflow.click^$document
 ||consumable.com^$third-party
 ||consumer.org.nz/session/ping/
 ||contabohost.com^
@@ -32864,7 +32873,6 @@ zzzyk.com###Tinfo
 ||dhl.com/g8Dj6P8TAg/
 ||dhostgroup.com^
 ||dhostingmanagerealacjkehdervermgrdeoruderu.pages.dev^
-||dhostname.com^
 ||dhresource.com/dhs/fob/js/common/track/$domain=dhgate.com
 ||di-capt.com^$third-party
 ||di2y21.top/jian/jiansshu.js
@@ -33283,6 +33291,7 @@ zzzyk.com###Tinfo
 ||dufile.com/jsa/
 ||dugout.co/das2.js
 ||dukingdraon.com^$popup
+||dungatv.xyz/buceta.php
 ||dunhilltraveldeals.com^$third-party
 ||duo*.top/Runtime/js/psData.js
 ||duolingo.com/2017-06-30/tracking-status
@@ -34070,6 +34079,7 @@ zzzyk.com###Tinfo
 ||fansshare.com/t.gif
 ||fantabro.com^$document
 ||fantasti.cc/ajax/gw.php?$popup
+||fantovix.shop^$document
 ||fanyi.baidu.com/ait/config/cms/list?
 ||fanyi.baidu.com/pc/config
 ||fanyi.baidu.com/wise/afd
@@ -40137,7 +40147,6 @@ zzzyk.com###Tinfo
 ||net-filter.com^$third-party
 ||net-flix-verif.bolt.host^
 ||net-parade.it/tracker/
-||net-servicio.bolt.host^
 ||net-tracker.notolytix.com^$third-party
 ||net.geo.opera.com^*utm_source=OFT$document
 ||net.geo.opera.com^*utm_source=OFT$popup
@@ -43385,7 +43394,6 @@ zzzyk.com###Tinfo
 ||scoreland.*/tranny.jpg
 ||scoreland.com/banner/
 ||scores24.live/o/offers?
-||scotiabank-card-inve-tapv.bolt.host^
 ||scotiabookingsecured-booking.bolt.host^
 ||scout.salesloft.com/r?tid=
 ||scout.us2.salesloft.com^$image
@@ -47061,6 +47069,7 @@ zzzyk.com###Tinfo
 ||vps-41077.vps-default-host.net^
 ||vps140923.inmotionhosting.com^
 ||vps234.com/resources/images/hosting-promotion/
+||vps50036.inmotionhosting.com^
 ||vpsbenchmarks.com/plausible.vpsb.js
 ||vq4b0q.fun^$popup
 ||vrbo.com/edap/elo/v1/event/beacon
@@ -47384,7 +47393,6 @@ zzzyk.com###Tinfo
 ||wecantrack.com^$third-party
 ||wecouldle.com^$popup
 ||wecount4u.com^$third-party
-||weddinglocal.com^
 ||wee.dk/modules/$third-party
 ||weedmaps.com/pixel?
 ||weedmaps.com/seg/evs/$~third-party,xmlhttprequest
