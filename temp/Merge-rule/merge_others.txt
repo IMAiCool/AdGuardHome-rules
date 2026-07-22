@@ -2457,7 +2457,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /eventLogServlet?
 /event_log/*
 /event_logger
-/event_logging/*
 /eventing.coursera.org/img/*
 /eventproxy/track
 /events-collector.
@@ -21725,6 +21724,7 @@ prydwen.gg##[id^="pw-header-ad"]
 psahz.com#@#.ad_960
 psdhtml.cn##div[role^="structure_"]
 psprices.com##.base-banners
+psprices.com##.creative
 psprices.com#?#.creative:has-text(remove advertising)
 pstream.org##.group > .border-buttons-purple:has(> button[aria-label="Dismiss ad"])
 psychcentral.com##aside:has([data-empty])
