@@ -1683,6 +1683,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /api/v1/impressions|
 /api/v1/metrics
 /api/v1/reportData/*
+/api/v1/reporting/flows
 /api/v1/stat?
 /api/v1/streamtelemetry
 /api/v2/collector
@@ -18392,6 +18393,7 @@ kaufland.*##.sponsored-brand-products-container
 kaufland.*##.teaser-orchestration__wrapper--online
 kaufland.*#?#.recommender-wrapper:has-text(Gesponsert)
 kawai-jav.com##.ads-here-right
+kayak.*##div[class*="-sponsored-result"]
 kayak.com##[role="button"]:has([class*="ad-marking"])
 kayak.com##[role="tab"]:has([class*="sponsored"])
 kayak.com,momondo.*##.CGMG:has(.CGMG-logo-ad-wrapper)
