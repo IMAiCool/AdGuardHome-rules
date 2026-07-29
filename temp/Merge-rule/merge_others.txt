@@ -1075,6 +1075,8 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /^188\.42\.84\.\d{1,3}/
 /^23\.109\.170\.(18[7-9]|19[0-2])$/
 /^23\.109\.73\.\d{3}/
+/^88\.208\.22\.[1234]$/
+/^88\.208\.22\.[1234]:/
 /^94\.242\.247\.(2[0-9]|3[0-2])/
 /^94\.242\.247\.(2[0-9]|3[0-2]):/
 /^anon1.gt\d{6}.com$/
@@ -5480,6 +5482,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0.0.0.0 advancelocal.blueconic.net
 0.0.0.0 affiliates.thinkhost.net
 0.0.0.0 affiliates.ultrahosting.com
+0.0.0.0 agriculturalocal.online
 0.0.0.0 ak-cdn.placelocal.com
 0.0.0.0 analytics.hostyour.video
 0.0.0.0 analytics.locallogic.co
@@ -5504,7 +5507,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0.0.0.0 bluhostedbanners.blucigs.com
 0.0.0.0 bookthelocal.com
 0.0.0.0 br.meetlocals.com
-0.0.0.0 bry.hpj.mybluehost.me
 0.0.0.0 cdddfia.hornylocals24.com
 0.0.0.0 cdn.locallogic.co
 0.0.0.0 coolfreehost.com
@@ -5515,19 +5517,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0.0.0.0 ddbca.localmeets.link
 0.0.0.0 de.hosting.adjug.com
 0.0.0.0 din.prr.mybluehost.me
-0.0.0.0 dpdlocali-atv.bond
-0.0.0.0 dpdlocali-avr.bond
-0.0.0.0 dpdlocali-dhz.bond
-0.0.0.0 dpdlocali-fpe.bond
-0.0.0.0 dpdlocali-ixg.bond
-0.0.0.0 dpdlocali-njw.bond
-0.0.0.0 dpdlocali-ogd.bond
-0.0.0.0 dpdlocali-ows.bond
-0.0.0.0 dpdlocali-vcv.bond
-0.0.0.0 dpdlocali-ygu.bond
-0.0.0.0 dpdlocali-yoi.bond
-0.0.0.0 dpdlocali-zne.bond
-0.0.0.0 dpdlocali-zxp.bond
 0.0.0.0 e-hosting.hut1.ru
 0.0.0.0 e.freewebhostingarea.com
 0.0.0.0 echostoneunion.info
@@ -5542,7 +5531,6 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0.0.0.0 gasasthe.freehostia.com
 0.0.0.0 gcirm.idahostatesman.com
 0.0.0.0 gcounter.hosting4u.net
-0.0.0.0 helpcenteraple.tempurl.host
 0.0.0.0 hmw42.host-my-website.com
 0.0.0.0 homehre.bravehost.com
 0.0.0.0 homepl.sviluppo.host
@@ -5571,6 +5559,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0.0.0.0 hostingfreelife.com
 0.0.0.0 hostingnana.com
 0.0.0.0 hostingprod.com
+0.0.0.0 hostpalimit.com
 0.0.0.0 hostpowermedium.112.2o7.net
 0.0.0.0 hosttenx.net
 0.0.0.0 hostujmy.pl
@@ -5578,6 +5567,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0.0.0.0 images.host.bannerflow.com
 0.0.0.0 imp-east.pub.local.emxdgt.com
 0.0.0.0 irondel.swisshost.by
+0.0.0.0 lbvhosting.com
 0.0.0.0 local-analytics.uberinternal.com
 0.0.0.0 local-download.com
 0.0.0.0 local-media.ambient-platform.com
@@ -5586,14 +5576,13 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0.0.0.0 local.emxdgt.com
 0.0.0.0 local.ownlocal.com
 0.0.0.0 localbestdating1.com
-0.0.0.0 localchristiancounselor.com
 0.0.0.0 localcoolingfarms.com
+0.0.0.0 localfield.forum
+0.0.0.0 localguideromania.com
 0.0.0.0 localh0st.info
 0.0.0.0 localinvestmentsinsouthafrica.digital
-0.0.0.0 localnewsmatrix.com
 0.0.0.0 localo.fr
 0.0.0.0 localriacc.cyou
-0.0.0.0 localsavingsguide.com
 0.0.0.0 localstreet.forum
 0.0.0.0 localytics.com
 0.0.0.0 lrz.ebt.mybluehost.me
@@ -5602,10 +5591,8 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0.0.0.0 merciless.localstars.com
 0.0.0.0 meta-ad-account-support.statichost.page
 0.0.0.0 murbil.hostei.com
-0.0.0.0 nethostting.com
 0.0.0.0 newyork.cbslocal.us.intellitxt.com
 0.0.0.0 nlocalhost.wordtheminer.com
-0.0.0.0 nordpostapp.tempurl.host
 0.0.0.0 oascentral.abclocal.go.com
 0.0.0.0 oceancloudhosts.com
 0.0.0.0 omnituretrack.local.com
@@ -5625,28 +5612,25 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0.0.0.0 queuer-prod-elb.53.localytics.com
 0.0.0.0 reallyeasyhosting.net
 0.0.0.0 resulthost.com
-0.0.0.0 rubyknice.localsavingsguide.com
 0.0.0.0 scripts.host.bannerflow.com
 0.0.0.0 sdk-assets.localytics.com
 0.0.0.0 secure.ownlocal.com
 0.0.0.0 server44.dubhosting.co.uk
 0.0.0.0 service-support.byethost31.com
 0.0.0.0 serwer2675071.hosting-home.pl
-0.0.0.0 sexpe.localsavingsguide.com
 0.0.0.0 sleeper-sofa.dreamhoster.com
 0.0.0.0 slhk23.0101host.com
 0.0.0.0 smartermail.host
 0.0.0.0 snowplow.ownlocal.com
-0.0.0.0 srv250136.hoster-test.ru
 0.0.0.0 static.locallogic.co
 0.0.0.0 static.omnilocal.ai
+0.0.0.0 stay-hostel-now.com
 0.0.0.0 swfhostltd.com
 0.0.0.0 tag.placelocal.com
 0.0.0.0 theadhost.com
 0.0.0.0 thelocalsearchnetwork.com
 0.0.0.0 thinknear-hosted.thinknearhub.com
 0.0.0.0 thislocalhost.com
-0.0.0.0 tinyfilehost.com
 0.0.0.0 top1site.3host.com
 0.0.0.0 toplist.pornhost.com
 0.0.0.0 tracking.hostgator.com
@@ -5673,6 +5657,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0.0.0.0 wellnessmonitor.bravehost.com
 0.0.0.0 widget.secure.ownlocal.com
 0.0.0.0 www.adpeepshosted.com
+0.0.0.0 www.agriculturalocal.online
 0.0.0.0 www.aparthost.com
 0.0.0.0 www.auth-check.byethost31.com
 0.0.0.0 www.auth-pomoc.byethost32.com
@@ -5680,57 +5665,38 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 0.0.0.0 www.bluecrabhosting.co.uk
 0.0.0.0 www.bluelemonhost.com
 0.0.0.0 www.bookthelocal.com
-0.0.0.0 www.bry.hpj.mybluehost.me
 0.0.0.0 www.coolfreehost.com
-0.0.0.0 www.dpdlocali-atv.bond
-0.0.0.0 www.dpdlocali-avr.bond
-0.0.0.0 www.dpdlocali-dhz.bond
-0.0.0.0 www.dpdlocali-fpe.bond
-0.0.0.0 www.dpdlocali-ixg.bond
-0.0.0.0 www.dpdlocali-njw.bond
-0.0.0.0 www.dpdlocali-ogd.bond
-0.0.0.0 www.dpdlocali-ows.bond
-0.0.0.0 www.dpdlocali-vcv.bond
-0.0.0.0 www.dpdlocali-ygu.bond
-0.0.0.0 www.dpdlocali-yoi.bond
-0.0.0.0 www.dpdlocali-zne.bond
-0.0.0.0 www.dpdlocali-zxp.bond
 0.0.0.0 www.echostoneunion.info
 0.0.0.0 www.freecpanel.host
 0.0.0.0 www.freehostservers.com
-0.0.0.0 www.helpcenteraple.tempurl.host
 0.0.0.0 www.homepl.sviluppo.host
 0.0.0.0 www.host-it.co.uk
 0.0.0.0 www.hostedfiles.net
 0.0.0.0 www.hostingcloud.science
 0.0.0.0 www.hostingfreelife.com
 0.0.0.0 www.hostingnana.com
+0.0.0.0 www.hostpalimit.com
 0.0.0.0 www.hosttenx.net
 0.0.0.0 www.hostujmy.pl
-0.0.0.0 www.localchristiancounselor.com
+0.0.0.0 www.lbvhosting.com
 0.0.0.0 www.localcoolingfarms.com
+0.0.0.0 www.localfield.forum
+0.0.0.0 www.localguideromania.com
 0.0.0.0 www.localh0st.info
 0.0.0.0 www.localinvestmentsinsouthafrica.digital
-0.0.0.0 www.localnewsmatrix.com
 0.0.0.0 www.localriacc.cyou
-0.0.0.0 www.localsavingsguide.com
 0.0.0.0 www.localstreet.forum
 0.0.0.0 www.localytics.com
 0.0.0.0 www.lrz.ebt.mybluehost.me
 0.0.0.0 www.meta-ad-account-support.statichost.page
-0.0.0.0 www.nethostting.com
-0.0.0.0 www.nordpostapp.tempurl.host
 0.0.0.0 www.pafiilate.byethost32.com
 0.0.0.0 www.placelocal.com
 0.0.0.0 www.prothostr.net
 0.0.0.0 www.reallyeasyhosting.net
 0.0.0.0 www.resulthost.com
-0.0.0.0 www.rubyknice.localsavingsguide.com
 0.0.0.0 www.service-support.byethost31.com
 0.0.0.0 www.serwer2675071.hosting-home.pl
-0.0.0.0 www.sexpe.localsavingsguide.com
-0.0.0.0 www.srv250136.hoster-test.ru
-0.0.0.0 www.tinyfilehost.com
+0.0.0.0 www.stay-hostel-now.com
 0.0.0.0 www.trekpleister.topxhost.com
 0.0.0.0 www.tunggalhosting.xyz
 0.0.0.0 www.valuehost.co.uk
@@ -8358,6 +8324,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||fast.fonts.net/jsapi/core/mt.js$script,domain=abeautifuldominion.com|bkmedical.com|eclecticbars.co.uk|gables.com|itsolutions-inc.com|kinsfarmmarket.com|senate.gov|toyotagazooracing.com
 @@||fastly-analytics.com/debug_resolver$xmlhttprequest,domain=fastly-debug.com
 @@||fastmail.com^$generichide
+@@||fate-go.jp/anniv_11th_sns/assets/js/services/gtm.js$~third-party
 @@||fathom.video/embed/$subdocument
 @@||fdi.fiduciarydecisions.com/a/lib/gtag/gtag.js$script,~third-party
 @@||fdi.fiduciarydecisions.com/v/app/components/*/Analytics.js$script,~third-party
@@ -42240,6 +42207,8 @@ zzzyk.com###Tinfo
 ||qinxue100.com/qinxue/pc/js/add_js.js
 ||qiota.com/api/event
 ||qiota.com/assets/qiotasession.gif?
+||qishen123.com^*/0
+||qishen123.com^*/1
 ||qishula.com/css/wap.
 ||qiuw.com/static/xin-ad.js
 ||qiuyi.cn/Baojian/
