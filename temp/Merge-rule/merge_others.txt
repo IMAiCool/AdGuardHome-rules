@@ -8031,8 +8031,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||clerk.io/clerk.js$script,domain=trony.it
 @@||cleverpush.com/channel/$script,domain=bsdex.de|heise.de
 @@||cleverpush.com/sdk/$script,domain=heise.de
-@@||client.aps.amazon-adsystem.com/publisher.js$script,domain=thestreet.com
-@@||client.aps.amazon-adsystem.com^$script,domain=newsweek.com
+@@||client.aps.amazon-adsystem.com/publisher.js$script,domain=foxnews.com|newsweek.com|thestreet.com
 @@||clients.plex.tv/api/v2/ads/$~third-party
 @@||clj.valuecommerce.com/*/vcushion.min.js
 @@||cloud.google.com^$generichide
@@ -17329,6 +17328,7 @@ inc.com#?#.pr-\[25px\].py-\[27px\]:has-text(Apply Now)
 inc42.com###large_leaderboard_desktop-0
 inchcalculator.com##.results-ad-container-outer
 independent.co.ug##img[width="320"]
+independent.co.uk##.lfyduH
 independent.co.uk##[data-mpu1]
 independent.co.uk,standard.co.uk,the-independent.com###stickyFooterRoot
 independent.co.uk,standard.co.uk,the-independent.com##.teads:has(.third-party-ad)
@@ -19551,7 +19551,7 @@ modivo.*#?#.product:has-text(/Sponsorizzato|Sponsorowane|Sponsorizat|Sponzorová
 modivo.at,modivo.bg,modivo.cz,modivo.de,modivo.ee,modivo.fr,modivo.gr,modivo.hr,modivo.hu,modivo.it,modivo.lt,modivo.lv,modivo.pl,modivo.ro,modivo.si,modivo.sk,modivo.ua##.display-container
 modivo.at,modivo.bg,modivo.cz,modivo.de,modivo.ee,modivo.fr,modivo.gr,modivo.hr,modivo.hu,modivo.it,modivo.lt,modivo.lv,modivo.pl,modivo.ro,modivo.si,modivo.sk,modivo.ua##.promoted-slider-wrapper
 modrinth.com##.GBBNWLJVGRHFLYVGSZKSSKNTHFYXHMBD
-modrinth.com##.max-h-\[250px\]
+modrinth.com,nexusmods.com##.max-h-\[250px\]
 modyolo.com##a[href^="https://referencemen.net/"]
 moe-acg.com##a[href*=".x8o.de"]
 moe-acg.com##div[style="position: relative;width: 100%;height: 0;padding-bottom: 18%;"]
@@ -20325,6 +20325,7 @@ nextshark.com###nextshark_com_leaderboard_top
 nexusmods.com##.agroup
 nexusmods.com##.border-b:has(> div[data-testid^="ad-container"])
 nexusmods.com##[data-testid="ad-container-player"]
+nexusmods.com##[data-testid]
 nfcw.com##.sidebar-display
 nfmovies.com##[onclick^="openurl()"]
 nfmovies.com#?#div[id]:-abp-has(>img[onclick="openurl()"])
@@ -24087,6 +24088,7 @@ thestreet.com##.csw-ae-wide
 thestreet.com##.m-balloon-header
 thestreet.com##.m-detail--feature-spacer
 thestreet.com##.m-video-unit
+thestreet.com##[class^="styles_container"]:has(.OUTBRAIN)
 thestudentroom.co.uk##.custom-jucdap
 thestudentroom.co.uk##div[data-freestar-ad]
 thestudentroom.co.uk#@#.fixed_ad
@@ -24544,6 +24546,7 @@ tube8.com,tube8.es,tube8.fr##.paidTab
 tube8.es,tube8.fr##video[autoplay]
 tubedupe.com##[src^="https://tubedupe.com/player/html.php?aid="]
 tubepornclassic.com##.___it0h1l3u2se2lo
+tuberipper.click##a[href="/r/dl"]
 tuchong.com##.float
 tui18.com##.wp[style^="width:"]
 tuliu.com###red-envelope
@@ -27542,6 +27545,7 @@ zzzyk.com###Tinfo
 ||a-counters.com^$third-party
 ||a-pagerank.net^$third-party
 ||a-static.com^$third-party
+||a.c-dn.net/b/*/tracking-sdk-javascript.min.js
 ||a.cnki.net/a/
 ||a.flux.jp/analytics.collect.v1.CollectService/Collect
 ||a.foxsportslocal.com^
@@ -29078,6 +29082,7 @@ zzzyk.com###Tinfo
 ||api.headliner.link/api/v1/b/receive
 ||api.helloextend.com/mintsight
 ||api.hostfuru.com^
+||api.ig.com/statistics/
 ||api.intelligems.io/v3/track
 ||api.invideo.io/v3/send_analytics_event
 ||api.ipgeolocation.io/getip
@@ -31832,6 +31837,7 @@ zzzyk.com###Tinfo
 ||coinminerz.com^$third-party
 ||coinnebula.com^$third-party
 ||coinpot.co^$third-party
+||coinprediction.ai^$third-party
 ||cointelegraph.com/pixel?
 ||cointraffic.io^$third-party
 ||coinwebmining.com^$third-party
@@ -31842,6 +31848,7 @@ zzzyk.com###Tinfo
 ||coll2onf.com^$third-party
 ||collarity.com^$third-party
 ||collecting.click^$third-party
+||collection.e-satisfaction.com^$third-party
 ||collector-hpn.ghostery.net^
 ||collector.contentexchange.me^$third-party
 ||collector.hamsterix.
@@ -33175,6 +33182,7 @@ zzzyk.com###Tinfo
 ||dungatv.xyz/buceta.php
 ||dunhilltraveldeals.com^$third-party
 ||duo*.top/Runtime/js/psData.js
+||duolingo-abonnement.bolt.host^
 ||duolingo-remboursement.bolt.host^
 ||duolingo.com/2017-06-30/tracking-status
 ||duomai.com^$third-party
@@ -35801,6 +35809,7 @@ zzzyk.com###Tinfo
 ||hiiona.com^$document
 ||hiiona.com^$popup
 ||hilltopads.com^$popup
+||hilltopads.net^$document
 ||hilltopads.net^$popup
 ||hilove.life^$popup
 ||hilton.com/zJbufaUX/
@@ -35974,7 +35983,6 @@ zzzyk.com###Tinfo
 ||host-95-255-114-11.business.telecomitalia.it^
 ||host-file-host6.com^
 ||host-host-file8.com^
-||host-override.ad-shield.dev^
 ||host-ptit.amartstudio.it^
 ||host-tracker.com^$third-party
 ||host-vc-fone-dx-wiem-qa.weebly.com^
@@ -35996,7 +36004,6 @@ zzzyk.com###Tinfo
 ||host238.hostmonster.com^
 ||host2uls.com^
 ||host2y.cfd^
-||host356980.stronawcal.pl^
 ||host40x.cfd^
 ||host5536.zapto.org^
 ||host57k.cfd^
@@ -36073,7 +36080,6 @@ zzzyk.com###Tinfo
 ||hostinger-update-jvarmdpkcgvzcuymhaegkcks.pages.dev^
 ||hostinger-update-sojuxvzndojxirserfahhctr.pages.dev^
 ||hostinger.com/api-proxy/api/sentry/
-||hostingercp.coomjangee.co.kr^
 ||hostingers.coomjangee.co.kr^
 ||hostingfatties.cyou^
 ||hostingfile.live^
@@ -38428,8 +38434,6 @@ zzzyk.com###Tinfo
 ||local1319541735cosapgermany.pages.dev^
 ||local606.weebly.com^
 ||localacme.com^
-||localads.chengzijianzhan.cn.queniurc.com^
-||localads.chengzijianzhan.cn^
 ||localaffectrecipe.com^
 ||localaggeg.rest^
 ||localalertwatch.pro^
@@ -38945,6 +38949,7 @@ zzzyk.com###Tinfo
 ||marktplaats.nl/metrics/
 ||marktplaats.nl/px/
 ||marmiton.org/reloaded/errpix.php
+||marmota.hostel.town^
 ||maroohost.online^
 ||maropost.com^$third-party
 ||marovia.cc^$document
@@ -39385,6 +39390,7 @@ zzzyk.com###Tinfo
 ||mirfakpersei.top^$document
 ||mirfakpersei.top^$popup
 ||mirtesen.ru/js/ms.js
+||mis.ig.com/tracking/
 ||miserly-phone.com^$popup
 ||misrepush.com^$third-party
 ||missav.com/pop?$popup
@@ -40113,6 +40119,7 @@ zzzyk.com###Tinfo
 ||neudesicmediagroup.com^$third-party
 ||neulion.vo.llnwd.net^*/track.js
 ||neuralstemcell.com.cn/img/js.js
+||neuronal.infunnel.inconcert.cloud/public/tracking/frame.html
 ||never2never.com^$popup
 ||new-icon.ol-img.com/jslib/ad
 ||newads.bangbros.com^$third-party
@@ -40542,6 +40549,7 @@ zzzyk.com###Tinfo
 ||offergate-software6.com^$document
 ||offermatica.com^$third-party
 ||offernow24.com^$popup
+||offers.cam4tracking.com^$popup
 ||offerserve.com^$third-party
 ||offershub.net^$popup
 ||offerstrack.net^$popup
@@ -45803,6 +45811,7 @@ zzzyk.com###Tinfo
 ||track.bpchost.info^
 ||track.bwclk.com^$document
 ||track.byzon.swelen.net^$third-party
+||track.cam4tracking.com^$popup
 ||track.effiliation.com^$image,script
 ||track.kinetiksoft.com^$popup
 ||track.laredoute.fr^$image
@@ -47825,7 +47834,6 @@ zzzyk.com###Tinfo
 ||xmcimg.com/js/m.js
 ||xmilf.com/0eckuwtxfr/
 ||xml-api.online^$popup
-||xml-eu-v4.hostbase.online^
 ||xmlmonetize.com^$third-party
 ||xmlrtb.com^$popup
 ||xmrc.com.cn/net/info/html/
