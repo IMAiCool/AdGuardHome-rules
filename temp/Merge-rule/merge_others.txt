@@ -1927,6 +1927,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /bugcounter.php?
 /bultykh/ipp24/7/*$third-party
 /bundle-analytics.js
+/bundle.tracing.min.js
 /bundle.tracking.js
 /bundle/analytics.
 /bundle/trafee/prelands/*
@@ -2811,6 +2812,8 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /googletrack.js
 /gospel2Truth.js$third-party
 /gosquared.js$script
+/gosstat_gokw.gif?
+/gosstat_gomp.gif?
 /gp/r.html?$image
 /gpt-prebid.js$script
 /gpt.js$script
@@ -2993,6 +2996,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 /imp_check.php
 /imp_cnt.gif?
 /imp_img.php?
+/impb?b=
 /impr.gif?
 /impresion/zona/*
 /impress.php?
@@ -8964,6 +8968,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||nelonenmedia.fi/logger/logger-ini.json$xmlhttprequest,domain=embed.sanoma-sndp.fi|supla.fi
 @@||nemlog-in.dk/resources/js/adrum.js$~third-party
 @@||neo.btrl.ro/Scripts/services/fingerprint2.min.js$~third-party
+@@||neoseeker.com^$generichide
 @@||netcoresmartech.com/smartechclient.js$domain=cgv.vn
 @@||netcoresmartech.com/smartechclient.js$domain=hdfcfund.com
 @@||netded.com/plus/ad_js.php?aid=3|
@@ -9115,6 +9120,8 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||platform.bombas.com/external/gtm.js$script,~third-party
 @@||plausible.io/js/plausible.js$script,domain=sammobile.com
 @@||play.dlsite.com/csr/viewer/lib/newrelic.js
+@@||play.fyi.tv/vendor/VisitorAPI.js
+@@||play.history.com/vendor/VisitorAPI.js
 @@||playcode.io^$generichide
 @@||playep.pro/log_event$~third-party,xmlhttprequest
 @@||player.aniview.com/script/$script,domain=odysee.com|pogo.com
@@ -10309,6 +10316,7 @@ all-free-download.com##[href^="https://shutterstock.7eer.net/c/"] img
 all-nettools.com,filesharingtalk.com,kiwibiker.co.nz,printroot.com###ad_global_below_navbar
 all3dp.com##.notification
 allaboutcd.com##a[href^="https://thebreastformstore.com/"]
+allaboutcookies.org###offer-review-widget
 allaboutcookies.org###offer-review-widget-container
 allafrica.com###div-clickio-ad-superleaderboard-a
 allbusiness.com##.ad--tag
@@ -12027,7 +12035,7 @@ briskoda.net##.ipsData__item--advertisement
 briskoda.net##div[data-ips-ad]
 briskoda.net,linustechtips.com##div[data-role="sidebarAd"]
 britannica.com##.bc-article-inline-dialogue
-britannica.com,canadiantire.ca,courthousenews.com,diabetesjournals.org,infobel.com,kuioo.com,linkedin.com,pilot007.org,radiotimes.com,soundguys.com,topperlearning.com##.ad-banner
+britannica.com,canadiantire.ca,courthousenews.com,cryptobriefing.com,diabetesjournals.org,infobel.com,kuioo.com,linkedin.com,pilot007.org,radiotimes.com,soundguys.com,topperlearning.com##.ad-banner
 britannica.com,merriam-webster.com##.abl
 britannicaenglish.com##.WordFromSponsor_content_enToar
 broadcastify.com##[href^="/click/"]
@@ -12409,6 +12417,7 @@ chatgpt.com##div.opacity-100.transition-opacity.ease-out:has(button[aria-label="
 chatgpt.com##div[data-assistant-ads]
 chatgpt.com##div[data-message-supplement]:has(aside[data-partial-island="assistant-ads"])
 chatgpt.com##div[data-testid="bazaar-single-card-container"]
+chatgpt.com##section:has(> [aria-label="Sponsored"])
 chaussures.fr,eapavi.lv,ecipele.hr,ecipo.hu,eobuv.cz,eobuv.sk,eobuwie.com.pl,epantofi.ro,epapoutsia.gr,escarpe.it,eschuhe.at,eschuhe.ch,eschuhe.de,eskor.se,evzuttya.com.ua,obuvki.bg,zapatos.es##.product-item:has(.sponsored-label)
 chaussures.fr,eapavi.lv,ecipele.hr,ecipo.hu,eobuv.cz,eobuv.sk,eobuwie.com.pl,epantofi.ro,epapoutsia.gr,escarpe.it,eschuhe.at,eschuhe.ch,eschuhe.de,eskor.se,evzuttya.com.ua,obuvki.bg,zapatos.es##.sponsored-slider-wrapper
 chazidian.com###worldcup_float
@@ -13779,6 +13788,7 @@ devdiscourse.com##.carousel
 developer.mozilla.org##.page-layout__banner
 developers.google.com#@##google-ads
 devhints.io##.pubbox
+deviantart.com#?#[role="complementary"] ._ern3r:has-text(Promoted)
 deviants.com###_iframe_content
 dexerto.com###primis-player
 dexerto.com##.inline-block
@@ -13818,6 +13828,8 @@ dianping.com##.weixin1
 dianyingim.com,dyxs11.com##.popup-tips
 dicebreaker.com,rockpapershotgun.com##.primis_wrapper
 dicoall.com##.googleAdMain
+dicoall.com##.sidebarListMenu > button:has([class^="item_adsMark"])
+dicoall.com##[href^="/ads/"]
 dict.baidu.com##.tran-download-ad
 dict.cc###adrig
 dict.cc###recthome
@@ -15537,6 +15549,7 @@ fznews.com.cn##.kuang100_right
 g-mh.org,godamh.com##.adshow
 g-years.com,ghoffice.cc,gpsuu.com,mydigit.cn###main > .textMes
 g2.com##.product-head__leads
+g2a.com##.trust_banner
 g2a.com##div[data-testid="placement"]
 gab.com##[aria-label*="Sponsored:"]
 gab.com##[data-comment="gab-ad-comment"]
@@ -16285,6 +16298,7 @@ hall123.com,hi.people.com.cn##img[width="1000"]
 hamibook.com.tw##.custom-banners-cycle-slideshow
 hamodia.com##.oiomainlisting
 hancinema.net##[class^="wmls_"]
+hanime.tv##.banner-ad-container
 hanime.tv##.desktop.htvad
 hanime1.me#?#div[style*="text-align:"]:-abp-has(>div[style*="color: white"])
 hanjutv2020.com##a[href*=".hujiang.com"]
@@ -18426,6 +18440,7 @@ koreatimes.co.kr###koreatimes_Minarticle6thpg_b_300_250
 koreatimes.co.kr###koreatimes_MinterplayPB_b_300_250
 koreatimes.co.kr###koreatimes_inarticle6thpg_b_580_400
 koreatimes.co.kr###koreatimes_righttop4_b_300_250
+koreatimes.co.kr##.Detail_ad-container__TXWnJ
 kostool.cn#?#div:-abp-has(> h1:-abp-contains(推广))
 kottke.org##.bling-title
 kpanews.co.kr#@#.ad_top
@@ -20325,7 +20340,7 @@ nextshark.com###nextshark_com_leaderboard_top
 nexusmods.com##.agroup
 nexusmods.com##.border-b:has(> div[data-testid^="ad-container"])
 nexusmods.com##[data-testid="ad-container-player"]
-nexusmods.com##[data-testid]
+nexusmods.com##[data-testid^="ad-"]
 nfcw.com##.sidebar-display
 nfmovies.com##[onclick^="openurl()"]
 nfmovies.com#?#div[id]:-abp-has(>img[onclick="openurl()"])
@@ -24214,6 +24229,7 @@ tigtag.com##div[id^="Home942x70_"]
 tigtag.com##div[id^="Show300x"]
 tikpornk.com##.mr-1
 tiktits.com##.callback-bt
+tiktok.com##[class*="DivCardWrapper"]:has([data-e2e="ad-tag"])
 time.com###pre-nav-container
 time.com##.article-small-sidebar > .sticky-container:has(div[id^="ad-"])
 time.com##.bg-warm-grey-ads
@@ -30794,6 +30810,7 @@ zzzyk.com###Tinfo
 ||c2000.cn/c2000/
 ||c212.net^$third-party
 ||c21media.net/wp-content/plugins/sam-images/
+||c3.asurahosting.com^
 ||c3j7rk-rtbix.top^$document
 ||c3j7rk-rtbix.top^$popup
 ||c3metrics.com^$third-party
@@ -32923,6 +32940,7 @@ zzzyk.com###Tinfo
 ||dlkoo.com/down/copy
 ||dlrectdates.com^$document
 ||dlrectdates.com^$popup
+||dm5900.com/piao/
 ||dmanalytics1.com^$third-party
 ||dmcdn.net/behavior/
 ||dmclick.cn^$third-party
@@ -33699,6 +33717,7 @@ zzzyk.com###Tinfo
 ||etest8.com/js/158/infojs/
 ||etf88.com/jjb/*_ad$script
 ||etf88.com/swf/
+||etfstream.com/api/active-campaign/track-events
 ||etfstream.com/api/analytics/
 ||etfstream.com/api/proxy/get-search-sponsor
 ||eth-pocket.com^$third-party
@@ -36537,6 +36556,7 @@ zzzyk.com###Tinfo
 ||iid97.com/wp-content/cache/autoptimize/js/
 ||iiikefu.com/wp-content/plugins/halfdata-green-popups/js/lepopup.js
 ||iiilab.com/sponsor
+||iin.dreamhosters.com^
 ||iis7.com/ys/css2018/ggw.js
 ||iivt.com^$third-party
 ||ijinshan.com/images/gk/game
@@ -37834,6 +37854,7 @@ zzzyk.com###Tinfo
 ||koolearn.com/zt/poster_js/$domain=~www.koolearn.com
 ||kopsil.com^$third-party
 ||koreatimes.co.kr/ad/
+||koreatimes.co.kr/api/log
 ||korewaeroi.com/fukugan_$subdocument
 ||korexo.com^$popup
 ||kostenlose-counter.com^$third-party
@@ -38950,7 +38971,6 @@ zzzyk.com###Tinfo
 ||marktplaats.nl/metrics/
 ||marktplaats.nl/px/
 ||marmiton.org/reloaded/errpix.php
-||marmota.hostel.town^
 ||maroohost.online^
 ||maropost.com^$third-party
 ||marovia.cc^$document
@@ -41558,6 +41578,7 @@ zzzyk.com###Tinfo
 ||podcorn.com^$third-party
 ||podefr2.net^$popup
 ||poder360.com.br/_tracker
+||podiums.link/event
 ||podscribe.com^$third-party
 ||poedb.tw/image/torchlight/
 ||poeticmetric.com^$third-party
@@ -46108,6 +46129,7 @@ zzzyk.com###Tinfo
 ||truenat.bid^$third-party
 ||truepeoplesearch.com/search/widgets?$xmlhttprequest
 ||truepush.com^$third-party
+||trueshostcloud.surf^
 ||truex.com/js/client.js
 ||truffle.one^$third-party
 ||trugaze.io^$third-party
@@ -46684,6 +46706,7 @@ zzzyk.com###Tinfo
 ||verify.authorize.net^$third-party
 ||verify.safesigned.com^$third-party
 ||verifymetaid.bolt.host^
+||verionpath-cdjafm-localgrid.site^
 ||verisoul.ai^$third-party
 ||verooperofthewo.com^$popup
 ||vertical-leap.co.uk^$third-party
@@ -48036,7 +48059,6 @@ zzzyk.com###Tinfo
 ||ygsm.com^$third-party
 ||yhbcii.com^$popup
 ||yhdd1.com^$third-party
-||yhdm335.com/piao/
 ||yhdm44.com/123.html
 ||yhmeinv.com/mh/
 ||yht7.com/web/assets/js/right.js
