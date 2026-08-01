@@ -111,6 +111,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 -120x600-
 -120x600.
 -120x600_
+-1300-x-200-
 -1316632262.cos.
 -1316899192.cos.
 -1321533417.cos.
@@ -21023,6 +21024,7 @@ pexels.com##a[href*=".istockphoto.com"]
 pexels.com##div[class="RowItem_gridItem__OfhML RowItem_fullWidth__cIdtN RowItem_expand__TR5R6"]
 pexels.com##div[class^="FullWidth_container_"]:has(a[rel="sponsored noopener"])
 pexels.com##div[data-testid="item"]:has(a[href^="https://www.pexels.com/g/"])
+pexels.com##div[data-testid="item"]:has(h4[data-heading][class*="inlineTitleText"])
 pexels.com#?#[data-testid="column"] [data-testid="item"]:has-text(Sponsored)
 pgatour.com##.css-18v0in8
 pgatour.com##.css-1t41kwh
@@ -21142,6 +21144,7 @@ pixabay.com##.show-gtty-item
 pixabay.com##[class^="adsSection"]
 pixabay.com##[class^="gettySponsored"]
 pixabay.com##div[class*="sponsoredWithResults"]
+pixabay.com##div[class]:has(> [class^="title--"] a[href*="sponsored"])
 pixabay.com##div[class^="adSponsoredMediaContainer-"]
 pixabay.com##div[class^="cell--"]:has(button[aria-label="About this advertiser"])
 pixabay.com##div[class^="mrxz"]:has(button[aria-label="About this advertiser"])
@@ -25560,6 +25563,7 @@ wncv.com##.simple-image
 woaimoon.com##div[id^="juan_"]
 woego.cn#@##topAds
 wolfsgamingblog.com##.wpa-about
+wolt.com##[data-test-id="MainDiscoveryContent"] li[draggable]:has(a[aria-label*="Sponsored"])
 wolt.com##div[data-test-id="MainDiscoveryContent"] li > div.cb-elevated:has(button[data-test-id="AdvertisingLabel"])
 wolt.com##div[data-test-id="SearchResultVenueSection"] li > div.cb-elevated:has(button[data-test-id="AdvertisingLabel"])
 wolt.com##ul[data-test-id="VenueVerticalListGrid"] > li > div.cb-elevated:has(button[data-test-id="AdvertisingLabel"])
@@ -30477,7 +30481,6 @@ zzzyk.com###Tinfo
 ||book118.com^*/showRecommend.
 ||bookben.com/js/m/wap.js
 ||bookcabin.com/api/log-browser
-||bookedsshostel25.world^
 ||bookforum.com/api/ads/
 ||booking.com.ishostedby.com^
 ||booking.com/87sduif98q3rijax
@@ -33435,7 +33438,6 @@ zzzyk.com###Tinfo
 ||eclinerybelfast.org^$popup
 ||eclkmpsa.com^$popup
 ||eco-tag.jp^$third-party
-||ecoassethosting.com^
 ||ecommstats.com^$third-party
 ||econda-monitor.de^$third-party
 ||econscope-by-the-agora-review.ghost.io^
@@ -36042,7 +36044,6 @@ zzzyk.com###Tinfo
 ||hostadsmarkets.com^
 ||hostalloscisnes.cl^
 ||hostanalytics.com^
-||hostance.net^
 ||hostaofficial.com^
 ||hostave.net^
 ||hostave2.net^
@@ -40061,7 +40062,6 @@ zzzyk.com###Tinfo
 ||neon.today^$third-party
 ||neowin.net/ws/$websocket
 ||neptuntrack.com^$popup
-||nerdnesthosting.com^
 ||nereu-gdr.com^$popup
 ||nero.live^$third-party
 ||nerohut.com^$third-party
