@@ -169,6 +169,8 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 -adobe-analytics/
 -ads-manager/$domain=~wordpress.org
 -ads/assets/$script,domain=~web-ads.org
+-ads1.
+-ads2.
 -assets/ads.$~script
 -bandarkiu.
 -banner-ads.
@@ -8371,6 +8373,7 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||forums.opera.com/api/topic/$~third-party,xmlhttprequest
 @@||fotor.com.cn/static/web/share/js/
 @@||fplay.online/log_event$~third-party,xmlhttprequest
+@@||fpt.microsoft.com^$domain=account.microsoft.com|fpt.microsoft.com
 @@||fpyf8.com/88/tag.min.js$domain=wxredian.com
 @@||franceinfo.fr/assets/*/piano-analytics/piano-analytics-$script,~third-party
 @@||franklymedia.com/*/300x150_WBNQ_TEXT.png$image,domain=wbnq.com
@@ -36270,6 +36273,7 @@ zzzyk.com###Tinfo
 ||hostify.fr^
 ||hostileconductive.com^
 ||hosting-5985-io.s3.ca-central-1.amazonaws.com^
+||hosting-maga.ru^
 ||hosting-security.com^
 ||hosting.sproutbuilder.com^
 ||hosting.tempors.com^
@@ -40808,6 +40812,7 @@ zzzyk.com###Tinfo
 ||obozrevatel.com/pixel.png
 ||obqj2.com^$popup
 ||observare.de^$third-party
+||observer.marketing^$third-party
 ||observerapp.com^$third-party
 ||observerbd.com/ad/
 ||obtaintrout.com^$document
@@ -43767,6 +43772,7 @@ zzzyk.com###Tinfo
 ||secure.tennis365.com/tag/
 ||secure.trust-guard.com^$third-party
 ||secure.webhostingpad.com^
+||secure256.inmotionhosting.com^
 ||secure289.inmotionhosting.com^
 ||secureanalytic.com^$third-party
 ||securecloud-smart.com^$popup
