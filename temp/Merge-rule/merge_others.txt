@@ -11633,6 +11633,7 @@ bing.com##.b_adLastChild
 bing.com##.b_adPATitleBlock
 bing.com##.b_algo:has(.ad_esltitle)
 bing.com##.b_algo:has(.b_ads1line)
+bing.com##.b_algo:has(.sb_adTA_title_link_cn)
 bing.com##.b_algo:has(> .b_title > h2 > .b_ads1line)
 bing.com##.b_spa_adblock
 bing.com##.br-poleoffcarousel
@@ -11658,8 +11659,6 @@ bing.com##li[class="b_algo"]:has(.b_attribution[data-partnertag]+p[class])
 bing.com##li[data-idx]:has(#mm-ebad)
 bing.com#?#.ta_c:has-text(Sponsored)
 bing.com#?#li.b_algo:has(.rms_img[src*="id=ODLS.A2450BEC-5595-40BA-9F13-D9EC6AB74B9F"]):has(.tptt:has-text(/^([Aa]mazon(\.[acdefinps][aeglnorst]m?\.?[abjmtu]?[kprux]?)?|Best Buy|Booking\.com|eBay|eDreams|Lenovo US|Trip\.com|Tripadvisor|Walmart)$/))
-bing.com,~www.bing.com##.b_algo:has(p[style="display: none
-bing.com,~www.bing.com#?#.b_algo p:-abp-properties(display: inline-block;)
 bingdou.com.cn,hoteastday.com##.float_ad
 bingfeng.tw###adbt
 bingfeng.tw##.wow-ad-link
