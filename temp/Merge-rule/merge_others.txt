@@ -8188,8 +8188,10 @@ $websocket,domain=pornhub.com|redtube.com|redtube.com.br|tube8.com|tube8.es|tube
 @@||dd.jaycar.com.au.first-party-js.datadome.co^$script,third-party,domain=jaycar.com.au
 @@||dd.qa.moneygram.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=moneygram.com
 @@||dd.subito.it.first-party-js.datadome.co^$script,xmlhttprequest,domain=areariservata.subito.it
+@@||dd.thetrainline.com.first-party-js.datadome.co^$domain=thetrainline.com
 @@||dd.wizzair.com.first-party-js.datadome.co^$domain=wizzair.com
 @@||deezer.com^$generichide
+@@||dekra-akademie.de/resource/*/eCom_FrontendV3/assets/js/gtm.js$~third-party
 @@||delivery-cdn-cf.adswizz.com/adswizz/js/SynchroClient*.js$script,domain=tunein.com
 @@||delivery.satr.jp^$script,domain=mieru-ca.com
 @@||delta.com/dlhome/ruxitagentjs$~third-party
@@ -22123,7 +22125,6 @@ redtube.com###video_right_col > .clearfix
 redtube.com##.hd
 redtube.com##div > iframe
 redtube.com##div[class*="display: block; height:"]
-redtube.com##svg
 redtube.com,redtube.com.br,redtube.net###pb_block
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com##:-abp-properties(*data:image*)
 redtube.com,tube8.com,tube8.es,tube8.fr,xvideos.com,youjizz.com,youporn.com##:-abp-properties(base64)
@@ -39345,6 +39346,7 @@ zzzyk.com###Tinfo
 ||missevan.com^$domain=jijidown.com
 ||misspkl.com^$popup
 ||missyuan.com/sy/
+||mistral.ai/api/trpc/event.sendEventToDatalake?
 ||mistysteel.co^$document
 ||mistysteel.co^$popup
 ||mitbbs.*/servicedata/static_ad.php
