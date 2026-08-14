@@ -2,7 +2,7 @@ name: 每8小时定时更新
 
 on:
   schedule:
-    - cron: '0 */8 * * *'  # 每12小时运行
+    - cron: '0 */8 * * *'  # 每8小时运行
   workflow_dispatch:         # 支持手动触发
 
 jobs:
@@ -20,14 +20,8 @@ jobs:
         with:
           python-version: '3.11'
 
-      - name: 安装依赖
-        run: pip install requests  # 或 pip install -r requirements.txt
-      
-      - name: 清除旧文件
-        run: sudo rm -rf ./temp/
-      
       - name: 执行脚本
-        run: python script.py  # 替换为你的脚本路径
+        run: python script.py
 
       - name: 配置 Git 用户信息
         run: |

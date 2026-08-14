@@ -1,149 +1,48 @@
-# AdGuardHome规则合并去重-自用
+# AdGuard Home 规则合并工具
 
----
+从多个远程规则源和本地规则中提取 AdGuard Home 可用的域名规则，完成合并、分类、冲突处理、层级精简及格式标准化。
 
-## 一、项目简介
+## 输入
 
-支持从多个上游规则源和本地规则文件同步内容，合并去重，检测并处理黑白名单冲突及域名层级冲突，统一格式化规则，最终输出标准化黑白名单文件。
-本人仅用于AdGuardHome，所以许多AdGuardHome无法使用的被并于无效条目，如上游规则有侵权，请联系删除。
+- `input/urls.conf`：远程规则源，每行格式为 `名称: URL`；空行以及以 `#`、`!` 开头的行会被忽略。
+- `input/local-rules.txt`：本地补充规则。
 
----
+支持纯域名（`example.com`）、hosts（`0.0.0.0 example.com`）和 AdGuard 域名锚点（`||example.com^`、`@@||example.com^$important`）。URL、正则、元素隐藏规则等非域名规则不会进入输出。
 
-## 二、处理步骤说明
+## 输出
 
-### **第一步：下载与初步分类规则**
+所有产物统一位于 `output/`，固定为以下 4 个文件，不再生成 `temp/` 中间目录：
 
-* **输入**：
-  
-  * 本地规则：`./input/local-rules.txt`
-  
-  * 上游规则链接：`./input/urls.conf`
+- `BlackList_Raw.txt`：未清洗黑名单。保留来源格式，仅移除注释/空行并按原始行精确去重，再按纯域名、hosts、AdGuard 格式和域名排序。
+- `WhiteList_Raw.txt`：未清洗白名单。规则处理和排序方式同上。
+- `BlackList.txt`：清洗、冲突处理、域名层级精简及去重后的黑名单，格式为 `||example.com^`。
+- `WhiteList.txt`：清洗、冲突处理、域名层级精简及去重后的白名单，格式为 `@@||example.com^$important`。
 
-* **处理**：
-  
-  * 去除所有注释（包含! #及其之后所有内容，! #为行首或者前面有空格）
-  
-  * 下载上游规则，提取有效规则。
+同一域名同时出现时白名单优先。同一名单中已有父域名时删除普通子域名；通配符域名单独保留，避免改变语义。
 
-* **分类输出**：
-  
-  * 无效条目
-  
-  * 有效条目
+## 运行
 
-* * *
+Python 3.10 及以上版本无需第三方依赖：
 
-### **第二步：规则分类**
-
-* **规则类型**：
-  
-  * 纯 hosts：IP 域名
-  
-  * 标准 AdGuard 规则：以 `||` 和 `@@` 开头的各种组合
-  
-  * 纯域名：如 `example.com`
-  
-  * 其他不适用上述分类的
-
-* * *
-
-### **第三步：黑白名单分类**
-
-* **hosts 文件**：
-  
-  * 黑名单：IP 为 `0.0.0.0` `127.0.0.1` `::`
-  
-  * 白名单：其他
-
-* **AdGuard 文件**：
-  
-  * 黑名单：`||` 开头
-  
-  * 白名单：`@@` 开头
-
-* * *
-
-### **第四步：格式剥离**
-
-* **目标**：提取出纯域名，便于后续处理
-
-* **输入来源**：
-  
-  * `hosts-black.txt`、`adguard-black.txt`、`adguard-white.txt`
-
-* * *
-
-### **第五步：初步合并黑白名单**
-
-* **黑名单合并**：
-  
-  * `hosts-domain.txt` + `adguard-bdomain.txt` → `BlackList_tmp.txt`
-
-* **白名单初步处理**
-
-* * *
-
-### **第六步：冲突处理**
-
-* **处理两个维度冲突**：
-  
-  1. **黑白名单冲突**：同一条目出现在黑白名单,在黑名单查找是否有上级域名，如果没有，则将其从两个名单中剔除，反之则仅从黑名单删除
-  
-  2. **层级冲突**：同一名单中，域名及其下属域名不能共存，如 `example.com` 与 `a.b.example.com` 共存,则删除` a.b.example.com` 
-
-* * *
-
-### **第七步：格式标准化**
-
-* **内容校验**：
-  
-  * 删除 `localhost`、纯 IP 条目
-
-* **格式转换(按使用需要,这里转换为adguard格式)**：
-  
-  * 白名单 → `@@||example.com^$important`
-  
-  * 黑名单 → `||example.com^`
-
-* **添加头部信息**
-
-
-## 三、目录结构
-
-```
-main/
-│
-├─ input/              # 输入文件目录
-│   ├─ urls.conf         # 远程规则URL列表，格式：规则名: URL
-│   └─ local-rules.txt   # 本地规则文件
-├─ temp/              # 中间处理文件目录
-├─ output/               # 最终输出目录
-│   ├─ BlackList.txt    # 格式化黑名单最终文件
-│   └─ WhiteList.txt    # 格式化白名单最终文件
-│
-└─ *.py             # 脚本文件，包含所有功能模块及主函数
+```bash
+python script.py
 ```
 
----
+仅处理本地规则并跳过下载：
 
-## 四、运行说明
+```bash
+python script.py --no-download
+```
 
-1. 将远程规则URL列表放入 `./input/urls.conf` ，格式为 `规则名: URL`
-2. 本地规则放入 `./input/local-rules.txt`
-3. 运行 `python script.py`或者`python3 script.py`（取决于你的使用环境）
-4. 脚本执行完成后，中间文件及日志输出 `./temp/`，最终黑白名单分别输出 `./output/`
-5. 查看日志文件确认冲突及层级冲突详情
+单个远程源失败不会中断其他来源。输出采用原子替换，避免执行中断留下不完整文件。
 
----
-## 五、直达链接
-**白名单**
+## 自动更新与直达链接
 
-    https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@refs/heads/main/output/WhiteList.txt
+GitHub Actions 每 8 小时运行一次并提交 `output/`。jsDelivr 加速链接：
 
-**黑名单**
+- [未清洗黑名单](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/BlackList_Raw.txt)
+- [未清洗白名单](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/WhiteList_Raw.txt)
+- [清洗黑名单](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/BlackList.txt)
+- [清洗白名单](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/WhiteList.txt)
 
-    https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@refs/heads/main/output/BlackList.txt
-
-
-
----
+所有处理均已整合到唯一脚本 `script.py`：读取 → 精确合并去重 → 格式识别及分类 → 输出未清洗黑白名单 → 标准化 → 冲突与层级精简 → 输出清洗黑白名单。
