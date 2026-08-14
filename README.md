@@ -57,7 +57,7 @@ AdGuardHome-rules/
 }
 ```
 
-`sources` 必须是数组，每个来源必须包含非空的 `name` 和 HTTP(S) `url`。`enabled` 为可选布尔值，默认为 `true`；设为 `false` 可临时禁用来源。JSON 不支持注释和尾随逗号，配置不合法时程序会直接报告具体字段错误。
+`sources` 必须是列表，每个来源必须包含非空的 `name` 和 HTTP(S) `url`。`enabled` 为可选布尔值，默认为 `true`；设为 `false` 可临时禁用来源。JSON 不支持注释和尾随逗号，配置不合法时程序会直接报告具体字段错误。
 
 ### 本地规则
 
