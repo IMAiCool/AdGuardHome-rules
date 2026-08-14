@@ -2,8 +2,15 @@ name: 每8小时定时更新
 
 on:
   schedule:
-    - cron: '0 */8 * * *'  # 每8小时运行
-  workflow_dispatch:         # 支持手动触发
+    - cron: '0 */8 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: adguard-rules-update
+  cancel-in-progress: false
 
 jobs:
   update-repo:
@@ -11,17 +18,24 @@ jobs:
 
     steps:
       - name: 拉取代码
-        uses: actions/checkout@v3
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+        uses: actions/checkout@v4
 
       - name: 设置 Python 环境
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: 执行脚本
-        run: python script.py
+      - name: 校验规则源配置
+        run: python -m json.tool input/urls.json > /dev/null
+
+      - name: 通过类接口生成规则
+        run: |
+          python - <<'PY'
+          from script import RuleProcessor
+
+          result = RuleProcessor().run(download=True)
+          print(result)
+          PY
 
       - name: 配置 Git 用户信息
         run: |
@@ -30,6 +44,10 @@ jobs:
 
       - name: 提交更改
         run: |
-          git add .
-          git commit -m "自动更新：`date '+%Y-%m-%d %H:%M:%S'`" || echo "无更改，无需提交"
+          git add -- output/
+          if git diff --cached --quiet; then
+            echo "无规则变化，无需提交"
+            exit 0
+          fi
+          git commit -m "自动更新：$(date '+%Y-%m-%d %H:%M:%S')"
           git push

@@ -1,0 +1,49 @@
+{
+  "sources": [
+    {
+      "name": "AdGuard DNS filter",
+      "url": "https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/AdGuard_DNS_filter.txt",
+      "enabled": true
+    },
+    {
+      "name": "EasyList China",
+      "url": "https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/EasyList_China.txt",
+      "enabled": true
+    },
+    {
+      "name": "1Hosts (Lite)",
+      "url": "https://raw.githubusercontent.com/badmojr/1Hosts/master/Lite/adblock.txt",
+      "enabled": true
+    },
+    {
+      "name": "StevenBlack hosts",
+      "url": "https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/StevenBlack_hosts.txt",
+      "enabled": true
+    },
+    {
+      "name": "EasyPrivacy",
+      "url": "https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/EasyPrivacy.txt",
+      "enabled": true
+    },
+    {
+      "name": "CJX's Annoyance List",
+      "url": "https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/CJX's_Annoyance_List.txt",
+      "enabled": true
+    },
+    {
+      "name": "EasyList",
+      "url": "https://gcore.jsdelivr.net/gh/217heidai/adblockfilters@main/rules/EasyList.txt",
+      "enabled": true
+    },
+    {
+      "name": "AdAway Default Blocklist",
+      "url": "https://adaway.org/hosts.txt",
+      "enabled": true
+    },
+    {
+      "name": "OSID",
+      "url": "https://big.oisd.nl",
+      "enabled": true
+    }
+  ]
+}
