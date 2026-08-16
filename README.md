@@ -30,17 +30,11 @@ AdGuardHome-rules/
 │  ├─ urls.json               # 标准 JSON 远程规则源配置
 │  └─ local-rules.txt         # 本地补充规则
 ├─ output/
-│  ├─ BlackList_Raw.txt       # 浏览器兼容黑名单（保留有效子域名）
-│  ├─ WhiteList_Raw.txt       # 浏览器兼容白名单（保留有效子域名）
-│  ├─ BlackList.txt           # 清洗后的黑名单
-│  ├─ WhiteList.txt           # 清洗后的白名单
-│  ├─ AdGuardHome.txt         # AdGuard Home 合并规则
-│  ├─ AdGuard.txt             # AdGuard 浏览器扩展订阅
-│  ├─ AdblockPlus.txt         # Adblock Plus 浏览器扩展订阅
-│  ├─ uBlockOrigin.txt        # uBlock Origin 浏览器扩展订阅
+│  ├─ AdGuardHome_BlackList.txt / AdGuardHome_WhiteList.txt
 │  ├─ AdGuard_BlackList.txt / AdGuard_WhiteList.txt
 │  ├─ AdblockPlus_BlackList.txt / AdblockPlus_WhiteList.txt
-│  └─ uBlockOrigin_BlackList.txt / uBlockOrigin_WhiteList.txt
+│  ├─ uBlockOrigin_BlackList.txt / uBlockOrigin_WhiteList.txt
+│  └─ ElementRules.txt           # 元素隐藏与 scriptlet 独立规则
 ├─ .gitignore
 ├─ README.md
 └─ script.py                  # 唯一处理脚本
@@ -100,7 +94,7 @@ example.com
 - URL 路径规则、正则规则、元素隐藏规则等非域名规则（仍会按兼容性进入浏览器扩展订阅）；
 - 不属于纯域名、双字段 hosts 或 AdGuard `||` 域名锚点格式的内容。
 
-hosts 规则在进入浏览器兼容文件和 AdGuard Home 文件前，都会执行以下清洗判定：
+hosts 规则在进入各目标输出前，都会执行以下清洗判定：
 
 - IPv4 `0.0.0.0` 和 `127.0.0.0/8`（所有 `127.*.*.*`）视为有效黑名单；
 - 指向公网 IPv4 或 IPv6 地址的 hosts 规则视为有效白名单；
@@ -122,41 +116,51 @@ hosts 规则在进入浏览器兼容文件和 AdGuard Home 文件前，都会执
         ↓
 白名单优先解决同域名冲突
         ↓
-输出保留有效子域名的浏览器兼容规则
+按 AdGuard、Adblock Plus、uBlock Origin 标准分别校验并格式化
         ↓
 精简被父域名覆盖的普通子域名
         ↓
-转换为统一 AdGuard 格式并输出最终文件
+按目标产品分别输出黑名单与白名单
 ```
 
 同一个域名同时出现在黑名单和白名单时，将从最终黑名单中移除并保留在白名单中。黑白名单内部若同时存在 `example.com` 和 `sub.example.com`，最终仅保留父域名 `example.com`。以 `*.` 开头的通配符域名不参与普通父子域精简。
 
 ## 输出说明
 
-| 文件 | 处理程度 | 输出格式 |
-| --- | --- | --- |
-| `BlackList_Raw.txt` | 已过滤无效 hosts、标准化、解决冲突并去重；保留有效子域名，不做层级精简 | `||example.com^` |
-| `WhiteList_Raw.txt` | 已过滤无效 hosts、标准化、解决冲突并去重；保留有效子域名，不做层级精简 | `@@||example.com^` |
-| `BlackList.txt` | 已过滤无效 hosts、标准化、解决冲突、精简层级并去重 | `||example.com^` |
-| `WhiteList.txt` | 已过滤无效 hosts、标准化、解决冲突、精简层级并去重 | `@@||example.com^$important` |
-| `AdGuardHome.txt` | 合并层级精简后的 AdGuard Home 黑白名单 | `||example.com^` / `@@||example.com^$important` |
+脚本只生成下表中的 8 个正式订阅。每份文件只包含对应产品认可的标准语法；来源注释、标题、hosts 原文、其他产品专属语法和无法验证的内容均会删除。
 
-四个文件均按标准化域名字典序排列。Raw 文件名为兼容已有订阅链接而保留，其内容已经清洗，不再代表未经处理的原始规则。
+| 目标产品 | 类型 | 输出文件与订阅链接 | 标准格式与用途 |
+| --- | --- | --- | --- |
+| AdGuard Home | 黑名单 | [AdGuardHome_BlackList.txt](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/AdGuardHome_BlackList.txt) | `||example.com^`，域名级拦截并执行父子域精简 |
+| AdGuard Home | 白名单 | [AdGuardHome_WhiteList.txt](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/AdGuardHome_WhiteList.txt) | `@@||example.com^$important`，域名级放行 |
+| AdGuard | 黑名单 | [AdGuard_BlackList.txt](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/AdGuard_BlackList.txt) | 仅 `||` 开头的 AdGuard 标准域名网络、URL 路径和通配符规则 |
+| AdGuard | 白名单 | [AdGuard_WhiteList.txt](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/AdGuard_WhiteList.txt) | 仅 `@@||` 开头的 AdGuard 网络例外规则 |
+| Adblock Plus | 黑名单 | [AdblockPlus_BlackList.txt](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/AdblockPlus_BlackList.txt) | 仅 `||` 开头且修饰符受 ABP 支持的网络规则 |
+| Adblock Plus | 白名单 | [AdblockPlus_WhiteList.txt](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/AdblockPlus_WhiteList.txt) | 仅 `@@||` 开头的 ABP 网络例外规则 |
+| uBlock Origin | 黑名单 | [uBlockOrigin_BlackList.txt](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/uBlockOrigin_BlackList.txt) | 仅 `||` 开头并使用 uBO 标准修饰符名称的网络规则 |
+| uBlock Origin | 白名单 | [uBlockOrigin_WhiteList.txt](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/uBlockOrigin_WhiteList.txt) | 仅 `@@||` 开头的 uBO 网络例外规则 |
+| 浏览器扩展元素规则 | 独立合集 | [ElementRules.txt](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/ElementRules.txt) | 独立保存 `##`、`###`、`#@#`、AdGuard 扩展元素规则及 uBO scriptlet |
 
-- 清洗规则 `BlackList.txt` 和 `WhiteList.txt`：适用于 AdGuard Home。
-- 浏览器兼容规则 `BlackList_Raw.txt` 和 `WhiteList_Raw.txt`：适用于 AdGuard、Adblock Plus 及支持 Adblock 过滤语法的浏览器插件。
+纯域名和有效 hosts 会先转换为目标格式；裸域名 URL 掩码会补充 `||` 锚点；修饰符别名会转换为目标产品采用的规范名称。例如 `csdnimg.cn^*#/preview/` 会格式化为 `||csdnimg.cn^*#/preview/`。黑名单正文全部以 `||` 开头，白名单正文全部以 `@@||` 开头。元素隐藏（`##`、`###`、`#@#`）、scriptlet、纯正则、单竖线 URL 规则及无法验证的内容全部删除。
 
-### 浏览器扩展专用订阅
+### ElementRules.txt 使用说明
 
-| 文件 | 目标扩展 | 规则处理方式 |
-| --- | --- | --- |
-| `AdGuard.txt` | AdGuard 浏览器扩展 | 保留通用网络与元素隐藏规则以及 AdGuard 扩展语法，排除 uBO 专属语法 |
-| `AdblockPlus.txt` | Adblock Plus | 保留 ABP 通用网络规则、URL 掩码和基础元素隐藏规则，排除 AdGuard/uBO 扩展语法及不兼容修饰符 |
-| `uBlockOrigin.txt` | uBlock Origin | 保留通用规则以及 uBO 的 scriptlet、程序化元素过滤、重定向和参数移除等扩展语法 |
+`ElementRules.txt` 与八份网络黑白名单完全隔离，集中保存网页元素隐藏、元素隐藏例外、AdGuard 扩展 CSS 和 uBlock Origin scriptlet。它会删除来源注释、Markdown 标题、空行和无效内容，并按原始规则精确去重。主要标记如下：
 
-三个文件分别使用目标扩展的订阅头和规范化写法，只有 Adblock Plus 文件使用 `[Adblock Plus 2.0]` 标识。纯域名和有效 hosts 会转换为 `||domain^` 或 `@@||domain^`；裸域名 URL 掩码统一补充 `||` 锚点；修饰符别名会转换为目标扩展的标准名称。无法无损转换到目标语法的扩展规则会被排除，不会与其他扩展的专属语法混写。例如输入 `csdnimg.cn^*#/preview/` 会规范化为 `||csdnimg.cn^*#/preview/`，进入三个浏览器订阅，但不会进入仅接受域名的 AdGuard Home 文件。
+| 标记示例 | 用途 |
+| --- | --- |
+| `##.advert`、`###advert` | 隐藏匹配 CSS class 或 ID 的网页元素 |
+| `example.com##.advert` | 仅在指定网站隐藏元素 |
+| `example.com#@#.advert` | 在指定网站取消对应的元素隐藏规则 |
+| `example.com#$#...`、`example.com#?#...` | AdGuard 扩展 CSS / 扩展选择器规则 |
+| `example.com##+js(...)` | uBlock Origin scriptlet 规则 |
 
-每种浏览器扩展还会生成独立的 `BlackList` 和 `WhiteList` 文件。以 `@@` 开头的网络例外规则，以及使用 `#@#`、`#@$#`、`#@%#`、`#@?#` 的元素隐藏或扩展例外规则进入白名单；其余规则进入黑名单。合并订阅继续保留，用于兼容已有链接。
+使用方式：
+
+1. 先订阅对应产品的网络黑名单与白名单。
+2. 浏览器扩展需要页面元素过滤时，再额外订阅 [ElementRules.txt](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/ElementRules.txt)。
+3. 该文件不适用于 AdGuard Home；AdGuard 与 uBlock Origin 会忽略自身不支持的专属语法，但不同扩展的实际支持范围可能不同。
+4. 如果扩展报告规则语法错误，应停用该元素规则订阅，或改用扩展官方提供的专用元素过滤列表。
 
 ## 运行方式
 
@@ -216,28 +220,7 @@ print(result.output_files)
 
 ## jsDelivr 加速链接
 
-### 浏览器兼容规则
-
-- [BlackList_Raw.txt](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/BlackList_Raw.txt)
-- [WhiteList_Raw.txt](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/WhiteList_Raw.txt)
-
-### 浏览器扩展专用规则
-
-- [AdGuard.txt](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/AdGuard.txt)
-- [AdblockPlus.txt](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/AdblockPlus.txt)
-- [uBlockOrigin.txt](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/uBlockOrigin.txt)
-- [AdGuard_BlackList.txt](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/AdGuard_BlackList.txt)
-- [AdGuard_WhiteList.txt](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/AdGuard_WhiteList.txt)
-- [AdblockPlus_BlackList.txt](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/AdblockPlus_BlackList.txt)
-- [AdblockPlus_WhiteList.txt](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/AdblockPlus_WhiteList.txt)
-- [uBlockOrigin_BlackList.txt](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/uBlockOrigin_BlackList.txt)
-- [uBlockOrigin_WhiteList.txt](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/uBlockOrigin_WhiteList.txt)
-
-### 清洗规则
-
-- [BlackList.txt](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/BlackList.txt)
-- [WhiteList.txt](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/WhiteList.txt)
-- [AdGuardHome.txt](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/AdGuardHome.txt)
+所有正式订阅链接已集中列在“输出说明”表格中。
 
 jsDelivr 存在短暂缓存延迟。仓库更新后若未立即获取到新内容，请稍后重试。
 
@@ -263,7 +246,6 @@ jsDelivr 存在短暂缓存延迟。仓库更新后若未立即获取到新内�
 
 ## 注意事项
 
-- `BlackList_Raw.txt` 和 `WhiteList_Raw.txt` 仅包含通用域名锚点语法；需要 URL 路径、正则、元素隐藏或扩展专属语法时，应订阅对应的浏览器扩展专用文件。
-- 白名单中使用 `$important`，用于提高例外规则的优先级。
+- AdGuard Home 白名单使用 `$important` 提高例外规则优先级；其他产品按各自标准保留或转换例外规则。
 - 上游规则的内容和可用性由各自维护者负责；下载失败的来源应在 `input/urls.json` 中及时更新。
-- 排查误拦截时，可先检查保留完整有效子域名的浏览器兼容文件，再与层级精简后的 AdGuard Home 文件对照。
+- 排查误拦截时，请检查对应产品的白名单，并与同产品黑名单对照。

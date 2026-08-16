@@ -26,11 +26,6 @@ LOOPBACK_BLACKLIST = ipaddress.ip_network("127.0.0.0/8")
 UNSPECIFIED_BLACKLIST = ipaddress.ip_address("0.0.0.0")
 __all__ = ["ProcessingResult", "RuleProcessor"]
 
-BROWSER_OUTPUT_NAMES = {
-    "adguard": "AdGuard.txt",
-    "adblock_plus": "AdblockPlus.txt",
-    "ublock_origin": "uBlockOrigin.txt",
-}
 BROWSER_SPLIT_OUTPUT_NAMES = {
     "adguard": ("AdGuard_BlackList.txt", "AdGuard_WhiteList.txt"),
     "adblock_plus": ("AdblockPlus_BlackList.txt", "AdblockPlus_WhiteList.txt"),
@@ -53,6 +48,7 @@ UBLOCK_ONLY_OPTIONS = {
     "denyallow", "header", "redirect", "redirect-rule", "removeparam",
     "uritransform", "urlskip",
 }
+UBLOCK_EXCLUSIVE_OPTIONS = {"uritransform", "urlskip"}
 ABP_COMMON_OPTIONS = {
     "1p", "3p", "collapse", "css", "document", "domain", "elemhide",
     "font", "frame", "genericblock", "generichide", "image", "match-case",
@@ -127,32 +123,22 @@ class RuleProcessor:
         """Execute the complete pipeline and return structured statistics."""
         lines = self._collect_source_lines(self._load_sources(download))
         rules = self._collect_rules(lines)
-        browser_black, browser_white = self._clean_browser_lists(rules)
         black, white, discarded = self._clean_lists(rules)
         output_files = (
-            self.output_dir / "BlackList_Raw.txt",
-            self.output_dir / "WhiteList_Raw.txt",
-            self.output_dir / "BlackList.txt",
-            self.output_dir / "WhiteList.txt",
-        )
-        extension_files = tuple(
-            self.output_dir / filename for filename in BROWSER_OUTPUT_NAMES.values()
+            self.output_dir / "AdGuardHome_BlackList.txt",
+            self.output_dir / "AdGuardHome_WhiteList.txt",
         )
         extension_split_files = tuple(
             self.output_dir / filename
             for filenames in BROWSER_SPLIT_OUTPUT_NAMES.values()
             for filename in filenames
         )
-        adguard_home_file = self.output_dir / "AdGuardHome.txt"
-        self._write_browser(output_files[0], browser_black, is_white=False)
-        self._write_browser(output_files[1], browser_white, is_white=True)
-        self._write_final(output_files[2], black, is_white=False)
-        self._write_final(output_files[3], white, is_white=True)
-        self._write_adguard_home(adguard_home_file, black, white)
+        element_rules_file = self.output_dir / "ElementRules.txt"
+        self._write_final(output_files[0], black, is_white=False)
+        self._write_final(output_files[1], white, is_white=True)
         browser_counts = []
-        for profile, path in zip(BROWSER_OUTPUT_NAMES, extension_files):
+        for profile in BROWSER_SPLIT_OUTPUT_NAMES:
             extension_rules = self._build_extension_rules(lines, profile)
-            self._write_extension(path, extension_rules, profile)
             extension_black, extension_white = self._split_extension_rules(
                 extension_rules
             )
@@ -173,6 +159,8 @@ class RuleProcessor:
                 (f"{profile}_blacklist", len(extension_black)),
                 (f"{profile}_whitelist", len(extension_white)),
             ))
+        element_rules = self._collect_element_rules(lines)
+        self._write_element_rules(element_rules_file, element_rules)
         result = ProcessingResult(
             merged_rules=len(rules),
             blacklist_rules=len(black),
@@ -180,9 +168,8 @@ class RuleProcessor:
             discarded_non_public_hosts=discarded,
             output_files=(
                 output_files
-                + (adguard_home_file,)
-                + extension_files
                 + extension_split_files
+                + (element_rules_file,)
             ),
             browser_rules=tuple(browser_counts),
         )
@@ -343,21 +330,38 @@ class RuleProcessor:
             return None
         if line.startswith(("address=/", "server=/", "local=/", "host-record=")):
             return None
-        if line.startswith(EXTENDED_RULE_MARKERS) or any(
-            marker in line for marker in EXTENDED_RULE_MARKERS
-        ):
-            if not line.strip("#"):
-                return None
-            return line
         if any(char.isspace() for char in line):
             return None
-        if any(char in line for char in ("^", "*", "|", "/", "$")):
-            return line
-        return None
+        if any(marker in line for marker in EXTENDED_RULE_MARKERS):
+            return None
+
+        is_white = line.startswith("@@")
+        pattern = line[2:] if is_white else line
+        if pattern.startswith("||"):
+            pattern = pattern[2:]
+        elif pattern.startswith(("|", "/", "*")):
+            return None
+        match = re.fullmatch(
+            r"(?P<domain>(?:\*\.)?(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+"
+            r"[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?)(?P<suffix>[\^/$*].*)?",
+            pattern,
+            re.IGNORECASE,
+        )
+        if not match:
+            return None
+        normalized_domain = cls._normalize_domain(match.group("domain"))
+        if not normalized_domain:
+            return None
+        prefix = "@@||" if is_white else "||"
+        return f"{prefix}{normalized_domain}{match.group('suffix') or '^'}"
 
     @staticmethod
     def _option_names(line: str) -> set[str]:
-        if "$" not in line or (line.startswith("/") and line.endswith("/")):
+        if (
+            "$" not in line
+            or any(marker in line for marker in EXTENDED_RULE_MARKERS)
+            or (line.startswith("/") and line.endswith("/"))
+        ):
             return set()
         option_text = line.rsplit("$", 1)[1]
         return {
@@ -371,7 +375,10 @@ class RuleProcessor:
         lowered = line.lower()
         options = cls._option_names(line)
         if profile == "adguard":
-            return not any(marker in lowered for marker in UBLOCK_ONLY_MARKERS)
+            return (
+                not any(marker in lowered for marker in UBLOCK_ONLY_MARKERS)
+                and not bool(options & UBLOCK_EXCLUSIVE_OPTIONS)
+            )
         if profile == "ublock_origin":
             if any(marker in lowered for marker in ADGUARD_ONLY_MARKERS):
                 return False
@@ -382,21 +389,37 @@ class RuleProcessor:
             return all(option in ABP_COMMON_OPTIONS for option in options)
         raise ValueError(f"未知浏览器配置: {profile}")
 
+    @staticmethod
+    def _extended_marker(line: str) -> str | None:
+        markers = sorted(EXTENDED_RULE_MARKERS, key=len, reverse=True)
+        matches = ((line.find(marker), marker) for marker in markers)
+        found = [(index, marker) for index, marker in matches if index >= 0]
+        return min(found, default=(0, None), key=lambda item: item[0])[1]
+
+    @classmethod
+    def _is_standard_profile_rule(cls, line: str, profile: str) -> bool:
+        if not line or any(ord(char) < 32 for char in line):
+            return False
+        if any(marker in line for marker in EXTENDED_RULE_MARKERS):
+            return False
+        if line.startswith("@@||"):
+            network = line[4:]
+        elif line.startswith("||"):
+            network = line[2:]
+        else:
+            return False
+        if not network or any(char.isspace() for char in network):
+            return False
+        pattern = network.rsplit("$", 1)[0] if "$" in network else network
+        return bool(re.match(
+            r"^(?:\*\.)?(?:[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?\.)+"
+            r"[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?(?:[\^/$*]|$)",
+            pattern,
+            re.IGNORECASE,
+        ))
+
     @classmethod
     def _format_profile_rule(cls, line: str, profile: str) -> str:
-        if not any(marker in line for marker in EXTENDED_RULE_MARKERS):
-            exception = line.startswith("@@")
-            pattern = line[2:] if exception else line
-            if not pattern.startswith(("||", "|", "/", "*")):
-                domain_match = re.match(
-                    r"^(?:\*\.)?(?:[a-z0-9-]+\.)+[a-z0-9-]+(?=[\^/*])",
-                    pattern,
-                    re.IGNORECASE,
-                )
-                if domain_match:
-                    pattern = "||" + pattern
-            line = ("@@" if exception else "") + pattern
-
         if "$" not in line or (line.startswith("/") and line.endswith("/")):
             return line
         pattern, option_text = line.rsplit("$", 1)
@@ -422,18 +445,31 @@ class RuleProcessor:
             if profile == "adblock_plus":
                 normalized = normalized.replace("$important", "").rstrip("$")
             formatted = cls._format_profile_rule(normalized, profile)
-            if cls._is_profile_compatible(formatted, profile):
+            if (
+                cls._is_profile_compatible(formatted, profile)
+                and cls._is_standard_profile_rule(formatted, profile)
+            ):
                 selected.add(formatted)
+        return sorted(selected)
+
+    @classmethod
+    def _collect_element_rules(cls, lines: list[str]) -> list[str]:
+        selected = set()
+        for line in lines:
+            marker = cls._extended_marker(line)
+            if not marker or any(ord(char) < 32 for char in line):
+                continue
+            scope, body = line.split(marker, 1)
+            if not body or not body.strip("#"):
+                continue
+            if scope and any(char.isspace() for char in scope):
+                continue
+            selected.add(line)
         return sorted(selected)
 
     @staticmethod
     def _split_extension_rules(rules: list[str]) -> tuple[list[str], list[str]]:
-        cosmetic_exception_markers = ("#@#", "#@$#", "#@%#", "#@?#")
-        white = [
-            rule for rule in rules
-            if rule.startswith("@@")
-            or any(marker in rule for marker in cosmetic_exception_markers)
-        ]
+        white = [rule for rule in rules if rule.startswith("@@||")]
         white_set = set(white)
         black = [rule for rule in rules if rule not in white_set]
         return black, white
@@ -484,34 +520,12 @@ class RuleProcessor:
             temporary_path = Path(temporary.name)
         temporary_path.replace(path)
 
-    def _write_browser(self, path: Path, domains: list[str], is_white: bool) -> None:
-        updated = datetime.now().astimezone().strftime("%Y-%m-%d %H:%M:%S %z")
-        kind, prefix = ("浏览器兼容白名单", "@@||") if is_white else ("浏览器兼容黑名单", "||")
-        header = [f"! 更新时间: {updated}", f"! 类型: {kind}", f"! 规则数量: {len(domains)}", ""]
-        self._atomic_write(path, "\n".join(header + [f"{prefix}{domain}^" for domain in domains]))
-
     def _write_final(self, path: Path, domains: list[str], is_white: bool) -> None:
         updated = datetime.now().astimezone().strftime("%Y-%m-%d %H:%M:%S %z")
         kind, prefix = ("白名单", "@@||") if is_white else ("黑名单", "||")
         suffix = "^$important" if is_white else "^"
         header = [f"! 更新时间: {updated}", f"! 类型: {kind}", f"! 规则数量: {len(domains)}", ""]
         self._atomic_write(path, "\n".join(header + [f"{prefix}{d}{suffix}" for d in domains]))
-
-    def _write_adguard_home(
-        self, path: Path, black: list[str], white: list[str]
-    ) -> None:
-        updated = datetime.now().astimezone().strftime("%Y-%m-%d %H:%M:%S %z")
-        rules = [f"||{domain}^" for domain in black]
-        rules.extend(f"@@||{domain}^$important" for domain in white)
-        header = [
-            f"! 更新时间: {updated}",
-            "! 类型: AdGuard Home 合并规则",
-            f"! 黑名单规则: {len(black)}",
-            f"! 白名单规则: {len(white)}",
-            f"! 规则总数: {len(rules)}",
-            "",
-        ]
-        self._atomic_write(path, "\n".join(header + rules))
 
     def _write_extension(
         self,
@@ -536,6 +550,18 @@ class RuleProcessor:
             f"! Title: AdGuardHome-rules - {titles[profile]} {kind_titles[list_kind]}",
             f"! Syntax: {titles[profile]}",
             f"! List type: {list_kind}",
+            f"! Last modified: {updated}",
+            "! Expires: 8 hours",
+            f"! Rules: {len(rules)}",
+            "",
+        ]
+        self._atomic_write(path, "\n".join(header + rules))
+
+    def _write_element_rules(self, path: Path, rules: list[str]) -> None:
+        updated = datetime.now().astimezone().strftime("%Y-%m-%d %H:%M:%S %z")
+        header = [
+            "! Title: AdGuardHome-rules - element and scriptlet rules",
+            "! Type: mixed extension-specific element rules",
             f"! Last modified: {updated}",
             "! Expires: 8 hours",
             f"! Rules: {len(rules)}",
