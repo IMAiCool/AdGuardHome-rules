@@ -24,12 +24,17 @@ DOMAIN_RE = re.compile(
 )
 LOOPBACK_BLACKLIST = ipaddress.ip_network("127.0.0.0/8")
 UNSPECIFIED_BLACKLIST = ipaddress.ip_address("0.0.0.0")
+MAX_LITE_RULES = 300_000
 __all__ = ["ProcessingResult", "RuleProcessor"]
 
 BROWSER_SPLIT_OUTPUT_NAMES = {
     "adguard": ("AdGuard_BlackList.txt", "AdGuard_WhiteList.txt"),
     "adblock_plus": ("AdblockPlus_BlackList.txt", "AdblockPlus_WhiteList.txt"),
     "ublock_origin": ("uBlockOrigin_BlackList.txt", "uBlockOrigin_WhiteList.txt"),
+}
+BROWSER_LITE_OUTPUT_NAMES = {
+    profile: tuple(name.replace(".txt", "_Lite.txt") for name in names)
+    for profile, names in BROWSER_SPLIT_OUTPUT_NAMES.items()
 }
 EXTENDED_RULE_MARKERS = (
     "##", "#@#", "#$#", "#@$#", "#%#", "#@%#", "#?#", "#@?#",
@@ -128,14 +133,29 @@ class RuleProcessor:
             self.output_dir / "AdGuardHome_BlackList.txt",
             self.output_dir / "AdGuardHome_WhiteList.txt",
         )
+        adguard_home_lite_files = (
+            self.output_dir / "AdGuardHome_BlackList_Lite.txt",
+            self.output_dir / "AdGuardHome_WhiteList_Lite.txt",
+        )
         extension_split_files = tuple(
             self.output_dir / filename
             for filenames in BROWSER_SPLIT_OUTPUT_NAMES.values()
             for filename in filenames
         )
+        extension_lite_files = tuple(
+            self.output_dir / filename
+            for filenames in BROWSER_LITE_OUTPUT_NAMES.values()
+            for filename in filenames
+        )
         element_rules_file = self.output_dir / "ElementRules.txt"
         self._write_final(output_files[0], black, is_white=False)
         self._write_final(output_files[1], white, is_white=True)
+        self._write_final(
+            adguard_home_lite_files[0], black[:MAX_LITE_RULES], is_white=False
+        )
+        self._write_final(
+            adguard_home_lite_files[1], white[:MAX_LITE_RULES], is_white=True
+        )
         browser_counts = []
         for profile in BROWSER_SPLIT_OUTPUT_NAMES:
             extension_rules = self._build_extension_rules(lines, profile)
@@ -155,6 +175,21 @@ class RuleProcessor:
                 profile,
                 list_kind="whitelist",
             )
+            lite_black_rules = self._reduce_lite_rules(extension_black)
+            lite_white_rules = self._reduce_lite_rules(extension_white)
+            lite_black_name, lite_white_name = BROWSER_LITE_OUTPUT_NAMES[profile]
+            self._write_extension(
+                self.output_dir / lite_black_name,
+                lite_black_rules,
+                profile,
+                list_kind="blacklist lite",
+            )
+            self._write_extension(
+                self.output_dir / lite_white_name,
+                lite_white_rules,
+                profile,
+                list_kind="whitelist lite",
+            )
             browser_counts.extend((
                 (f"{profile}_blacklist", len(extension_black)),
                 (f"{profile}_whitelist", len(extension_white)),
@@ -168,7 +203,9 @@ class RuleProcessor:
             discarded_non_public_hosts=discarded,
             output_files=(
                 output_files
+                + adguard_home_lite_files
                 + extension_split_files
+                + extension_lite_files
                 + (element_rules_file,)
             ),
             browser_rules=tuple(browser_counts),
@@ -474,6 +511,29 @@ class RuleProcessor:
         black = [rule for rule in rules if rule not in white_set]
         return black, white
 
+    @classmethod
+    def _reduce_lite_rules(
+        cls, rules: list[str], limit: int = MAX_LITE_RULES
+    ) -> list[str]:
+        if limit <= 0:
+            return []
+        simple: dict[str, str] = {}
+        complex_rules = []
+        for rule in rules:
+            match = re.fullmatch(r"(?P<prefix>@@\|\||\|\|)(?P<domain>[^/^$]+)\^", rule)
+            if not match or match.group("domain").startswith("*."):
+                complex_rules.append(rule)
+                continue
+            simple[match.group("domain")] = rule
+
+        kept_domains = cls._remove_redundant_subdomains(set(simple))
+        broad_rules = [simple[domain] for domain in kept_domains]
+        broad_rules.sort(key=lambda rule: (rule.split("^", 1)[0].count("."), rule))
+        selected = broad_rules[:limit]
+        if len(selected) < limit:
+            selected.extend(sorted(complex_rules)[:limit - len(selected)])
+        return sorted(selected)
+
     @staticmethod
     def _is_valid_final_host(rule: Rule) -> bool:
         if rule.host_ip is None:
@@ -545,6 +605,8 @@ class RuleProcessor:
             "combined": "combined filter",
             "blacklist": "blacklist",
             "whitelist": "whitelist",
+            "blacklist lite": "blacklist lite",
+            "whitelist lite": "whitelist lite",
         }
         header = (["[Adblock Plus 2.0]"] if profile == "adblock_plus" else []) + [
             f"! Title: AdGuardHome-rules - {titles[profile]} {kind_titles[list_kind]}",

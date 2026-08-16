@@ -34,6 +34,7 @@ AdGuardHome-rules/
 │  ├─ AdGuard_BlackList.txt / AdGuard_WhiteList.txt
 │  ├─ AdblockPlus_BlackList.txt / AdblockPlus_WhiteList.txt
 │  ├─ uBlockOrigin_BlackList.txt / uBlockOrigin_WhiteList.txt
+│  ├─ *_BlackList_Lite.txt / *_WhiteList_Lite.txt
 │  └─ ElementRules.txt           # 元素隐藏与 scriptlet 独立规则
 ├─ .gitignore
 ├─ README.md
@@ -142,6 +143,21 @@ hosts 规则在进入各目标输出前，都会执行以下清洗判定：
 | 浏览器扩展元素规则 | 独立合集 | [ElementRules.txt](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/ElementRules.txt) | 独立保存 `##`、`###`、`#@#`、AdGuard 扩展元素规则及 uBO scriptlet |
 
 纯域名和有效 hosts 会先转换为目标格式；裸域名 URL 掩码会补充 `||` 锚点；修饰符别名会转换为目标产品采用的规范名称。例如 `csdnimg.cn^*#/preview/` 会格式化为 `||csdnimg.cn^*#/preview/`。黑名单正文全部以 `||` 开头，白名单正文全部以 `@@||` 开头。元素隐藏（`##`、`###`、`#@#`）、scriptlet、纯正则、单竖线 URL 规则及无法验证的内容全部删除。
+
+### Lite 精简规则
+
+每份网络黑白名单都提供对应的 `_Lite.txt`，单文件最多 300,000 条。仅当规则在 `^` 后没有任何内容时，脚本才检查 `||` 与 `^` 之间域名的父子级关系；如果父域规则已经存在，则删除被覆盖的子域规则。路径规则和带修饰符规则保持原义，不参与父子域精简。若完成层级精简后仍超过上限，优先保留层级更浅、覆盖范围更广的域名规则，再按稳定顺序补充其他规则。
+
+| 目标产品 | 类型 | Lite 订阅链接 |
+| --- | --- | --- |
+| AdGuard Home | 黑名单 | [AdGuardHome_BlackList_Lite.txt](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/AdGuardHome_BlackList_Lite.txt) |
+| AdGuard Home | 白名单 | [AdGuardHome_WhiteList_Lite.txt](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/AdGuardHome_WhiteList_Lite.txt) |
+| AdGuard | 黑名单 | [AdGuard_BlackList_Lite.txt](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/AdGuard_BlackList_Lite.txt) |
+| AdGuard | 白名单 | [AdGuard_WhiteList_Lite.txt](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/AdGuard_WhiteList_Lite.txt) |
+| Adblock Plus | 黑名单 | [AdblockPlus_BlackList_Lite.txt](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/AdblockPlus_BlackList_Lite.txt) |
+| Adblock Plus | 白名单 | [AdblockPlus_WhiteList_Lite.txt](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/AdblockPlus_WhiteList_Lite.txt) |
+| uBlock Origin | 黑名单 | [uBlockOrigin_BlackList_Lite.txt](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/uBlockOrigin_BlackList_Lite.txt) |
+| uBlock Origin | 白名单 | [uBlockOrigin_WhiteList_Lite.txt](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/uBlockOrigin_WhiteList_Lite.txt) |
 
 ### ElementRules.txt 使用说明
 
