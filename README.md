@@ -208,6 +208,26 @@ print(result.output_files)
 
 jsDelivr 存在短暂缓存延迟。仓库更新后若未立即获取到新内容，请稍后重试。
 
+## 规则来源与致谢
+
+本项目 `input/urls.json` 中使用的规则来自以下项目。部分下载 URL 指向 [217heidai/adblockfilters](https://github.com/217heidai/adblockfilters) 的定时同步文件，该仓库负责汇集、转换及更新规则；规则的原始版权与署名仍归各上游项目及其作者、贡献者所有。
+
+| 使用的规则 | 源仓库或官方网站 | 作者 / 维护者说明 |
+| --- | --- | --- |
+| AdGuard DNS filter | [AdguardTeam/AdGuardSDNSFilter](https://github.com/AdguardTeam/AdGuardSDNSFilter) | AdGuard 团队及社区贡献者 |
+| EasyList China | [easylist/easylistchina](https://github.com/easylist/easylistchina) | EasyList China 维护团队及社区贡献者 |
+| 1Hosts (Lite) | [badmojr/1Hosts](https://github.com/badmojr/1Hosts) | badmojr 及项目贡献者 |
+| StevenBlack hosts | [StevenBlack/hosts](https://github.com/StevenBlack/hosts) | Steven Black 及各上游列表维护者、贡献者 |
+| EasyPrivacy | [easylist/easylist](https://github.com/easylist/easylist) | EasyList / EasyPrivacy 维护团队及社区贡献者 |
+| CJX's Annoyance List | [cjx82630/cjxlist](https://github.com/cjx82630/cjxlist) | CJX（cjx82630）及项目贡献者 |
+| EasyList | [easylist/easylist](https://github.com/easylist/easylist) | EasyList 维护团队及社区贡献者 |
+| AdAway Default Blocklist | [AdAway/AdAway](https://github.com/AdAway/AdAway) | AdAway 项目维护者、hosts 列表维护者及社区贡献者 |
+| OISD | [OISD 官方网站](https://oisd.nl/) | OISD 维护者及其所收录的各上游列表作者 |
+
+衷心感谢上述作者、维护团队及所有贡献者长期维护并公开这些规则。本项目仅对规则进行下载、合并、去重、清洗和格式转换，不主张对上游规则内容的所有权；使用规则时请同时遵守各源项目的许可协议及使用条款。
+
+如本项目对相关规则的引用、处理或发布侵犯了您的合法权益，请通过本仓库的 [Issues](https://github.com/IMAiCool/AdGuardHome-rules/issues) 联系，并附上权利证明及相关规则信息；核实后将及时删除或调整。
+
 ## 注意事项
 
 - 清洗后的规则面向 AdGuard Home 域名级过滤；未清洗规则可用于 AdGuard，但不保证覆盖浏览器扩展支持的全部 Adblock 语法。
