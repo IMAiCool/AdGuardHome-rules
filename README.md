@@ -1,6 +1,6 @@
 # AdGuard Home 规则合并工具
 
-用于聚合远程规则源和本地补充规则，生成黑名单与白名单。清洗后的标准化规则适用于 AdGuard Home；保留来源格式的未清洗规则可用于 AdGuard，也方便检查和调试原始规则。
+用于聚合远程规则源和本地补充规则，生成黑名单与白名单。完整清洗规则采用通用 Adblock 域名锚点格式，适用于 AdGuard、Adblock Plus 等浏览器插件；层级精简规则适用于 AdGuard Home。
 
 项目已将下载、解析、分类、去重、冲突处理、层级精简和格式化整合到单个 Python 脚本中。运行过程不再创建多级临时目录，所有规则产物统一写入 `output/`。
 
@@ -30,8 +30,8 @@ AdGuardHome-rules/
 │  ├─ urls.json               # 标准 JSON 远程规则源配置
 │  └─ local-rules.txt         # 本地补充规则
 ├─ output/
-│  ├─ BlackList_Raw.txt       # 未清洗黑名单
-│  ├─ WhiteList_Raw.txt       # 未清洗白名单
+│  ├─ BlackList_Raw.txt       # 浏览器兼容黑名单（保留有效子域名）
+│  ├─ WhiteList_Raw.txt       # 浏览器兼容白名单（保留有效子域名）
 │  ├─ BlackList.txt           # 清洗后的黑名单
 │  └─ WhiteList.txt           # 清洗后的白名单
 ├─ .gitignore
@@ -75,7 +75,7 @@ example.com
 # 公网 IP hosts，归入白名单
 8.8.8.8 allowed.example.com
 
-# 其他非公网 IP hosts 仅保留在 Raw 文件，最终清洗时丢弃
+# 其他非公网 IP hosts 在清洗时丢弃
 192.168.1.1 private.example.com
 ::1 ipv6-loopback.example.com
 
@@ -93,7 +93,7 @@ example.com
 - URL 路径规则、正则规则、元素隐藏规则等非域名规则；
 - 不属于纯域名、双字段 hosts 或 AdGuard `||` 域名锚点格式的内容。
 
-hosts 规则会先进入对应的未清洗文件。生成最终清洗文件时执行以下判定：
+hosts 规则在进入浏览器兼容文件和 AdGuard Home 文件前，都会执行以下清洗判定：
 
 - IPv4 `0.0.0.0` 和 `127.0.0.0/8`（所有 `127.*.*.*`）视为有效黑名单；
 - 指向公网 IPv4 或 IPv6 地址的 hosts 规则视为有效白名单；
@@ -109,13 +109,13 @@ hosts 规则会先进入对应的未清洗文件。生成最终清洗文件时�
         ↓
 识别纯域名 / hosts / AdGuard 格式
         ↓
-区分黑名单与白名单并输出 Raw 文件
-        ↓
 域名小写化、尾点处理及有效性校验
         ↓
 丢弃非 0.0.0.0、非 127/8 且非公网 IP 的 hosts 规则
         ↓
 白名单优先解决同域名冲突
+        ↓
+输出保留有效子域名的浏览器兼容规则
         ↓
 精简被父域名覆盖的普通子域名
         ↓
@@ -128,15 +128,15 @@ hosts 规则会先进入对应的未清洗文件。生成最终清洗文件时�
 
 | 文件 | 处理程度 | 输出格式 |
 | --- | --- | --- |
-| `BlackList_Raw.txt` | 已分类、按原始规则精确去重，未进行最终域名清洗和层级精简 | 保留输入规则格式 |
-| `WhiteList_Raw.txt` | 已分类、按原始规则精确去重，未进行最终域名清洗和层级精简 | 保留输入规则格式 |
+| `BlackList_Raw.txt` | 已过滤无效 hosts、标准化、解决冲突并去重；保留有效子域名，不做层级精简 | `||example.com^` |
+| `WhiteList_Raw.txt` | 已过滤无效 hosts、标准化、解决冲突并去重；保留有效子域名，不做层级精简 | `@@||example.com^` |
 | `BlackList.txt` | 已过滤无效 hosts、标准化、解决冲突、精简层级并去重 | `||example.com^` |
 | `WhiteList.txt` | 已过滤无效 hosts、标准化、解决冲突、精简层级并去重 | `@@||example.com^$important` |
 
-Raw 文件会先按纯域名、hosts、AdGuard 格式排序，再按域名和原始文本排序。最终文件按标准化域名字典序排列。
+四个文件均按标准化域名字典序排列。Raw 文件名为兼容已有订阅链接而保留，其内容已经清洗，不再代表未经处理的原始规则。
 
 - 清洗规则 `BlackList.txt` 和 `WhiteList.txt`：适用于 AdGuard Home。
-- 未清洗规则 `BlackList_Raw.txt` 和 `WhiteList_Raw.txt`：保留输入格式，可用于 AdGuard。
+- 浏览器兼容规则 `BlackList_Raw.txt` 和 `WhiteList_Raw.txt`：适用于 AdGuard、Adblock Plus 及支持 Adblock 过滤语法的浏览器插件。
 
 ## 运行方式
 
@@ -196,7 +196,7 @@ print(result.output_files)
 
 ## jsDelivr 加速链接
 
-### 未清洗规则
+### 浏览器兼容规则
 
 - [BlackList_Raw.txt](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/BlackList_Raw.txt)
 - [WhiteList_Raw.txt](https://cdn.jsdelivr.net/gh/IMAiCool/AdGuardHome-rules@main/output/WhiteList_Raw.txt)
@@ -230,7 +230,7 @@ jsDelivr 存在短暂缓存延迟。仓库更新后若未立即获取到新内�
 
 ## 注意事项
 
-- 清洗后的规则面向 AdGuard Home 域名级过滤；未清洗规则可用于 AdGuard，但不保证覆盖浏览器扩展支持的全部 Adblock 语法。
+- `BlackList_Raw.txt` 和 `WhiteList_Raw.txt` 使用通用域名锚点语法，面向 AdGuard、Adblock Plus 等浏览器插件；仅包含域名级规则，不包含元素隐藏等页面级过滤语法。
 - 白名单中使用 `$important`，用于提高例外规则的优先级。
 - 上游规则的内容和可用性由各自维护者负责；下载失败的来源应在 `input/urls.json` 中及时更新。
-- 建议先检查未清洗文件定位来源规则，再根据清洗文件中的最终结果排查误拦截。
+- 排查误拦截时，可先检查保留完整有效子域名的浏览器兼容文件，再与层级精简后的 AdGuard Home 文件对照。

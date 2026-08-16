@@ -1,4 +1,4 @@
-"""Build categorized AdGuard and cleaned AdGuard Home domain rules."""
+"""Build browser-compatible and AdGuard Home domain filtering rules."""
 
 from __future__ import annotations
 
@@ -76,6 +76,7 @@ class RuleProcessor:
     def run(self, *, download: bool = True) -> ProcessingResult:
         """Execute the complete pipeline and return structured statistics."""
         rules = self._collect_rules(self._load_sources(download))
+        browser_black, browser_white = self._clean_browser_lists(rules)
         black, white, discarded = self._clean_lists(rules)
         output_files = (
             self.output_dir / "BlackList_Raw.txt",
@@ -83,8 +84,8 @@ class RuleProcessor:
             self.output_dir / "BlackList.txt",
             self.output_dir / "WhiteList.txt",
         )
-        self._write_raw(output_files[0], rules, is_white=False)
-        self._write_raw(output_files[1], rules, is_white=True)
+        self._write_browser(output_files[0], browser_black, is_white=False)
+        self._write_browser(output_files[1], browser_white, is_white=True)
         self._write_final(output_files[2], black, is_white=False)
         self._write_final(output_files[3], white, is_white=True)
         result = ProcessingResult(
@@ -238,15 +239,20 @@ class RuleProcessor:
         return sorted(kept + list(domains - ordinary))
 
     @classmethod
-    def _clean_lists(cls, rules: list[Rule]) -> tuple[list[str], list[str], int]:
+    def _clean_browser_lists(cls, rules: list[Rule]) -> tuple[list[str], list[str]]:
         valid_rules = [rule for rule in rules if cls._is_valid_final_host(rule)]
-        discarded = len(rules) - len(valid_rules)
         black = {rule.domain for rule in valid_rules if not rule.is_white}
         white = {rule.domain for rule in valid_rules if rule.is_white}
         black -= white
+        return sorted(black), sorted(white)
+
+    @classmethod
+    def _clean_lists(cls, rules: list[Rule]) -> tuple[list[str], list[str], int]:
+        black, white = cls._clean_browser_lists(rules)
+        discarded = sum(not cls._is_valid_final_host(rule) for rule in rules)
         return (
-            cls._remove_redundant_subdomains(black),
-            cls._remove_redundant_subdomains(white),
+            cls._remove_redundant_subdomains(set(black)),
+            cls._remove_redundant_subdomains(set(white)),
             discarded,
         )
 
@@ -260,11 +266,11 @@ class RuleProcessor:
             temporary_path = Path(temporary.name)
         temporary_path.replace(path)
 
-    def _write_raw(self, path: Path, rules: list[Rule], is_white: bool) -> None:
-        selected = [rule.original for rule in rules if rule.is_white is is_white]
-        kind = "白名单" if is_white else "黑名单"
-        header = [f"! 类型: 未清洗{kind}", f"! 规则数量: {len(selected)}", ""]
-        self._atomic_write(path, "\n".join(header + selected))
+    def _write_browser(self, path: Path, domains: list[str], is_white: bool) -> None:
+        updated = datetime.now().astimezone().strftime("%Y-%m-%d %H:%M:%S %z")
+        kind, prefix = ("浏览器兼容白名单", "@@||") if is_white else ("浏览器兼容黑名单", "||")
+        header = [f"! 更新时间: {updated}", f"! 类型: {kind}", f"! 规则数量: {len(domains)}", ""]
+        self._atomic_write(path, "\n".join(header + [f"{prefix}{domain}^" for domain in domains]))
 
     def _write_final(self, path: Path, domains: list[str], is_white: bool) -> None:
         updated = datetime.now().astimezone().strftime("%Y-%m-%d %H:%M:%S %z")
