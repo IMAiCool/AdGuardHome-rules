@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-08-17 00:25:12 +0000
+! Last modified: 2026-08-17 08:27:17 +0000
 ! Expires: 8 hours
-! Rules: 32485
+! Rules: 32488
 
 ###AC_ad
 ###AD_160
@@ -18395,7 +18395,7 @@ chatelaine.com##.assmbly-ad-text
 chatelaine.com,fashionmagazine.com##.assmbly-ad-wrapper
 chatgpt.com##.border-token-border-default.mt-2.border-t:has(button[aria-label="Ad options"])
 chatgpt.com##[class*="_assistantAds"]
-chatgpt.com##[data-message-role="assistant"] > section[class] > aside[aria-label]:has(> div[role="list"] a[rel][target="_blank"] + span > button[aria-haspopup])
+chatgpt.com##[data-message-role="assistant"] > section[class]:has(> aside[aria-label] > div[role="list"] a[rel][target="_blank"] + span > button[aria-haspopup])
 chatgpt.com##[data-testid="bazaar-v2-elevated-box"]
 chatgpt.com##aside[data-assistant-ads-unit]
 chatgpt.com##div.opacity-100.transition-opacity.ease-out:has(button[aria-label="Sponsored options"], button[aria-label="Ad options"])
@@ -18403,9 +18403,8 @@ chatgpt.com##div[data-assistant-ads]
 chatgpt.com##div[data-message-supplement]:has(aside[data-partial-island="assistant-ads"])
 chatgpt.com##div[data-testid="bazaar-single-card-container"]
 chatgpt.com##section:has(> [aria-label="Sponsored"])
+chatgpt.com#?##thread [class^="border-"]:not([class*="sidebar"]):has-text(/Ad|Sponsored/)
 chatgpt.com#?#.opacity-100.transition-opacity.ease-out:has-text(Sponsored options)
-chatgpt.com#?#[class^="border-"]:not([class*="sidebar"]):has-text(Ad)
-chatgpt.com#?#[class^="border-"]:not([class*="sidebar"]):has-text(Sponsored)
 chaussures.fr,eapavi.lv,ecipele.hr,ecipo.hu,eobuv.cz,eobuv.sk,eobuwie.com.pl,epantofi.ro,epapoutsia.gr,escarpe.it,eschuhe.at,eschuhe.ch,eschuhe.de,eskor.se,evzuttya.com.ua,obuvki.bg,zapatos.es##.product-item:has(.sponsored-label)
 chaussures.fr,eapavi.lv,ecipele.hr,ecipo.hu,eobuv.cz,eobuv.sk,eobuwie.com.pl,epantofi.ro,epapoutsia.gr,escarpe.it,eschuhe.at,eschuhe.ch,eschuhe.de,eskor.se,evzuttya.com.ua,obuvki.bg,zapatos.es##.sponsored-slider-wrapper
 chazidian.com###worldcup_float
@@ -31456,9 +31455,12 @@ whatfinger.com##a[href^="https://1775coffee.com/"]
 whatismybrowser.com##.fun-info-footer
 whatismybrowser.com##.fun-inner
 whatismyip.com###HP-adbannertop
+whatismyip.com###adbannertop
 whatismyip.com###hp-ad-banner-top
 whatismyip.com###ip-box-ad
 whatismyip.com###tool-what-is-my-ip-ad
+whatismyip.com##.ip-ad-box
+whatismyip.com##.ip-leaderboard-ad
 whatismyip.net##.container > .panel[id]
 whatismyipaddress.com###whatismyipaddress_320x50_Mobile_ATF
 whatismyipaddress.com###whatismyipaddress_728x90_Desktop_ATF
@@ -31809,6 +31811,7 @@ xdf.cn##.popup-wrap
 xdf.cn##div[style="position:fixed;top:120px;left:4px;width:210px;height:298px;isplay:block;background-position:initial initial;background-repeat:no-repeat no-repeat;"]
 xdpedia.com#@#div[id^="ezoic-pub-ad-"]
 xerotica.com##.ofx-ads-slot
+xerotica.com##.pv-shelf
 xfantazy.com##.partwidg1
 xgrb.cn##.d_2016_ggw
 xgroovy.com##.fluid-b
