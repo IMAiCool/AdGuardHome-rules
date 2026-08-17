@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-08-16 16:09:03 +0000
+! Last modified: 2026-08-17 00:25:12 +0000
 ! Expires: 8 hours
-! Rules: 32483
+! Rules: 32485
 
 ###AC_ad
 ###AD_160
@@ -21300,6 +21300,8 @@ ford-trucks.com##[style*="min-height: 275px"]
 forebet.com##.rbannerDiv
 forecast7.com##.ad[align="center"]
 forestriverforums.com##.recommended-stories
+forkast.news##.fk-ad
+forkast.news##.fk-cta
 forkast.news##a[href^="https://h5.whalefin.com/landing2/"]
 formula1.com##.f1-dfp-banner-wrapper
 formula1.com##.js-promo-item
