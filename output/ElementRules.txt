@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-08-18 08:19:32 +0000
+! Last modified: 2026-08-18 16:15:45 +0000
 ! Expires: 8 hours
-! Rules: 32492
+! Rules: 32493
 
 ###AC_ad
 ###AD_160
@@ -20500,6 +20500,7 @@ emalm.com,linkdecode.com,up-4ever.net##a[href^="https://s.click.aliexpress.com/"
 emarketer.com##.ContentRightAd
 embed.listcorp.com##a[href^="https://j.moomoo.com/"]
 embed.wcostream.com#@#.ad-unit
+embedsun.cc##[id^="bg_wrap_"]
 emergencyemail.org,out.com##.footer
 emojipedia.org##.h-\[282px\]
 emojipedia.org##.h-\[312px\]
