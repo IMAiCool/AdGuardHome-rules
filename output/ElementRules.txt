@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-08-18 16:15:45 +0000
+! Last modified: 2026-08-19 00:25:09 +0000
 ! Expires: 8 hours
-! Rules: 32493
+! Rules: 32494
 
 ###AC_ad
 ###AD_160
@@ -32289,6 +32289,7 @@ yts.*###dontfoid
 yts.*##.home-content > div:has(.blue ~ a img[src*="/images/download"])
 yts.*#?#.bbj:has-text(Warning)
 yts.*#?#.col-lg-12:has-text(/Please enable|indirirken/)
+yucatanmagazine.com##.yucat-entity-placement
 yufile.com##.fb_r > a
 yufile.com##.lo_box
 yugatech.com###text-69
