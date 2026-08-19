@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-08-19 08:19:38 +0000
+! Last modified: 2026-08-19 16:15:27 +0000
 ! Expires: 8 hours
-! Rules: 32494
+! Rules: 32495
 
 ###AC_ad
 ###AD_160
@@ -29666,6 +29666,7 @@ tech.hindustantimes.com##.sponsoredBox
 tech.hindustantimes.com##.topGadgetsAppend
 tech.qq.com##.kjad2
 techbang.com###stickies
+techbang.com##.ads-reserve
 techbang.com##.google-dfp
 techbang.com##.phone-ads
 techbone.net##.mb-5.bg-light
