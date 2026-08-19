@@ -1,6 +1,6 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-08-19 00:25:09 +0000
+! Last modified: 2026-08-19 08:19:38 +0000
 ! Expires: 8 hours
 ! Rules: 32494
 
@@ -21863,7 +21863,7 @@ getmyuni.com##.horizontalRectangle
 getmyuni.com##.squareDiv
 getwallpapers.com,wallpaperaccess.com,wallpaperbat.com,wallpapercosmos.com,wallpaperset.com#@#.ads1
 getyarn.io###filtered-bottom
-getyarn.io##.pt3p > div
+getyarn.io#?#.pt3p > div > div:has-text(Advertisement)
 gezila.com##.tishi + dl
 gfan.com##.art-ad
 gfan.com##.dl_AD
@@ -22070,7 +22070,7 @@ googlesightseeing.com##.comm-square
 gosearchresults.com##.listing-right
 gosexpod.com###xtw
 gosunoob.com##.vntsvideocontainer
-gosunoob.com,indianexpress.com,matrixcalc.org,medicalxpress.com,philstarlife.com,phys.org,roblox.com,speakerdeck.com,spotify.com,techxplore.com##.ads-container
+gosunoob.com,indianexpress.com,matrixcalc.org,medicalxpress.com,philstarlife.com,phys.org,roblox.com,speakerdeck.com,spotify.com,techxplore.com,time.now##.ads-container
 goterriers.com##.sticky-footer
 gothamist.com##.leaderboard-ad-backdrop
 gotporn.com##.image-group-vertical
