@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-08-19 16:15:27 +0000
+! Last modified: 2026-08-20 00:25:19 +0000
 ! Expires: 8 hours
-! Rules: 32495
+! Rules: 32506
 
 ###AC_ad
 ###AD_160
@@ -14902,6 +14902,7 @@
 12306.cn,club.pchome.net,qinbing.cn###slideBox
 123av.com##.w300
 123av.com,123av.ws,1av.to##[style^="width:300px;"]
+123av.com,javplayer.cc##a[href="#"][style="position: fixed;top: 0;left: 0;width: 100%;height: 100%;display: block;z-index: 9999999;cursor: auto"]
 123pan.com##.advBanner
 123pan.com##.ant-carousel
 123pan.com##.banner-container-h5
@@ -19488,7 +19489,7 @@ daijiworld.com##[href="https://sjec.ac.in/"]
 dailiantong.com##.appDwn
 daily-choices.com##[id^="sticky_"]
 dailyboulder.com##.ad-image-wrap
-dailyboulder.com,news.ssbcrack.com,trueachievements.com##.ad-wrap
+dailyboulder.com,how2shout.com,news.ssbcrack.com,trueachievements.com##.ad-wrap
 dailycal.org,gazette.com,thehindu.com##.dfp-ad
 dailycaller.com###dailycaller_incontent_1
 dailycaller.com###dailycaller_incontent_2
@@ -20735,6 +20736,10 @@ evoke.ie###ev_desktop_mpu1
 evoke.ie##.evoke_billboard_single
 evoke.ie,extra.ie##.jw-player-video-widget
 evreporter.com##.widget_media_image:not(:has(a[href^="https://evreporter.com/"]))
+evtech.news##.article-ad-widget
+evtech.news##.article-top-hero-ad
+evtech.news##.home-intel-ad-stack
+evtech.news##.home-rail-banners
 ew.com###article__primary-video-jw_1-0
 eweek.com,itbusinessedge.com,linuxtoday.com,serverwatch.com,techrepublic.com###bottom-footer-fixed-slot
 eweiqi.com##.guoqing
@@ -21306,6 +21311,7 @@ forkast.news##.fk-cta
 forkast.news##a[href^="https://h5.whalefin.com/landing2/"]
 formula1.com##.f1-dfp-banner-wrapper
 formula1.com##.js-promo-item
+fortnitetracker.com##.love-container__content
 fortress.com.hk,youdao.com#@#.share-icon
 fortune.com###Leaderboard0
 fortune.com###outbrain-container
@@ -21741,6 +21747,7 @@ gay.bingo##.ad-w
 gay.bingo##.adv-wrapper
 gay.bingo##.player-section__ad-b
 gay.bingo##.player__inline
+gay.bingo##div[data-title="Advertisement"]
 gay0day.com##div[style^="height:250px;"]
 gayck.com##.simple-adv-spot
 gayemagazine.com###Containera2sdv > div > div > div[id^="comp-"]
@@ -23909,6 +23916,8 @@ javhub.net##[href^="https://t.javhd-trk.com/"]
 javlibrary.com##.bannerqq
 javlibrary.com##.bottombanner2
 javneon.tv##.pt-45 > .pb-3.pb-e-lg-40.text-center
+javplayer.com###jsVideoOverlay
+javplayer.com##.ad-box
 javtiful.com###showerm
 javtiful.com##.col.pb-3:has(.badge.bg-danger)
 javtiful.com##.p-0[style="margin-top: 0.45rem
@@ -30103,6 +30112,8 @@ thequint.com##._4xQrn
 therailwayhub.co.uk##.revive
 therealdeal.com##.AdUnit_center__H9fGR
 therealdeal.com##[data-testid="test-div-id-for-pushdown"]
+therealmediang.com##.rm-header-billboard
+therealmediang.com##.rm-inset-ad-band
 therecord.media##.article__adunit
 theregister.com##.wptl
 theregister.com#?#article.large-12:has-text(SPONSORED FEATURE)
