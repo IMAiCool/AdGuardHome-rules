@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-08-20 16:18:02 +0000
+! Last modified: 2026-08-21 00:28:02 +0000
 ! Expires: 8 hours
-! Rules: 32508
+! Rules: 32521
 
 ###AC_ad
 ###AD_160
@@ -14115,6 +14115,7 @@
 ##[href^="https://charmingdatings.life/"]
 ##[href^="https://clicks.affstrack.com/"] > img
 ##[href^="https://glersakr.com/"]
+##[href^="https://go.mavrtracktor.com/"]
 ##[href^="https://go.xlrdr.com"]
 ##[href^="https://groorsoa.net/"]
 ##[href^="https://ilovemyfreedoms.com/landing-"]
@@ -15468,8 +15469,12 @@
 3jy.com##.Rad
 3jy.com,maolihui.com##.lad
 3movs.com###side_col_video_view
+3movs.com##.footer5spot
 3movs.com##.player + .aside
 3movs.com##.player-side
+3movs.com##.playside
+3movs.com##.playside2
+3movs.com##.recommended
 3movs.com##.spot-header
 3movs.com,3movs.xxx,babepump.com,bravotube.net,camvideos.tv,cluset.com,deviants.com,dixyporn.com,fapnfuck.com,fuqster.com,hello.porn,homo.xxx,javcab.com,katestube.com,pornicom.com,sexpester.com,sleazyneasy.com,thefree3dporn.com,videocelebs.net,vikiporn.com,vjav.com,w1mp.com,w4nkr.com##.spot
 3movs.com,fapality.com##.cs
@@ -19429,6 +19434,8 @@ cyberdaily.au,investordaily.com.au##.b-topLeaderboard
 cybernews.com##.ad-campaign__aside
 cybernews.com##.bitdefender-campaign
 cybernews.com##.partner-content-block
+cybernews.com##.partner-content-editorial
+cybernews.com##.partner-of-the-month
 cyberscore.live##.modal-form-wrapper
 cyberscore.live##.partner-rb
 cyberscore.live##.partner-rb-full-page
@@ -21187,6 +21194,7 @@ flightradar24.com##div.items-center.justify-center:has(> div#pb-slot-fr24-airpla
 flightrising.com##.skybanner
 flightview.com#@#.ad-160-600
 flighty.cn###searchBox +
+flipkart.com##div[data-id]:has(a > [data-tkid^="ADVIEW"])
 flipkart.com##div[style="max-width:1200px;width:100%"]:has(source[srcset^="https://rukminim1.flixcart.com/fk-p-flap/1570/520/image/eb2033142a4a8eab.png"])
 flipkart.com#?#.fWi7J_:has-text(Brands In Spotlight)
 flipkart.com#?#.grid-formation:has(div:has-text(AD))
@@ -28640,6 +28648,8 @@ sextb.date##.sextb_300
 sextb.date##div[style^="width: 305px; height: 255px;"]
 sextb.net##.asg-overlay
 sextvx.com###porntube_hor_bottom_ads
+sextvx.com##.ads_onpause_container
+sextvx.com##.side_content
 sexu.com##.player__side
 sexu.site###closeplay
 sexu.site##.content__top
@@ -28883,6 +28893,7 @@ skyve.io##.ads_space
 slant.co##.SummaryPage-LustreEmbed
 slashdot.org###aistdo-coding-bar
 slashdot.org###announcement
+slashdot.org###auth0-sd
 slashdot.org###slashdot_deals
 slashdot.org##.ad-blocked-newsletter
 slashdot.org##.deals-wrapper
@@ -29414,7 +29425,9 @@ stockstar.com##.siteAd_r
 stockstar.com##.ss-ad-icon2
 stocktwits.com###bottom-nav-content
 stocktwits.com##.Primis_container__OlMHR
+stocktwits.com##.\!min-h-\[250px\]
 stocktwits.com##.leading-none
+stocktwits.com##.min-h-\[320px\]
 stocktwits.com##.sticky-inner-wrapper
 stocktwits.com#?#.is-visible:has-text(Remove ads)
 stocktwits.com#?#.leading-\[16px\]:has-text(Advertisement)
