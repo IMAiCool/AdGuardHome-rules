@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-08-22 08:13:50 +0000
+! Last modified: 2026-08-22 16:07:57 +0000
 ! Expires: 8 hours
-! Rules: 32532
+! Rules: 32527
 
 ###AC_ad
 ###AD_160
@@ -14242,7 +14242,6 @@
 ##a[href="/goto.php?url=hth"]
 ##a[href="/ht.html"]
 ##a[href="/iwagbwfiwehaeyh"]
-##a[href="http://yun886.com"]
 ##a[href="https://t.me/bokaiyunwujiankaiyun"]
 ##a[href="javascript:GoGd();"]
 ##a[href="javascript:GoTp();"]
@@ -15548,7 +15547,7 @@
 4runnerforum.com,acuraforums.com,blazerforum.com,buickforum.com,cadillacforum.com,camaroforums.com,cbrforum.com,chryslerforum.com,civicforums.com,corvetteforums.com,fordforum.com,germanautoforums.com,hondaaccordforum.com,hondacivicforum.com,hondaforum.com,hummerforums.com,isuzuforums.com,kawasakiforums.com,landroverforums.com,lexusforum.com,mazdaforum.com,mercuryforum.com,minicooperforums.com,mitsubishiforum.com,montecarloforum.com,mustangboards.com,nissanforum.com,oldsmobileforum.com,pontiactalk.com,saabforums.com,saturnforum.com,truckforums.com,volkswagenforum.com,volvoforums.com##aside > center
 4rzxy.net,kzs1w.com,sehuatang.net,sehuatang.org##div[class^="show-text"]
 4shared.com##.remove-rekl
-4spaces.org,fuliba.net,fuliba2023.net,fuliba2025.net,uliba.net,ypojie.com##.widget_ui_orbui
+4spaces.org,fuliba.net,fuliba2023.net,fuliba2025.net,ypojie.com##.widget_ui_orbui
 4sysops.com,activistpost.com,aftvnews.com,arcadepunks.com,autotalk.co.nz,bmmagazine.co.uk,corrosionhour.com,corvetteblogger.com,dcrainmaker.com,discover.is,earlyretirementnow.com,elhayat-life.com,gamingonphone.com,girgitnews.com,gizmochina.com,guides.wp-bullet.com,macsources.com,manhuatop.org,mediachomp.com,metalsucks.net,mmoculture.com,monstersandcritics.com,motoringfile.com,nasaspaceflight.com,newsbtc.com,openloading.com,patriotfetch.com,planetofreviews.com,precinctreporter.com,prepperwebsite.com,rugbylad.ie,sashares.co.za,scienceandliteracy.org,seganerds.com,sixteen-nine.net,snipercentral.com,spokesman-recorder.com,survivopedia.com,techdows.com,techiecorner.com,techjuice.pk,theblueoceansgroup.com,thecinemaholic.com,tooxclusive.com,torrentfreak.com,torrentmac.net,trackalerts.com,trendingpoliticsnews.com,wabetainfo.com,windowslatest.com##.widget_custom_html
 4teachers.org###banner-wrapper
 4tube.com###main-jessy-grid
@@ -20443,11 +20442,6 @@ eevblog.com###text-49
 eevblog.com##[href^="http://s.click.aliexpress.com/"]
 eeyy.cc###div_dn
 eeyy.cc##.ads650
-eeyy.com###beitou_box
-eeyy.com###float_ad0
-eeyy.com##.gg_bg
-eeyy.com##.gg_top
-eeyy.com##.top-bg
 efu.com.cn###ad4
 efu.com.cn##.banners-top-b
 efu.com.cn##.banners-top-x2
@@ -21487,8 +21481,9 @@ ftw.usatoday.com,touchdownwire.usatoday.com###ad--home-well-wrapper
 fububu.com###wendibu
 fucker.com##.spot_box
 fujieace.com##.single-goods
-fuliba.net,fuliba2023.net,uliba.net###focusslide
+fuliba.net,fuliba2023.net###focusslide
 fuliba2021.net,ypojie.com##.orbui-post-footer
+fuliba2023.net,fuliba2025.net,fuliba.net##.article-topbanner
 fulibl.cc##.widget_text:last-child
 fulibl.com##.widget_banner
 fullmatch.info##[class*="wp-image"]
