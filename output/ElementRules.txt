@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-08-22 16:07:57 +0000
+! Last modified: 2026-08-23 00:27:06 +0000
 ! Expires: 8 hours
-! Rules: 32527
+! Rules: 32528
 
 ###AC_ad
 ###AD_160
@@ -25517,9 +25517,9 @@ mirrored.to##tbody > tr:has(> td[data-label="Host"] > img[src="https://www.mirro
 miruro.*##.a-ads
 miruro.bz,miruro.ru,miruro.to,miruro.tv##.monkey
 mishaptube.com##.table
-missav.*,missav123.com,missav888.com##.lg\:block
 missav.*,missav123.com,missav888.com##.lg\:hidden
 missav.*,missav123.com,missav888.com##[x-show$="video_details'"] > div > .list-disc
+missav.*,missav123.com,missav888.com,njavtv.com##.lg\:block
 missav.*,missav123.com,missav888.com,njavtv.com##[style^="width: 300px; height: 250px;"]
 missav.to###poster
 missav.to,tojav.net###preroll
@@ -26445,6 +26445,7 @@ niuacc.com##.yure
 niuyankan.top###content > a
 nivod5.tv,nivod8.tv##.qy20-h-carousel__li:nth-child(-n+2)
 njav.com###ad300250
+njavtv.com##.fixed.right-2.bottom-2
 nlc.gov.cn###lovexin12xx
 nltimes.nl##div[class^="r89-"]
 nme.com###taboola-below-article
