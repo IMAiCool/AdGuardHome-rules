@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-08-23 00:27:06 +0000
+! Last modified: 2026-08-23 08:14:08 +0000
 ! Expires: 8 hours
-! Rules: 32528
+! Rules: 32529
 
 ###AC_ad
 ###AD_160
@@ -19089,6 +19089,7 @@ complex.com##.sm\:min-h-\[100px\]:has(#catalyst_ad_top)
 complex.com##.suitcase-ad
 compoundsemiconductor.net##.mega-bar
 compoundsemiconductor.net##.popular__section-newsx
+computer.org##.ad-area
 computerweekly.com##.content-continues
 computerweekly.com##.pro-downloads-home
 computerweekly.com,techtarget.com,theserverside.com##.cls-hlb-wrapper-desktop
