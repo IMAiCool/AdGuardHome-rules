@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-08-23 16:09:26 +0000
+! Last modified: 2026-08-24 00:26:29 +0000
 ! Expires: 8 hours
-! Rules: 32529
+! Rules: 32533
 
 ###AC_ad
 ###AD_160
@@ -21872,6 +21872,7 @@ geometrygames.io,jagranjosh.com##.Ads
 geotastic.net##.ad-970x250
 gephardtdaily.com###simple-sticky-footer-container
 get.pixelexperience.org##.mantine-arewlw
+getaiperks.com##a[href*="&utm_"]
 getbukkit.org##.limit
 getcomics.org##.getco-content
 getcomics.org##.getco-content_2
@@ -22533,6 +22534,7 @@ he-games.com###he_bottom_ad
 hea.cn###top_slides_box
 headforpoints.com##.widget--aside.widget
 headlineintime.com##.banner-add
+headlinesplus.com##.hp-ad
 health.clevelandclinic.org##[data-identity*="billboard-ad"]
 health.clevelandclinic.org##[data-identity="leaderboard-ad"]
 health.harvard.edu#?#.border-t:has-text(You might also be interested in)
@@ -24202,6 +24204,8 @@ justfullporn.net##.order-1:has(> .video-block-happy)
 justinweather.com##.top-ad-banner-wrapper
 justjared.com##.banner-spacer-top {max-height: 50px
 justjared.com##.header-container__main
+justjared.com##.tpd-ob-reserve
+justjared.com##.tpd-tcm-widget
 justjared.com##[role="banner"] {top:0
 justjared.com,justjaredjr.com##.top_rail_shell
 justpicsplease.com##.ba
