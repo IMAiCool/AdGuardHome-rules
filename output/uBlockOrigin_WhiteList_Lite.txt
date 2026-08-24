@@ -1,9 +1,9 @@
 ! Title: AdGuardHome-rules - uBlock Origin browser filter whitelist lite
 ! Syntax: uBlock Origin browser filter
 ! List type: whitelist lite
-! Last modified: 2026-08-24 00:26:28 +0000
+! Last modified: 2026-08-24 08:32:27 +0000
 ! Expires: 8 hours
-! Rules: 2632
+! Rules: 2631
 
 @@||*.bilivideo.com^$important
 @@||*.xmpush.xiaomi.com^$important
@@ -1539,7 +1539,6 @@
 @@||lulustream.com^$popup,domain=luluvdo.com
 @@||luminalearning.com/affiliate-content/$image,1p
 @@||luoxiadushu.com^$generichide
-@@||lwadm.com/lw/pbjs?pid=$script,domain=sydostran.se
 @@||m.douyinhanyu.com^$important
 @@||m1tm.insideevs.com/gtm.js$1p
 @@||ma135-r.analytics.edgekey.net^|
