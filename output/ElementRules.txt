@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-08-24 08:32:29 +0000
+! Last modified: 2026-08-24 16:19:56 +0000
 ! Expires: 8 hours
-! Rules: 32535
+! Rules: 32536
 
 ###AC_ad
 ###AD_160
@@ -14186,6 +14186,7 @@
 ##a[href*=".foxqck.com/"]
 ##a[href*=".g2afse.com/"]
 ##a[href*=".gaimin.gg/cn"]
+##a[href*=".holesg.xyz"]
 ##a[href*=".hongguotuiguang."]
 ##a[href*=".jmtybc.com"]
 ##a[href*=".labsda.com"] > img[src^="/game/20"]
