@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-08-26 00:27:27 +0000
+! Last modified: 2026-08-26 08:26:39 +0000
 ! Expires: 8 hours
-! Rules: 32530
+! Rules: 32533
 
 ###AC_ad
 ###AD_160
@@ -20100,7 +20100,7 @@ downforeveryoneorjustme.com###asurion
 downforeveryoneorjustme.com###bsa
 downforeveryoneorjustme.com###carbonDiv
 downforeveryoneorjustme.com#?#.relative.bg-white:has-text(PolyBuzz)
-downforeveryoneorjustme.com,useragents.me##a[rel="sponsored"]
+downforeveryoneorjustme.com,eupersonalfinance.eu,useragents.me##a[rel="sponsored"]
 downg.com##.Gs_d[href$=".exe"]
 downg.com##.download-list:first-child
 downhot.com##.guans
@@ -27063,6 +27063,7 @@ pexels.com##div[class="RowItem_gridItem__OfhML RowItem_fullWidth__cIdtN RowItem_
 pexels.com##div[class^="FullWidth_container_"]:has(a[rel="sponsored noopener"])
 pexels.com##div[data-testid="item"]:has(a[href^="https://www.pexels.com/g/"])
 pexels.com##div[data-testid="item"]:has(h4[data-heading][class*="inlineTitleText"])
+pexels.com##div[data-testid="item"]:has(h4[data-heading^="S\00200cp\00200co\00200cn\00200cs\00200co\00200cr\00200ce\00200cd"])
 pexels.com#?#[data-testid="column"] [data-testid="item"]:has-text(Sponsored)
 pgatour.com##.css-18v0in8
 pgatour.com##.css-1t41kwh
@@ -27149,10 +27150,10 @@ pinchofyum.com##.adthrive_header_ad
 pincong.rocks##.a-a
 pincong.rocks##.aw-mod > a[target="_blank"]
 ping.chinaz.com##.sth > .col-red
-ping0.cc###adgright
+ping0.cc###adhright
 ping0.cc###websites-wrap:has([rel$="sponsored"])
 ping0.cc##.aditems
-ping0.cc##.xbeles
+ping0.cc##.xceles
 pinggu.org##.banner2015
 pinggu.org##.hdbanner
 pinggu.org##.index-somelinks
@@ -27183,6 +27184,7 @@ pixabay.com##[class^="adsSection"]
 pixabay.com##[class^="gettySponsored"]
 pixabay.com##div[class*="sponsoredWithResults"]
 pixabay.com##div[class]:has(> [class^="title--"] a[href*="sponsored"])
+pixabay.com##div[class]:has(> div > span + a + button[aria-label="About this advertiser"])
 pixabay.com##div[class^="adSponsoredMediaContainer-"]
 pixabay.com##div[class^="cell--"]:has(button[aria-label="About this advertiser"])
 pixabay.com##div[class^="mrxz"]:has(button[aria-label="About this advertiser"])
@@ -29568,6 +29570,7 @@ sydneytoday.com##.news-list > .row > .col-xs-12
 sydneytoday.com##div[style$="-144px;top: 115px;"]
 symbaloo.com##div[data-test="homepageBanner"]
 symbl.cc##.ad-incontent-rectangle
+sysadminsage.com##.product-banner
 system-rescue.org###sponsors-left
 systutorials.com###block-7
 sythe.org##[href="https://runewager.com/r/SytheBottom"]
