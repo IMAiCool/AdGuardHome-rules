@@ -1,6 +1,6 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-08-27 05:10:12 +0000
+! Last modified: 2026-08-27 18:26:09 +0000
 ! Expires: 8 hours
 ! Rules: 32533
 
@@ -19747,6 +19747,7 @@ deliveroo.*##li[class^="Slide-"]:has(div[data-testid="sponsored-tag"] > p[data-t
 deliveroo.*##li[class^="Slide-"]:has(div[data-testid="sponsored-tag"] > p[data-testid="sponsored-tag-label"])
 deliveroo.*#?#a[role="button"]:has(p:has-text(Sponsored))
 deliveroo.*#?#div[class^="HomeFeedScrollTracker-"]:has(span[class^="HomeFeedUILines-"]:has-text(Sponsored))
+deltiasgaming.com,soapcentral.com,sportskeeda.com##.vidazoo-player-container
 deluxemusic.tv#@#.article_ad
 demap.info###pcad
 demaxiya.com##.tp_box
@@ -29077,7 +29078,6 @@ so.com##li[data-cpc_query]
 so.com##li[data-id^="cm_display_init_text_"]
 soapcalc.net###SidebarLeft
 soapcalc.net###SidebarRight
-soapcentral.com,sportskeeda.com##.vidazoo-player-container
 soaphub.com##.ldm_ad
 soaphub.com##.sh-sh_belowpost
 soaphub.com##.sh-sh_inpost_1
