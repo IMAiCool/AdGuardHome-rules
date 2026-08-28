@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-08-27 18:26:09 +0000
+! Last modified: 2026-08-28 07:09:00 +0000
 ! Expires: 8 hours
-! Rules: 32533
+! Rules: 32534
 
 ###AC_ad
 ###AD_160
@@ -24652,6 +24652,7 @@ leakgallery.com##app-header-ads
 leakgallery.com##app-media-ads
 learn-cpp.org##[href^="http://www.spoj.com/"]
 learn-cpp.org##[href^="https://codingforkids.io"]
+leeapk.com###acrp-sticky-wrap
 leeapk.com##.acrp-ad-box-1
 leeapk.com##.acrp-ad-box-2
 leetcode.com##.group\/ads
