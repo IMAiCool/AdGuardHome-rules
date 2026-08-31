@@ -1,6 +1,6 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-08-31 01:42:37 +0000
+! Last modified: 2026-08-31 15:32:45 +0000
 ! Expires: 8 hours
 ! Rules: 32535
 
@@ -17933,7 +17933,7 @@ boundhub.com##.pla4ce
 boundhub.com##.t2op
 boundhub.com##.tab7le
 boundhub.com##noindex
-boundingintocomics.com,thegrio.com##.tpd-incontent-ad-container
+boundingintocomics.com,theblast.com,thegrio.com##.tpd-incontent-ad-container
 bowenislandundercurrent.com,coastreporter.net,delta-optimist.com,griceconnect.com,moosejawtoday.com,nsnews.com,piquenewsmagazine.com,princegeorgecitizen.com,prpeak.com,richmond-news.com,squamishchief.com##.item-sponsored
 bowenislandundercurrent.com,coastreporter.net,delta-optimist.com,richmond-news.com,squamishchief.com##.ga-ext
 bowhunter.com,firearmsnews.com,flyfisherman.com,gameandfishmag.com,gunsandammo.com,handgunsmag.com,in-fisherman.com,northamericanwhitetail.com,petersenshunting.com,rifleshootermag.com,shootingtimes.com,wildfowlmag.com##.video-detail-player
@@ -20137,7 +20137,7 @@ dr.dk#@#.banner-ad-container
 dr.dk,smartadserver.de#@#a[href*=".smartadserver.com"]
 dragon-guide.net##.container > .gutter:first-child
 drc1bk94f7rq8.cloudfront.net,shiropro-re.net#@##ad_link
-dreadcentral.com,justjared.com##.widget_tpd_ad_widget
+dreadcentral.com,justjared.com,theblast.com##.widget_tpd_ad_widget
 dribbble.com##.resume-user-card:has(.user-card-profile__highlighted-trigger)
 dribbble.com##.service-result:has(.service-result__highlighted-trigger)
 dribbble.com##.service-result:has([data-promoted-badge])
@@ -24208,9 +24208,9 @@ justinweather.com##.top-ad-banner-wrapper
 justjared.com##.banner-spacer-top {max-height: 50px
 justjared.com##.header-container__main
 justjared.com##.tpd-ob-reserve
-justjared.com##.tpd-tcm-widget
 justjared.com##[role="banner"] {top:0
 justjared.com,justjaredjr.com##.top_rail_shell
+justjared.com,theblast.com##.tpd-tcm-widget
 justpicsplease.com##.ba
 justthegays.tv###ad-banner
 justthegays.tv##.zd-slot
