@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-09-01 02:07:02 +0000
+! Last modified: 2026-09-01 12:49:35 +0000
 ! Expires: 8 hours
-! Rules: 32535
+! Rules: 32542
 
 ###AC_ad
 ###AD_160
@@ -19365,6 +19365,7 @@ csgoob.com##.lg\:sticky.lg\:top-22 > .card-shadow:not(.py-4)
 cskaoyan.com###scanWxQrCode
 cspdailynews.com,restaurantbusinessonline.com###faded
 cspdailynews.com,restaurantbusinessonline.com##.wrapper-au-popup
+csrep.gg##div[data-ad-placement]
 css3generator.com##.gotta-pay-the-bills
 cssbattle.dev##.sponsor-container
 cssbattle.dev,slitaz.org###sponsor
@@ -20999,6 +21000,7 @@ fiercebiotech.com##.t1-ad-slot
 fifetoday.co.uk##.iehxDO
 fijisun.com.fj##.widget-3
 fijivillage.com##[href="https://psh.com.fj/cardiac/"]
+file.io##.lw_ad
 filecrypt.cc##.butt1ns button[onclick*="loc.href='/Link/"]
 filecrypt.cc##.fiIItheadblockqueue4
 filecrypt.cc##.filItheadbIockgueue3
@@ -22469,7 +22471,7 @@ haveibeenpwned.com##.actionsBar:has(.why1Password)
 haveibeenpwned.com##.bodyGradient > :has(.why1Password)
 haveibeenpwned.com#?#.card-glow:has-text(Sponsored)
 hawaiisbesttravel.com###block-103
-haxmac.cc##[onclick^="window.open"]
+haxmac.cc,haxnode.net##[onclick^="window.open"]
 hb.qq.com##div[style*="width:960px; height:90px;"]
 hb.qq.com##div[style=" width:300px; height:250px; overflow:hidden"]
 hb163.cn##.ad_panel_980
@@ -25451,6 +25453,7 @@ mgeko.cc##.nsad
 mgsfhw.com,mgsgirls.com##.affs
 mgsfhw.com,mgsgirls.com##.widget_media_image
 mgsfhw.com,mgsgirls.com##blockquote > blockquote
+mgtow.tv##.fads-placment
 mgtv.com##.ad-fixed-bar
 mgtv.com##.c-95060-top
 mh160.com###jusha1
@@ -25595,6 +25598,7 @@ mobxvideos.com,pornogramxxx.com###bubble
 mobygames.com##.square-ad-wrapper
 moddb.com##.nextmediaboxtop
 modelhorseblab.com#@#.ad_global_header
+modelsearcher.com##[aria-label="ms_ads"]
 modelviewer.lol##.hidden.mb-3.md\:block
 modelviewer.lol##.sticky.top-5.p-3.min-h-0.mr-4
 modivo.*#?#.banner:has-text(/Sponsorizzato|Sponsorowane|Sponsorizat|Sponzorováno|Szponzorált|Спонсорирани|Sponsored|Gesponsert/)
@@ -30660,6 +30664,7 @@ turbobit.net###__bgd_link
 turkmenportal.com##a[data-content="promotion"]
 turtlecute.org##.collab_wrap
 turtlecute.org##.sponsor_banner_wrap
+turtlecute.org##a[href^="https://shockvpn.com/?"]
 tutiempo.net##.ContBannerTop
 tutorialspoint.com###adp_top_ads
 tutorialspoint.com###pg_top_ads
@@ -30852,6 +30857,7 @@ uncrate.com##.ad-wrapper-970
 uncrate.com##[href="https://un.cr/advertise"]
 underhentai.net##.hp-float-skb
 underhentai.net##div[class*="afi-"]
+ungeek.ph##.ungee-entity-placement
 unikoshardware.com##.elementor-image > a[href^="https://bit.ly/"]
 unilad.com##.jw-player_container__wuaGn
 uniladtech.com##[class^="advert-placeholder_advertPlaceholder"]
@@ -32334,6 +32340,7 @@ yucatanmagazine.com##.yucat-entity-placement
 yufile.com##.fb_r > a
 yufile.com##.lo_box
 yugatech.com###text-69
+yugatech.com##.ygt-ad-slot
 yugatech.com##a[href^="https://yugatech.ph/"]
 yuik.net#@#.advads-widget
 yule.iqiyi.com##div[style="width:180px;padding:25px 0 20px 20px;float:right;margin-right: 30px;"]
