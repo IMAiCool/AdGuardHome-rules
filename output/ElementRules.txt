@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-09-02 01:29:54 +0000
+! Last modified: 2026-09-02 12:18:53 +0000
 ! Expires: 8 hours
-! Rules: 32542
+! Rules: 32548
 
 ###AC_ad
 ###AD_160
@@ -197,6 +197,7 @@
 ###\31 x1_container.float-banner-footer
 ###__ads_dp
 ###__long_gg_container
+###__nuxt > div > .footer
 ###aad-header-1
 ###aad-header-2
 ###aad-header-3
@@ -11435,6 +11436,8 @@
 ##.kiwi-ad-wrapper-728x90
 ##.kiwi-ad-wrapper-950x80
 ##.kjk-flo
+##.kkb-href
+##.kkm-href
 ##.ksads
 ##.kuandu > .bottommob
 ##.kumpulads-post
@@ -17476,6 +17479,8 @@ bestbuy.com##.slContainer:has(> .sponsored)
 bestbuy.com##.spotlight-ad
 bestbuy.com##[data-testid="sponsored-listing"]
 bestbuy.com##[data-testid="story-wrapper-row"] div:has(> [data-story-name="sponsored_grid"])
+bestbuy.com##div[data-action-name="ad_hp_sbb"]
+bestbuy.com##div[data-adfoundry-placement]
 bestbuy.com##li.embedded-sponsored-listing
 bestbuy.com#?#.plp-ninja-carousel:has-text(Sponsored)
 bestbuy.com#?#div[data-testid="Row_testID"]:has(span:has-text(Sponsored))
@@ -24293,6 +24298,7 @@ kaufland.*##.product:has(div.product__sponsored-ad-label)
 kaufland.*##.rd-recommender__tile:has(div.rd-product-tile__badge--ad)
 kaufland.*##.rd-recommender__tile:has(span.advertiser-info__button-icon)
 kaufland.*##.spads-recommender
+kaufland.*##.sponsored-brand-ads
 kaufland.*##.sponsored-brand-products-container
 kaufland.*##.teaser-orchestration__wrapper--online
 kaufland.*#?#.recommender-wrapper:has-text(Gesponsert)
