@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-09-03 12:16:36 +0000
+! Last modified: 2026-09-03 18:55:12 +0000
 ! Expires: 8 hours
-! Rules: 32555
+! Rules: 32559
 
 ###AC_ad
 ###AD_160
@@ -31203,6 +31203,9 @@ walgreens.com###prod-sponsored
 walgreens.com###searchSponsoredProductContainer
 walgreens.com##li.owned-brands:has(figure.sponsored)
 walkingclub.org.uk#@#.ad_div
+wallapop.com##article[class^="retrieval-item-card-module_RetrievalItemCard"]:has(span[class^="retrieval-item-card-module_RetrievalItemCard__promoted"])
+wallapop.com##div[class^="search-page_SearchPage__topSky_"]
+wallapop.com##section[class*="_adSlot_"]
 wallethacks.com###custom_html-18
 walletinvestor.com##.sticky-footer-content
 walletinvestor.com##[href="https://walletinvestor.com/u/gnrATE"]
@@ -32091,6 +32094,7 @@ yahoo.com##.ads
 yahoo.com##.bg-card-bg-1[class*="300px"]
 yahoo.com##.bg-marshmallow:has(.ad-container)
 yahoo.com##.caas-da
+yahoo.com##.cls-ad-top-center
 yahoo.com##.col-fullbleed.md\:invisible.md\:overflow-hidden
 yahoo.com##.crazyad
 yahoo.com##.da-container
