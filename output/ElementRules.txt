@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-09-02 18:59:56 +0000
+! Last modified: 2026-09-03 01:33:07 +0000
 ! Expires: 8 hours
-! Rules: 32548
+! Rules: 32555
 
 ###AC_ad
 ###AD_160
@@ -197,7 +197,7 @@
 ###\31 x1_container.float-banner-footer
 ###__ads_dp
 ###__long_gg_container
-###__nuxt > div > .footer
+###__nuxt > div > .footer > .floatWindow + div:not([class]):not([id])
 ###aad-header-1
 ###aad-header-2
 ###aad-header-3
@@ -21993,6 +21993,7 @@ gizmodo.com,kotaku.com##.lg\:min-h-\[300px\]
 gizmodo.com,kotaku.com##.od-wrapper
 gizmodo.com,kotaku.com##.widget_keleops-ad
 gizmodo.jp#@#.l-ad
+gizza.ai,mixonline.com,radioworld.com##.site-ad
 gkstk.com##.layui-layer-shade
 gkstk.com,ufanw.com##.layui-layer
 glennbeck.com###sPost_0_0_5_0_15_5_0_1_2_0
@@ -24259,6 +24260,8 @@ kaitao.cn###ad-tit
 kaitao.cn##a[href*="/a.php?id="]
 kaka12345.cc###main
 kalvin.cn##.fell_advertisement_box
+kanju.ai##.movie-player-info-ad-grid
+kanju.ai##.movie-player-info-ad-heading
 kankan.com###adv_box
 kankan.com###modal-adv
 kankan.com##.tuiguang_position
@@ -24437,10 +24440,14 @@ kogan.com#?#.slider-slide:has-text(Sponsored)
 kohls.com###PDP_monetization_HL
 kohls.com###PMP_monetization_HL
 kohls.com###kmn-featured-carousel
+kohls.com###kmn-more-to-consider
+kohls.com###kmnbanner-pencil_bottom-anchor
+kohls.com###kmnbanner-pencil_top-anchor
 kohls.com###kmncarousel-add_buy_carousel-anchor:has(.KMNProductSlider__sponsored)
 kohls.com###kmncarousel-page-anchor:has(.KMNProductSlider__sponsored)
 kohls.com###kmnsponsoredbrand-sponsored_top-anchor
 kohls.com###open-drawer
+kohls.com##.kmn-ads-container
 kohls.com##.products_grid.sponsored-product
 kohls.com##astro-island[component-export="KmnMarqueeBannerWrapper"]:has(img[alt="Sponsored Banner"])
 kohls.com##div[data-testid^="wallet-wrapper-"]:has(div[class="mt-3 text-xs"])
@@ -24969,9 +24976,9 @@ loverslab.com##.ll_adblock
 loveshang.com##div[class^="float-ad-"]
 lowcarbtips.org##.wp-block-image.size-full
 lowes.com###lws_hp_recommendations_belowimage_1
+lowes.com##.carousel-item:has(.sponsored-tag)
 lowes.com##.lws_pdp_recommendations_southdeep
 lowes.com##div[data-testid="playwright-gam-carousel-banner"]
-lowes.com##div[data-testid="product-carousel"]:has(.sponsored-tag)
 lowfuelmotorsport.com##.ads-stats
 lowfuelmotorsport.com##.skyscraper-right
 lowfuelmotorsport.com,newsnow.co.uk##.skyscraper-left
@@ -25551,7 +25558,6 @@ mitbbs.ca,mitbbs.com##table[width="915"] > tbody > tr:first-child > td[width]
 miuithemers.com#@##ads-left
 miuithemers.com#@#.ads-left
 miushuo.com###leftDiv1
-mixonline.com,radioworld.com##.site-ad
 mixytalk.com###ad-interstitial
 mixytalk.com##.result-inline-ad
 mjzj.com##div[id^="sidebar-top-carouse"]
@@ -29672,6 +29678,7 @@ target.com#?#[data-test="productCardVariantRecommendation"]:has-text(Sponsored)
 target.com#?#div[class^="styles_productCardVariantMiniWrapper_"]:has(div.h-text-sm:has-text(Sponsored))
 target.com#?#div[data-test="@web/ProductCard/ProductCardVariantAisle"]:has-text(Sponsored)
 target.com#?#div[data-test="@web/site-top-of-funnel/ProductCardWrapper"]:has-text(sponsored)
+target.com#?#div[data-test="ListingPageProductListing"]:has(span:has-text(Sponsored))
 target.com#?#div[data-test="addToCartSuccessModalRecommendationsTile"]:has(p.h-text-xs:has-text(Sponsored))
 tarladalal.com###ftr_adspace
 tasfia-tarbia.org##.media-links
