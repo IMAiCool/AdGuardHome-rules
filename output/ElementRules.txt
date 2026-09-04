@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-09-04 12:17:25 +0000
+! Last modified: 2026-09-04 18:35:58 +0000
 ! Expires: 8 hours
-! Rules: 32542
+! Rules: 32548
 
 ###AC_ad
 ###AD_160
@@ -10894,7 +10894,6 @@
 ##.greyAd
 ##.greyad
 ##.grid > .container >
-##.grid > .m0auto > div > .grid + div:not([class]):not([id])
 ##.grid-ad
 ##.grid-ad-col__big
 ##.grid-advertisement
@@ -11635,7 +11634,6 @@
 ##.m-in-content-ad-row
 ##.m-jac-ad
 ##.m-sponsored
-##.m0auto > div:not([class]):not([id]) > div > .swiper-initialized
 ##.m1-ads-placeholder
 ##.m1-header-ad
 ##.m1938-container
@@ -14531,6 +14529,7 @@
 ##body > div[style$=";background:
 ##body > div[style=" max-width:990px; margin:0 auto;"] > a[target="_blank"]
 ##body > div[style="display:none;"] + div[style="display:none;"] + div[id][class][style^="background-color:"]
+##body > noscript +
 ##body.desktop[style^="-"] span[class*=" "] > a[href^="http"][rel="nofollow"][target="_blank"]
 ##body.page > .popup
 ##body[onload*="u()"] >
@@ -17970,6 +17969,7 @@ bravenewcoin.com##.sevio-ad-wrapper
 bravoporn.com,gogoanime.co.in,harimanga.me,hurawatch.cc,instamod.co,leercapitulo.co,mangadna.com,messitv.net,miraculous.to,putlockers.li,sukidesuost.info,waploaded.com,yts-subs.com##[style*="z-index:"]
 bravoporn.com,gogoanime.co.in,harimanga.me,hurawatch.cc,instamod.co,leercapitulo.co,mangadna.com,miraculous.to,putlockers.li,sukidesuost.info,waploaded.com,yts-subs.com##[style*="width: 100%
 bravoteens.com##.a352
+bravoteens.com##.under-video
 bravoteens.com,bravotube.net##.good_list_wrap
 bravotube.net##.box-left
 bravotube.net##.brazzers
@@ -21268,6 +21268,7 @@ foodnetwork.com##.recipe-bigbox
 foodnetwork.com##[data-slot-type="ad_aside"]
 foodnetwork.com##[data-slot-type="ad_aside_top"]
 foodrenegade.com##.top-cta
+foodrepublic.com,hunker.com,islands.com,mashed.com,nickiswift.com,thelist.com##.raptive-video-player
 foodsforbetterhealth.com###text-46
 foojay.io##.sponsors-block
 fool.com###articles-incontent2
@@ -21603,6 +21604,7 @@ gamebyte.com,irishnews.com##div[id^="mpu"]
 gamecopyworld.com,gamecopyworld.eu##[href*="@"]
 gamecopyworld.com,gamecopyworld.eu##[href^="https://www.kinguin.net/"]
 gamedev.net##.mb-3.align-items-center.justify-content-start
+gamedev.net#?#.dark\:border-gray-700:has-text(Advertisement)
 gameflare.com##.sidebar-game
 gamefy.cn##.tonglan
 gamefy.cn,sitv.com.cn##.area > div[style="float:left"] > a
@@ -22585,6 +22587,7 @@ hellomagazine.com##.-variation-robapaginas
 hellomagazine.com##.adContainerClass_acvudum
 hellomagazine.com,hola.com##.-variation-bannerinferior
 hellomagazine.com,hola.com##.-variation-megabanner
+hellporno.com##.view-video-advertisements
 help.xunlei.com#@#.a_fr
 helpnetsecurity.com###\37 7e27088_l1
 helpnetsecurity.com##.spotlight
@@ -27460,6 +27463,9 @@ pornicom.com##.spot-after
 pornid.name,pornid.xxx##.aside-box
 pornid.name,pornid.xxx##.cs-under-player-link
 pornid.name,pornid.xxx##.spots-bottom
+pornid.xxx##.below-player-wrapper
+pornid.xxx##.rsidebar-spots
+pornid.xxx##.wrap-cs
 pornlib.com###lcams2
 pornlib.com##a[href*="/linkout/"]
 pornlizer.com##a[href^="https://tezfiles.com/store/"]
@@ -28427,7 +28433,6 @@ san.com##.atf-top-banner
 sanhao.com###reg-bar
 sankakucomplex.com##.scad
 sankakucomplex.com##.side300xmlc
-sankakucomplex.com##[href^="https://s.zlink3.com/d.php"]
 sankei.com#@#.module_ad
 sansabanews.com###leader
 sanv.org##.main-nav
@@ -29487,6 +29492,7 @@ studio55.fi#@#.column-ad
 study.163.com###j-newpeople
 studygolang.com###ad-right1
 stuff.co.nz##.between-ad-slot
+stuff.co.nz##.cw-hp-top-banner-container
 stuff.co.nz##.header-container
 stuff.co.nz##.min-h-\[133px\]
 stuff.co.nz,thepost.co.nz##.horizontal-ad-slot
@@ -31994,7 +32000,6 @@ xueqiu.com##.widget__download-app
 xuite.net##.articleExtAd
 xunlei.com##.mini-pop
 xv-ru.com,xvideos.*##.nutaku-gamesAdd commentMore actions
-xv-ru.com,xvideos.*##a[href^="https://s.zlink7.com/"]
 xvideos.com###video-right
 xvideos.com###video-sponsor-links
 xvideos.com##.video-ad
@@ -32270,6 +32275,7 @@ youjizz.com###footer
 youjizz.com###onPausePrOverlay
 youjizz.com###rightVideoPrs
 youjizz.com##[img][src*="blob:"]
+youjizz.com##a[href^="//s.zlink7.com/d.php"]
 youku.com###bt-banner
 youku.com###ykBottomBanner
 youku.com##.pop-prompt-box
