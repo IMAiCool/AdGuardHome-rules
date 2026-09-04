@@ -1,9 +1,9 @@
 ! Title: AdGuardHome-rules - AdGuard browser filter whitelist lite
 ! Syntax: AdGuard browser filter
 ! List type: whitelist lite
-! Last modified: 2026-09-03 18:54:43 +0000
+! Last modified: 2026-09-04 01:26:47 +0000
 ! Expires: 8 hours
-! Rules: 2634
+! Rules: 2635
 
 @@||*.bilivideo.com^$important
 @@||*.xmpush.xiaomi.com^$important
@@ -258,6 +258,7 @@
 @@||affyun.com^$generichide
 @@||afi-b.com^|
 @@||afisha.ru/proxy/videonetworkproxy.ashx?$xmlhttprequest
+@@||agoda.net/cdn-supply-iam/static/js/webanalytics.$domain=agoda.com
 @@||ahhhhfs.com^$generichide
 @@||aiasahi.jp/ads/$image,domain=japan.zdnet.com
 @@||airav.cc/js/td_ga_tracker.js
