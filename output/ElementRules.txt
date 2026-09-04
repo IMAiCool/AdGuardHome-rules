@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-09-04 01:27:21 +0000
+! Last modified: 2026-09-04 12:17:25 +0000
 ! Expires: 8 hours
-! Rules: 32541
+! Rules: 32542
 
 ###AC_ad
 ###AD_160
@@ -15958,6 +15958,7 @@ abbaspc.net##.buttonPress-116
 abbynews.com,biv.com,kelownacapnews.com,lakelandtoday.ca,orilliamatters.com,reddeeradvocate.com,revelstokereview.com,sootoday.com,surreynowleader.com,theprogress.com,time.com,timescolonist.com,vancouverisawesome.com,vicnews.com###leaderboard-container
 abcnews.com##[data-testid="prism-sticky-ad"]
 abcnews.com,abcnews.go.com##.navigation--has-subnav {top:0;}
+abcnews4.com,wach.com##div[class*="MidArticleAdUnit_"]
 abcya.com##.a-leader
 abcya.com##.a-skyscraper
 abjav.com,aniporn.com##.left > section
