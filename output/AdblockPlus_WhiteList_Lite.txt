@@ -2,9 +2,9 @@
 ! Title: AdGuardHome-rules - Adblock Plus browser filter whitelist lite
 ! Syntax: Adblock Plus browser filter
 ! List type: whitelist lite
-! Last modified: 2026-09-05 11:24:40 +0000
+! Last modified: 2026-09-05 17:44:47 +0000
 ! Expires: 8 hours
-! Rules: 2634
+! Rules: 2635
 
 @@||*.bilivideo.com^
 @@||*.xmpush.xiaomi.com^
@@ -612,6 +612,7 @@
 @@||cdn.segment.com/next-integrations/integrations/
 @@||cdn.segment.com/v1/projects/
 @@||cdn.segmentify.com^$script,domain=gratis.com
+@@||cdn.shopify.com/extensions/*/ba_tracking.js$domain=ridge.com
 @@||cdn.smartclip-services.com^$script,domain=cerebriti.com
 @@||cdn.sophi.io/assets/$script,domain=nationalpost.com
 @@||cdn.staticfile.org^$domain=lakyworld.com|biquge77.net|yzbg.net|alexij.net|hshfm.com|biqiuge5.org|49gtk.cc|20me.net|fbqg.cc|xianguke.net|tellgillian.com|m-ia.net|cleavagecoverup.com|memduh.net|56xiaoshuo.net|yourbiquge.com|00ksw.com|147xiaoshuo.com|bxwx.live|lzbao.net
