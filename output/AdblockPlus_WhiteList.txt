@@ -2,7 +2,7 @@
 ! Title: AdGuardHome-rules - Adblock Plus browser filter whitelist
 ! Syntax: Adblock Plus browser filter
 ! List type: whitelist
-! Last modified: 2026-09-05 01:28:40 +0000
+! Last modified: 2026-09-05 11:24:37 +0000
 ! Expires: 8 hours
 ! Rules: 2634
 
@@ -795,11 +795,11 @@
 @@||cvs.com/shop-assets/js/VisitorAPI.js$~third-party
 @@||cvs.com/webcontent/images/weeklyad/adcontent/$~third-party
 @@||cwtv.com^$generichide
-@@||cxense.com/cx.cce.js$domain=bizjournals.com|businessinsider.de|cxpublic.com|diamond.jp|handelsblatt.com|hochi.news|inquirer.com|mainichi.jp|marketwatch.com|nikkansports.com|shueisha.co.jp|tarzanweb.jp|tn.com.ar|tvnet.lv|wsj.com
-@@||cxense.com/cx.js$domain=13.cl|bizjournals.com|businessinsider.de|businessinsider.jp|computerbild.de|cyclestyle.net|diamond.jp|gizmodo.jp|handelsblatt.com|hochi.news|inquirer.com|journaldequebec.com|ksml.fi|mainichi.jp|marketwatch.com|nikkansports.com|nippon.com|savonsanomat.fi|shueisha.co.jp|str.toyokeizai.net|tarzanweb.jp|tn.com.ar|tv-tokyo.co.jp|tvnet.lv|wsj.com
+@@||cxense.com/cx.cce.js$domain=bizjournals.com|businessinsider.de|cxpublic.com|diamond.jp|handelsblatt.com|hochi.news|inquirer.com|j-cast.com|mainichi.jp|marketwatch.com|nikkansports.com|shueisha.co.jp|tarzanweb.jp|tn.com.ar|tvnet.lv|wsj.com
+@@||cxense.com/cx.js$domain=13.cl|bizjournals.com|businessinsider.de|businessinsider.jp|computerbild.de|cyclestyle.net|diamond.jp|gizmodo.jp|handelsblatt.com|hochi.news|inquirer.com|j-cast.com|journaldequebec.com|ksml.fi|mainichi.jp|marketwatch.com|nikkansports.com|nippon.com|savonsanomat.fi|shueisha.co.jp|str.toyokeizai.net|tarzanweb.jp|tn.com.ar|tv-tokyo.co.jp|tvnet.lv|wsj.com
 @@||cxense.com/document/search?
 @@||cxense.com/persisted/execute$domain=nippon.com
-@@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|businessinsider.jp|computerbild.de|cxpublic.com|cyclestyle.net|diamond.jp|friday.gold|friday.kodansha.co.jp|handelsblatt.com|hochi.news|inquirer.com|journaldequebec.com|ksml.fi|mainichi.jp|marketwatch.com|nikkansports.com|nippon.com|rikejo.jp|savonsanomat.fi|shueisha.co.jp|tn.com.ar|tvnet.lv|wsj.com
+@@||cxense.com/public/widget/$domain=bizjournals.com|businessinsider.de|businessinsider.jp|computerbild.de|cxpublic.com|cyclestyle.net|diamond.jp|friday.gold|friday.kodansha.co.jp|handelsblatt.com|hochi.news|inquirer.com|j-cast.com|journaldequebec.com|ksml.fi|mainichi.jp|marketwatch.com|nikkansports.com|nippon.com|rikejo.jp|savonsanomat.fi|shueisha.co.jp|tn.com.ar|tvnet.lv|wsj.com
 @@||cy.com/hz/*/ad
 @@||cy.com^$generichide
 @@||cybozu.com/*/event.gif?$~third-party
