@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-09-06 01:23:00 +0000
+! Last modified: 2026-09-06 11:46:22 +0000
 ! Expires: 8 hours
-! Rules: 32553
+! Rules: 32554
 
 ###AC_ad
 ###AD_160
@@ -26590,6 +26590,7 @@ nytimes.com##.css-oeful5
 nytimes.com##.css-wmyc1
 nytimes.com##.e1xxpj0j1.css-4vtjtj
 nytimes.com##.g-paid
+nytimes.com##.in_rhq_adSpacer
 nytimes.com##[class]:has(> [id="ad-top"])
 nytimes.com##[data-ad-element="outer_ad_container"]
 nytimes.com##[data-testid="StandardAd"]
