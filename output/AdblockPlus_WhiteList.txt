@@ -2,9 +2,9 @@
 ! Title: AdGuardHome-rules - Adblock Plus browser filter whitelist
 ! Syntax: Adblock Plus browser filter
 ! List type: whitelist
-! Last modified: 2026-09-07 13:42:40 +0000
+! Last modified: 2026-09-07 19:26:45 +0000
 ! Expires: 8 hours
-! Rules: 2635
+! Rules: 2634
 
 @@||*.bilivideo.com^
 @@||*.xmpush.xiaomi.com^
@@ -577,7 +577,6 @@
 @@||cbs.com^$generichide
 @@||cbsi.com/dist/optanon.js$script,domain=cbsnews.com|zdnet.com
 @@||cbsi.map.fastly.net^
-@@||cc.zorores.com/ad/*.vtt$domain=rapid-cloud.co
 @@||ccb.com^*^ad
 @@||ccllaa.com^$generichide
 @@||cdc.gov/jscript/metrics/adobe/launch/$script,~third-party

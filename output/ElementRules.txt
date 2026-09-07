@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-09-07 13:43:00 +0000
+! Last modified: 2026-09-07 19:27:04 +0000
 ! Expires: 8 hours
-! Rules: 32555
+! Rules: 32559
 
 ###AC_ad
 ###AD_160
@@ -17568,6 +17568,7 @@ binaries4all.com###payserver
 bincodes.com##.transferwise
 bing.com###BottomAppPro
 bing.com###b_results > li:has(.b_adProvider)
+bing.com###b_wt_adepd
 bing.com###bepfo.popup[style^="visibility: visible"]
 bing.com###bingBrand
 bing.com##.OpInNwWndw
@@ -19031,6 +19032,8 @@ colombiareports.com,miloserdov.org,mostlyblogging.com###custom_html-14
 colombotimes.lk##a[target="_blank"] img:not([src*="app.jpg"])
 color-hex.com##.margin10
 coloradotimesrecorder.com##.adSidebar
+colossus.com##.single-sponsor
+colossus.com##a[data-article-sponsor-name]
 colourlovers.com###ga-above-footer
 colourlovers.com###ga-below-header
 colourlovers.com###sponsors-links
@@ -21422,6 +21425,7 @@ freemalaysiatoday.com##.h-\[260px\]
 freemovies.tv##.publis-bottom
 freeones.com##.banner-placeholder
 freeones.com##.js-track-event
+freeonestube.com##div[style="min-height: 250px"]
 freeonlineapps.net##.sp
 freepik.com###adobe-pagination-mkt-copy
 freepik.com##.adobe-coupon-container
