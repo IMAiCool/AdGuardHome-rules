@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-09-07 01:21:27 +0000
+! Last modified: 2026-09-07 13:43:00 +0000
 ! Expires: 8 hours
-! Rules: 32554
+! Rules: 32555
 
 ###AC_ad
 ###AD_160
@@ -27164,9 +27164,10 @@ pinchofyum.com##.adthrive_header_ad
 pincong.rocks##.a-a
 pincong.rocks##.aw-mod > a[target="_blank"]
 ping.chinaz.com##.sth > .col-red
+ping0.cc###adjright
 ping0.cc###websites-wrap:has([rel$="sponsored"])
 ping0.cc##.aditems
-ping0.cc#?#div:-abp-has(>a>.tipbd)
+ping0.cc##.xeeles
 pinggu.org##.banner2015
 pinggu.org##.hdbanner
 pinggu.org##.index-somelinks
