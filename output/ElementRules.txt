@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-09-07 19:27:04 +0000
+! Last modified: 2026-09-08 01:30:42 +0000
 ! Expires: 8 hours
-! Rules: 32559
+! Rules: 32561
 
 ###AC_ad
 ###AD_160
@@ -14232,6 +14232,7 @@
 ##a[href^="//s.zlinkd.com/"]
 ##a[href^="//startgaming.net/tienda/" i]
 ##a[href^="/ad/"] > img[id][src*="hdslb.com"]
+##a[href^="/api/hop/"] > img[src*=".xyz/m/"]
 ##a[href^="/api/jump/"] > img[src*=".xyz/m/"]
 ##a[href^="/archives/"] > .post-card > .blog-background[style*="gif;base64"]
 ##a[href^="/dasp.php?a="]
@@ -31952,6 +31953,7 @@ xiazaizhijia.com###gg_2
 xiazaizhijia.com###public_right_mid_ad
 xiazaizhijia.com##.down_list
 xiebruce.top###ai_widget-2
+xifanacg.com##.head-more-a ~ .swiper-slide
 ximalaya.com##.dl-pc
 xineurope.com###qmenu_menu + .wp
 xineurope.com##.adft
