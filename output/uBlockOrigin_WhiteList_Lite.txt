@@ -1,7 +1,7 @@
 ! Title: AdGuardHome-rules - uBlock Origin browser filter whitelist lite
 ! Syntax: uBlock Origin browser filter
 ! List type: whitelist lite
-! Last modified: 2026-09-10 01:33:07 +0000
+! Last modified: 2026-09-10 12:23:43 +0000
 ! Expires: 8 hours
 ! Rules: 2635
 
@@ -824,7 +824,7 @@
 @@||data.orders.costco.com^|
 @@||data.promo.timhortons.ca^|
 @@||datadoghq-browser-agent.com/*/datadog-logs.js$domain=crosset.onward.co.jp
-@@||datadoghq-browser-agent.com^$script,domain=bbcgoodfood.com|cdn.spatialbuzz.com|dashboard.getdriven.app|espn.com|goindigo.in|hungryroot.com|usa.experian.com
+@@||datadoghq-browser-agent.com^$script,domain=bbcgoodfood.com|cdn.spatialbuzz.com|dashboard.getdriven.app|espn.com|goindigo.in|hungryroot.com|usa.experian.com|wirecutterstore.nytimes.com
 @@||datadome.garena.com.first-party-js.datadome.co^$script,xhr,domain=auth.garena.com
 @@||datadome.monster.com.first-party-js.datadome.co^$script,domain=monster.com
 @@||daxiaamu.com^$generichide

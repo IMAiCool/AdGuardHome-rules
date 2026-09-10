@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-09-10 01:33:09 +0000
+! Last modified: 2026-09-10 12:23:44 +0000
 ! Expires: 8 hours
-! Rules: 32569
+! Rules: 32573
 
 ###AC_ad
 ###AD_160
@@ -16347,6 +16347,8 @@ altchar.com##div[style^="height:280px;"]
 alternativeto.net##.AdsenseAd-module-scss-module__6YBNDG__adLeaderboard
 alternativeto.net##.AdsenseAd-module-scss-module__6YBNDG__adRectangle
 alternativeto.net##.bannerLink
+alternativeto.net##.col-start-1:has([data-testid])
+alternativeto.net##.min-h-\[100vw\]
 alternativeto.net##[aria-label="Official partner"]
 alternativeto.net##div[data-testid="adsense-wrapper"]
 alternativeto.net##div[style="min-height: 280px;"]
@@ -16426,6 +16428,7 @@ amazon.*##div[data-cel-widget="sp-rhf-desktop-carousel_desktop-rhf_1"]
 amazon.*##div[data-cel-widget="sp-shiptrack-desktop-carousel_desktop-yo-shiptrack_0"]
 amazon.*##div[data-cel-widget^="multi-brand-video-mobile_DPSims_"]
 amazon.*##div[data-cel-widget^="multi-card-creative-desktop_loom-desktop-top-slot_"]
+amazon.*##div[data-csa-c-content-id="sims-substitutes"]:has(div[class^="adFeedbackMainComponent_"])
 amazon.*##div[data-csa-c-painter="sp-cart-mobile-carousel-cards"]
 amazon.*##div[data-csa-c-slot-id^="loom-mobile-brand-footer-slot_hsa-id-"]
 amazon.*##div[data-csa-c-slot-id^="loom-mobile-top-slot_hsa-id-"]
@@ -31258,6 +31261,7 @@ wantgoo.com###FixModal
 wantgoo.com##.fab-ad
 wantgoo.com##div[type="adv"]
 wantgoo.com#@#.shareBtns
+wantmymtv.org##.floating-coffee-btn
 wap.zol.com.cn###waitrep
 wapbold.com,wapbold.net##.bhor-box
 wapt.com##.ad-rectangle
