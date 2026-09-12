@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-09-11 18:46:47 +0000
+! Last modified: 2026-09-12 01:38:48 +0000
 ! Expires: 8 hours
-! Rules: 32573
+! Rules: 32576
 
 ###AC_ad
 ###AD_160
@@ -14152,6 +14152,7 @@
 ##a[href$="/hjdt9.com"]
 ##a[href$="/xha77.com"]
 ##a[href*="&maxads="]
+##a[href*=".1699ai.top"]
 ##a[href*=".6666ai.top"]
 ##a[href*=".adsrv.eacdn.com/"]
 ##a[href*=".bright.cn/?utm_"]
@@ -21811,6 +21812,7 @@ gd.games##div[style="position:relative;display:flex;flex-direction:column;gap:2p
 gd.games##div[style="position:relative;display:flex;flex-direction:column;gap:2px;justify-content:center;align-items:center;padding:8px"]
 gd163.cn##.bbs_ad
 gd163.cn,itavcn.com,jmnews.com.cn###msg_win
+gdforum.freeforums.net###primisContainer
 gdmm.com###ad_cover
 gdmm.com###diy3
 gdmm.com###hd > .wp > .module
@@ -22912,6 +22914,7 @@ hqpornstream.com##.spot-block
 hqyman.cn##a[href="https://hqyman.cn/taobao/"]
 hsex.men###container > div:not([class])
 hsex.men##div[style="margin:0 auto 10px;width:900px;height:250px"]
+hsex.tv###Austin + a
 hsreplay.net##[style^="min-height: 90px;"]
 html-js.com##.ad-blank
 html-js.com##.module[style="padding:0;"]
