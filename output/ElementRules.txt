@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-09-12 01:38:48 +0000
+! Last modified: 2026-09-12 11:45:00 +0000
 ! Expires: 8 hours
-! Rules: 32576
+! Rules: 32582
 
 ###AC_ad
 ###AD_160
@@ -16027,6 +16027,8 @@ acgnx.net,acgnx.se##a > img[src^="/images/"]
 acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com##.master-product-carousel:has([data-carousel-driven="sponsored-products"])
 acmemarkets.com,albertsons.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,randalls.com,safeway.com,shaws.com,starmarket.com,tomthumb.com,vons.com#?#.product-card-col:has-text(Sponsored)
 acmemarkets.com,andronicos.com,carrsqc.com,haggen.com,jewelosco.com,kingsfoodmarkets.com,pavilions.com,shaws.com,starmarket.com,tomthumb.com,vons.com##.master-product-carousel:has([data-carousel-api*="search/sponsored-carousel"])
+acronymfinder.com##.ts
+acronymfinder.com##tr:has(.ts)
 actionnetwork.com##.promotion-table
 active.com###med_rec_bottom
 active.com###med_rec_top
@@ -23334,6 +23336,8 @@ imagetotext.info##.adv_text
 imagetotext.info##.bg-light.mt-2.text-center
 imagetwist.com##[href^="https://imagetwist.com/pxt/"]
 imagetwist.com##a[href*="/par/"]
+imagetwist.com##a[href*="/track?v="]
+imagetwist.com##a[href^="https://landing.candynetwork.ai/"]
 imcdb.org###SiteLifeSupport
 imdb.com###top_rhs
 imdb.com##.cornerstone_slot
@@ -26219,6 +26223,7 @@ netflixjunkie.com#?#[style="text-align:center"]:has-text(ADVERTISEMENT)
 netfly.fun,netfly.tv,netflytv.xyz##.banner[href^="http"]
 netfly.fun,netfly.tv,netflytv.xyz##[style^="display: flex;"]
 netfly.lol##.module-tglist
+netspeed.com.tr#@##adWrapper
 nettiauto.com,nettikaravaani.com,nettikone.com,nettimokki.com,nettimoto.com,nettivene.com###huge_banner
 nettv4u.com##.desk_only
 netweather.tv##.billheight
@@ -29830,6 +29835,7 @@ tejanonation.net##.wpcnt
 tekno.kompas.com##.kcm
 tekno.kompas.com##.native-wrap
 teleboy.ch##.grid-col-content-leaderboard
+telecomtalk.info##.tt-ad
 telegram-porn.com##.proxy-adv__container
 telegram-porn.com##.summary-adv-telNews-link
 telegraph.co.uk##.article-betting-unit-container
