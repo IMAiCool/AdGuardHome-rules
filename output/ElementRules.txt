@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-09-13 18:22:56 +0000
+! Last modified: 2026-09-14 01:46:57 +0000
 ! Expires: 8 hours
-! Rules: 32583
+! Rules: 32585
 
 ###AC_ad
 ###AD_160
@@ -11144,6 +11144,7 @@
 ##.house-ad
 ##.house-ad-small
 ##.house-ad-unit
+##.house-ad-wrapper
 ##.house-ads
 ##.houseAd
 ##.houseAd1
@@ -14884,7 +14885,7 @@
 12306.cn,club.pchome.net,qinbing.cn###slideBox
 123av.com##.w300
 123av.com,123av.ws,1av.to##[style^="width:300px;"]
-123av.com,javplayer.cc##a[href="#"][style="position: fixed;top: 0;left: 0;width: 100%;height: 100%;display: block;z-index: 9999999;cursor: auto"]
+123av.com,javplayer.cc##[style="position: fixed;top: 0;left: 0;width: 100%;height: 100%;display: block;z-index: 9999999;cursor: auto"]
 123pan.com##.advBanner
 123pan.com##.ant-carousel
 123pan.com##.banner-container-h5
@@ -23564,7 +23565,7 @@ investmentnews.com##[class^="ad-wrapper"]
 investmentweek.co.uk##.bhide-768
 investopedia.com###performance-marketing_1-0
 investopedia.com##.partnerlinks
-invezz.com##.homepage-beneath-hero
+invezz.com##.gam-ad-slot
 inxxx.com,theyarehuge.com##.desktopspot
 inyourarea.co.uk##.style_advertisementMark_1Jki4
 inyourarea.co.uk##.style_cardWrapper_ycKf8
@@ -31127,6 +31128,7 @@ vintag.es###HTML7
 vintag.es###sticky_ads
 vinted.*##.slot-container--leaderboard
 viojav.com##[href="https://idmax.one/77playads"]
+viper.to##[href^="https://display.digitalclickstime.com/redirect.go"]
 vipleague.im##.btn[data-openuri*="/4/"][data-open="_blank"]
 viptube.com##.promotion
 virginradio.co.uk##div[class^="css-"]:has(> .ad-outline)
