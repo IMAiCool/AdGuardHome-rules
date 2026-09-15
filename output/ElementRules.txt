@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-09-15 01:57:15 +0000
+! Last modified: 2026-09-15 12:55:33 +0000
 ! Expires: 8 hours
-! Rules: 32585
+! Rules: 32586
 
 ###AC_ad
 ###AD_160
@@ -24632,6 +24632,7 @@ latv.com##.top-adverties
 laurelberninteriors.com,mediaite.com,packhacker.com,packinsider.com#@#.adthrive-video-player
 law.com,topcultured.com##h3
 law.cornell.edu##.gfs
+law.justia.com##.jlead-v2
 law.justia.com##.rotating-leads
 law360.com##[style="width:100%;display:flex;justify-content:center;background-color:rgb(247, 247, 247);flex-direction:column;"]
 lawandcrime.com##.promo-unit
