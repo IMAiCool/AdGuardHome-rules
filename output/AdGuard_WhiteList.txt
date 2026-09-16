@@ -1,7 +1,7 @@
 ! Title: AdGuardHome-rules - AdGuard browser filter whitelist
 ! Syntax: AdGuard browser filter
 ! List type: whitelist
-! Last modified: 2026-09-16 12:51:27 +0000
+! Last modified: 2026-09-16 19:08:03 +0000
 ! Expires: 8 hours
 ! Rules: 2639
 
@@ -2222,6 +2222,7 @@
 @@||static.foxnews.com^*/VisitorAPI.js$domain=foxbusiness.com|foxnews.com
 @@||static.hdslb.com/ad-images/$image
 @@||static.hotjar.com/c/hotjar-$script,domain=mercadopublico.cl
+@@||static.klaviyo.com/onsite/js/event_adapter.$domain=gear.blizzard.com
 @@||static.knowledgehub.com/global/images/ping.gif?$~third-party
 @@||static.leaddyno.com/js$script,domain=s4l.us
 @@||static.myfinance.com/widget/$domain=savingspro.org
@@ -2501,7 +2502,6 @@
 @@||warpwire.com/AD/
 @@||warpwire.net/AD/
 @@||wavepc.pl/wp-content/*-500x100.png$image,~third-party
-@@||wavse.com^$generichide
 @@||we-stats.com/scripts/$script,domain=discover.com
 @@||web-ads.pulse.weatherbug.net/api/ads/targeting/$domain=weatherbug.com
 @@||web-sdk.urbanairship.com/notify/$script,domain=etoro.com
