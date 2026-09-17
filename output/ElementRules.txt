@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-09-17 12:48:23 +0000
+! Last modified: 2026-09-17 19:20:19 +0000
 ! Expires: 8 hours
-! Rules: 32543
+! Rules: 32542
 
 ###AC_ad
 ###AD_160
@@ -17456,7 +17456,7 @@ bestoftelegram.com##a[href^="/ads/banner_ads?"]
 bestopview.com###pubtextnone
 bestopview.com##.Adv_c
 bestrecipes.com.au,delicious.com.au,taste.com.au##.news-video
-bestthots.com,leakedzone.com##[href^="https://v6.realxxx.com/"]
+bestthots.com,gelbooru.com,leakedzone.com,socialmediagirls.com##[href^="https://v6.realxxx.com/"]
 beta.riftkit.net##div[style="height: 300px; width: 400px;"]
 betaseries.com##.blockPartner
 bettycrocker.com##.adhesiveAdSpacing
@@ -29094,7 +29094,6 @@ socialmediagirls.com##a[href^="https://bunnyagent.com/"]
 socialmediagirls.com##a[href^="https://camplayer.com/"]
 socialmediagirls.com##a[href^="https://fuqqt.com/"]
 socialmediagirls.com##a[href^="https://golove.ai/anonAuth?"]
-socialmediagirls.com##a[href^="https://v6.realxxx.com/"]
 socialmediagirls.com##a[href^="https://www.puatraining.com/"]
 socialmediagirls.com##a[href^="https://www.rabbitsreviews.com/"]
 sofascore.com##.ad-unit-container
