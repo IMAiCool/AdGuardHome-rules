@@ -2,9 +2,9 @@
 ! Title: AdGuardHome-rules - Adblock Plus browser filter whitelist lite
 ! Syntax: Adblock Plus browser filter
 ! List type: whitelist lite
-! Last modified: 2026-09-17 01:51:00 +0000
+! Last modified: 2026-09-17 12:48:14 +0000
 ! Expires: 8 hours
-! Rules: 2638
+! Rules: 2639
 
 @@||*.bilivideo.com^
 @@||*.xmpush.xiaomi.com^
@@ -394,6 +394,7 @@
 @@||app.hubspot.com/api/ads/$~third-party
 @@||app.hype.it/assets/packages/mixpanel_flutter/assets/mixpanel.js$~third-party
 @@||app.veggly.net/plugins/cordova-plugin-admobpro/www/AdMob.js$script,~third-party
+@@||appdynamics.com/adrum/adrum-$script,domain=telecharge.com
 @@||apple.com^$generichide
 @@||appledaily.com.hk/admedia/
 @@||appledaily.com.tw^*_ad_logo.

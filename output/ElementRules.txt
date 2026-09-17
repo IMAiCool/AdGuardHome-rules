@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-09-17 01:51:09 +0000
+! Last modified: 2026-09-17 12:48:23 +0000
 ! Expires: 8 hours
-! Rules: 32544
+! Rules: 32543
 
 ###AC_ad
 ###AD_160
@@ -19251,8 +19251,7 @@ crn.com##.chartbeat-wrapper
 crn.com##.layout-right > .ad-wrapper
 crn.com##.sponsored-resources
 crocotube.com##.ct-video-ntvs
-crocotube.com#?#.ct-related-videos-title:has-text(Advertisement)
-crocotube.com#?#.ct-related-videos-title:has-text(You may also like)
+crocotube.com#?#.ct-related-videos-title:has-text(/Advertisement|You may also like/)
 cross.bet##.partnerLink
 croxyproxy.rocks###croxyExtraZapper
 croxyproxy.rocks###zapperSquare
