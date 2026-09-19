@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-09-19 01:43:20 +0000
+! Last modified: 2026-09-19 12:05:26 +0000
 ! Expires: 8 hours
-! Rules: 32542
+! Rules: 32541
 
 ###AC_ad
 ###AD_160
@@ -11045,6 +11045,7 @@
 ##.hero-ad-slot
 ##.hero-advert
 ##.heroAd
+##.hg-ssp-slot
 ##.hidden-ad
 ##.hidden-text + .ad-container
 ##.hide-ad
@@ -30517,6 +30518,7 @@ tpb.party##a[href="https://mysurferprotector.com/"]
 tporn.xxx##.sug-bnrs
 tporn.xxx##a[href^="https://www.juicyads.in/"]
 tptoon.com##span[style^="position:fixed; bottom:30vh;"]
+trace.moe##.sponsor-module__2LoZHG__sponsor
 track718.com##.track-adsense-ad
 track718.com##.track-search-ad
 trackinsight.com##div[data-nosnippet="true"]:has([id^="div-gpt-ad-"])
@@ -31650,9 +31652,6 @@ wolt.com##[data-test-id="MainDiscoveryContent"] li[draggable]:has(a[aria-label*=
 wolt.com##div[data-test-id="MainDiscoveryContent"] li > div.cb-elevated:has(button[data-test-id="AdvertisingLabel"])
 wolt.com##div[data-test-id="SearchResultVenueSection"] li > div.cb-elevated:has(button[data-test-id="AdvertisingLabel"])
 wolt.com##ul[data-test-id="VenueVerticalListGrid"] > li > div.cb-elevated:has(button[data-test-id="AdvertisingLabel"])
-wolt.com#?#button:has(> div > div > div > span:has-text(Sponsored))
-wolt.com#?#div:has(> div > div > div > div > div > div > p:has-text(Sponsored))
-wolt.com#?#div:has(> div > div > div > div > div > p:has-text(Sponsored))
 womansworld.com###taboola-article-1x1
 womansworld.com##.deal-of-the-day__container___1LYO6
 womansworld.com##.products-carousel-video__wrapper___2hfhX
