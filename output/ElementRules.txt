@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-09-19 18:14:53 +0000
+! Last modified: 2026-09-20 01:45:05 +0000
 ! Expires: 8 hours
-! Rules: 32541
+! Rules: 32545
 
 ###AC_ad
 ###AD_160
@@ -28876,6 +28876,9 @@ sisixxb.com##.preflink
 site.baidu.com##.pstr.mt10
 sitelike.org###HeaderAdsenseCLSFix
 sitelike.org##.adCLS
+sitepoint.com###takeover-content-1
+sitepoint.com###takeover-vertical
+sitepoint.com##.inline-content
 siteslike.com##.rif
 sixyin.com##.widget_custom_html
 skinme.cc,yuntue.com##.huodong
@@ -30742,6 +30745,7 @@ twitter.com,x.com#?#h2[role="heading"]:has-text(/Promoted|Gesponsert|Promocionad
 twkan.com###mobile-ad
 twkan.com##.txtcenter
 twpkinfo.com###div_close_cf
+twstalker.com##div[style^="max-width: 728px; width: 100%;"]
 twword.com##.gadBlock
 txahz.com###archy_ad2
 txtbook.com.cn##.ledu-advWrap
