@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-09-20 12:39:24 +0000
+! Last modified: 2026-09-20 18:20:25 +0000
 ! Expires: 8 hours
-! Rules: 32545
+! Rules: 32552
 
 ###AC_ad
 ###AD_160
@@ -15508,9 +15508,9 @@
 4tube.com##.la-jessy-frame
 4tube.com##img[src][style][width]
 4tube.com,fux.com,pornerbros.com,porntube.com##a[href*="/redirect-channel/"]
-4wank.com##.plads
 4wank.com#?#.video-holder > center > :has-text(/^Advertisement$/)
 4wank.com,daporn.com,epicgfs.com,fapcat.com,fpo.xxx,hentai-moon.com,scatxxxporn.com,xmateur.com##.top
+4wank.com,fapnado.xxx##.plads
 500.com###live_top_ad
 500.com##.floatLayer-container
 500.com##.pc_odds_fenxi_banner
@@ -20880,7 +20880,11 @@ fapnado.com##[class^="xpot"]
 fapnado.com,fapnado.xxx##.zpot-horizontal
 fapnado.com,fapnado.xxx##.zpot-vertical
 fapnado.com,young-sexy.com##.popup
+fapnado.xxx##.fluid_start_container
+fapnado.xxx##.hqb-topbar
 fapnado.xxx##.pause-ad-pullup
+fapnado.xxx##.text_link_holder
+fapnado.xxx,some.porn,xcafe.com##.fluid_html_on_pause_container
 faponic.com##.zkido_div
 faptor.com##.dblock
 faptor.com##.zpot-horizontal-img
@@ -21848,6 +21852,7 @@ genshin-impact-map.appsample.com###pc-br-300x250-gim
 genshin-impact-map.appsample.com###pc-br1-float-gim
 genshinimpactcalculator.com#@#.adban
 geo-fs.com##.geofs-adbanner
+geo.tv##div[style$="min-height: 280px;"]
 geo.tv,jozifm.co.za,runt-of-the-web.com,thewest.com.au,topgear.com.ph##.mrec
 geoawesome.com##.single-post__extra-info
 geoguessr.com##.ad_wrapper__3DZ7k
@@ -24956,6 +24961,7 @@ lovenovels.net#?#center:has-text(Advertisement)
 lovepanky.com##.lp-inline-inhouse-ad
 loverslab.com##.ipsDataList_large.ipsDataList > .ipsClearfix:has(span.redirect_ad)
 loverslab.com##.ll_adblock
+loverslab.com##[href^="https://candy.ai/characters/new"]
 loveshang.com##div[class^="float-ad-"]
 lowcarbtips.org##.wp-block-image.size-full
 lowes.com###lws_hp_recommendations_belowimage_1
@@ -26413,6 +26419,7 @@ nicoad.nicovideo.jp#@#.ad-point
 nicomanga.com##.max-w-lg.my-6.bg-green-600\/90
 nicomanga.com##.owl-stage > .owl-item:has([title="ADS Support"])
 nightingaledvs.com##.widget-area--below-post
+nightlight.gg##._adContainer_jdmri_296
 nilechronicles.com##.bn-lg-sidebar
 nine.com.au##div[data-ad-target^="header-ad"]
 nintendoeverything.com###nn_mobile_mpu4_temp
@@ -27941,6 +27948,7 @@ qyun.vip##a[href*="/ad."]
 qyw0.com##.iad
 qyw0.com##.s11
 qz.com##.k3mqd
+qz.com##[style="min-height:300px"]
 qz.com##div[class*=":block"]:has(> .ay-ad-slot)
 qz.com##div[class*="my-"]:has(> .ay-ad-slot)
 qz.com##div[class="hidden md:block"]
@@ -29179,7 +29187,6 @@ solarbe.com##.RT_banner
 solarbe.com##a[href*="redirect"] > img[width^="3"]
 solscan.io##.adsHeaderTextWrapper
 solution-hub.com###bfix2
-some.porn,xcafe.com##.fluid_html_on_pause_container
 someecards.com##div[class^="BaseAdSlot_adContainer_"]
 songbpm.com##.mb-6:has(> section > div[id^="ad--searches"])
 songbpm.com#?#div.mb-6:has-text(Advertisement)
