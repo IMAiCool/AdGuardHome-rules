@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-09-21 14:34:05 +0000
+! Last modified: 2026-09-21 20:08:41 +0000
 ! Expires: 8 hours
-! Rules: 32559
+! Rules: 32560
 
 ###AC_ad
 ###AD_160
@@ -30539,6 +30539,7 @@ trace.moe##.sponsor-module__2LoZHG__sponsor
 track718.com##.track-adsense-ad
 track718.com##.track-search-ad
 trackinsight.com##div[data-nosnippet="true"]:has([id^="div-gpt-ad-"])
+trackinsight.com##tr:has(div[style="min-height: 168px;"])
 tractorbynet.com##a[href][target="_blank"] > img[class^="attachment-large"]
 trademe.co.nz##.tm-cinema-modal__ads-container
 trademe.co.nz##.tm-display-ad__wrapper
