@@ -1,9 +1,9 @@
 ! Title: AdGuardHome-rules - uBlock Origin browser filter whitelist
 ! Syntax: uBlock Origin browser filter
 ! List type: whitelist
-! Last modified: 2026-09-22 01:57:28 +0000
+! Last modified: 2026-09-22 12:52:04 +0000
 ! Expires: 8 hours
-! Rules: 2640
+! Rules: 2673
 
 @@||*.bilivideo.com^$important
 @@||*.xmpush.xiaomi.com^$important
@@ -351,6 +351,7 @@
 @@||aobi.100bt.com/play/ad/ad*.swf
 @@||aone-soft.com/style/images/ad2.jpg
 @@||ap01.records.in.treasuredata.com^|
+@@||apd-pcdnwxlogin.teg.tencent-cloud.net^$important
 @@||api-access.pangolin-sdk-toutiao1.com^$important
 @@||api-analytics.magstimconnect.net^$1p
 @@||api-js.datadome.co/js/$domain=sso.garena.com
@@ -540,6 +541,7 @@
 @@||browser.events.data.microsoft.com/onecollector/$script,xhr,domain=microsoft.com
 @@||browser.sentry-cdn.com^$domain=acustica-audio.com|alphaxiv.org|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|members.bifa.film|menshealth.com|ocado.com|pocketguard.com|podcasty.seznam.cz|roomster.com|shop.dns-net.de|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com
 @@||browserbench.org^$generichide
+@@||btrace.qq.com^$important
 @@||btsax.info^$generichide
 @@||bugsnag.com^$1p,domain=app.bugsnag.com
 @@||builder.io^$generichide
@@ -564,6 +566,7 @@
 @@||candidate.hr-manager.net/Advertisement/PreviewAdvertisement.aspx$frame,1p
 @@||canva.com^$generichide
 @@||capitolbroadcasting.blueconic.net^$image,script,xhr,domain=wral.com
+@@||captcha.gtimg.com^$important
 @@||captcha.qq.com^*&refer=http
 @@||captcha.qq.com^*?*=*=*=$frame
 @@||captcha.su.baidu.com^
@@ -742,6 +745,7 @@
 @@||connatix.com*/connatix.player.$script,domain=ebaumsworld.com|funker530.com|pagesix.com|tvinsider.com|washingtonexaminer.com
 @@||connatix.com/min/connatix.renderer.infeed.min.js$domain=accuweather.com|collider.com|gamepress.gg|salon.com
 @@||connect.facebook.net^*/fbevents.js$domain=elinoi.com
+@@||connectivitycheck.gstatic.com^$important
 @@||console.cloud.google.com^$generichide
 @@||console.statsig.com/_next/$1p
 @@||contacts.google.com^$generichide
@@ -868,6 +872,7 @@
 @@||disneyplus.disney.co.jp/view/vendor/analytics/$1p
 @@||disqus.com/embed/comments/$frame
 @@||dizhi99.com^$generichide
+@@||dldir1.qq.com^$important
 @@||dlh.net^$script,frame,domain=dlh.net
 @@||dlkoo.cc/down/*/*.htm$popup
 @@||dlkoo.cc/down/Copydown1
@@ -1251,6 +1256,7 @@
 @@||helix.videotron.com/js/api/fingerprint.js$1p
 @@||hello.myfonts.net/count/$css,domain=cfr.org|condor.com|corsair.com|furniturevillage.co.uk|luggagehero.com
 @@||heukmsactivator.com^$important
+@@||heytapmobi.com^$important
 @@||hh010.com^$generichide
 @@||hidive.com^|
 @@||highcharts.com.cn/highcharts/modules/heatmap.js
@@ -1475,6 +1481,7 @@
 @@||lasicilia.it/wp-content/plugins/digistream/digiplayer/js/videojs.ga.js?$script,1p
 @@||lastpass.com/ads.php$frame,domain=chrome-extension-scheme
 @@||lastpass.com/images/ads/$image,1p
+@@||lbs.gtimg.com^$important
 @@||ldxinyong.com^$generichide
 @@||leadpages.io/analytics/v1/observations/capture?$xhr
 @@||leanplum.com^$domain=arkadium.com
@@ -1601,6 +1608,7 @@
 @@||meizu.com/fileserver/ad/img/
 @@||mens1069.com^$generichide
 @@||merlincdn.net^*/common/images/spacer.gif$image,domain=turkcell.com.tr
+@@||metric.gstatic.com^$important
 @@||metrics.bangbros.com/tk.js$1p
 @@||metrics.el-mundo.net/b/ss/$image,domain=expansion.com
 @@||mhxk.com^*/main/entry.common.$script
@@ -1948,9 +1956,11 @@
 @@||qingcheng.com^*/ad
 @@||qingdaoport.net/adv/random.jsp
 @@||qiyipic.com/common/fix/pub_images/
+@@||qlogo.cn^$important
 @@||qm.redbullracing.com/gtm.js$1p
 @@||qm.wrc.com/gtm.js$1p
 @@||qobuz.com^$generichide
+@@||qpic.cn^$important
 @@||qq.com/ads/js/$domain=privacy.qq.com
 @@||qq.com/bossweb/jifen/
 @@||qq.com/cgi-bin/*?sid=ads
@@ -2094,6 +2104,7 @@
 @@||service-public.fr^*/assets/js/eulerian/eulerian.js$1p
 @@||service.apport.net/apport-spa-common/src/tracking/tracking.js$1p
 @@||services.chipotle.com/__imp_apg__/$1p
+@@||servicewechat.com^$important
 @@||serving-sys.com/serving/adServer.bs?$popup,domain=hongkongcard.com
 @@||seselah.com^$generichide
 @@||seyise8.com^$generichide
@@ -2314,6 +2325,7 @@
 @@||tenki.jp/storage/static-images/top-ad/
 @@||tennispro.eu/min/?$script,1p
 @@||tenpay.com/v2/res/pub/cps/main/bottom_ad.js
+@@||tenpay.com^$important
 @@||tenpay.com^*?ADTAG=
 @@||testufo.com^$generichide
 @@||tgfcer.com/advert.js
@@ -2447,6 +2459,7 @@
 @@||unpkg.com/@adobe/magento-storefront-event-collector@$domain=osprey.com
 @@||unpkg.com^$script,domain=vidsrc.stream
 @@||unsubscribe.lhinsights.com^|
+@@||up-hl.3g.qq.com^$important
 @@||up-load.io^$generichide
 @@||upaiyun.com/libs/$script,domain=xddxsw.net
 @@||upaiyun.com^*.js$domain=cilimao.co|cilimao.one
@@ -2495,6 +2508,8 @@
 @@||vms-videos.minutemediaservices.com^$xhr,domain=si.com
 @@||vv.video.qq.com^$important
 @@||vvic.com/monetize/ads/index/
+@@||vweixinf.tc.qq.com^$important
+@@||vweixinthumb.tc.qq.com^$important
 @@||waaw.to/adv/ads/popunder.js$script
 @@||wancaibb.com/share/js/share.min.js
 @@||wandhi.com^$generichide
@@ -2513,10 +2528,20 @@
 @@||webex.com^$generichide
 @@||webmail.smartlinkcorp.com/dotrans_20160909.php
 @@||webtrends.com/js/webtrends.min.js$script,domain=tvlicensing.co.uk
+@@||wechat.com^$important
+@@||wechatlegal.net^$important
+@@||wechatos.net^$important
+@@||wechatpay.cn^$important
+@@||wechatpay.com^$important
 @@||weibo.com/api/weipan/getAds
 @@||weibo.com/share/share.php$generichide
 @@||weightwatchers.com/optimizelyjs/$script,1p
 @@||weithenn.org^$generichide
+@@||weixin.com^$important
+@@||weixin.qq.com^$important
+@@||weixin110.qq.com^$important
+@@||weixinbridge.com^$important
+@@||weixinsxy.com^$important
 @@||weiyun001.com/banner_ads.js
 @@||wenxuecity.com/include/editor/*/media/ad/
 @@||wenxuecity.com^$generichide
@@ -2553,6 +2578,7 @@
 @@||www.datadoghq-browser-agent.com^|
 @@||www.dogpile.com^|
 @@||www.google.com/ads/preferences/$image,script,frame
+@@||www.google.com^$important
 @@||www.googleadservices.com^|
 @@||www.jdoqocy.com^|
 @@||www.statcounter.com/images/$image,3p
@@ -2561,8 +2587,14 @@
 @@||www.youtube.com^$generichide
 @@||wwwcache.wral.com/presentation/v3/scripts/providers/analytics/ga.js$1p
 @@||wwwimage-tve.cbsstatic.com^
+@@||wx.gtimg.com^$important
 @@||wx.qq.com/c/=/mpres/*/video_ad_
 @@||wx.qq.com/mmbizwap/*/framead.
+@@||wx.qq.com^$important
+@@||wx.tenpay.com^$important
+@@||wxapp.tc.qq.com^$important
+@@||wxgateway.com^$important
+@@||wxs.qq.com^$important
 @@||x.com^$generichide
 @@||xbeibeix.com^$generichide
 @@||xeroshoes.co.uk/affiliate/scripts/trackjs.js$1p
@@ -2630,6 +2662,7 @@
 @@||youvisit.com/tour/$script,frame,domain=uaf.edu
 @@||yu.xyz.mn/images/event.gif?$image,1p
 @@||yummy.best^$generichide
+@@||yun-hl.3g.qq.com^$important
 @@||yunduanxin.xyz/static/js/banger.js
 @@||yunjiema.top/static/js/wpsafelink.js
 @@||yuru-mbti.com/static/css/adsense.css$1p

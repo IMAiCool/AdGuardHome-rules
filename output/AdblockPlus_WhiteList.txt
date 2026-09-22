@@ -2,9 +2,9 @@
 ! Title: AdGuardHome-rules - Adblock Plus browser filter whitelist
 ! Syntax: Adblock Plus browser filter
 ! List type: whitelist
-! Last modified: 2026-09-22 01:57:13 +0000
+! Last modified: 2026-09-22 12:51:49 +0000
 ! Expires: 8 hours
-! Rules: 2639
+! Rules: 2672
 
 @@||*.bilivideo.com^
 @@||*.xmpush.xiaomi.com^
@@ -352,6 +352,7 @@
 @@||aobi.100bt.com/play/ad/ad*.swf
 @@||aone-soft.com/style/images/ad2.jpg
 @@||ap01.records.in.treasuredata.com^|
+@@||apd-pcdnwxlogin.teg.tencent-cloud.net^
 @@||api-access.pangolin-sdk-toutiao1.com^
 @@||api-analytics.magstimconnect.net^$~third-party
 @@||api-js.datadome.co/js/$domain=sso.garena.com
@@ -541,6 +542,7 @@
 @@||browser.events.data.microsoft.com/onecollector/$script,xmlhttprequest,domain=microsoft.com
 @@||browser.sentry-cdn.com^$domain=acustica-audio.com|alphaxiv.org|dic.pixiv.net|doconcall.com.my|eco-clobber.co.uk|fundhero.io|marshmallow-qa.com|members.bifa.film|menshealth.com|ocado.com|pocketguard.com|podcasty.seznam.cz|roomster.com|shop.dns-net.de|spacemarket.com|timesprime.com|vivareal.com.br|womenshealthmag.com
 @@||browserbench.org^$generichide
+@@||btrace.qq.com^
 @@||btsax.info^$generichide
 @@||bugsnag.com^$~third-party,domain=app.bugsnag.com
 @@||builder.io^$generichide
@@ -565,6 +567,7 @@
 @@||candidate.hr-manager.net/Advertisement/PreviewAdvertisement.aspx$subdocument,~third-party
 @@||canva.com^$generichide
 @@||capitolbroadcasting.blueconic.net^$image,script,xmlhttprequest,domain=wral.com
+@@||captcha.gtimg.com^
 @@||captcha.qq.com^*&refer=http
 @@||captcha.qq.com^*?*=*=*=$subdocument
 @@||captcha.su.baidu.com^
@@ -743,6 +746,7 @@
 @@||connatix.com*/connatix.player.$script,domain=ebaumsworld.com|funker530.com|pagesix.com|tvinsider.com|washingtonexaminer.com
 @@||connatix.com/min/connatix.renderer.infeed.min.js$domain=accuweather.com|collider.com|gamepress.gg|salon.com
 @@||connect.facebook.net^*/fbevents.js$domain=elinoi.com
+@@||connectivitycheck.gstatic.com^
 @@||console.cloud.google.com^$generichide
 @@||console.statsig.com/_next/$~third-party
 @@||contacts.google.com^$generichide
@@ -869,6 +873,7 @@
 @@||disneyplus.disney.co.jp/view/vendor/analytics/$~third-party
 @@||disqus.com/embed/comments/$subdocument
 @@||dizhi99.com^$generichide
+@@||dldir1.qq.com^
 @@||dlh.net^$script,subdocument,domain=dlh.net
 @@||dlkoo.cc/down/*/*.htm$popup
 @@||dlkoo.cc/down/Copydown1
@@ -1251,6 +1256,7 @@
 @@||helix.videotron.com/js/api/fingerprint.js$~third-party
 @@||hello.myfonts.net/count/$stylesheet,domain=cfr.org|condor.com|corsair.com|furniturevillage.co.uk|luggagehero.com
 @@||heukmsactivator.com^
+@@||heytapmobi.com^
 @@||hh010.com^$generichide
 @@||hidive.com^|
 @@||highcharts.com.cn/highcharts/modules/heatmap.js
@@ -1475,6 +1481,7 @@
 @@||lasicilia.it/wp-content/plugins/digistream/digiplayer/js/videojs.ga.js?$script,~third-party
 @@||lastpass.com/ads.php$subdocument,domain=chrome-extension-scheme
 @@||lastpass.com/images/ads/$image,~third-party
+@@||lbs.gtimg.com^
 @@||ldxinyong.com^$generichide
 @@||leadpages.io/analytics/v1/observations/capture?$xmlhttprequest
 @@||leanplum.com^$domain=arkadium.com
@@ -1601,6 +1608,7 @@
 @@||meizu.com/fileserver/ad/img/
 @@||mens1069.com^$generichide
 @@||merlincdn.net^*/common/images/spacer.gif$image,domain=turkcell.com.tr
+@@||metric.gstatic.com^
 @@||metrics.bangbros.com/tk.js$~third-party
 @@||metrics.el-mundo.net/b/ss/$image,domain=expansion.com
 @@||mhxk.com^*/main/entry.common.$script
@@ -1948,9 +1956,11 @@
 @@||qingcheng.com^*/ad
 @@||qingdaoport.net/adv/random.jsp
 @@||qiyipic.com/common/fix/pub_images/
+@@||qlogo.cn^
 @@||qm.redbullracing.com/gtm.js$~third-party
 @@||qm.wrc.com/gtm.js$~third-party
 @@||qobuz.com^$generichide
+@@||qpic.cn^
 @@||qq.com/ads/js/$domain=privacy.qq.com
 @@||qq.com/bossweb/jifen/
 @@||qq.com/cgi-bin/*?sid=ads
@@ -2094,6 +2104,7 @@
 @@||service-public.fr^*/assets/js/eulerian/eulerian.js$~third-party
 @@||service.apport.net/apport-spa-common/src/tracking/tracking.js$~third-party
 @@||services.chipotle.com/__imp_apg__/$~third-party
+@@||servicewechat.com^
 @@||serving-sys.com/serving/adServer.bs?$popup,domain=hongkongcard.com
 @@||seselah.com^$generichide
 @@||seyise8.com^$generichide
@@ -2314,6 +2325,7 @@
 @@||tenki.jp/storage/static-images/top-ad/
 @@||tennispro.eu/min/?$script,~third-party
 @@||tenpay.com/v2/res/pub/cps/main/bottom_ad.js
+@@||tenpay.com^
 @@||tenpay.com^*?ADTAG=
 @@||testufo.com^$generichide
 @@||tgfcer.com/advert.js
@@ -2447,6 +2459,7 @@
 @@||unpkg.com/@adobe/magento-storefront-event-collector@$domain=osprey.com
 @@||unpkg.com^$script,domain=vidsrc.stream
 @@||unsubscribe.lhinsights.com^|
+@@||up-hl.3g.qq.com^
 @@||up-load.io^$generichide
 @@||upaiyun.com/libs/$script,domain=xddxsw.net
 @@||upaiyun.com^*.js$domain=cilimao.co|cilimao.one
@@ -2495,6 +2508,8 @@
 @@||vms-videos.minutemediaservices.com^$xmlhttprequest,domain=si.com
 @@||vv.video.qq.com^
 @@||vvic.com/monetize/ads/index/
+@@||vweixinf.tc.qq.com^
+@@||vweixinthumb.tc.qq.com^
 @@||waaw.to/adv/ads/popunder.js$script
 @@||wancaibb.com/share/js/share.min.js
 @@||wandhi.com^$generichide
@@ -2513,10 +2528,20 @@
 @@||webex.com^$generichide
 @@||webmail.smartlinkcorp.com/dotrans_20160909.php
 @@||webtrends.com/js/webtrends.min.js$script,domain=tvlicensing.co.uk
+@@||wechat.com^
+@@||wechatlegal.net^
+@@||wechatos.net^
+@@||wechatpay.cn^
+@@||wechatpay.com^
 @@||weibo.com/api/weipan/getAds
 @@||weibo.com/share/share.php$generichide
 @@||weightwatchers.com/optimizelyjs/$script,~third-party
 @@||weithenn.org^$generichide
+@@||weixin.com^
+@@||weixin.qq.com^
+@@||weixin110.qq.com^
+@@||weixinbridge.com^
+@@||weixinsxy.com^
 @@||weiyun001.com/banner_ads.js
 @@||wenxuecity.com/include/editor/*/media/ad/
 @@||wenxuecity.com^$generichide
@@ -2553,6 +2578,7 @@
 @@||www.datadoghq-browser-agent.com^|
 @@||www.dogpile.com^|
 @@||www.google.com/ads/preferences/$image,script,subdocument
+@@||www.google.com^
 @@||www.googleadservices.com^|
 @@||www.jdoqocy.com^|
 @@||www.statcounter.com/images/$image,third-party
@@ -2561,8 +2587,14 @@
 @@||www.youtube.com^$generichide
 @@||wwwcache.wral.com/presentation/v3/scripts/providers/analytics/ga.js$~third-party
 @@||wwwimage-tve.cbsstatic.com^
+@@||wx.gtimg.com^
 @@||wx.qq.com/c/=/mpres/*/video_ad_
 @@||wx.qq.com/mmbizwap/*/framead.
+@@||wx.qq.com^
+@@||wx.tenpay.com^
+@@||wxapp.tc.qq.com^
+@@||wxgateway.com^
+@@||wxs.qq.com^
 @@||x.com^$generichide
 @@||xbeibeix.com^$generichide
 @@||xeroshoes.co.uk/affiliate/scripts/trackjs.js$~third-party
@@ -2630,6 +2662,7 @@
 @@||youvisit.com/tour/$script,subdocument,domain=uaf.edu
 @@||yu.xyz.mn/images/event.gif?$image,~third-party
 @@||yummy.best^$generichide
+@@||yun-hl.3g.qq.com^
 @@||yunduanxin.xyz/static/js/banger.js
 @@||yunjiema.top/static/js/wpsafelink.js
 @@||yuru-mbti.com/static/css/adsense.css$~third-party

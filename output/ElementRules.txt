@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-09-22 01:57:33 +0000
+! Last modified: 2026-09-22 12:52:09 +0000
 ! Expires: 8 hours
-! Rules: 32560
+! Rules: 32561
 
 ###AC_ad
 ###AD_160
@@ -18379,13 +18379,15 @@ chatelaine.com##.assmbly-ad-text
 chatelaine.com,fashionmagazine.com##.assmbly-ad-wrapper
 chatgpt.com##.border-token-border-default.mt-2.border-t:has(button[aria-label="Ad options"])
 chatgpt.com##[class*="_assistantAds"]
-chatgpt.com##[data-message-role="assistant"] > section[class]:has(> aside[aria-label] > div[role="list"] a[rel][target="_blank"][href*="&oppref="])
+chatgpt.com##[data-message-role="assistant"] > section[class]:has(> [aria-label] > div[role="list"] a[rel][target="_blank"][href*="&oppref="])
 chatgpt.com##[data-testid="bazaar-v2-elevated-box"]
+chatgpt.com##a[rel][target="_blank"][href*="?utm_"][href*="&oppref="]
 chatgpt.com##aside[data-assistant-ads-unit]
 chatgpt.com##div.opacity-100.transition-opacity.ease-out:has(button[aria-label="Sponsored options"], button[aria-label="Ad options"])
 chatgpt.com##div[data-assistant-ads]
 chatgpt.com##div[data-message-supplement]:has(aside[data-partial-island="assistant-ads"])
 chatgpt.com##div[data-testid="bazaar-single-card-container"]
+chatgpt.com##div[role="complementary"]:has(a[href*="oppref="])
 chatgpt.com##section:has(> [aria-label="Sponsored"])
 chatgpt.com#?##thread [class^="border-"]:has-text(/Ad|Sponsored/):not([class*="sidebar"])
 chatgpt.com#?#.opacity-100.transition-opacity.ease-out:has-text(Sponsored options)
@@ -30322,7 +30324,7 @@ tigtag.com##div[id^="Home942x70_"]
 tigtag.com##div[id^="Show300x"]
 tikpornk.com##.mr-1
 tiktits.com##.callback-bt
-tiktok.com##[class*="DivCardWrapper"]:has([data-e2e="ad-tag"])
+tiktok.com##[class*="ArticleItemContainer"]:has([data-e2e="ad-tag"])
 time.com###pre-nav-container
 time.com##.article-small-sidebar > .sticky-container:has(div[id^="ad-"])
 time.com##.bg-warm-grey-ads
@@ -31106,7 +31108,6 @@ vintag.es###sticky_ads
 vinted.*##.slot-container--leaderboard
 viojav.com##[href="https://idmax.one/77playads"]
 viper.to##[href^="https://display.digitalclickstime.com/redirect.go"]
-vipleague.im##.btn[data-openuri*="/4/"][data-open="_blank"]
 viptube.com##.promotion
 virginradio.co.uk##div[class^="css-"]:has(> .ad-outline)
 virtuagirlgirls.com###DynamicBackgroundWrapper
