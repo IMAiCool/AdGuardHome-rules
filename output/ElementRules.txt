@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-09-22 12:52:09 +0000
+! Last modified: 2026-09-22 19:18:25 +0000
 ! Expires: 8 hours
-! Rules: 32561
+! Rules: 32551
 
 ###AC_ad
 ###AD_160
@@ -10746,7 +10746,6 @@
 ##.ggl_txt_ads
 ##.ggpost-below
 ##.ggtop
-##.ggw
 ##.giant_pushbar_ads_l
 ##.glacier-ad
 ##.globalAd
@@ -11416,8 +11415,6 @@
 ##.kiwi-ad-wrapper-300x250
 ##.kiwi-ad-wrapper-728x90
 ##.kiwi-ad-wrapper-950x80
-##.kkb-href
-##.kkm-href
 ##.ksads
 ##.kuandu > .bottommob
 ##.kumpulads-post
@@ -13429,7 +13426,6 @@
 ##.tnt-ads-container
 ##.tnt-dmp-reactive
 ##.toaster-ad
-##.tooltip >
 ##.top-ad
 ##.top-ad-728
 ##.top-ad-970x90
@@ -31852,13 +31848,7 @@ xbdeals.net#@#a[href^="https://click.linksynergy.com/"]
 xblian.com##img[alt*="广告"]
 xbooru.com,xxxymovies.com###smb
 xbox-hq.com##a[href^="banners.php?"]
-xc6b.com###leftbottbox
-xc6b.com###rightbottbox
-xc6b.com###sidebar > .box-b img
-xc6b.com##.activity-box
-xc6b.com##.chao_ggw
-xc6b.com##.navbar + .clearfix
-xc6b.com##a[href="http://61.160.236.52"]
+xc6b.com##.cHeadImg
 xcafe.com##.content_source
 xcafe.com##.footer-block
 xcafe.com##iframe[src]
