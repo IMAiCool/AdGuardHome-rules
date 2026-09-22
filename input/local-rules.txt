@@ -98,4 +98,56 @@
 !禁用小米系统更新
 ||update.miui.com^$important
 
+@@||heytapmobi.com^$important
+@@||captcha.gtimg.com^$important
+! ========================================
+! 微信 / WeChat 高优先级白名单
+! 用于登录、安全验证、微信安全中心、支付及核心资源
+! ========================================
+! 微信安全中心
+@@||weixin110.qq.com^$important
+! 微信核心域名
+@@||weixin.qq.com^$important
+@@||weixin.com^$important
+@@||wechat.com^$important
+@@||servicewechat.com^$important
+@@||wx.qq.com^$important
+@@||wxs.qq.com^$important
+! 微信登录 / API / 网关
+@@||wxapp.tc.qq.com^$important
+@@||vweixinf.tc.qq.com^$important
+@@||vweixinthumb.tc.qq.com^$important
+@@||wxgateway.com^$important
+@@||apd-pcdnwxlogin.teg.tencent-cloud.net^$important
+! 微信静态资源 / 图片 / 定位
+@@||wx.gtimg.com^$important
+@@||qlogo.cn^$important
+@@||qpic.cn^$important
+@@||lbs.gtimg.com^$important
+! 微信相关服务
+@@||weixinbridge.com^$important
+@@||weixinsxy.com^$important
+@@||wechatlegal.net^$important
+@@||wechatos.net^$important
+! 微信支付 / 财付通
+@@||wechatpay.com^$important
+@@||wechatpay.cn^$important
+@@||tenpay.com^$important
+@@||wx.tenpay.com^$important
+! 腾讯微信相关基础设施
+@@||dldir1.qq.com^$important
+@@||btrace.qq.com^$important
+@@||up-hl.3g.qq.com^$important
+@@||yun-hl.3g.qq.com^$important
+! ========================================
+! Android Private DNS / 网络状态检测白名单
+! ========================================
 
+! Private DNS / DNS-over-TLS 校验
+@@||metric.gstatic.com^$important
+
+! Android 网络连接 / Captive Portal 检测
+@@||connectivitycheck.gstatic.com^$important
+
+! Android generate_204 / gen_204
+@@||www.google.com^$important
