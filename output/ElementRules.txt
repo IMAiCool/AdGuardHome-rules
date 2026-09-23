@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-09-23 13:03:01 +0000
+! Last modified: 2026-09-23 19:15:52 +0000
 ! Expires: 8 hours
-! Rules: 32551
+! Rules: 32565
 
 ###AC_ad
 ###AD_160
@@ -16230,6 +16230,7 @@ alibaba.com##.list-card:has([data-role="ad-area"])
 alibaba.com##.searchx-offer-item[data-aplus-auto-offer*="ad_adgroup_toprank"]
 alibaba.com##[id^="sse-fluent-wending"]:has(.creative-ad-tag)
 alibaba.com##a[campaignid][target="_blank"]
+alibaba.com##div[class] > .fy26-product-card:has(> div > span:only-child)
 alibaba.com##div[data-search-floor^="area=wending&"]
 alibaba.com##div[data-spm="wending-bottom"]
 alibaba.com#?#.J-offer-wrapper:has-text(Top sponsor listing)
@@ -16359,10 +16360,12 @@ amazon.*###sc-rec-right
 amazon.*###similarities_feature_div:has(span.sponsored_label_tap_space)
 amazon.*###sponsoredProducts2_feature_div
 amazon.*###sponsoredProducts_feature_div
+amazon.*##.AdHolder
 amazon.*##.AdsCard_container__K6vmo
 amazon.*##.a-cardui[class*="_new-detail-faceout-box_"]:has(.dynamicSponsoredLabelClass)
 amazon.*##.ad-center
 amazon.*##.amzn-safe-frame-container
+amazon.*##.ape-placement
 amazon.*##.celwidget[data-ref_$="displayAds"]
 amazon.*##.dp-widget-card-deck:has([data-ad-placement-metadata])
 amazon.*##.s-result-item:has(.puis-sponsored-label-text)
@@ -21161,6 +21164,8 @@ flava.co.nz,hauraki.co.nz,thehits.co.nz,zmonline.com##.layout__background
 flickr.com##.getty-search-view
 flickr.com##.getty-widget-view
 flickr.com##.moola-search-div.main
+flickr.com##.moola-wrapper
+flickr.com##.photo-list-revenue-item-view
 flickr.com##div[class^="main view"]:has(a[href$="&ref=sponsored"])
 flicksmore.com##.image_auto
 flicksmore.com##.video_banner
@@ -21611,6 +21616,7 @@ gamelevate.com##[data-adpath]
 gamemei.com###ft_right_bottom
 gamemodding.com##.big_banner
 gamemodding.com##.right_banner
+gamepadla.com##.pMain:has(a[href^="/go/"])
 gamepadla.com##.pMain:has(div[class^="asd_"])
 gamepadla.com##.pMain:has(div[title="Partner placement"])
 gamepadla.com##a[href^="https://www.amazon.com/"] + div + picture
@@ -26249,6 +26255,7 @@ news.ifeng.com##.right1
 news.lyd.com.cn##table[cellspacing="5"]:nth-child(3)
 news.lyd.com.cn##td[width="300px"] > table[width="300"] > tbody > tr:nth-last-child(n+2)
 news.mydramalist.com###content > .app-body > div:has(.htlad-header_top)
+news.mydramalist.com##.spnsr-row
 news.net##.banner-wr
 news.net##.right-banner-wr > .right
 news.qq.com###focus-bar
@@ -26721,8 +26728,10 @@ open3dlab.com##.stream[style="align-items:center; justify-content:center;"]
 openalternative.co##.duration-100.rounded-lg:has(a[href="/advertise"])
 openalternative.co##.relative.rounded-lg:has(a[href^="/advertise"])
 openalternative.co##.relative.rounded-lg:has(img[src*="cdn.revinel.com"])
+openalternative.co##div.fixed.z-49.bottom-4
 openalternative.co##div[class="relative flex max-md:order-3"]:has(a[href="/advertise"])
 openalternative.co##div[class="relative flex"]:has(a[href="/advertise"])
+openalternative.co##div[style*="--brand-tint"]
 openguessr.com##.bottomFooterAds
 openloading.com###fakeplayer
 opensourceforu.com##.opens-rollup-desktop
@@ -27609,6 +27618,8 @@ procyclingstats.com##.mob-ad
 procyclingstats.com##.top-cont
 producthunt.com##.cursor-pointer:has(img[alt="Promoted"])
 producthunt.com##.styles_item__hNPI1
+producthunt.com##article:has(> div.cursor-pointer > img)
+producthunt.com##article:has(img[alt="Promoted"])
 producthunt.com##div[class="my-2 flex cursor-pointer flex-row items-center gap-4 rounded-lg bg-gray-50 p-3"]:has(a[href="/sponsor"])
 producthunt.com##div[class="my-2 flex cursor-pointer flex-row items-center gap-4 rounded-lg bg-gray-50 p-3"]:has(img[src="/i/33b26ee8f2668842e38841253cfde42aa203585e395ff731f21aebffbb38c8e5"])
 producthunt.com##div[class="my-2 flex cursor-pointer flex-row items-center gap-4 rounded-lg bg-gray-50 p-3"]:has(img[src^="/i/"])
@@ -27621,6 +27632,7 @@ producthunt.com##div[data-test^="ad-slot-"]
 producthunt.com##section.group + div > section.group
 producthunt.com#?#.cursor-pointer:has-text(Promoted)
 producthunt.com#?#.text-12:has-text(Promoted)
+producthunt.com#?#article:has-text(Promoted)
 producthunt.com#?#div[class="flex cursor-pointer items-start gap-4 rounded-lg bg-gray-50 p-4"]:has-text(Promoted)
 productreview.com.au##div[style="line-height:0"]
 proewildfire.cn##.comiis_nav ~ a
@@ -29103,6 +29115,7 @@ soaphub.com##.sh-sh_inpost_6
 soaphub.com##.sh-sh_postlist_2_home
 soccerbase.com###ball_splash_holder
 soccerway.com##.block_ad
+socialblade.com##[class*="container/ads"]
 socialcounts.org##.home_sticky-ad__Aa_yD
 socialmediagirls.com##.jamCodeUnitsevenjunetwofour
 socialmediagirls.com##.jamLinkUnitsevenjunetwofour
@@ -29380,6 +29393,7 @@ starbike.com#@#.adsense_wrapper
 starsinsider.com##.pub-container
 start.firefoxchina.cn##.mod-delay-resource
 start.firefoxchina.cn##.wrap > div[style]:last-child
+startpage.com##.pa-amp
 startpage.com,startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion###main > div:not([class], [id]):has(> div[class^="css-"] > .pa-amp)
 startpage.com,startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion##.a-bg-result
 startpage.com,startpagel6srwcjlue4zgq3zevrujfaow726kjytqbbjyrswwmjzcqd.onion##.css-1j5r2ie
