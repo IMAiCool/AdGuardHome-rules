@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-09-24 12:56:25 +0000
+! Last modified: 2026-09-24 19:32:01 +0000
 ! Expires: 8 hours
-! Rules: 32567
+! Rules: 32569
 
 ###AC_ad
 ###AD_160
@@ -14129,6 +14129,7 @@
 ##a[href*="&maxads="]
 ##a[href*=".1699ai.top"]
 ##a[href*=".6666ai.top"]
+##a[href*=".adglare.net/"]
 ##a[href*=".adsrv.eacdn.com/"]
 ##a[href*=".bright.cn/?utm_"]
 ##a[href*=".cfm?domain="][href*="&fp="]
@@ -14137,7 +14138,6 @@
 ##a[href*=".com/Register/?a="]
 ##a[href*=".com/tg.html?id="]
 ##a[href*=".com?intr="]
-##a[href*=".engine.adglare.net/"]
 ##a[href*=".erodatalabs.com/"]
 ##a[href*=".foxqck.com/"]
 ##a[href*=".g2afse.com/"]
@@ -14146,6 +14146,7 @@
 ##a[href*=".hongguotuiguang."]
 ##a[href*=".jmtybc.com"]
 ##a[href*=".labsda.com"] > img[src^="/game/20"]
+##a[href*=".sadbaguette.com/"]
 ##a[href*=".ssmh"][href*="?u="]
 ##a[href*=".taobao.com"] > img[src*=".tucao."]
 ##a[href*=".xacg.info/"]
@@ -18388,7 +18389,6 @@ chatgpt.com##div[data-message-supplement]:has(aside[data-partial-island="assista
 chatgpt.com##div[data-testid="bazaar-single-card-container"]
 chatgpt.com##div[role="complementary"]:has(a[href*="oppref="])
 chatgpt.com##section:has(> [aria-label="Sponsored"])
-chatgpt.com#?##thread [class^="border-"]:has-text(/Ad|Sponsored/):not([class*="sidebar"])
 chatgpt.com#?#.opacity-100.transition-opacity.ease-out:has-text(Sponsored options)
 chaussures.fr,eapavi.lv,ecipele.hr,ecipo.hu,eobuv.cz,eobuv.sk,eobuwie.com.pl,epantofi.ro,epapoutsia.gr,escarpe.it,eschuhe.at,eschuhe.ch,eschuhe.de,eskor.se,evzuttya.com.ua,obuvki.bg,zapatos.es##.product-item:has(.sponsored-label)
 chaussures.fr,eapavi.lv,ecipele.hr,ecipo.hu,eobuv.cz,eobuv.sk,eobuwie.com.pl,epantofi.ro,epapoutsia.gr,escarpe.it,eschuhe.at,eschuhe.ch,eschuhe.de,eskor.se,evzuttya.com.ua,obuvki.bg,zapatos.es##.sponsored-slider-wrapper
@@ -28435,6 +28435,7 @@ samsclub.com##[data-testid="buy-box-ad"]
 samsclub.com##[data-testid="item-stack"] > .mb0:has(a[href^="https://www.samsclub.com/midas/sams-crs/track?"])
 samsclub.com##div[class="mb0 ph0-xl pt0-xl bb b--near-white w-20 pb3-m ph1"]:has(a[href^="https://www.samsclub.com/midas/sams-crs/track?"])
 samsclub.com##div[data-testid="sba-container"]
+samsclub.com##div[data-testid="search-video-in-grid"]
 samsclub.com#?#li[data-slide]:has-text(Sponsored)
 samsung.com###operationBanner
 samsung.com#?#.template-item:-abp-has(> .wrap-sub-title > div > .ad)
@@ -29806,6 +29807,7 @@ techymedies.com#@##ad-top
 techyv.com##.wpb_raw_code
 tecmint.com###tecmint_incontent
 tecmint.com###tecmint_leaderboard_article_top
+tecmint.com##[href^="https://www.manageengine.com/vulnerability-management/"]
 teddysun.com##.sidebar > .widget:nth-child(2)
 teddysun.com##.sidebar > .widget:nth-child(3)
 tedium.co##.adlayout
