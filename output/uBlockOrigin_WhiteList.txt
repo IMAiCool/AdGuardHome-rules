@@ -1,9 +1,9 @@
 ! Title: AdGuardHome-rules - uBlock Origin browser filter whitelist
 ! Syntax: uBlock Origin browser filter
 ! List type: whitelist
-! Last modified: 2026-09-24 01:41:52 +0000
+! Last modified: 2026-09-24 12:56:21 +0000
 ! Expires: 8 hours
-! Rules: 2674
+! Rules: 2675
 
 @@||*.bilivideo.com^$important
 @@||*.xmpush.xiaomi.com^$important
@@ -93,6 +93,7 @@
 @@||a.usafacts.org/api/v4/Metrics$1p
 @@||a.vdo.ai/core/v-m-timesofindia-v3/vdo.ai.js$domain=timesofindia.indiatimes.com
 @@||a1.itc.cn/pv/js/spv.
+@@||aax-fe.amazon.co.jp^|
 @@||ab.blogs.es/abtest.png$domain=trendencias.com|xataka.com
 @@||abchina.com^*ad
 @@||abcnews.com/assets/js/prebid.min.js$1p

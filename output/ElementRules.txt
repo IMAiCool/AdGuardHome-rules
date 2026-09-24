@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-09-24 01:41:55 +0000
+! Last modified: 2026-09-24 12:56:25 +0000
 ! Expires: 8 hours
-! Rules: 32565
+! Rules: 32567
 
 ###AC_ad
 ###AD_160
@@ -19010,6 +19010,7 @@ collinsdictionary.com##.topslot_container
 collive.com##.bottom_leaderboard
 collive.com##.spu-bg
 collive.com,strategicenergy.eu##.spu-box
+colnect.com##.cad-iframe
 colombiareports.com,miloserdov.org,mostlyblogging.com###custom_html-14
 colombotimes.lk##a[target="_blank"] img:not([src*="app.jpg"])
 color-hex.com##.margin10
@@ -19872,6 +19873,7 @@ dirproxy.com,theproxy.lol,unblock-it.com,uproxy2.biz##.nrd-general-d-box
 disasterscans.com##a[href^="https://go.onelink.me/"]
 disasterscans.com##a[href^="https://martialscanssoulland.onelink.me/"]
 disasterscans.com##a[href^="https://recall-email.onelink.me/"]
+discord.com#?#.wrapper__0d616:has-text(Get Reward)
 discuss.com.hk###ab_div_px1
 discuss.com.hk###gamepage_banner
 discuss.com.hk###gid_group_restricted > .gid_group_title
