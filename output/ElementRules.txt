@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-09-25 01:59:39 +0000
+! Last modified: 2026-09-25 13:02:47 +0000
 ! Expires: 8 hours
-! Rules: 32567
+! Rules: 32566
 
 ###AC_ad
 ###AD_160
@@ -16515,6 +16515,8 @@ animecorner.me##.ezoic_sidebar_advertisement_1
 animecorner.me##.ezoic_sidebar_advertisement_2
 animehub.ac###main-content > center
 animehub.ac##.sb-subs
+animeidhentai.com##.intl
+animeidhentai.com,xnostars.com##.promo
 animenewsnetwork.com##.gutter
 animenewsnetwork.com##.iab
 animeporngif.com##.block-vda
@@ -25681,14 +25683,10 @@ mostlyblogging.com###media_image-5
 mostlyblogging.com,sonyalpharumors.com###custom_html-15
 mostlyblogging.com,tvarticles.me###custom_html-3
 motherjones.com##.incontent-promo
-mothership.sg###block-imu1
-mothership.sg###block-imu2
-mothership.sg###block-outstream1
-mothership.sg###block-outstream2
-mothership.sg###block-outstream3
 mothership.sg##.ad--imu
 mothership.sg##.ad--lb
 mothership.sg##.ad--side
+mothership.sg##[id^="block-"]:has(> .advertisement__container)
 motobuy.com.tw##.AD1
 motobuy.com.tw##.adbig
 motocity.com.tw###rotator
@@ -27158,6 +27156,7 @@ pilipili.site##.block-sales
 pimpandhost.com##.aaablock_yes
 pimpandhost.com##.ablock_yes
 pimpandhost.com##a[href^="https://www.myfreecams.com/"][href*="&track="]
+pimpbunny.com##.col:has([rel*="sponsored"])
 pinchofyum.com##.adthrive_header_ad
 pincong.rocks##.a-a
 pincong.rocks##.aw-mod > a[target="_blank"]
@@ -31595,6 +31594,7 @@ wiki.fextralife.com#@#.ad-sidebar
 wiki.gg###wikigg-sl-footer
 wiki.gg###wikigg-sl-header
 wiki.gg###wikigg-sl-rail
+wiki.gg##.wgg-netbar__deals-link
 wiki.gg##[href^="https://app.wiki.gg/showcase/"]
 wikibrief.org##div[style="height:302px;width:auto;text-align:center;"]
 wikibrief.org##div[style="text-align:center;height:302px;width:auto;"]
@@ -31989,7 +31989,6 @@ xmfish.com###pw_content > .forum_panel:nth-child(4)
 xmfish.com##.advert-entry-list
 xmfish.com##.readCon_right
 xmissy.nl##.noclick-small-bnr
-xnostars.com##.promo
 xnxx.com###ad-footer
 xnxx.com##.ad-footer
 xnxx.com,xvideos.com##.thumb-ad

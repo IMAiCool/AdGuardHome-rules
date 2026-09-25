@@ -1,9 +1,9 @@
 ! Title: AdGuardHome-rules - uBlock Origin browser filter whitelist
 ! Syntax: uBlock Origin browser filter
 ! List type: whitelist
-! Last modified: 2026-09-25 01:59:35 +0000
+! Last modified: 2026-09-25 13:02:43 +0000
 ! Expires: 8 hours
-! Rules: 2675
+! Rules: 2677
 
 @@||*.bilivideo.com^$important
 @@||*.xmpush.xiaomi.com^$important
@@ -594,6 +594,7 @@
 @@||cdn.bootcss.com^$script,domain=biqutime.com|59xs.com|biqudd.com|u33.me|xbiqugela.com|ysxs8.vip
 @@||cdn.deviceinf.com^$domain=etail.market
 @@||cdn.duurzaam.greenchoice.nl^|
+@@||cdn.engagement.coremedia.cloud^$domain=flytap.com
 @@||cdn.evgnet.com/beacon/homedepotofcainc/engage/scripts/evergage.min.js$script,domain=homedepot.ca
 @@||cdn.ex.co^$domain=mm-watch.com|theautopian.com
 @@||cdn.facil-iti.app/tags/faciliti-tag.min.js$script,domain=apec.fr|kyoto.travel
@@ -798,6 +799,7 @@
 @@||curiositystream.com^$generichide
 @@||curos.ca/res/*/resources/scripts/lib/fingerprint.js$1p
 @@||cutcaptcha.com^|
+@@||cuttty.com^$generichide
 @@||cvs.com/shop-assets/js/VisitorAPI.js$1p
 @@||cvs.com/webcontent/images/weeklyad/adcontent/$1p
 @@||cwtv.com^$generichide
