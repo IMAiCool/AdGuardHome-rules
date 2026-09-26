@@ -1,9 +1,9 @@
 ! Title: AdGuardHome-rules - AdGuard browser filter whitelist
 ! Syntax: AdGuard browser filter
 ! List type: whitelist
-! Last modified: 2026-09-25 19:35:30 +0000
+! Last modified: 2026-09-26 02:04:31 +0000
 ! Expires: 8 hours
-! Rules: 2677
+! Rules: 2678
 
 @@||*.bilivideo.com^$important
 @@||*.xmpush.xiaomi.com^$important
@@ -602,7 +602,7 @@
 @@||cdn.heapanalytics.com^$script,domain=libertymutual.com
 @@||cdn.intellimize.co/snippet/$script,domain=talkspace.com
 @@||cdn.jsdelivr.net/npm/*/videojs-contrib-ads.min.js$domain=24ur.com
-@@||cdn.jsdelivr.net^$script,domain=movieffm.net
+@@||cdn.jsdelivr.net^$script,domain=mvffm.net
 @@||cdn.jsdelivr.net^*/fp.min.js$script,domain=cuevana2.io
 @@||cdn.kaizenplatform.net^$script,domain=navi.onamae.com
 @@||cdn.matomo.cloud/tekuchi.matomo.cloud/matomo.js$domain=berkeleygroup.digital
@@ -621,7 +621,7 @@
 @@||cdn.smartclip-services.com^$script,domain=cerebriti.com
 @@||cdn.sophi.io/assets/$script,domain=nationalpost.com
 @@||cdn.staticfile.org^$domain=lakyworld.com|biquge77.net|yzbg.net|alexij.net|hshfm.com|biqiuge5.org|49gtk.cc|20me.net|fbqg.cc|xianguke.net|tellgillian.com|m-ia.net|cleavagecoverup.com|memduh.net|56xiaoshuo.net|yourbiquge.com|00ksw.com|147xiaoshuo.com|bxwx.live|lzbao.net
-@@||cdn.staticfile.org^$script,domain=movieffm.net
+@@||cdn.staticfile.org^$script,domain=mvffm.net
 @@||cdn.us*.exponea.com^|
 @@||cdn.usefathom.com/script.js$domain=sharpen-free-design-generator.netlify.app
 @@||cdn.viglink.com/api/vglnk.js$domain=9to5mac.com|electrek.co
@@ -1021,6 +1021,7 @@
 @@||fichub.com/plugins/adobe/lib/AppMeasurement.js$domain=natgeotv.com
 @@||fichub.com/plugins/adobe/lib/VisitorAPI.js$domain=natgeotv.com
 @@||figma.com^$generichide
+@@||files.fm/js/analytics_events.js$~third-party
 @@||files.slack.com^$image,~third-party
 @@||filme.imyfone.com/assets/js/gatrack.js$~third-party
 @@||fingerprintjs.com^$generichide
