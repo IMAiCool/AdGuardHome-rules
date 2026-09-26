@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-09-26 12:31:00 +0000
+! Last modified: 2026-09-26 18:45:34 +0000
 ! Expires: 8 hours
-! Rules: 32566
+! Rules: 32572
 
 ###AC_ad
 ###AD_160
@@ -17698,6 +17698,7 @@ bleepingcomputer.com##.bc_guide
 bleepingcomputer.com##.cz-toa-wrapp
 bleepingcomputer.com##.ia_ad
 bleepingcomputer.com##.spon_res
+bleepingcomputer.com##[alt="ThreatLocker"]
 bleepingcomputer.com##[href*="https://www.bleepingcomputer.com/mgo/"]
 bleepingcomputer.com##[href^="https://www.adaptivesecurity.com/"]
 bleepingcomputer.com##[href^="https://www.bleepingcomputer.com/go/"]
@@ -19764,6 +19765,7 @@ desmoinesregister.com##.ZJBvMP__ZJBvMP
 desmoinesregister.com##.mfFsRn__mfFsRn
 desmoinesregister.com##.ymHyVK__ymHyVK
 dessi.co##.pages__BannerWrapper-sc-1yt8jfz-0
+destructoid.com,progameguides.com##.leaderboard_atf
 destructoid.com,wegotthiscovered.com##.wp-block-gamurs-ad
 detectiveconanworld.com##.generated-sidebar[style="background:
 detectiveconanworld.com##a[href^="https://brave.com/"]
@@ -22228,7 +22230,6 @@ guitarchina.com,iqiyi.com##.banner4
 gulf-times.com##.gt-horizontal-ad
 gulf-times.com##.gt-square-desktop-ad
 gulf-times.com##.gt-vertical-ad
-gulfcoastnewsnow.com,kcra.com,ketv.com,kmbc.com,koat.com,koco.com,ksbw.com,mynbc5.com,wapt.com,wbaltv.com,wdsu.com,wisn.com,wjcl.com,wlwt.com,wmtw.com,wtae.com,wvtm13.com##.css-1tumxm:has(.ad-container)
 gulfcoastnewsnow.com,ketv.com,wisn.com,wjcl.com##.css-1cm6ir6:has(.ad-container)
 gulfcoastnewsnow.com,ketv.com,wisn.com,wjcl.com##aside > div:has(> div > div > div.ad-container)
 gulfcoastnewsnow.com,ketv.com,wisn.com,wjcl.com##aside > div:has(> div > div.ad-container)
@@ -22316,8 +22317,11 @@ hall123.com,hi.people.com.cn##img[width="1000"]
 hamibook.com.tw##.custom-banners-cycle-slideshow
 hamodia.com##.oiomainlisting
 hancinema.net##[class^="wmls_"]
+hanime.tv##.ad-event
 hanime.tv##.banner-ad-container
 hanime.tv##.desktop.htvad
+hanime.tv##.native-ad
+hanime.tv##.restricted-free-only
 hanime1.me#?#div[style*="text-align:"]:-abp-has(>div[style*="color: white"])
 hanjutv2020.com##a[href*=".hujiang.com"]
 hanjutv2020.com##a[style="width: 1120px;height: 70px;overflow: hidden;display: block;"]
@@ -23333,6 +23337,7 @@ imgburn.com##font[face="Arial"][size="1"]
 imggen.ai,iplogger.org,jsonlint.com,wallhere.com,webnots.com,wikitechy.com##div[id^="bsa-zone_"]
 imginn.com##.block-sulvo
 imginn.com##div[class$="-money"]
+imgpile.com##[href^="/cx/click"]
 imgpile.com,linuxjournal.com,threatpost.com##a[href*="&utm_campaign="]
 imgse.com##.ad-banner
 imgsen.com##a[href^="https://besthotgayporn.com/"]
@@ -24308,7 +24313,8 @@ kbb.com##.ads__container
 kbb.com##.ads__container-kbbLockedAd
 kbjfree.com##.relative.w-full:has(> .video-card[target="_blank"])
 kbjfree.com,onscreens.me##.w-\[728px\]
-kcra.com,kmbc.com,koat.com,koco.com,ksbw.com,mynbc5.com,wapt.com,wbaltv.com,wdsu.com,wgal.com,wlwt.com,wmtw.com,wmur.com,wtae.com,wvtm13.com,wxii12.com,wyff4.com##.ad-track
+kcra.com,kmbc.com,koat.com,koco.com,ksbw.com,mynbc5.com,wapt.com,wbaltv.com,wdsu.com,wgal.com,wlwt.com,wmtw.com,wmur.com,wtae.com,wvtm13.com,wxii12.com,wyff4.com##[class]:has(>[data-type])
+kcra.com,kmbc.com,koat.com,koco.com,ksbw.com,mynbc5.com,wapt.com,wbaltv.com,wdsu.com,wgal.com,wlwt.com,wmtw.com,wmur.com,wtae.com,wvtm13.com,wxii12.com,wyff4.com##[data-testid="ad-label"]
 kdnet.net##.c_spread
 kdnet.net##.download-bar
 kdnet.net##a[href*=".tmall.com/?spm="] > img
@@ -27637,7 +27643,6 @@ producthunt.com#?#div[class="flex cursor-pointer items-start gap-4 rounded-lg bg
 productreview.com.au##div[style="line-height:0"]
 proewildfire.cn##.comiis_nav ~ a
 progameguides.com###top-sticky-sidebar-container
-progameguides.com##.leaderboard_atf
 proginn.com##div[style*="width:1000px;height: 250px;"]
 programmer-club.com.tw##A[href*="/ADRedirect."]
 programmerhumor.io###product-widget
@@ -29789,6 +29794,7 @@ techrepublic.com##[data-ad-slot]
 techrepublic.com##sticky-footer-ad
 techritual.com##.th-single-ad
 techrounder.com###footerFixBanner
+techsideline.com##a[href^="https://bit.ly/"]
 techspot.com##.billboard_placeholder_min
 techspot.com##.es3s
 techspot.com##.onejob
