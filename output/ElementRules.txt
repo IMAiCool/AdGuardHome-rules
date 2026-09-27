@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-09-27 01:56:39 +0000
+! Last modified: 2026-09-27 13:21:58 +0000
 ! Expires: 8 hours
-! Rules: 32572
+! Rules: 32573
 
 ###AC_ad
 ###AD_160
@@ -20855,7 +20855,7 @@ fanqiangzhe.com###popupModal
 fans-here.com##a[href^="https://satoshidisk.com/"]
 fansided.com,si.com###static-top-ad-placeholder_1
 fansided.com,thenewdaily.com.au##.min-h-\[280px\]
-fansshare.com##[width="300"]
+fansshare.com,lightspeedmagazine.com##[width="300"]
 fantasyalarm.com##.scoreboard
 fantasygames.nascar.com##.larger-banner-wrapper
 fantuan.tv##.app-guide
@@ -24795,6 +24795,7 @@ lifewire.com##.mntl-jwplayer-broad
 lightnovel.us##.author + .poster
 lightnovelpub.org##[href*="heave.gg"]
 lightnovelworld.co##div[data-mobid]
+lightspeedmagazine.com##.sidebar_box:has(.adtext)
 lihkg.com#?#div[class^="_"]:-abp-has(>div>div>.adsbygoogle)
 liisex.com###apDiv22
 likr.tw###avivid_waterfall_wp_product_area
