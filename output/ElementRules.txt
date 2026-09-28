@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-09-28 02:02:28 +0000
+! Last modified: 2026-09-28 16:07:15 +0000
 ! Expires: 8 hours
-! Rules: 32574
+! Rules: 32575
 
 ###AC_ad
 ###AD_160
@@ -26005,6 +26005,7 @@ myfigurecollection.net##.partner
 myfitnesspal.com##[title*="Ad"]
 myfoodbook.com.au##.slick--optionset--mfb-banners
 myhack58.com##.adv32
+myhentaicomics.com###Slider
 myhentaicomics.com##.featured-manga, .header-spot, .pagination-image {min-height:0
 myhentaicomics.com##.item.image-block
 myhentaicomics.com##.outstrea
