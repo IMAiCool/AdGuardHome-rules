@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-09-27 19:20:34 +0000
+! Last modified: 2026-09-28 02:02:28 +0000
 ! Expires: 8 hours
-! Rules: 32573
+! Rules: 32574
 
 ###AC_ad
 ###AD_160
@@ -26055,6 +26055,7 @@ mytempsms.com##.content > .container[style]:has(> .adsbygoogle)
 mytempsms.com##.layui-col-md12
 mytheme.cn##.ad01
 mytuner-radio.com###move-ad
+myutils.me##div[aria-label="Advertisement"]
 mywaifulist.moe##[href="/nord"]
 mywpku.com##.sidebar-recommended
 n4g.com,techspy.com##.top-ads-container-outer
