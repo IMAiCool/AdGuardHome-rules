@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-09-29 02:49:05 +0000
+! Last modified: 2026-09-29 14:23:34 +0000
 ! Expires: 8 hours
-! Rules: 32575
+! Rules: 32583
 
 ###AC_ad
 ###AD_160
@@ -14108,6 +14108,7 @@
 ##[id^="ad_sky"]
 ##[id^="ad_slider"]
 ##[id^="div-gpt-ad"]
+##[id^="google_ads_iframe_"]
 ##[id^="section-ad-banner"]
 ##[name^="google_ads_iframe"]
 ##[onclick*="content.ad/"]
@@ -26374,6 +26375,7 @@ nextapple.com##div[class^="na-ad-"]
 nextchessmove.com##.h-\[112px\].flex.justify-center
 nextdoor.com###ad
 nextdoor.com##.nas-container
+nextdoor.com##div.w5p1mb0:has(div._1abc1qn0)
 nextdoor.com#?#[data-testid*="searchFeedItem"]:has-text(Sponsored by)
 nextdoor.com#?#[data-v3-view-type="V3Wrapper"]:has(> [data-testid="feed-item-visibility-tracker"]:has-text(Sponsored))
 nextdoor.com#?#div[data-testid="feed-item-card"]:has(span[class^="reset_"]:has-text(А⁠d))
@@ -26472,6 +26474,7 @@ nnhanman.net##div[style="width:728px;padding-top: 8px;"]
 nnn.ng###hfgad1
 nnn.ng###hfgad2
 nobugin.com##.td-a-rec
+nochoice.app##.text-center:has(a[href^="https://www.lovense.com/"])
 nodejs.cn###biz_center
 nodejs.cn###biz_nav
 nodejs.cn###pagead0
@@ -26736,7 +26739,10 @@ open3dlab.com##.stream[style="align-items:center; justify-content:center;"]
 openalternative.co##.duration-100.rounded-lg:has(a[href="/advertise"])
 openalternative.co##.relative.rounded-lg:has(a[href^="/advertise"])
 openalternative.co##.relative.rounded-lg:has(img[src*="cdn.revinel.com"])
+openalternative.co##body > div.group:has(a[target="_blank"])
 openalternative.co##div.fixed.z-49.bottom-4
+openalternative.co##div.group:has(> a[target="_blank"])
+openalternative.co##div:has(> div > h2 > a[href="/advertise"])
 openalternative.co##div[class="relative flex max-md:order-3"]:has(a[href="/advertise"])
 openalternative.co##div[class="relative flex"]:has(a[href="/advertise"])
 openalternative.co##div[style*="--brand-tint"]
@@ -27187,6 +27193,7 @@ pinshan.com##.b_adv2
 pinshan.com##.b_taobao
 pinshan.com##.bea_adv2
 pinterest.com##a[href*="&epik="]
+pinterest.com##div[data-grid-item="true"]:has([data-test-id="x3f8q1"]):not(:has(a[href^="/pin/"]))
 pinterest.com##div[data-grid-item]:has([data-test-pin-id] [data-test-id^="one-tap-desktop"] > a[href^="http"][rel="nofollow"]):not(body > div)
 pipi.cn#@#.ad-root
 piraproxy.app###vpnBarUR99472
@@ -28111,6 +28118,7 @@ realitytvworld.com##font[size="1"][color="gray"]
 realitytvworld.com##table[border="0"][align="left"]
 realmadrid.com##.footer_rm_sponsors_container
 realmadrid.com##.head_sponsors
+realnarrativenews.com##[aria-label="Advertisement"]
 realpython.com##div[style^="display:block;position:relative;"]
 realsport101.com##.connatixPS
 realtalk933.com##div[id^="realt-"]

@@ -1,7 +1,7 @@
 ! Title: AdGuardHome-rules - uBlock Origin browser filter whitelist
 ! Syntax: uBlock Origin browser filter
 ! List type: whitelist
-! Last modified: 2026-09-29 02:49:01 +0000
+! Last modified: 2026-09-29 14:23:29 +0000
 ! Expires: 8 hours
 ! Rules: 2680
 
@@ -549,6 +549,7 @@
 @@||builder.io^$generichide
 @@||businessclick.ch/index.js$domain=finanzen.ch
 @@||buyad.bi-xenon.cn^
+@@||bvr.ast.snva.jp/beaver.js$domain=kojima.net
 @@||bytecdntp.com^$script,domain=hushuge.com|51eshu.com
 @@||bytedance.com/ttwid/union/register/
 @@||bytegoofy.com/ad/$domain=jinritemai.com
@@ -2173,7 +2174,6 @@
 @@||smtp.focusgroupresearch.com^|
 @@||smushcdn.com^*/1.gif$domain=retrounlim.com
 @@||snowplow.swm.digital^$domain=7plus.com.au
-@@||snva.jp/javascripts/reco/$script,domain=abc-mart.net|store.charle.co.jp
 @@||so-net.ne.jp/access/hikari/minico/ad/images/$1p
 @@||soft8ware.com^$generichide
 @@||softblog.tw^$generichide

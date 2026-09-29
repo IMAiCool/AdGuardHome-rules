@@ -2,7 +2,7 @@
 ! Title: AdGuardHome-rules - Adblock Plus browser filter whitelist lite
 ! Syntax: Adblock Plus browser filter
 ! List type: whitelist lite
-! Last modified: 2026-09-29 02:48:48 +0000
+! Last modified: 2026-09-29 14:23:17 +0000
 ! Expires: 8 hours
 ! Rules: 2678
 
@@ -550,6 +550,7 @@
 @@||builder.io^$generichide
 @@||businessclick.ch/index.js$domain=finanzen.ch
 @@||buyad.bi-xenon.cn^
+@@||bvr.ast.snva.jp/beaver.js$domain=kojima.net
 @@||bytecdntp.com^$script,domain=hushuge.com|51eshu.com
 @@||bytedance.com/ttwid/union/register/
 @@||bytegoofy.com/ad/$domain=jinritemai.com
@@ -2173,7 +2174,6 @@
 @@||smtp.focusgroupresearch.com^|
 @@||smushcdn.com^*/1.gif$domain=retrounlim.com
 @@||snowplow.swm.digital^$domain=7plus.com.au
-@@||snva.jp/javascripts/reco/$script,domain=abc-mart.net|store.charle.co.jp
 @@||so-net.ne.jp/access/hikari/minico/ad/images/$~third-party
 @@||soft8ware.com^$generichide
 @@||softblog.tw^$generichide
