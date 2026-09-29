@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-09-29 14:23:34 +0000
+! Last modified: 2026-09-29 20:17:02 +0000
 ! Expires: 8 hours
-! Rules: 32583
+! Rules: 32584
 
 ###AC_ad
 ###AD_160
@@ -16368,6 +16368,7 @@ amazon.*##.amzn-safe-frame-container
 amazon.*##.ape-placement
 amazon.*##.celwidget[data-ref_$="displayAds"]
 amazon.*##.dp-widget-card-deck:has([data-ad-placement-metadata])
+amazon.*##.gwm-window-wrapper:has(> [data-ref_$="_displayAds"])
 amazon.*##.s-result-item:has(.puis-sponsored-label-text)
 amazon.*##.s-result-item:has([data-ad-feedback-label-id])
 amazon.*##.s-result-item:has([data-ad-feedback])
@@ -21603,6 +21604,7 @@ gamebase.com.tw##span[id^="aid_"]
 gamebyte.com,irishnews.com##div[id^="mpu"]
 gamecopyworld.com,gamecopyworld.eu##[href*="@"]
 gamecopyworld.com,gamecopyworld.eu##[href^="https://www.kinguin.net/"]
+gamedaily.com,meidasnews.com,olympics.com,scmp.com##.header-ad-slot
 gamedev.net##.mb-3.align-items-center.justify-content-start
 gamedev.net#?#.dark\:border-gray-700:has-text(Advertisement)
 gameflare.com##.sidebar-game
@@ -25392,7 +25394,6 @@ megumi-jyosanin.com#@#.footer_ad
 megumi-jyosanin.com,mobiili.fi#@#.header_ad
 meidasnews.com##.exco-player-wrapper
 meidasnews.com##.m-outbrain
-meidasnews.com,olympics.com,scmp.com##.header-ad-slot
 meijer.com##.criteo-banner
 meijer.com##.product-grid__product:has(.product-tile__sponsored)
 meijer.com##.sponsoredproducts
