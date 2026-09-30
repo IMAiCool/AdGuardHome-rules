@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-09-30 14:16:52 +0000
+! Last modified: 2026-09-30 20:21:37 +0000
 ! Expires: 8 hours
-! Rules: 32585
+! Rules: 32586
 
 ###AC_ad
 ###AD_160
@@ -29210,6 +29210,7 @@ sohu.com##.x-adv-band-panel
 sohu.com##.x-adv-flogo-panel
 sohu.com##.x-adv-linear-panel
 sohu.com##.x-adv-pause-nonlinear-panel
+sohu.com##a[data-url*=".mediav.com"]
 sohu.com#@#.label-ad
 sojson.com##._left_ad
 sojson.com##._right_ad
