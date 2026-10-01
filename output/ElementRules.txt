@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-10-01 02:31:41 +0000
+! Last modified: 2026-10-01 14:51:00 +0000
 ! Expires: 8 hours
-! Rules: 32586
+! Rules: 32579
 
 ###AC_ad
 ###AD_160
@@ -14008,9 +14008,7 @@
 ##AD-SLOT
 ##AMP-AD
 ##A[href*=".com/?Agent="]
-##A[href="javascript:;"][onclick^="lksdjfrefruise"]
 ##A[href^="/e/public/ClickAd?adid="]
-##A[onclick^="diensfeifwejwdsfwemio"]
 ##DFP-AD
 ##IMG[onclick*="bucd.lol"]
 ##[class][onclick="window.location.href='/api/goapp/'"]
@@ -14168,7 +14166,6 @@
 ##a[href*="/ads/adscenter."]
 ##a[href*="/auth/register?code="] > img
 ##a[href*="/d27.tv"]
-##a[href*="/entry/register"][href*="i_code"]
 ##a[href*="/h91.tv"]
 ##a[href*="/jump/next.php?r="]
 ##a[href*="/kt169.com"]
@@ -14196,8 +14193,6 @@
 ##a[href*="kdocs.cn"] > img[src*=".ax1x.com/"]
 ##a[href*="kdocs.cn"] > img[src*="sstv."]
 ##a[href*="xchina.click/prepare."]
-##a[href="/e/member/register/index.php?tobind=0&groupid=1"]
-##a[href="/gghtml/tyc.html"]
 ##a[href="/goto.php?url=hth"]
 ##a[href="/ht.html"]
 ##a[href="/iwagbwfiwehaeyh"]
@@ -14484,7 +14479,6 @@
 ##a[target="_blank"] > img.king
 ##a[target="_blank"] > img[src*=".bitautoimg.com/"][src$=".gif"]
 ##a[target="_blank"] > img[src*=".ikstatic.cn"][style="width:100%;height:100%"]
-##a[target="_blank"][href^="https://js."][href$=".com/download/4122_0.html"]
 ##ad-shield-ads
 ##ad-slot
 ##amp-ad
@@ -14514,8 +14508,6 @@
 ##bottomadblock
 ##broadstreet-zone-container
 ##button[onclick*=".xacg.info/"]
-##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:120px;"]
-##center > a[target="_blank"] > img[style="padding- bottom:5px;width:960px;height:60px;"]
 ##center > p > a[target="_blank"] > img[width="728px"][height="90px"]
 ##citrus-ad-wrapper
 ##display-ad-component
@@ -14528,7 +14520,6 @@
 ##div[class$="-adlabel"]
 ##div[class^="Adstyled__AdWrapper-"]
 ##div[class^="is_"] > a > img[referrerpolicy="no-referrer"]
-##div[class^="module-"] > a[href="/index/voddetail.html?id=1"]
 ##div[class^="ps_"][value="20"]
 ##div[data-ad-placeholder]
 ##div[data-ad-region]
@@ -14604,7 +14595,6 @@
 ##img[src*=".c-ctrip.com"][style="width:100%;height:70px;"]
 ##img[src*=".jd.com"][style="width:100%;height:70px;"]
 ##img[src*=".meituan.net"][style="width:100%;height:70px;"]
-##img[src*=".meiyida.tv/"]
 ##img[src*=".qpic.cn"][width="980"][height="80"]
 ##img[src*=".sinaimg."][style="width:1025px;height:80px"]
 ##img[src*=".sinaimg."][style="width:150px;height:300px"]
@@ -14959,9 +14949,9 @@
 163.com##a[href^="http://popme.163.com/"]
 163.com##span[class^="gg"]
 163.com#@#.s-btns
-163.com,55188.com,csai.cn,miercn.com##div[class^="gg"]
 163.com,bilibili.com,longzhu.com##a[href*=".admaster."]
 163.com,changsha.cn,jrj.com.cn,neotv.com.cn,sina.cn,sina.com.cn##.topad
+163.com,csai.cn,miercn.com##div[class^="gg"]
 163.com,jishujd.com##.index_top_ad
 163.com,zybang.com##.top-banner
 163.com,~love.163.com##a[href^="http://love.163.com/"]
@@ -15522,7 +15512,7 @@
 51.ca##.a-list-carousel-d-box
 51.ca##.top-a-container
 51.com###game_advlayer
-51.com,55188.com##.couplet
+51.com##.couplet
 51.la##.da-item
 5119.cn##.xzbtn_new + .xzbtn_new
 5119.cn##div[class="downDz"]
@@ -15620,12 +15610,9 @@
 53.com#@##ad-rotator
 54new.com###imgshow
 54new.com##img[width="1280"][height="100"]
-55188.com###center-pic
-55188.com###top-pic
-55188.com##.ggdistich
-55188.com##.wz_text
-55188.com##a[href*="/gg-link."]
-55188.com##a[href^="http"]:not([href*=".55188."]) > img[src*="/portal/"]
+55188.com###bbslist
+55188.com###recommended-by-admin
+55188.com##.page-aside
 5555op.com,router.houzi-blog.top##.img
 5588.tv##.ProDaTu
 5588.tv##.ringhttu
@@ -17696,16 +17683,17 @@ bleedingcool.com###bottom_leaderboard2
 bleedingcool.com###bottom_medium_rectangle
 bleedingcool.com##.med_rect_wrapper
 bleedingcool.com,heatmap.news,jamaicaobserver.com###bottom_leaderboard
+bleepingcomputer.com##.article-callout
 bleepingcomputer.com##.articleBody > div:has(a[href^="https://www.wiz.io/"])
 bleepingcomputer.com##.bc_guide
 bleepingcomputer.com##.cz-toa-wrapp
 bleepingcomputer.com##.ia_ad
 bleepingcomputer.com##.spon_res
 bleepingcomputer.com##[alt="ThreatLocker"]
-bleepingcomputer.com##[href*="https://www.bleepingcomputer.com/mgo/"]
 bleepingcomputer.com##[href^="https://www.adaptivesecurity.com/"]
 bleepingcomputer.com##[href^="https://www.bleepingcomputer.com/go/"]
 bleepingcomputer.com##[href^="https://www.threatlocker.com/"]
+bleepingcomputer.com##[href^="https://www.ztw.com/"]
 bleepingcomputer.com##[href^="https://ztw.com/"]
 bleepingcomputer.com##[src*="https://www.bleepstatic.com/c/t/threatlocker/"]
 bleepingcomputer.com##div[style="width:98%; margin:0 auto; padding:5px; text-align:center; background:#f0f0f0; border:1px solid
@@ -24489,7 +24477,6 @@ koreatimes.co.kr##.Detail_ad-container__TXWnJ
 kostool.cn#?#div:-abp-has(> h1:-abp-contains(推广))
 kottke.org##.bling-title
 kpanews.co.kr#@#.ad_top
-kpd122.com,ssp28.pw##.index-owl-carousel
 kpw6.com###daojs
 kpzpw.com##.header-pic
 kpzpw.com##.littlebanner
@@ -25173,6 +25160,7 @@ majorgeeks.com##img[alt="tip"] + b
 makaidong.com###bdcs
 makaidong.com###cyWallsplugin
 makeitmeme.com##div[class^="_adContainer_"]
+makemytrip.*##.listingRowOuter:has(.pc__sponsored)
 makemytrip.com##.adtech-desktop
 makemytrip.com##.hotDeals
 makemytrip.com##.hotelTileDt:has(.icSponsored)
@@ -25453,6 +25441,7 @@ metro.co.uk##.ads__index__adWrapper--cz7QL
 metro.co.uk##.metro-discounts
 metro.co.uk##.metro-ow-modules
 metro.co.uk##.wp-block-metro-widget-archive-metro-partners
+metronomeonline.com#@#.ad-homepage
 metropcs.mobi##div[title="Advertisement"]
 metservice.com##.Header
 meyka.com##.etoro-ad-scroll
@@ -30584,6 +30573,11 @@ trademe.co.nz##tm-display-ad
 traderie.com###ad-rails
 traderie.com##.cool-slot
 traderscasa.com##[class^="overlay-"]:has(> .af-both-cont)
+tradersunion.com##.banner-v3--horizontal
+tradersunion.com##.horizontal-banner
+tradersunion.com##.js-clone-1
+tradersunion.com##.news-page__terra
+tradersunion.com##.video-popup
 tradetrucks.com.au##.middle-banner-list
 tradingview.com###charting-ad
 trakt.tv##.playwire
@@ -32583,7 +32577,6 @@ zzzyk.com###Tinfo
 ~ix8.la##div[class^="ADTOPLB_"]
 ~laifeng.youku.com,youku.com##a[href^="http://cps.laifeng.com/"]
 ~laifeng.youku.com,youku.com##a[href^="http://cps.laifeng.com/"] + .bg + img
-~mgtv.com##a[target="_blank"] > img[src*="hitv.com"]
 ~sinaimg.cn##a > img[src*=".sinaimg."][src$=".gif"][style*="width:960"]
 ~sinaimg.cn##a > img[width="960"][src*=".sinaimg."]
 ~sinaimg.cn##a > img[width="980"][src*=".sinaimg."]
