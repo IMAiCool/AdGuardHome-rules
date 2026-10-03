@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-10-02 20:11:46 +0000
+! Last modified: 2026-10-03 02:24:38 +0000
 ! Expires: 8 hours
-! Rules: 32575
+! Rules: 32574
 
 ###AC_ad
 ###AD_160
@@ -31689,7 +31689,6 @@ wncv.com##.simple-image
 woaimoon.com##div[id^="juan_"]
 woego.cn#@##topAds
 wolfsgamingblog.com##.wpa-about
-wolt.com##[data-test-id="MainDiscoveryContent"] > div:has([data-test-id="AdvertisingLabel"])
 wolt.com##[data-test-id="MainDiscoveryContent"] li[draggable]:has(a[aria-label*="Sponsored"])
 wolt.com##div[data-test-id="MainDiscoveryContent"] li > div.cb-elevated:has(button[data-test-id="AdvertisingLabel"])
 wolt.com##div[data-test-id="SearchResultVenueSection"] li > div.cb-elevated:has(button[data-test-id="AdvertisingLabel"])
