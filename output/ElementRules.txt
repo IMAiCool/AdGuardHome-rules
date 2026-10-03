@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-10-03 12:47:21 +0000
+! Last modified: 2026-10-03 18:51:07 +0000
 ! Expires: 8 hours
-! Rules: 32574
+! Rules: 32575
 
 ###AC_ad
 ###AD_160
@@ -31321,6 +31321,7 @@ wasu.cn##.qp
 wasu.cn##div[class^="play_ads"]
 watch.spencerdevs.xyz##[href="https://zaccounts.io/"]
 watcher.guru##.add-header
+watchhentai.net##.header-sponsors-inner
 watchhentaivideo.com##.bannerBottom
 watchinamerica.com##.deskad
 watchinamerica.com##.smartmag-widget-codes
