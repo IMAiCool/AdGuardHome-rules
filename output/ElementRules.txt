@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-10-04 02:54:38 +0000
+! Last modified: 2026-10-04 13:30:48 +0000
 ! Expires: 8 hours
-! Rules: 32571
+! Rules: 32576
 
 ###AC_ad
 ###AD_160
@@ -19837,6 +19837,7 @@ digiday.com##.ad_960
 digit.in###cubewrapid
 digit.in##.center-add
 digit.in##.news_adhide_device
+digitalescapetools.com##.det-promo-float-host
 digitalfoundry.net###nn_half
 digitalfoundry.net###nn_mast
 digitalfoundry.net###nn_mid1
@@ -31532,6 +31533,9 @@ weworkremotely.com##.feature--ad
 wezhicms.com##.activity
 wezhicms.com#?#.card-main:-abp-has(.waimai-item-img)
 wfmz.com#@#.tnt-dmp-reactive
+wgme.com###deeper-dive-container-0
+wgme.com##.StoryPage_taboolaDeeperDive__WKVX7
+wgme.com##[data-testid="viewport-buffered-slot"]
 wgnsradio.com##.bw-special-image
 wgnsradio.com##.bw-special-image-wrapper
 wgrr.com##a[href^="https://www.mccabelumber.com/"]
@@ -31570,6 +31574,7 @@ whcykj.cn###BDBridgeInviteWrap
 whcykj.cn###InviteContainerl
 whcykj.cn##.swt_bottom
 whdh.com,wsvn.com###leader_1
+whec.com##[style*="min-height: 250px;"]
 wheelofnames.com##.ad-declaration
 whentai.com###modalegames
 whistleout.com.au##.has-hover
