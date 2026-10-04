@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-10-03 18:51:07 +0000
+! Last modified: 2026-10-04 02:54:38 +0000
 ! Expires: 8 hours
-! Rules: 32575
+! Rules: 32571
 
 ###AC_ad
 ###AD_160
@@ -26799,13 +26799,9 @@ ourshemales.com##.c-banner
 ourworldofenergy.com###sponsors_container
 out.com#@#div[id^="dfp-ad-"]
 outinthepaddock.com.au#@#.topads
-outlook.live.com##.VdboX[tabindex="0"]:has(img[src="https://res.cdn.office.net/assets/ads/adbarmetrochoice.svg"])
-outlook.live.com##._BAY1XlyQSIe6kyKPlYP
 outlook.live.com##.__Microsoft_Owa_MessageListAds_ListView_templates_cs_x
-outlook.live.com##[data-app-section="MessageList"] div[style^="position: absolute; left: 0px; top: 0px"]:has(.ms-Shimmer-container)
 outlook.live.com##[data-message-ad-id="MessageAdKeyOutlookUpSell0"]
-outlook.live.com##div.customScrollBar > div > div[id][class]:has(img[src$="/images/ads-olk-icon.png"])
-outlook.live.com##div:has(> div > div.fbAdLink)
+outlook.live.com##[data-viewport-type="element"] > div:not([style]) > div[id*="-"]:has(img[src$="/images/ads-olk-icon.png"])
 outlookindia.com##.ad_unit_728x90
 outlookindia.com##.in-house-banner1
 outlooktraveller.com###olkoverdiv
