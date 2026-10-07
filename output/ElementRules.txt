@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-10-06 20:36:21 +0000
+! Last modified: 2026-10-07 02:45:39 +0000
 ! Expires: 8 hours
-! Rules: 32577
+! Rules: 32580
 
 ###AC_ad
 ###AD_160
@@ -26725,8 +26725,11 @@ openalternative.co##.duration-100.rounded-lg:has(a[href="/advertise"])
 openalternative.co##.relative.rounded-lg:has(a[href^="/advertise"])
 openalternative.co##.relative.rounded-lg:has(img[src*="cdn.revinel.com"])
 openalternative.co##body > div.group:has(a[target="_blank"])
+openalternative.co##body > div.outline-transparent:has(a[target="_blank"])
 openalternative.co##div.fixed.z-49.bottom-4
 openalternative.co##div.group:has(> a[target="_blank"])
+openalternative.co##div.outline-transparent:has(> a[target="_blank"])
+openalternative.co##div.outline-transparent:has(> span[class*="group/button"])
 openalternative.co##div:has(> div > h2 > a[href="/advertise"])
 openalternative.co##div[class="relative flex max-md:order-3"]:has(a[href="/advertise"])
 openalternative.co##div[class="relative flex"]:has(a[href="/advertise"])
