@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-10-08 14:58:47 +0000
+! Last modified: 2026-10-08 20:53:16 +0000
 ! Expires: 8 hours
-! Rules: 32546
+! Rules: 32547
 
 ###AC_ad
 ###AD_160
@@ -3290,6 +3290,7 @@
 ###lt-ad-radio
 ###m-banner-bannerAd
 ###magneturlpost + .movie + .movie[style="padding:12px; margin-top:15px"]
+###main > .nv-ad
 ###main-ad
 ###main-advert
 ###main-side-container.bg-gray-100.space-y-2
@@ -15988,7 +15989,7 @@ adblock-tester.com##object[width="240"]
 adbug.cn#@#.google_ads
 addictivetips.com###at_popup_modal
 addictivetips.com,argonauts.ca,automotive-fleet.com,businessfleet.com,cfl.ca,developer.mozilla.org,forbesindia.com,government-fleet.com,howsecureismypassword.net,icons8.com,ncaa.com,rigzone.com,schoolbusfleet.com,seekvectorlogo.net,snipercentral.com,wltreport.com##.top-banner
-addictivetips.com,coinweek.com,flashbak.com,keqingmains.com,lmanime.com,news365.co.za,potatonewstoday.com,prohockeyrumors.com,simscommunity.info,tech-fairy.com##.custom-html-widget
+addictivetips.com,celeb-stalker.com,coinweek.com,flashbak.com,keqingmains.com,lmanime.com,news365.co.za,potatonewstoday.com,prohockeyrumors.com,simscommunity.info,tech-fairy.com##.custom-html-widget
 additivemanufacturing.media,compositesworld.com,ptonline.com##.DisplayBar
 additudemag.com,organicfacts.net,vinepair.com##.header-ad
 adeam.com#@#.atf-wrapper
@@ -18297,6 +18298,7 @@ cdrab.com,offerinfo.net##.adslr
 ce.cn,chenjiayu.cn,chinabidding.com.cn,eastmoney.com,ieforex.com,laod.cn,likefont.com,shangyexinzhi.com,zp365.com##.advert
 ceiea.com##.adclass2019
 celebjihad.com###pud
+celebjihad.com##[href^="https://go.celebjihad.live"]
 celebmafia.com##.wp-caption > [class]:has([width="300"])
 cell.com##.adplaceholders
 cellmapper.net###modal_av_details
@@ -21917,11 +21919,6 @@ giphy.com##div[class^="ads_"]
 girlonthenet.com##aside[data-adrotic]
 girlshot.net###extra-bottom
 girlsofdesire.org###gal_669
-girlsoncam.net##.x-slots-banner-only
-girlsoncam.net##.x-slots-hero-after
-girlsoncam.net,japonfilmleri.com,minaeast.net###playerdavLayer
-girlsoncam.net,japonfilmleri.com,minaeast.net##.da
-girlsoncam.net,japonfilmleri.com,minaeast.net##div[style^="position: fixed;"]
 girlswithmuscle.com##.hb-static-banner-div
 girlswithmuscle.com##.hb-video-ad
 gitee.com##.fixed-notice-messages
@@ -26158,6 +26155,7 @@ netfly.lol##.module-tglist
 netspeed.com.tr#@##adWrapper
 nettiauto.com,nettikaravaani.com,nettikone.com,nettimokki.com,nettimoto.com,nettivene.com###huge_banner
 nettv4u.com##.desk_only
+netweather.tv##.adholder-1
 netweather.tv##.billheight
 netweather.tv##.samsad-Leaderboard2
 netwerk24.com##.love2meet
@@ -26772,7 +26770,7 @@ out.com#@#div[id^="dfp-ad-"]
 outinthepaddock.com.au#@#.topads
 outlook.live.com##.__Microsoft_Owa_MessageListAds_ListView_templates_cs_x
 outlook.live.com##[data-message-ad-id="MessageAdKeyOutlookUpSell0"]
-outlook.live.com##[data-viewport-type="element"] > div:not([style]) > div[id*="-"]:has(img[src$="/images/ads-olk-icon.png"])
+outlook.live.com##div[role="complementary"][data-skip-link-name][id] div[id*="-"]:has(> div:not([class]) > div[class] img[src$="/images/ads-olk-icon.png"])
 outlookindia.com##.ad_unit_728x90
 outlookindia.com##.in-house-banner1
 outlooktraveller.com###olkoverdiv
@@ -29355,9 +29353,11 @@ standard.co.uk##[class]:has(> [data-fluid-zoneid])
 standardmedia.co.ke##.border-thick-branding
 standardmedia.co.ke##.my-2
 staples.com###searchResultsContainer [data-id^="tile"]:has(.standard-tile__sponsored_badge_holder)
+staples.com###sponsored-sku
 staples.com##.SearchRootUX2__bannerAndSkuContainer
 staples.com##.flexible-banner-configurator__flexibleBannerWrapper:has(a[aria-label*="Sponsored by"])
 staples.com##[role="complementary"]
+staples.com##div:has(> div[class*="configurator-container__"] .topsort-video-configurator__monetizationContainer)
 staples.com##div[class^="sku-configurator__banner"]:has([aria-label="Sponsored Products"])
 staples.com#?#.side-by-side-carousel__carousel_container:has-text(Sponsored Products)
 staples.com#?#.sku-configurator__skuOffsetCarouselNew:has(span:has-text(Sponsored products:))
@@ -29446,6 +29446,7 @@ stocktwits.com#?#.leading-\[16px\]:has-text(Advertisement)
 stockx.com##[data-component="brand-tile"]:has([data-testid="sponsored-tag"])
 stockx.com##[data-component="product-tile"]:has([data-testid="sponsored-tag"])
 stockx.com##[data-testid="banner-collage"] .chakra-aspect-ratio:has(a[title*="Promo"])
+stockx.com##div[data-sponsored-listing="true"]
 stokesentinel.co.uk##.shop-window[data-impr-tracking="true"]
 stomp.sg##.lg\:py-xl.pt-md
 stomp.sg##.min-h-\[120px\]
