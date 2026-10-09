@@ -2,9 +2,9 @@
 ! Title: AdGuardHome-rules - Adblock Plus browser filter whitelist
 ! Syntax: Adblock Plus browser filter
 ! List type: whitelist
-! Last modified: 2026-10-09 03:10:12 +0000
+! Last modified: 2026-10-09 14:43:13 +0000
 ! Expires: 8 hours
-! Rules: 2676
+! Rules: 2675
 
 @@||*.bilivideo.com^
 @@||*.xmpush.xiaomi.com^
@@ -1734,7 +1734,6 @@
 @@||noahedu.com/ad/$~third-party
 @@||noahedu.com/advertising/
 @@||nobook.com/open-interface/official-sensors.git/$script,~third-party
-@@||nobugin.com^$generichide
 @@||nocookie.net^*/tracking-opt-in.min.js$script,domain=fandom.com
 @@||nodkey.xyz^$generichide
 @@||noodid.ee/chordQuiz/$~third-party
@@ -2002,7 +2001,6 @@
 @@||reddit.com^$generichide
 @@||redditinc.com/assets/images/site/*_300x250.$image,~third-party
 @@||redguide.top^*/ad.css?$stylesheet
-@@||redian.news^$generichide
 @@||redir.ownpage.fr^|
 @@||redir.tradedoubler.com^|
 @@||redirect.appmetrica.yandex.com^|
@@ -2199,6 +2197,7 @@
 @@||spanishdict.com^$generichide
 @@||spankbang.com^*/prebid-ads.js$domain=spankbang.com
 @@||spark.co.nz/content/*/utag.sync.js$domain=skinny.co.nz
+@@||spartaindependent.com^|
 @@||speed.cloudflare.com/__log$~third-party
 @@||speedcurve.com/js/lux.js$script,domain=tv8.it
 @@||spezialklinik-neukirchen.de/matomo/$~third-party
