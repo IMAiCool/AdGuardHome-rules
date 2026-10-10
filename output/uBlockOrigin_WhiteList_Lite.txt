@@ -1,9 +1,9 @@
 ! Title: AdGuardHome-rules - uBlock Origin browser filter whitelist lite
 ! Syntax: uBlock Origin browser filter
 ! List type: whitelist lite
-! Last modified: 2026-10-09 20:22:20 +0000
+! Last modified: 2026-10-10 02:49:21 +0000
 ! Expires: 8 hours
-! Rules: 2677
+! Rules: 2674
 
 @@||*.bilivideo.com^$important
 @@||*.xmpush.xiaomi.com^$important
@@ -84,8 +84,6 @@
 @@||95599.cn^*ad
 @@||99wbwc.com^$generichide
 @@||99ybcc.com^$generichide
-@@||9zvip.net/wp-content/plugins/detect-adblock/js/ads.js
-@@||9zvip.net^$elemhide
 @@||a.adwolf.ru^|
 @@||a.alimama.cn/tkapi$domain=ieeee.com
 @@||a.run.app/api/stat?$domain=cocowa.app
@@ -577,7 +575,6 @@
 @@||captcha.su.baidu.com^
 @@||carandclassic.co.uk/images/free_advert/$image,1p
 @@||carbuzz.com^$generichide
-@@||carexpert.com.tw/wp-content/plugins/like-box-pro/includes/javascript/front_end_js.js
 @@||carsensor.net/usedcar/modules/clicklog_top_lp_revo.php$xhr
 @@||cat.telia.no/gtm.js$script,domain=telia.no
 @@||catchapp.net/ad/img/$1p
