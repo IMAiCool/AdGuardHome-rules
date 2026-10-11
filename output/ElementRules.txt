@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-10-10 19:34:58 +0000
+! Last modified: 2026-10-11 02:17:56 +0000
 ! Expires: 8 hours
-! Rules: 32274
+! Rules: 32264
 
 ###AC_ad
 ###AD_160
@@ -2931,7 +2931,6 @@
 ###hearst-autos-ad-wrapper
 ###hellobox > .mylist
 ###hengfu >
-###hfad
 ###hgiks-middle
 ###hgiks-top
 ###hj-right-aside[style="float: right;"]
@@ -9851,7 +9850,6 @@
 ##.centeradv
 ##.centered-ad
 ##.ceo_ads
-##.cfa_popup
 ##.ch-ad-item
 ##.channel--ad
 ##.channel-ad
@@ -10644,7 +10642,6 @@
 ##.g-advertisement-block
 ##.g1-ads
 ##.g1-advertisement
-##.g1_wz > .g1_tp
 ##.g2-adsense
 ##.g3-adsense
 ##.gAdMTable
@@ -11607,7 +11604,6 @@
 ##.m-sponsored
 ##.m1-ads-placeholder
 ##.m1-header-ad
-##.m1938-container
 ##.m_ad
 ##.m_ad1
 ##.m_ad300
@@ -14521,7 +14517,6 @@
 ##div[id^="dfp-ad-"]
 ##div[id^="div-ads-"]
 ##div[id^="div-gpt-"]
-##div[id^="em"] > a[onclick^="em"][max-width]
 ##div[id^="ezoic-pub-ad-"]
 ##div[id^="google_dfp_"]
 ##div[id^="gpt_ad_"]
@@ -14588,7 +14583,7 @@
 012.tw#@#.ad728
 0439.com###kanfang
 0594.com##div[id^="PCMSAD_"]
-0594.com,164580.com,2234.cn,appinn.com,appledaily.com.tw,china.com,chinamedevice.cn,cnodejs.org,danyang.com,doyouhike.net,haokan5.com,hc360.com,helloavgirls.com,hkjunkcall.com,meiyouad.com,moe48.com,qq.com,sina.com,sogou.com,tongren.gov.cn,uc123.com,up01.cc,yeeyi.com##.ads
+0594.com,164580.com,2234.cn,appinn.com,appledaily.com.tw,china.com,chinamedevice.cn,cnodejs.org,danyang.com,doyouhike.net,haokan5.com,hc360.com,hkjunkcall.com,meiyouad.com,moe48.com,qq.com,sina.com,sogou.com,tongren.gov.cn,uc123.com,up01.cc,yeeyi.com##.ads
 0597kk.com###cool_fixed
 0597kk.com###kk_content1_left_ad1
 0597kk.com###kk_head_ad
@@ -15786,7 +15781,6 @@ acg-hentai.com##.adbox
 acg17.com##.yhq
 acgdoge.net,acglala.cc,chinalawedu.com,douyu.com,gmgard.com,hggard.com,iqiyi.com,jinti.com##a[href*=".tmall.com"]
 acgfta.com##a[href^="https://ifift.com/"]
-acggd.com##a[href*=".apk"]
 acgking.com,dbtmn.com##.asst
 acglala.cc##a[href*=".jigdh.com"]
 acgnx.cc,acgnx.se##a > img[src^="/images/"]
@@ -24326,7 +24320,6 @@ laohu8.com##.top-recommend
 laohu8.com#@#.tweet-article
 laoliublog.cn,ruyo.net,winandmac.com,zhujiceping.com,zouaw.com##.widget_custom_html
 laosiji.com#@#.sns-wrapper
-laowang.vip###frameYl5IOf
 laozuo.org###focusslide
 laozuo.org##.container[style="margin-bottom: 3px;"]
 laozuo.org##.widget_ui_orbui
@@ -26890,7 +26883,6 @@ pikalytics.com###dex-list-0
 pikalytics.com###pokedex-top-ad
 pilifx.com##.imoney
 pilipali.cc##.tips-widget-weixin
-pilipili.site##.block-sales
 pimpandhost.com##.aaablock_yes
 pimpandhost.com##.ablock_yes
 pimpandhost.com##a[href^="https://www.myfreecams.com/"][href*="&track="]
@@ -29302,7 +29294,6 @@ survivopedia.com##.svp_campaign_main
 survivopedia.com##[onclick="recordClick("]
 susongbbs.com#@#.ad_banner
 sussexexpress.co.uk##.cIffkq
-suxzp.com##.full-screen-cover
 svd.se##.advertory-svd-panorama-wrapper__longread
 svgrepo.com##[class^="style_native"]:has([href*="buysellads.com"])
 svscomics.com##.regi
@@ -30849,7 +30840,6 @@ vjmedia.com.hk###author-spotlight + .clear + div
 vjmedia.com.hk###text-33
 vjmedia.com.hk##.code-block
 vk.com,vk.ru###system_msg
-vk922.com##a[href^="/ad/"]
 vmall.com#@#.iframeAd
 vmlib.com##.elementor-widget > .elementor-widget-container > a[href^="http"]:not([href*="vmlib."])
 vmlib.com##.wp-caption
