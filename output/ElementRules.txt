@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-10-11 19:46:27 +0000
+! Last modified: 2026-10-12 02:42:22 +0000
 ! Expires: 8 hours
-! Rules: 32264
+! Rules: 32269
 
 ###AC_ad
 ###AD_160
@@ -20836,6 +20836,8 @@ findagrave.com#?#.rounded-pill:has-text(Remove Ads)
 findlaw.cn###wlcommonbot
 findmysoft.com###as_336
 findprice.com.tw###divBestBuy
+findprice.com.tw##.divAD2
+findprice.com.tw##.fsa__promo
 finextra.com##.module--sponsor
 finextra.com##.section--minitextad
 finextra.com##.section--mpu
@@ -25479,6 +25481,8 @@ mrmad.com.tw#?#div[id^="mrmad-"]:-abp-has(>.adsbygoogle)
 mrskin.com##.az
 mrw.co.uk##.adv-banner-top
 mscbsc.com##.bao1
+mscw-guidebook.com##.plaza-ad-wrap
+mscw-guidebook.com##.qiyou-ad
 mse.360.cn##a[id^="banner"]
 msguides.com###kknbnpcv
 msguides.com###right-bottom-camp
@@ -31591,6 +31595,7 @@ xdpedia.com#@#div[id^="ezoic-pub-ad-"]
 xerotica.com##.ofx-ads-slot
 xerotica.com##.pv-shelf
 xfantazy.com##.partwidg1
+xfastest.com###xfastestWide385
 xgrb.cn##.d_2016_ggw
 xgroovy.com##.fluid-b
 xgroovy.com##.fluid_next_video_left
