@@ -1,9 +1,9 @@
 ! Title: AdGuardHome-rules - AdGuard browser filter whitelist
 ! Syntax: AdGuard browser filter
 ! List type: whitelist
-! Last modified: 2026-10-12 02:41:56 +0000
+! Last modified: 2026-10-12 17:02:35 +0000
 ! Expires: 8 hours
-! Rules: 2674
+! Rules: 2675
 
 @@||*.bilivideo.com^$important
 @@||*.xmpush.xiaomi.com^$important
@@ -843,6 +843,7 @@
 @@||dcdirtylaundry.com/cdn-cgi/challenge-platform/$~third-party
 @@||dd.auspost.com.au/tags.js$script,~third-party
 @@||dd.blackhawknetwork.com.first-party-js.datadome.co^$domain=redeem.rewardlink.com
+@@||dd.goflink.com.first-party-js.datadome.co^$domain=goflink.com
 @@||dd.jaycar.com.au.first-party-js.datadome.co^$script,third-party,domain=jaycar.com.au
 @@||dd.qa.moneygram.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=moneygram.com
 @@||dd.qwant.com.first-party-js.datadome.co^$domain=qwant.com

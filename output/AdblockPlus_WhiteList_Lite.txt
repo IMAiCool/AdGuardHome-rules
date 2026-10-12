@@ -2,9 +2,9 @@
 ! Title: AdGuardHome-rules - Adblock Plus browser filter whitelist lite
 ! Syntax: Adblock Plus browser filter
 ! List type: whitelist lite
-! Last modified: 2026-10-12 02:42:10 +0000
+! Last modified: 2026-10-12 17:02:53 +0000
 ! Expires: 8 hours
-! Rules: 2672
+! Rules: 2673
 
 @@||*.bilivideo.com^
 @@||*.xmpush.xiaomi.com^
@@ -844,6 +844,7 @@
 @@||dcdirtylaundry.com/cdn-cgi/challenge-platform/$~third-party
 @@||dd.auspost.com.au/tags.js$script,~third-party
 @@||dd.blackhawknetwork.com.first-party-js.datadome.co^$domain=redeem.rewardlink.com
+@@||dd.goflink.com.first-party-js.datadome.co^$domain=goflink.com
 @@||dd.jaycar.com.au.first-party-js.datadome.co^$script,third-party,domain=jaycar.com.au
 @@||dd.qa.moneygram.com.first-party-js.datadome.co^$script,xmlhttprequest,domain=moneygram.com
 @@||dd.qwant.com.first-party-js.datadome.co^$domain=qwant.com
