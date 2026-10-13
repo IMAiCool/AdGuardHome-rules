@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-10-13 04:00:06 +0000
+! Last modified: 2026-10-13 15:19:17 +0000
 ! Expires: 8 hours
-! Rules: 32276
+! Rules: 32278
 
 ###AC_ad
 ###AD_160
@@ -20767,6 +20767,7 @@ file.io##.lw_ad
 filecrypt.cc##.butt1ns button[onclick*="loc.href='/Link/"]
 filecrypt.cc##.fiIItheadblockqueue4
 filecrypt.cc##.filItheadbIockgueue3
+filecrypt.cc##[onclick*="/linkonclick.com/"]
 filecrypt.cc,filecrypt.co##.filItheadbIockqueue3
 filecrypt.cc,filecrypt.co##.hghspd
 filecrypt.cc,filecrypt.co##.hghspd + *
@@ -21359,6 +21360,7 @@ galacg.me##.sidebar-top
 galacg.me##a[href*="/game"]
 galacg.me,unecne.com##.metaslider
 galaopublicidade.com#@#.publicidade
+galleryxh.site,megaxh.com,openxh.com,stripchat.com,valuexh.life,xhaccess.com,xhamster.com,xhamster.desi,xhamster.one,xhamster1.desi,xhamster13.*,xhamster14.com,xhamster16.*,xhamster17.*,xhamster18.*,xhamster19.com,xhamster2.com,xhamster20.desi,xhamster3.*,xhamster37.com,xhamster40.com,xhamster42.desi,xhamster9.com,xhbig.com,xhbranch5.com,xhchannel.com,xhdate.world,xhmoon5.com,xhofficial.com,xhopen.com,xhspot.com,xhtotal.com,xhvid.com,xhwide1.com,xhwide2.com##.thumb-list__item[role="button"]
 galleryxh.site,megaxh.com,openxh.com,stripchat.com,valuexh.life,xhaccess.com,xhamster.com,xhamster.desi,xhamster.one,xhamster1.desi,xhamster13.*,xhamster14.com,xhamster16.*,xhamster17.*,xhamster18.*,xhamster19.com,xhamster2.com,xhamster20.desi,xhamster3.*,xhamster37.com,xhamster40.com,xhamster42.desi,xhamster9.com,xhbig.com,xhbranch5.com,xhchannel.com,xhdate.world,xhmoon5.com,xhofficial.com,xhopen.com,xhspot.com,xhtotal.com,xhvid.com,xhwide1.com,xhwide2.com##div[class*="cams-wgt"]
 gamblingnewsmagazine.com##img[width="365"]
 gamcore.com###preloader_2
