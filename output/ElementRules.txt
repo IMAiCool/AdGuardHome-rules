@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-10-14 02:14:10 +0000
+! Last modified: 2026-10-14 13:07:42 +0000
 ! Expires: 8 hours
-! Rules: 32274
+! Rules: 32277
 
 ###AC_ad
 ###AD_160
@@ -19467,7 +19467,7 @@ decrypt.co##.opacity-75
 decrypt.co##[style^="min-width: 728px;"]
 decrypt.co#?#span:has-text(AD)
 decrypt.co,metabattle.com##div[style^="min-width: 300px;"]
-deep-edge.net,forums.digitalspy.com,marketwatch.com#@#.has-ad
+deep-edge.net,forums.digitalspy.com,marketwatch.com,ullu-egg.com#@#.has-ad
 deepai.org###primis-ads
 deepai.org##.ctx-ad-container
 deepai.org##.ctx-content-container
@@ -21543,6 +21543,8 @@ gays-cruising.com##.c_526x240
 gays-cruising.com##.c_728x265
 gays-cruising.com##.c_728x90
 gays-cruising.com##.c_900x250
+gays-cruising.com##.cnt_dccxxviii_cclxv
+gays-cruising.com##.cnt_dccxxviii_xc
 gays-cruising.com##.m-row.h_100
 gays-cruising.com##.m-row.h_250
 gays-cruising.com##.m-row.h_335
@@ -27370,6 +27372,7 @@ producthunt.com##div[data-test] > section:has(img[src="/i/299a62819c7092e196f7fc
 producthunt.com##div[data-test]:not([data-test^="homepage-section-"]) > section[data-test^="post-item-"]
 producthunt.com##div[data-test^="ad-slot-"]
 producthunt.com##section.group + div > section.group
+producthunt.com##section:has(> div > div > span.rounded-b-xl.bg-brand-500)
 producthunt.com#?#.cursor-pointer:has-text(Promoted)
 producthunt.com#?#.text-12:has-text(Promoted)
 producthunt.com#?#article:has-text(Promoted)
