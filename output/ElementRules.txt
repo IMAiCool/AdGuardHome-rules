@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-10-13 20:51:13 +0000
+! Last modified: 2026-10-14 02:14:10 +0000
 ! Expires: 8 hours
-! Rules: 32283
+! Rules: 32274
 
 ###AC_ad
 ###AD_160
@@ -653,6 +653,7 @@
 ###adDivContainer
 ###adFiller
 ###adFlashDiv
+###adFloat
 ###adFooter
 ###adFot
 ###adFrame
@@ -3439,7 +3440,6 @@
 ###native_ads
 ###nav + .slider-spons
 ###nav-ad-container
-###nav-home > .coment-bottom
 ###navAdBanner
 ###nav_ad
 ###nav_ad_728_mid
@@ -3541,8 +3541,6 @@
 ###player-midrollAd
 ###playerAd
 ###playerAdsRight
-###playerAdvLayer
-###playerJsvLayer.jsv-layer
 ###player_ad
 ###player_ads
 ###player_banner[style*="fixed;"]
@@ -8419,7 +8417,6 @@
 ##.adv-dvb
 ##.adv-format-1
 ##.adv-full-width
-##.adv-g1
 ##.adv-google
 ##.adv-gpt-desktop-wrapper
 ##.adv-gpt-wrapper-desktop
@@ -9733,7 +9730,6 @@
 ##.browsi-ad
 ##.bs-sneaker-container
 ##.btm_ad
-##.btn.btn-success.text-white[href*=".com:"]
 ##.btn_ad
 ##.bump-ad
 ##.bunyad-ad
@@ -10450,7 +10446,6 @@
 ##.fixed-ad-bottom
 ##.fixed-ads
 ##.fixed-bottom-ad
-##.fixed-bottom.jsv.jsv-g1
 ##.fixed-sidebar-ad
 ##.fixedAds
 ##.fixedLeftAd
@@ -11387,8 +11382,6 @@
 ##.jsAdSlot
 ##.js_adContainer
 ##.js_ad_wrapper
-##.jsv > .mobile-adv
-##.jsv-layer > .image > a[href^="http"]
 ##.jsx-adcontainer
 ##.jw-ad
 ##.jw-ad-block
@@ -14545,7 +14538,6 @@
 ##div[style^="position"][onclick^="window.open"]
 ##gpt-ad
 ##guj-ad
-##header +
 ##hl-adsense
 ##iframe[scrolling="no"][sandbox*="allow-popups allow-modals"][style^="width: 100%; height: 100%; border: none;"]
 ##iframe[src*=".xxmh"][src*="?u="]
@@ -15646,11 +15638,9 @@
 91porna.com##.dx-banner-item
 91porna.com##.h-full.swiper
 91porna.com##.modal-backdrop
-91porny.com##.container-fluid.p-0[class*="mb-"]
-91porny.com##.jsv-g1
-91porny.com,91porn.fans,91porny.org#?##main > div[class][id]:-abp-has(.video-elem>a[rel="noopener nofollow"])
-91porny.com,91porn.fans,91porny.org#?##main > div[class][id]:-abp-has(>div>style)
-91porny.com,91porn.fans,91porny.org#?#.colVideoList:-abp-has(>.video-elem>.display[href^="http"])
+91porny.com,91porn.fans,91porny.org,jiuse704.com,jiuse705.com,xn--sjqr38j.com#?##main > div[class][id]:-abp-has(.video-elem>a[rel="noopener nofollow"])
+91porny.com,91porn.fans,91porny.org,jiuse704.com,jiuse705.com,xn--sjqr38j.com#?##main > div[class][id]:-abp-has(>div>style)
+91porny.com,91porn.fans,91porny.org,jiuse704.com,jiuse705.com,xn--sjqr38j.com#?#.colVideoList:-abp-has(>.video-elem>.display[href^="http"])
 91wenmi.com###xiezuo
 91wenmi.com###xzsp
 91wenmi.com##a[href^="http://www.91wenmi.com/xiezuo/"]
@@ -18264,6 +18254,7 @@ chicagoprowrestling.com##a[href*="//thecmf.com/"] > img
 chicagoprowrestling.com##a[href*="//www.aliciashouse.org/"] > img
 chicagotribune.com###top_article_fluid_wrapper
 chicagotribune.com###top_fluid_wrapper
+chigua.com##.recommend-layer
 chikiporn.com,pornq.com##.thumb--adv
 china-tube.site###extraWrapOverAd
 china-tube.site##.videoAd
