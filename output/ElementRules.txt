@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-10-16 19:03:44 +0000
+! Last modified: 2026-10-17 01:39:59 +0000
 ! Expires: 8 hours
-! Rules: 32057
+! Rules: 32061
 
 ###AC_ad
 ###AD_160
@@ -16292,6 +16292,9 @@ archaeologymag.com###tnp-leads-topbar
 archdaily.com##.js-publift
 architecturesideas.com##.linkpub_right_img
 archpaper.com##.an-ads
+arealme.com##.leader_ad_banner
+arealme.com##.lowerad
+arealme.com##div[style="margin:auto;width:100%;min-height:250px;"]
 arenaev.com###subHeader
 argos.co.uk##.ds-c-grid-item:has(div[class*="ProductCardstyles__SponsoredBadge-"])
 argos.co.uk##[class^="styles__LazyHydrateCard"]:has([class*="ProductCardstyles__FlyoutBadge"])
@@ -18957,6 +18960,7 @@ csgoob.com##.lg\:sticky.lg\:top-22 > .card-shadow:not(.py-4)
 cskaoyan.com###scanWxQrCode
 cspdailynews.com,restaurantbusinessonline.com###faded
 cspdailynews.com,restaurantbusinessonline.com##.wrapper-au-popup
+csrep.gg##.sticky:has(> div.w-full > a[target="_blank"] img)
 csrep.gg##div[data-ad-placement]
 css3generator.com##.gotta-pay-the-bills
 cssbattle.dev##.sponsor-container
