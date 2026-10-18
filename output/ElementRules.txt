@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-10-18 01:35:52 +0000
+! Last modified: 2026-10-18 12:12:00 +0000
 ! Expires: 8 hours
-! Rules: 32061
+! Rules: 32066
 
 ###AC_ad
 ###AD_160
@@ -15130,7 +15130,7 @@
 48hills.org##.hills-adlabel
 4c.cn##div[id^="mid_ad"]
 4c.cn##div[id^="top_ad"]
-4cc.com.au,baltic-course.com,domusweb.it,futbol24.com,gatewaynews.co.za,gsmarena.com,gulfnews.com,idealista.com,jetphotos.com,karger.com,maritimejobs.com,newagebd.net,prohaircut.com,railcolornews.com,titter.com,zbani.com##.adv
+4cc.com.au,arenaev.com,baltic-course.com,domusweb.it,futbol24.com,gatewaynews.co.za,gsmarena.com,gulfnews.com,idealista.com,jetphotos.com,karger.com,maritimejobs.com,newagebd.net,prohaircut.com,railcolornews.com,titter.com,zbani.com##.adv
 4chan.org##.danbo-slot
 4dayweek.io##.notadvert-tile-wrapper
 4f.to,furbooru.org###imagespns
@@ -18545,6 +18545,8 @@ codepub.com##.small-banner
 coderutil.com##.head-recommend-adv
 coderutil.com##.search-module + a
 coderwall.com##._300x250
+codex-resets.com##.sponsor-mobile
+codex-resets.com##.sponsor-rail
 codexiu.cn##.blog-twitter:first-child
 coffeeordie.com##.BannerPromo-desktop
 coffeeordie.com##div.HtmlModule > [href]
@@ -21789,6 +21791,7 @@ groupon.com##.px-0:has([data-bhw="DealCarousel-SponsoredDeals"])
 groupon.com##[data-bhc$="sponsored_carousel"]
 groupon.com##figure[data-clickurl^="https://api.groupon.com/sponsored/"]
 gs.chinanews.com.cn##.div1000_2 + .div980
+gsmarena.com###opt300x250
 gsmarena.com###subHeader:has(>
 gsmarena.com##.adv-mid
 gsmarena.com##.d-flex:has(pgs-ad)
@@ -24326,6 +24329,9 @@ libaclub.com##.ui-ad
 libaclub.com##.ui-adsame
 libaclub.com#?#.ui-list-item:-abp-has(> .ui-list-item-title > a[onclick^="SendAd"])
 libble.eu##.adserver-container
+libertycity.net##.lcnet.backgr42
+libertycity.net##[data-umami-event="Difmark Brand Click"]
+libertycity.net,vgtimes.com##.banner_in_news
 libhunt.com##.flex.mt-5.boxed
 libhunt.com##.sidebar-promo-boxed
 libhunt.com##.sponsors-list-content
@@ -29930,6 +29936,7 @@ tmioe.com##.dsawss
 tmioe.com##.widget_image_img
 tmioe.com##a[href*=".zps.im"]
 tmo.report###directad
+tmpmailer.com##.ad-anchor
 tmtpost.com##.open-app
 tmz.com##.ad-header-wrapper
 tnaflix.com###ads-under-video_
@@ -30571,7 +30578,6 @@ vesselfinder.com##.ad-right-m
 vgleaks.com###text-14
 vgleaks.com###text-18
 vgtime.com##.vgart_top
-vgtimes.com##.banner_in_news
 vgtimes.com##.thisad
 vgtimes.com##.vgt_orig_bg
 vice.com##.adph
@@ -31186,7 +31192,6 @@ wolt.com##[data-test-id="MainDiscoveryContent"] li[draggable]:has(a[aria-label*=
 wolt.com##div[data-test-id="MainDiscoveryContent"] li:has(> div.cb-elevated:has(button[data-test-id="AdvertisingLabel"]))
 wolt.com##div[data-test-id="SearchResultVenueSection"] li:has(> div.cb-elevated button[data-test-id="AdvertisingLabel"])
 wolt.com##ul[data-test-id="VenueVerticalListGrid"] > li:has( > div.cb-elevated button[data-test-id="AdvertisingLabel"])
-wolt.com#?#div[data-test-id="MainDiscoveryContent"] div > div:has-text(/Polecane na Wolt|Sponsored|Gesponsert/)
 womansworld.com###taboola-article-1x1
 womansworld.com##.deal-of-the-day__container___1LYO6
 womansworld.com##.products-carousel-video__wrapper___2hfhX
