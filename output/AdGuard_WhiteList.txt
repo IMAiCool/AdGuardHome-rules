@@ -1,9 +1,9 @@
 ! Title: AdGuardHome-rules - AdGuard browser filter whitelist
 ! Syntax: AdGuard browser filter
 ! List type: whitelist
-! Last modified: 2026-10-18 18:18:16 +0000
+! Last modified: 2026-10-19 01:52:53 +0000
 ! Expires: 8 hours
-! Rules: 2656
+! Rules: 2657
 
 @@||*.bilivideo.com^$important
 @@||*.xmpush.xiaomi.com^$important
@@ -2659,5 +2659,6 @@
 @@||zohopublic.com^*/ADManager_$subdocument,xmlhttprequest,domain=manageengine.com|zohopublic.com
 @@||zoominfo.com/c/amplitude-js$script,~third-party
 @@||zpmobi.cn^*/ad.css?$stylesheet
+@@||zs.com/scripts/analytics/pageview.js$~third-party
 @@||zstatic.net^$script,domain=niuyankan.top
 @@||zxmee.com^$generichide

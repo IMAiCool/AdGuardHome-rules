@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-10-18 18:18:51 +0000
+! Last modified: 2026-10-19 01:53:20 +0000
 ! Expires: 8 hours
-! Rules: 32066
+! Rules: 32070
 
 ###AC_ad
 ###AD_160
@@ -20956,6 +20956,7 @@ forum.lowyat.net##.feedgrabbr_widget
 forum.lowyat.net##[style="height:120px;padding:10px 0;"]
 forum.lowyat.net##[style="height:250px;padding:5px 0 5px 0;"]
 forum.nasaspaceflight.com##[style="text-align:center; margin-bottom:30px;"]
+forum.ragezone.com##.MentaLBannerUnit
 forum.ragezone.com##.RZBannerUnit
 forum.ragezone.com##[data-widget-key="widget_partners"]
 forum.wordreference.com###botSupp
@@ -21190,6 +21191,7 @@ gadgethacks.com##.hide-on-empty
 gadgethacks.com##.set-placement-height
 gadgethacks.com,reality.news,wonderhowto.com##.whtaph
 gadgethacks.com,virtual.reality.news###sticky-footer--container
+gadgetreview.com###cls-video-container-RbX8WupV
 gadgets360.com##.__wdgt_rhs_kpc
 gadgets360.com##._ad
 gadgets360.com##.advertisment
@@ -25526,6 +25528,7 @@ mydramalist.com##.app-body > div[class]:has(> div[class] > .htlad-header_top)
 mydramalist.com##[style="min-height: 600px;"]
 mydramalist.com##div[class*="is-desktop-ads-"]
 mydramalist.com##div[class^="htlad-film_box_"]
+mydramalist.com##div[style="min-height: 250px;"]:has(> .ad-removal-info)
 mydrivers.com###a_showhotnews_list_dia
 mydrivers.com###div_newsyjgg
 mydrivers.com###recommend
@@ -27578,7 +27581,7 @@ ranker.com##.nativeAdSlot_nativeAdContainer__NzSO_
 rankiapro.com##.undefined.relative
 ranking.sanrio.co.jp#@#.is-ad
 ranobes.top##.free-support-top
-rapidsave.com##.alert.col-md-offset-2
+rapidsave.com##.alert.col-md-offset-2:has(a[href^="https://docmost.com/"])
 rappler.com##.rappler-ad-container
 rasmussenreports.com##.rr-ad-image
 raspberrytips.com###block-11
@@ -31111,6 +31114,7 @@ wikifeet.com##[href^="https://vip.stakeclick.com/"]
 wikihow.com##.al_method
 wikihow.com##.rrdoublewrap
 wikikeep.com##.widget-area
+wikily.gg###right-rail
 wikiwand.com##.ad-between-sections
 wikiwand.com##.ad-header
 wikiwand.com##.ad-mid-section
