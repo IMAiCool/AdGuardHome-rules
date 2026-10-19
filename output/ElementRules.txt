@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-10-19 15:01:59 +0000
+! Last modified: 2026-10-19 20:45:20 +0000
 ! Expires: 8 hours
-! Rules: 32070
+! Rules: 32071
 
 ###AC_ad
 ###AD_160
@@ -9980,7 +9980,6 @@
 ##.contextual_ad_unit
 ##.corner-gg
 ##.cornerad
-##.couplet_9cb0d
 ##.coupletad
 ##.cpmstarHeadline
 ##.cpmstarText
@@ -12220,7 +12219,6 @@
 ##.postads
 ##.postbit-ad
 ##.poster_ad
-##.postmessage >
 ##.posts-ad
 ##.pp-ad-container
 ##.pp_ad_code_adtxt
@@ -16100,6 +16098,7 @@ androidcentral.com##.hawk-multi-model-review-container
 androidcentral.com,gamesradar.com,guitarworld.com,livescience.com,pcgamer.com,sltrib.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com##.sponsored-card
 androidcentral.com,gamesradar.com,guitarworld.com,livescience.com,pcgamer.com,sltrib.com,space.com,techradar.com,tomsguide.com,tomshardware.com,windowscentral.com##[data-component-name="JwPlayer:Carousel"]
 androidcentral.com,gamesradar.com,guitarworld.com,pcgamer.com,techradar.com,tomsguide.com,tomshardware.com,whathifi.com,windowscentral.com##.vid-present
+androidcentral.com,pcgamer.com,tomsguide.com,tomshardware.com,whathifi.com##[data-bordeaux-hook-loaded]
 androidcommunity.com,euro-sd.com,sfbg.com,techworm.net##.td-header-rec-wrap
 androiddevtools.cn###auto-scroll-ad-box
 androidheadlines.com,dailyveganmeal.com,discussingfilm.net,gcaptain.com,mp1st.com,thedebrief.org,unofficialnetworks.com##.adthrive
@@ -18528,8 +18527,8 @@ cockdude.com##.related-boxes-footer-ver2
 cockdude.com##.textovka
 coconutgrovespotlight.com##.cocon-widget
 codapedia.com##a[href^="/ad-click.cfm"]
+codeceo.com##.widget_text:first-child
 codeceo.com##div[style="width:970px;margin:0 auto"]
-codeceo.com,fuli8.net##.widget_text:first-child
 codedevstuff.blogspot.com,hassiweb-programming.blogspot.com#@#.vertical-ads
 codeforge.cn##.webnotice-right
 codejie.net##.gg_banner
@@ -20109,6 +20108,7 @@ elnuevoherald.com,sacbee.com#@#.wps-player-wrap
 eloshapes.com##[id^="ads-"]
 eloshapes.com##div[id^="prmos-"]
 eloshapes.com##div[id^="side-banners-"]
+emailme.at##.ad-250x250
 emalm.com##a[href^="https://offer.alibaba.com/"]
 emalm.com,linkdecode.com,up-4ever.net##a[href^="https://s.click.aliexpress.com/"]
 emarketer.com##.ContentRightAd
@@ -21348,8 +21348,6 @@ ganji.com##div[class*="-recommend"]
 ganji.com##div[id^="GcnADId"]
 ganjingworld.com##.ggAdZone_gg-banner-ad_zone__wK3kF
 ganjingworld.com##.topAdsSection_wrapper__cgH4h
-ganpapa.com###wrapper + div
-ganpapa.com##div[class*="_9cb0d"]
 gansudaily.com.cn##.itemFloat
 gaodun.com###LRdiv1q
 gaokao.com###J_fixed_popbox
@@ -22979,7 +22977,9 @@ independent.co.uk,the-independent.com###taboola-mid-article-thumbnails-iii
 independent.co.uk,the-independent.com###top-banner-wrapper
 independent.com##.wp-block-group__inner-container
 independent.com#@#.sidebar-ads
+independent.ie###leaderboard-observe-target
 independent.ie##.ad--articlerectangle
+independent.ie##.mh-ad-label
 independent.ie##.slot1
 independent.ie##.slot4
 indexclix.com##[id^="promo"]
@@ -23328,6 +23328,7 @@ iqiyi.com#?#div[class^="list_list_"] > div:-abp-has(div[class^="videolist_closeA
 iqiyi.com,~mall.iqiyi.com,~so.iqiyi.com##a[href*="http://mall.iqiyi.com/item/"]
 iqshv.com#?#.post-list-item:-abp-has(.thumb-link[href^="http"]:not([href*=".iqshv."]))
 iqshw.com##.iqshwad-comm
+irishmirror.ie##[data-tmdatatrack-id]
 irishnews.com###lbtop
 irishpost.com,theweekendsun.co.nz##.add-block
 irishtimes.com##.cs-teaser
@@ -26755,23 +26756,23 @@ pixiv.net##.ad-mobile-anchor
 pixiv.net##.ads_anchor
 pixiv.net##.grid-flow-dense > .aspect-square.overflow-hidden
 pixiv.net##.grid-flow-dense > .col-span-full.overflow-hidden
-pixiv.net##.grid-flow-dense > div:has(> [style="display: block; width: 184px; height: 232px;"] > iframe)
-pixiv.net##.gtm-toppage-thumbnail-illustration-recommend-works-zone > ul > li:has(> div > [style="display: block; width: 300px; height: 250px;"])
-pixiv.net##.gtm-toppage-thumbnail-manga-recommend-works-zone li:has(> [style="display: block; width: 184px; height: 232px;"])
+pixiv.net##.grid-flow-dense > div:has(> [style$="width: 184px; height: 232px;"] > iframe)
+pixiv.net##.gtm-toppage-thumbnail-illustration-recommend-works-zone > ul > li:has(> div > [style$="width: 300px; height: 250px;"])
+pixiv.net##.gtm-toppage-thumbnail-manga-recommend-works-zone li:has(> [style$="width: 184px; height: 232px;"])
 pixiv.net##.multi-ads-area
 pixiv.net##[class*="style_ads_"]
 pixiv.net##[data-gtm-recommend-zone="index"] li:has(> div > iframe[name$="rectangle"])
 pixiv.net##[span="1"]:has(> div > div > div[style="display: block; width: 100%; height: 434px;"])
-pixiv.net##[style="display: block; width: 100%; height: 520px;"]
 pixiv.net##[style="display: block; width: 300px; height: 250px;"]
 pixiv.net##[style="margin: 48px auto 8px; width: 728px; line-height: 0; font-size: 0px;"]
+pixiv.net##[style^="display: block"][style$="width: 100%; height: 520px;"]
 pixiv.net##[style^="display: block;"]:has(> iframe[data-uid])
 pixiv.net##a[target="premium_noads"]
 pixiv.net##div.relative > div.flex > div.w-full:has(a[href^="https://pixon.ads-pixiv.net/click"])
 pixiv.net##div[class^="sc-"]:has(> [style^="display"][style*="468px;"][style*="60px"])
 pixiv.net##div[style="font-size: 0px;"] a[target="premium_noads"]
 pixiv.net##div[style="height: 540px; opacity: 1;"]
-pixiv.net##li.overflow-hidden:has(> .pt-0 > [style="display: block; width: 300px; height: 250px;"])
+pixiv.net##li.overflow-hidden:has(> .pt-0 > [style$="width: 300px; height: 250px;"])
 pixiv.net##section:has(> div > div > iframe[name="illusttop_appeal"])
 pixiv.net#@#.ad-footer
 pixnet.net###pixblogad
