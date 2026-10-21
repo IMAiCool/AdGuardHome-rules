@@ -1,9 +1,9 @@
 ! Title: AdGuardHome-rules - AdGuard browser filter whitelist lite
 ! Syntax: AdGuard browser filter
 ! List type: whitelist lite
-! Last modified: 2026-10-20 19:39:38 +0000
+! Last modified: 2026-10-21 02:05:01 +0000
 ! Expires: 8 hours
-! Rules: 2658
+! Rules: 2650
 
 @@||*.bilivideo.com^$important
 @@||*.xmpush.xiaomi.com^$important
@@ -721,7 +721,6 @@
 @@||codicefl.shinystat.com/cgi-bin/getserver.cgi?$script,domain=3bmeteo.com|quotidiano.net
 @@||cohesionapps.com/cohesion/$domain=bankrate.com|frontier.com
 @@||cohesionapps.com/preamp/$subdocument,xmlhttprequest,domain=frontier.com
-@@||coinmarketcap.com/static/addetect/$script,~third-party
 @@||colamanga.com^$generichide
 @@||colatour.com.tw/webDM/*/adbanner$~third-party
 @@||colatour.com.tw^$generichide
@@ -974,7 +973,6 @@
 @@||exosrv.com/video-slider.js$domain=xfreehd.com
 @@||experienceleague.adobe.com^$~third-party
 @@||explainxkcd.com/wiki/images/$image,~third-party
-@@||exponential.com^*/tags.js$domain=yellowbridge.com
 @@||extreme-ip-lookup.com/json/$xmlhttprequest,domain=skaitv.gr
 @@||extreme-ip-lookup.com^$script,domain=bulkbarn.ca
 @@||ez3c.tw/js/adblockDetector.js
@@ -2140,7 +2138,6 @@
 @@||sinopac.com/applyweb/OpenAccount/js/oas.
 @@||site-banner.hange.jp/adshow?$domain=animallabo.hange.jp
 @@||siteapps.com^$script,domain=netcombo.com.br
-@@||siteintercept.qualtrics.com/$domain=idealo.de
 @@||sizhiai.com/api/stat?$~third-party
 @@||sjsmitaa.org/bin/showads.
 @@||slack.com^$generichide
@@ -2245,7 +2242,6 @@
 @@||store.storeimages.cdn-apple.com^*/appmeasurement.js$domain=apple.com
 @@||str.hit.gemius.pl^|
 @@||stream.adunity.com^$xmlhttprequest,domain=b1tv.ro
-@@||stream4free.live^$generichide
 @@||streamtape.com^$popup,domain=streamtape.to
 @@||studioclassroom.com/ad/
 @@||succeedscene.com^$script
@@ -2446,7 +2442,6 @@
 @@||unpkg.com^$script,domain=vidsrc.stream
 @@||unsubscribe.lhinsights.com^|
 @@||up-hl.3g.qq.com^$important
-@@||up-load.io^$generichide
 @@||upaiyun.com/libs/$script,domain=xddxsw.net
 @@||upaiyun.com^*.js$domain=cilimao.co|cilimao.one
 @@||upload.wikimedia.org/wikipedia/$image,media
@@ -2456,7 +2451,6 @@
 @@||user.edenredplus.com/assets/packages/mixpanel_flutter/assets/mixpanel.js$script,~third-party
 @@||user.userguiding.com/sdk/identify$xmlhttprequest,domain=xaris.ai
 @@||userapi.com^*.gif?extra=$image,domain=vk.com
-@@||userload.co/adpopup.js$script
 @@||usplastic.com/js/hawk.js
 @@||uu.res.netease.com/pc/zt/*/img/ad_
 @@||uukanshu.com^$generichide
@@ -2617,7 +2611,6 @@
 @@||yandex.ru/metrika/watch.js$domain=alean.ru|anoncer.net|nabortu.ru|samozapis-spb.ru|tv.yandex.ru|tvrain.ru
 @@||yandex.ru/watch/$xmlhttprequest,domain=anoncer.net
 @@||yandex.ru/webvisor/$xmlhttprequest,domain=anoncer.net
-@@||yandexcdn.com/ad/api/popunder.js$script
 @@||yantuchina.com/gg/tmp/hong.gif
 @@||yaytrade.com^*/chunks/pages/advert/$~third-party
 @@||yeeach.com^$generichide
@@ -2627,7 +2620,6 @@
 @@||yieldlove.com/v2/yieldlove-stroeer.js$domain=kino.de
 @@||yieldlove.com/v2/yieldlove.js$script,domain=whatismyip.com
 @@||yimg.com/av/gemini-ui/*/advertiser/$domain=gemini.yahoo.com
-@@||yimg.com/dy/ads/native.js$script,domain=animedao.to
 @@||yimg.com/rq/darla/*/g-r-min.js$domain=yahoo.com
 @@||yimg.com/ss/rapid-3.*.js$domain=hk.yahoo.com|tw.yahoo.com
 @@||yimg.jp/combo?*/ad/
