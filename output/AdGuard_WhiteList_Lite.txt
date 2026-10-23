@@ -1,9 +1,9 @@
 ! Title: AdGuardHome-rules - AdGuard browser filter whitelist lite
 ! Syntax: AdGuard browser filter
 ! List type: whitelist lite
-! Last modified: 2026-10-23 12:53:00 +0000
+! Last modified: 2026-10-23 19:34:45 +0000
 ! Expires: 8 hours
-! Rules: 2650
+! Rules: 2651
 
 @@||*.bilivideo.com^$important
 @@||*.xmpush.xiaomi.com^$important
@@ -1691,6 +1691,7 @@
 @@||netcoresmartech.com/smartechclient.js$domain=cgv.vn
 @@||netcoresmartech.com/smartechclient.js$domain=hdfcfund.com
 @@||netded.com/plus/ad_js.php?aid=3|
+@@||netease.com/online/lib/sentry/*/bundle.tracing.
 @@||netflix.com^$generichide
 @@||netmile.co.jp/ad/images/$image
 @@||new.abb.com/ruxitagentjs_$~third-party

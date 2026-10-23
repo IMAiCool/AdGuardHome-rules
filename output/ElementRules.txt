@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-10-23 12:53:21 +0000
+! Last modified: 2026-10-23 19:35:10 +0000
 ! Expires: 8 hours
-! Rules: 32076
+! Rules: 32079
 
 ###AC_ad
 ###AD_160
@@ -26624,6 +26624,7 @@ pexels.com##div[data-testid="item"]:has(a[href*="/r/"][rel~="nofollow"][target="
 pexels.com##div[data-testid="item"]:has(a[href^="https://www.pexels.com/g/"])
 pexels.com##div[data-testid="item"]:has(h4[data-heading][class*="inlineTitleText"])
 pexels.com##div[data-testid="item"]:has(h4[data-heading^="S\00200cp\00200co\00200cn\00200cs\00200co\00200cr\00200ce\00200cd"])
+pexels.com##div[data-testid="item"]:has(img[src*="media.istockphoto.com"])
 pexels.com#?#[data-testid="column"] [data-testid="item"]:has-text(Sponsored)
 pgatour.com##.css-18v0in8
 pgatour.com##.css-1t41kwh
@@ -26741,6 +26742,8 @@ pixabay.com##.present-g-item
 pixabay.com##.show-gtty-item
 pixabay.com##[class^="adsSection"]
 pixabay.com##[class^="gettySponsored"]
+pixabay.com##div[class*="SectionGroup"] > div:has(a[href*="sponsored_"])
+pixabay.com##div[class*="container--"] > div:not([class*="--"]):has(a[href*="sponsored_"])
 pixabay.com##div[class*="sponsoredWithResults"]
 pixabay.com##div[class]:has(> [class^="title--"] a[href*="sponsored"])
 pixabay.com##div[class]:has(> div > div > a[aria-label="Sponsored Images"])
