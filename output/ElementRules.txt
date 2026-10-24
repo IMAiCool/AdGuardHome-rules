@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-10-23 19:35:10 +0000
+! Last modified: 2026-10-24 02:02:11 +0000
 ! Expires: 8 hours
-! Rules: 32079
+! Rules: 32078
 
 ###AC_ad
 ###AD_160
@@ -21516,9 +21516,8 @@ gfinityesports.com##.ecommerceUnit
 gfinityesports.com##.manifold-takeover
 gfinityesports.com##.mediavine_sidebar-atf_wrapper
 gg-led.com##.regg
-gg.deals##.gg-banner-full-link
-gg.deals##.gg-full-content-widget
-gg.deals##.site-banner-top-widget
+gg.deals###site-page-feature
+gg.deals###site-top-feature
 gg163.net###container > table[width="960"]
 ggcj.com##.dbxf
 ggdoc.com.cn#@#.addiv
