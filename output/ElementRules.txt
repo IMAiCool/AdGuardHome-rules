@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-10-27 13:40:19 +0000
+! Last modified: 2026-10-27 20:16:48 +0000
 ! Expires: 8 hours
-! Rules: 32085
+! Rules: 32088
 
 ###AC_ad
 ###AD_160
@@ -20996,6 +20996,8 @@ fossforce.com##div[id^="fossf-"]
 fotmob.com##[class*="TopBannerWrapper"]
 founderoo.co##.ads-block_component
 fox10phoenix.com,fox13news.com,fox26houston.com,fox29.com,fox2detroit.com,fox32chicago.com,fox35orlando.com,fox4news.com,fox5atlanta.com,fox5dc.com,fox5ny.com,fox6now.com,fox7austin.com,fox9.com,foxbusiness.com,foxla.com,foxnews.com,ktvu.com,wogx.com##.vendor-unit
+fox11online.com,weartv.com##div[class^="StoryPage_taboolaDeeperDive"]
+fox11online.com,weartv.com##div[class^="UserCommenting_commentingAd"]
 foxcincinnati.com##a[href^="https://www.safeauto.com"]
 foxnews.com##.sticky-pre-header
 foxnews.com##.sticky-pre-header-inner
@@ -25297,6 +25299,7 @@ moviemeter.com##.minheight250
 moviemistakes.com###moviemistakes_300x600_300x250_160x600_sidebar_2
 moviemistakes.com##.freestarad
 moviemistakes.com##.tower
+moviesmod.meme###mm-sticky-ad
 moxing.net##.pic_txt_list
 moxing.net##a[marked][href*=".taobao.com"]
 mp3andvideoconverter.com##.BannerReAds_horizontal-area__5JNuE
