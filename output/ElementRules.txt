@@ -1,8 +1,8 @@
 ! Title: AdGuardHome-rules - element and scriptlet rules
 ! Type: mixed extension-specific element rules
-! Last modified: 2026-10-28 14:33:59 +0000
+! Last modified: 2026-10-28 20:37:09 +0000
 ! Expires: 8 hours
-! Rules: 32088
+! Rules: 32090
 
 ###AC_ad
 ###AD_160
@@ -19074,8 +19074,8 @@ d1net.com##div[style="width:1000px;height:90px;margin:15px auto 15px auto;"]
 d1xz.net##.base_ad_300_250
 d1xz.net##.base_ad_640_90
 d1xz.net##.base_ad_960_90
-d4builds.gg###pwParentContainer
 d4builds.gg##.app__ad__leaderboard
+d4builds.gg,tftactics.gg###pwParentContainer
 da-fan-shu.cn##div[style*="468"][style*="60"]
 da-fan-shu.cn#@#.ad-s
 dabin69.com###frameOa2lrD
@@ -20401,6 +20401,7 @@ expreview.com##.mamaBox
 extfans.com##.b-ad-1
 extra.ie###ex_desktop_mpu1
 extra.ie##.ex_billboard_single
+extractpics.com,ifate.com,ycp.synk-casualgames.com#@#.adsbygoogle-noablate
 extraetf.com##app-ad-block
 extratv.com##.js-track-link
 extremetech.com##.min-h-24
@@ -22707,7 +22708,6 @@ iedrc.org#@#.home-ad
 ieforex.com##.header > .left
 ienohikari.net#@#.ad_btn
 ifanr.com##.popup-app-download
-ifate.com,ycp.synk-casualgames.com#@#.adsbygoogle-noablate
 ifeng.com###CA_left
 ifeng.com###CA_right
 ifeng.com###a_code
@@ -25010,6 +25010,7 @@ metalsucks.net##.single-300-insert
 metar-taf.com##.controls-right
 metasrc.com###footer-content
 metasrc.com###header_wrapper
+metatft.com##.VideoAdContainer
 meteofor.com,nofilmschool.com,protothema.gr##.placeholder
 meteologix.com##.dkpw
 meteologix.com,weather.us##.dkpw-billboard-margin
@@ -30617,6 +30618,7 @@ video.laxd.com##.c-ad-103
 video.laxd.com##.side_banner
 videocardz.com##.s7k2m9qx
 videocardz.com##.s7k2m9qx-adhesive
+videocardz.com##div[aria-label="Shop"]
 videocelebs.net##.fp-brand
 videocelebs.net##.recl
 videogamemods.com##.topbanners
